@@ -1,0 +1,21 @@
+{
+  "name": "documentation",
+  "analysis_goals": [
+    "Observe repository documentation and structure quality",
+    "Capture technology manifests and metadata"
+  ],
+  "repository_selection": {
+    "include": ["*"],
+    "exclude": []
+  },
+  "recommendation_style": "disabled",
+  "optimization_priorities": [
+    "coverage",
+    "reusability",
+    "read_only"
+  ],
+  "output": {
+    "formats": ["md", "json"],
+    "include_repository_audits": true
+  }
+}

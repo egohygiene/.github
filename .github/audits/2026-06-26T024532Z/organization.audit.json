@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "engine": "reflector.audit",
+    "output_directory": ".github/audits/2026-06-26T024532Z",
+    "passes": [
+      "00_discovery"
+    ],
+    "read_only": true,
+    "timestamp_local": "2026-06-26T02:45:32.706374+00:00",
+    "timestamp_utc": "2026-06-26T02:45:32.706370+00:00",
+    "version": "0.1.0"
+  },
+  "organization": {
+    "default_branch": "main",
+    "description": "Organization-wide standards, templates, and developer experience",
+    "name": "egohygiene"
+  },
+  "policy": {
+    "analysis_goals": [
+      "Observe repository documentation and structure quality",
+      "Capture technology manifests and metadata"
+    ],
+    "name": "documentation",
+    "optimization_priorities": [
+      "coverage",
+      "reusability",
+      "read_only"
+    ],
+    "output": {
+      "formats": [
+        "md",
+        "json"
+      ],
+      "include_repository_audits": true
+    },
+    "recommendation_style": "disabled",
+    "repository_selection": {
+      "exclude": [],
+      "include": [
+        "*"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "architectural_observations": [
+        "Repository appears to be organized with top-level directories: .github, profile, reflector",
+        "Discovery pass is read-only and did not modify repository content"
+      ],
+      "detected_technologies": [],
+      "documentation_files": [
+        "README.md",
+        "profile/README.md",
+        "reflector/README.md"
+      ],
+      "documentation_quality": "good",
+      "exists": true,
+      "github_metadata": {
+        "issue_templates": [],
+        "workflows": []
+      },
+      "metrics": {
+        "documentation_count": 3,
+        "file_count": 10,
+        "manifest_count": 0
+      },
+      "name": ".github",
+      "notable_questions": [
+        "Are project manifests intentionally absent for this repository type?"
+      ],
+      "notable_strengths": [
+        "Documentation entry points are present"
+      ],
+      "path": ".",
+      "primary_concepts": [
+        ".github",
+        "profile",
+        "reflector"
+      ],
+      "project_manifests": [],
+      "purpose": "Organization profile, standards, and shared defaults",
+      "safe_name": ".github"
+    }
+  ]
+}
