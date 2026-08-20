@@ -1,0 +1,76 @@
+name: Organization work
+description: Route organization-level, cross-repository, or not-yet-owned work.
+title: "[org]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when work is genuinely organization-level, crosses repository boundaries, or does not yet have a durable owner. If one repository clearly owns the implementation, open the issue there instead.
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What observable result should exist when this work is complete?
+    validations:
+      required: true
+
+  - type: input
+    id: owner
+    attributes:
+      label: Owning repository or routing state
+      description: Name the durable owner, or write "needs-routing" when ownership is genuinely unresolved.
+      placeholder: egohygiene/hygiene
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe the bounded work. Keep implementation details in the owning repository when this is an umbrella issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Link prerequisite issues, repositories, contracts, or decisions. Write "None" when independent.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Provide reviewable completion criteria.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: security
+    attributes:
+      label: Security, privacy, and destructive-action considerations
+      description: Identify secrets, personal/private data, signing, infrastructure, billing, destructive migrations, publication, or other trust boundaries. Write "None identified" when appropriate.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Linked implementation issues
+      description: For cross-repository work, link bounded implementation issues instead of duplicating their checklists here.
+
+  - type: checkboxes
+    id: routing_confirmation
+    attributes:
+      label: Routing confirmation
+      options:
+        - label: I checked whether an existing repository already owns this capability.
+          required: true
+        - label: This issue does not contain credentials, tokens, private keys, or other secrets.
+          required: true
