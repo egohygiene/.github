@@ -3,12 +3,12 @@ schema: aether.architecture-document/v1
 id: organization-github-decisions
 title: Ego Hygiene .github Decisions
 kind: architecture-document
-version: 0.1.0
+version: 0.2.0
 status: provisional
 owners:
   - egohygiene
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-21
 governed_by:
   - architecture-decisions
 depends_on:
@@ -40,6 +40,7 @@ Do not rewrite historical context to fit current understanding. Amend a record f
 - ADR-001: Keep ecosystem architecture canonical in Hygiene
 - ADR-002: Use this repository as the organization-facing inbox and defaults surface
 - ADR-003: Avoid duplicating implementation libraries
+- ADR-004: Define trust policy before reusable enforcement
 
 ## ADR-001: Keep ecosystem architecture canonical in Hygiene
 
@@ -67,6 +68,24 @@ Do not rewrite historical context to fit current understanding. Amend a record f
 - **Decision:** Avoid duplicating implementation libraries.
 - **Consequences:** The choice improves ownership and predictability while requiring maintained contracts, validation, and migration discipline.
 - **Reconsider when:** New evidence shows that the boundary prevents standalone usefulness, safety, portability, or maintainability.
+
+## ADR-004: Define trust policy before reusable enforcement
+
+- **Status:** Accepted as the current architectural direction
+- **Date:** 2026-08-21
+- **Context:** Trust-policy issue `ORG-05` and the Relay and Realm implementation
+  issues depend on one another when policy adoption and implementation evidence
+  are treated as one step.
+- **Decision:** The organization-facing [repository trust
+  policy](TRUST_POLICY.md) defines DCO, signing, provenance, SBOM, exception,
+  and staged-adoption requirements first. Relay and artifact-producing
+  repositories implement those requirements through versioned contracts;
+  adoption evidence follows without reopening the policy decision.
+- **Consequences:** Policy requirements can be reviewed without copied workflow
+  code or false implementation claims. Repositories remain non-blocking until
+  an explicit migration state enables enforcement.
+- **Reconsider when:** The ownership boundary prevents independent policy
+  review, reusable implementation, or accurate conformance evidence.
 
 ## Open decisions
 
