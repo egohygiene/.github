@@ -3,12 +3,12 @@ schema: aether.architecture-document/v1
 id: organization-github-system
 title: Ego Hygiene .github System
 kind: architecture-document
-version: 0.1.0
+version: 0.2.0
 status: provisional
 owners:
   - egohygiene
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-21
 governed_by:
   - architecture-system
 depends_on:
@@ -34,6 +34,7 @@ This document identifies Ego Hygiene .github's logical systems and responsibilit
 | --- | --- | --- |
 | Organization profile | Target | Owns its bounded portion of the organization-facing GitHub profile, public defaults, contribution entry points, and fallback coordination surface; exposes explicit inputs, outputs, failure states, and evidence. |
 | Community health defaults | Target | Owns its bounded portion of the organization-facing GitHub profile, public defaults, contribution entry points, and fallback coordination surface; exposes explicit inputs, outputs, failure states, and evidence. |
+| Repository trust policy | Active | Defines organization-facing DCO, signing, provenance, SBOM, exception, and staged-adoption requirements while leaving reusable enforcement to Relay and artifact implementation to producing repositories. |
 | Issue and pull-request intake | Target | Owns its bounded portion of the organization-facing GitHub profile, public defaults, contribution entry points, and fallback coordination surface; exposes explicit inputs, outputs, failure states, and evidence. |
 | Agent instruction projection | Target | Owns its bounded portion of the organization-facing GitHub profile, public defaults, contribution entry points, and fallback coordination surface; exposes explicit inputs, outputs, failure states, and evidence. |
 | Coordination queue | Target | Owns its bounded portion of the organization-facing GitHub profile, public defaults, contribution entry points, and fallback coordination surface; exposes explicit inputs, outputs, failure states, and evidence. |
