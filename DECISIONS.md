@@ -41,6 +41,7 @@ Do not rewrite historical context to fit current understanding. Amend a record f
 - ADR-002: Use this repository as the organization-facing inbox and defaults surface
 - ADR-003: Avoid duplicating implementation libraries
 - ADR-004: Define trust policy before reusable enforcement
+- ADR-005: Keep organization label meaning canonical in `.github`
 
 ## ADR-001: Keep ecosystem architecture canonical in Hygiene
 
@@ -86,6 +87,22 @@ Do not rewrite historical context to fit current understanding. Amend a record f
   an explicit migration state enables enforcement.
 - **Reconsider when:** The ownership boundary prevents independent policy
   review, reusable implementation, or accurate conformance evidence.
+
+## ADR-005: Keep organization label meaning canonical in `.github`
+
+- **Status:** Accepted as the current architectural direction
+- **Date:** 2026-09-02
+- **Context:** Organization intake requires stable label meaning while provider
+  synchronization, path labeling, and contributor automation belong to Relay.
+- **Decision:** Keep the versioned organization label catalog, overlay model,
+  and repository assignments in `.github`. Relay consumes the contract and owns
+  provider mutations; repository additions cannot redefine canonical labels.
+- **Consequences:** Human-facing defaults and their machine-readable meaning
+  share one owner. Synchronization remains reusable and independently released.
+  Every consumer must bind to an immutable catalog revision and fail closed on
+  incompatible versions.
+- **Reconsider when:** GitHub-specific representation leaks into the canonical
+  domain contract or the boundary prevents safe non-GitHub consumers.
 
 ## Open decisions
 

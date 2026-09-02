@@ -1,0 +1,51 @@
+name: Validate label contract
+
+on:
+  pull_request:
+    paths:
+      - ".github/labels/**"
+      - ".github/workflows/validate-label-contract.yml"
+      - "fixtures/labels/**"
+      - "scripts/project_labels.py"
+      - "scripts/validate_labels.py"
+      - "tests/test_labels.py"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/labels/**"
+      - ".github/workflows/validate-label-contract.yml"
+      - "fixtures/labels/**"
+      - "scripts/project_labels.py"
+      - "scripts/validate_labels.py"
+      - "tests/test_labels.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: labels-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Validate governed documents
+        run: python scripts/validate_labels.py
+
+      - name: Run contract tests
+        run: python -m unittest discover --start-directory tests --verbose
+
+      - name: Prove deterministic reference projection
+        run: |
+          python scripts/project_labels.py \
+            --repository "egohygiene/.github" \
+            --output "${RUNNER_TEMP}/labels.json"
+          diff --unified fixtures/labels/dot-github.expected.json "${RUNNER_TEMP}/labels.json"

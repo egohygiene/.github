@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "catalog_version": "1.0.0",
+  "repository": "egohygiene/.github",
+  "removal_policy": "retain",
+  "labels": [
+    {
+      "name": "area:automation",
+      "description": "Automation, continuous integration, and delivery.",
+      "color": "0369a1"
+    },
+    {
+      "name": "area:developer-experience",
+      "description": "Developer workflows, tooling, and ergonomics.",
+      "color": "7c5c1e"
+    },
+    {
+      "name": "area:governance",
+      "description": "Organization policy, contracts, and coordination.",
+      "color": "6d28d9"
+    },
+    {
+      "name": "area:security",
+      "description": "Security, privacy, provenance, and trust boundaries.",
+      "color": "b91c1c"
+    },
+    {
+      "name": "blocked",
+      "description": "Work waiting on an explicit dependency or decision.",
+      "color": "b60205"
+    },
+    {
+      "name": "cross-repo",
+      "description": "Work coordinated across multiple repositories.",
+      "color": "5319e7"
+    },
+    {
+      "name": "needs-routing",
+      "description": "Work that does not yet have a durable repository owner.",
+      "color": "d4c5f9"
+    },
+    {
+      "name": "priority:p0",
+      "description": "Correctness, security, or data-integrity blocker.",
+      "color": "b60205"
+    },
+    {
+      "name": "priority:p1",
+      "description": "Required foundation or near-term release work.",
+      "color": "d93f0b"
+    },
+    {
+      "name": "priority:p2",
+      "description": "Important planned capability.",
+      "color": "fbca04"
+    },
+    {
+      "name": "priority:p3",
+      "description": "Research, exploration, or later direction.",
+      "color": "c5def5"
+    },
+    {
+      "name": "ready",
+      "description": "Work with sufficient scope, ownership, and acceptance criteria.",
+      "color": "0e8a16"
+    },
+    {
+      "name": "type:architecture",
+      "description": "Architecture, boundaries, or system-design work.",
+      "color": "1f4d8f"
+    },
+    {
+      "name": "type:bug",
+      "description": "Incorrect or unexpected behavior.",
+      "color": "dc2626"
+    },
+    {
+      "name": "type:documentation",
+      "description": "Documentation or knowledge-organization work.",
+      "color": "64748b"
+    },
+    {
+      "name": "type:feature",
+      "description": "New or expanded user-visible capability.",
+      "color": "0e8a16"
+    },
+    {
+      "name": "type:maintenance",
+      "description": "Maintenance, cleanup, or dependency work.",
+      "color": "6b7280"
+    },
+    {
+      "name": "type:research",
+      "description": "Research, discovery, or evidence gathering.",
+      "color": "0f766e"
+    },
+    {
+      "name": "♻️ refactor",
+      "description": "Repository cleanup, restructuring, modernization, and technical debt ♻️",
+      "color": "16a34a"
+    },
+    {
+      "name": "⚙️ infra",
+      "description": "Infrastructure, repositories, tooling, and configuration ⚙️",
+      "color": "274472"
+    },
+    {
+      "name": "⚡ dx",
+      "description": "Developer experience, tooling, and ergonomics ⚡",
+      "color": "7c5c1e"
+    },
+    {
+      "name": "🏗️ architecture",
+      "description": "Architecture, foundations, and system design 🏗️",
+      "color": "1f4d8f"
+    },
+    {
+      "name": "🐛 bug",
+      "description": "Something isn't working 🐛",
+      "color": "dc2626"
+    },
+    {
+      "name": "📄 documentation",
+      "description": "Documentation improvements and knowledge organization 📄",
+      "color": "64748b"
+    },
+    {
+      "name": "📋 backlog",
+      "description": "Captured ideas and future work 📋",
+      "color": "4b5563"
+    },
+    {
+      "name": "📐 schema",
+      "description": "Schemas, specifications, contracts, and data models 📐",
+      "color": "7c3aed"
+    },
+    {
+      "name": "📦 package",
+      "description": "Reusable packages and shared libraries 📦",
+      "color": "0369a1"
+    },
+    {
+      "name": "📱 flutter",
+      "description": "Flutter application and Flutter Foundation 📱",
+      "color": "0175c2"
+    },
+    {
+      "name": "🔄 lifecycle",
+      "description": "Application lifecycles, managers, and orchestration 🔄",
+      "color": "0f766e"
+    },
+    {
+      "name": "🔌 plugin",
+      "description": "Plugin architecture, registries, and extensibility 🔌",
+      "color": "2563eb"
+    }
+  ]
+}
