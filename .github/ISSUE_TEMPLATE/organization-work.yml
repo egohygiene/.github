@@ -1,6 +1,8 @@
 name: Organization work
 description: Route organization-level, cross-repository, or not-yet-owned work.
 title: "[org]: "
+labels:
+  - needs-routing
 body:
   - type: markdown
     attributes:
@@ -21,6 +23,20 @@ body:
       label: Owning repository or routing state
       description: Name the durable owner, or write "needs-routing" when ownership is genuinely unresolved.
       placeholder: egohygiene/hygiene
+    validations:
+      required: true
+
+  - type: dropdown
+    id: routing_state
+    attributes:
+      label: Routing state
+      description: Choose the current organization coordination state.
+      options:
+        - needs-routing
+        - routed
+        - cross-repo
+        - blocked
+        - ready
     validations:
       required: true
 

@@ -18,7 +18,10 @@ Use `.github` when work is genuinely organization-facing or when ownership is no
 | `blocked` | A dependency prevents useful implementation. | Record the dependency and unblock condition. |
 | `ready` | Scope, owner, dependencies, and acceptance criteria are sufficient for implementation. | Execute in the owning repository. |
 
-These names describe the intended taxonomy. Label creation/synchronization should be performed by the organization automation owned by Relay rather than hand-maintained independently in every repository.
+These names are governed by the machine-readable [label
+catalog](../.github/labels/catalog.v1.json). Label creation and synchronization
+should be performed by the organization automation owned by Relay rather than
+hand-maintained independently in every repository.
 
 ## Stable label taxonomy
 
@@ -51,7 +54,24 @@ Use `area:<domain>` only for stable domains that improve filtering. Do not creat
 - `blocked`
 - `ready`
 
-Repository-specific overlays may add labels, but must not redefine organization label semantics.
+The canonical catalog also defines a deliberately small `area:*` set for
+automation, developer experience, governance, and security. Add another
+universal area only when it is stable across the organization; repository or
+domain concepts belong in overlays.
+
+The approved expressive catalog is classified into five opt-in overlays:
+
+| Overlay | Scope |
+| --- | --- |
+| `ecosystem` | Named Ego Hygiene capabilities. |
+| `engineering` | Engineering changes, platforms, packages, and specifications. |
+| `creative-publishing` | Creative production, design, publishing, and outreach. |
+| `human-practice` | Human domains, practices, philosophy, and journeys. |
+| `research-funding` | Research and the resources that support it. |
+
+Repository-specific additions may add labels, but must not redefine universal
+or overlay semantics. See [label governance](label-governance.md) for the
+versioning, collision, deprecation, and removal rules.
 
 ## Umbrella issues
 

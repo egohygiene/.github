@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://egohygiene.github.io/contracts/labels/repositories.v1.schema.json",
+  "title": "Ego Hygiene repository label assignments",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schema_version", "catalog_version", "repositories"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"const": 1},
+    "catalog_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["repository", "include_universal", "overlays", "additional_labels"],
+        "properties": {
+          "repository": {"type": "string", "pattern": "^egohygiene/[A-Za-z0-9._-]+$"},
+          "include_universal": {"const": true},
+          "overlays": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "additional_labels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "description", "color"],
+              "properties": {
+                "name": {"type": "string", "minLength": 1, "maxLength": 50},
+                "description": {"type": "string", "minLength": 1, "maxLength": 100},
+                "color": {"type": "string", "pattern": "^[0-9a-f]{6}$"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
