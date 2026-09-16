@@ -7,7 +7,7 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: "2026-09-16T12:32:00Z"
+  updated_at: "2026-09-16T12:43:30Z"
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
@@ -59,11 +59,12 @@ state:
     verified_at: "2026-09-16T12:32:00Z"
   candidate:
     branch: docs/organization-roadmap-mock-reference
-    pull_request: null
-    handoff_state: preparing-review
+    revision: 6d51234715ebe37861e616b48704900addf7e384
+    pull_request: https://github.com/egohygiene/.github/pull/31
+    handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: "2026-09-16T12:32:00Z"
+    observed_at: "2026-09-16T12:43:30Z"
     repository_intelligence:
       relay_dependencies_pr: egohygiene/relay#78
       relay_dependencies_state: merged
@@ -73,9 +74,12 @@ state:
       observatory_22: open
       github_29: open
       github_30: open
+    mock_reference_pr:
+      github_31: open
+      branch: docs/organization-roadmap-mock-reference
 review:
-  status: active
-  reviewed_at: "2026-09-16T12:32:00Z"
+  status: ready-for-review
+  reviewed_at: "2026-09-16T12:43:30Z"
   reviewed_by: ChatGPT
   evidence:
     - command: Verify egohygiene/.github main and open PR state before creating the mock-reference branch.
@@ -87,6 +91,12 @@ review:
     - command: Add a versioned SVG roadmap mock and boundary README on a focused branch.
       outcome: passed
       notes: The mock explicitly states that it is a presentation reference and not canonical roadmap state.
+    - command: Compare mock-reference branch to main and open pull request #31.
+      outcome: passed
+      notes: Candidate was three commits ahead and zero behind before the continuity-only final update; only the mock SVG, mock README, and continuity checkpoint are changed.
+    - command: Query GitHub Actions runs for the pre-handoff candidate revision.
+      outcome: not-configured
+      notes: No pull-request workflow run was returned for this documentation-only repository checkpoint.
   environment_limitations:
     - The mock is stored as text SVG because the connected GitHub contents API accepts UTF-8 text files; the original chat-generated PNG remains a local conversational artifact.
 privacy:
@@ -148,4 +158,4 @@ For each future chat or checkpoint:
 
 ## Resume target
 
-After this mock-reference PR is reviewed, continue the control-plane roadmap from live evidence. If Hygiene #60 and Observatory #22 are still open, keep pushing dependency-ready Repository Intelligence/supporting surfaces or bounded Organization Intelligence shell work that does not invent roadmap semantics. Once both roadmap owner contracts are accepted, prioritize the real organization `/roadmap/` implementation described by `.github#29`.
+Review `.github#31` first. After it merges, continue the control-plane roadmap from live evidence. If Hygiene #60 and Observatory #22 are still open, keep pushing dependency-ready Repository Intelligence/supporting surfaces or bounded Organization Intelligence shell work that does not invent roadmap semantics. Once both roadmap owner contracts are accepted, prioritize the real organization `/roadmap/` implementation described by `.github#29`.
