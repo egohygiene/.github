@@ -3,12 +3,12 @@ schema: aether.architecture-document/v1
 id: organization-github-roadmap
 title: Ego Hygiene .github Roadmap
 kind: architecture-document
-version: 0.1.0
+version: 0.1.1
 status: provisional
 owners:
   - egohygiene
 created: 2026-08-19
-updated: 2026-08-24
+updated: 2026-09-25
 governed_by:
   - architecture-roadmap
 depends_on:
@@ -26,6 +26,15 @@ supersedes: []
 
 # Ego Hygiene .github Roadmap
 
+This is the roadmap for the `.github` repository's own defaults, intake, and
+coordination responsibilities. Hygiene is the accepted owner of ecosystem
+architecture and the repository catalog; [Hygiene #60](https://github.com/egohygiene/hygiene/issues/60)
+owns the pending canonical organization-roadmap contract. The proposed
+[foundation checkpoint](docs/foundation-readiness-checkpoint.md) records the
+current bounded execution focus by reference, while
+[organization #30](https://github.com/egohygiene/.github/issues/30) coordinates
+Intelligence delivery. Neither replaces organization or repository strategy.
+
 <!-- BEGIN ROADMAP EXECUTION SNAPSHOT -->
 <!-- roadmap-manifest
 schema: hygiene.roadmap/v1alpha1
@@ -33,21 +42,22 @@ repository: egohygiene/.github
 visibility: public
 publication: central
 route: /roadmap/.github/
-updated: 2026-08-24
+updated: 2026-09-25
 -->
-## 2026-08-24 execution snapshot
+## 2026-09-25 execution reconciliation
 
 > This evidence-reconciled snapshot is the issue-generation and visual-roadmap handoff. The longer-horizon strategy below remains canonical context; generated HTML, JSON, progress, issue plans, and commit lists are projections.
 
 **Lifecycle:** incubating foundation  
-**Current gate:** Finish the label and routing policy tracked in issue #8, then prove the organization defaults in a consumer repository.  
+**Current gate:** Review the bounded foundation reconciliation and read-only Actions inventory. The label contract in #8 is merged; legacy consumer and inherited-default acceptance still require their own evidence.
+
 **North-star outcome:** A thin, trusted set of organization defaults that makes contribution, security, and intake behavior predictable without hiding repository-owned policy.
 
 ### Visual roadmap publication
 
 **Mode:** `central`  
 **Route:** `/roadmap/.github/`  
-**Current publication evidence:** Organization-wide GitHub defaults; no Pages publication observed.
+**Current publication evidence:** Organization-wide GitHub defaults are present. No new live Pages or stable-release verification is claimed by this documentation reconciliation.
 
 Publish the public-safe projection through egohygiene.io at /roadmap/.github/. This repository owns intent and acceptance evidence; it does not add a second site deployment.
 
@@ -91,22 +101,30 @@ issues: [8]
 
 **Exit criteria:**
 
-- [ ] Issue #8 has an accepted label taxonomy and routing contract.
+- [x] Issue #8 has an accepted label taxonomy and routing contract.
 - [ ] At least one repository demonstrates the policy without repository-specific ambiguity.
 
 **Current evidence:**
 
-- Issue #8 remains unfinished as of 2026-08-24.
+- [Issue #8](https://github.com/egohygiene/.github/issues/8) is closed as completed.
+- [PR #21](https://github.com/egohygiene/.github/pull/21) merged on 2026-09-02 as
+  `b415c8029bf2fb5d474f367e7129791588ba3860`, delivering the versioned label
+  catalog, overlay assignments, routing guidance, validators, and workflow.
+- The committed assignment document and reference projection cover `.github`.
+  This inspection has not established the intended adoption evidence for the
+  remaining criterion; reconcile it explicitly rather than inferring this
+  step's completion from issue closure. Its active state is retained.
 
 <!-- roadmap-step
 id: ORG-Q03
-status: ready
+status: planned
 depends_on: [ORG-Q02]
 issues: []
 -->
 #### ORG-Q03 — Validate inherited community files
 
-**State:** `ready`  
+**State:** `planned`
+
 **Depends on:** `ORG-Q02`
 
 **Outcome:** Repositories can tell which community files they inherit and which they must own.
@@ -118,7 +136,15 @@ issues: []
 
 **Current evidence:**
 
-- No organization-level validation workflow was observed.
+- The repository has a path-filtered [label-contract workflow](.github/workflows/validate-label-contract.yml)
+  for pull requests, `main` pushes, and manual dispatch. That workflow validates
+  labels; it does not prove all inherited community files.
+- Its historical [PR #21 run 33573965859](https://github.com/egohygiene/.github/actions/runs/33573965859)
+  completed successfully on the label-contract candidate. This is historical
+  execution evidence, not a check of the present documentation candidate.
+- Inherited-file coverage and consumer/visibility exceptions remain unverified.
+  This step is planned until its own evidence and ORG-Q02's remaining criterion
+  are reconciled; the old ready label was not supported by those records.
 
 <!-- roadmap-step
 id: ORG-Q04
@@ -135,12 +161,18 @@ issues: []
 
 **Exit criteria:**
 
-- [ ] Ownership is stated in both repositories.
+- [x] Ownership is stated in both repositories.
 - [ ] No policy is authoritative in two places.
 
 **Current evidence:**
 
-- Hygiene is the proposed canonical machine-readable organization definition.
+- [Local ADR-001](DECISIONS.md) and accepted
+  [Hygiene ADR-0001](https://github.com/egohygiene/hygiene/blob/main/docs/decisions/ADR-0001-holistic-architecture-v0.1.md)
+  assign ecosystem architecture and the repository catalog to Hygiene.
+- [Organization #42](https://github.com/egohygiene/.github/issues/42) proposes a
+  conflicting canonical registry/roadmap location. Reconcile that proposal with
+  existing owners before implementation; no ownership move or duplicate
+  registry is accepted by this checkpoint. The second criterion remains open.
 
 <!-- roadmap-step
 id: ORG-Q05
@@ -162,7 +194,11 @@ issues: []
 
 **Current evidence:**
 
-- No CI or release publication was observed.
+- Label-contract CI exists and has the historical successful execution linked
+  under ORG-Q03. That focused evidence does not establish a verified release of
+  every organization default.
+- Stable organization-default release evidence and the full consumer checkpoint
+  have not been verified by this reconciliation; both exit criteria remain open.
 
 ### Roadmap-to-issue handoff
 
