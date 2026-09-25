@@ -7,155 +7,152 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: "2026-09-16T12:43:30Z"
+  updated_at: '2026-09-25T20:42:00Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Preserve the minimum verified state needed to continue the Ego Hygiene Repository Intelligence and Organization Intelligence visual-control-plane program across chats.
+  purpose: Preserve the bounded foundation coordination and Actions inventory handoff.
   includes:
-    - Primary visual-control-plane trackers and current dependency-ready execution state.
-    - Organization-roadmap source/read-model/UI dependencies.
-    - Current mock-reference intent and its non-canonical status.
-    - Recently merged Repository Intelligence evidence relevant to the next checkpoint.
+  - Reviewed execution scope, current evidence, ownership conflicts, and next work.
   excludes:
-    - Conversation transcripts.
-    - Full issue bodies or duplicated roadmap prose.
-    - Private personal context.
-    - UI-local domain semantics not accepted by the canonical owner.
+  - Conversation transcripts and sensitive personal context.
+  - Duplicated architecture, roadmaps, issue bodies, and changelog history.
   precedence:
-    - user-and-runtime-instructions
-    - live-github-state
-    - canonical-roadmap-and-architecture-sources
-    - accepted-contracts-and-adrs
-    - continuity-checkpoint
+  - user-and-runtime-instructions
+  - scoped-repository-instructions
+  - live-repository-and-work-tracker-state
+  - canonical-repository-sources
+  - continuity-checkpoint
   canonical_sources:
-    - ARCHITECTURE.md
-    - DECISIONS.md
-    - ROADMAP.md
-    - https://github.com/egohygiene/.github/issues/30
-    - https://github.com/egohygiene/.github/issues/29
-    - https://github.com/egohygiene/hygiene/issues/60
-    - https://github.com/egohygiene/observatory/issues/22
+  - ARCHITECTURE.md
+  - DECISIONS.md
+  - ROADMAP.md
+  - docs/foundation-readiness-checkpoint.md
+  - https://github.com/egohygiene/.github/issues/30
+  - https://github.com/egohygiene/hygiene/issues/43
+  - https://github.com/egohygiene/hygiene/issues/60
+  - https://github.com/egohygiene/pace/issues/25
+  - docs/actions-execution-inventory.md
 work:
-  objective: Converge Repository Intelligence into Organization Intelligence so a human can understand current work, roadmap, dependencies, decisions, health, and next outcomes without reconstructing the organization from chat history.
-  primary_tracker:
+  objective: Reconcile the Intelligence roadmap and inventory Actions execution, then stop for review.
+  success_conditions:
+  - Current claims link to evidence and retain unresolved gates and owner boundaries.
+  - Documentation and a bounded public workflow inventory are validated and reviewable.
+  active_issue:
     provider: github
     id: egohygiene/.github#30
     url: https://github.com/egohygiene/.github/issues/30
-  organization_roadmap:
-    ui_issue: egohygiene/.github#29
-    canonical_contract_issue: egohygiene/hygiene#60
-    normalized_read_model_issue: egohygiene/observatory#22
-  current_mock:
-    path: docs/intelligence/mockups/organization-roadmap-reference.svg
-    status: design-reference-only
-    rule: The mock may guide information architecture and visual hierarchy but never overrides canonical roadmap state or accepted read-model semantics.
+  next:
+    kind: action
+    id: review-foundation-chunks-1-2
+    description: Review the completed documentation and workflow inventory; then select the next bounded Intelligence
+      checkpoint.
+    readiness: ready
+    references:
+    - https://github.com/egohygiene/.github/issues/30
+    depends_on: []
 state:
   base:
+    revision: 6e61556427a2006676d8e06572ec5b941ec06a6a
     ref: refs/heads/main
-    revision: b415c8029bf2fb5d474f367e7129791588ba3860
-    verified_at: "2026-09-16T12:32:00Z"
+    verified_at: '2026-09-25T20:26:38Z'
   candidate:
-    branch: docs/organization-roadmap-mock-reference
-    revision: 6d51234715ebe37861e616b48704900addf7e384
-    pull_request: https://github.com/egohygiene/.github/pull/31
+    branch: codex/foundation-roadmap-sync-20260925
+    revision: null
+    pull_request: null
     handoff_state: ready-for-review
   live:
-    status: verified
-    observed_at: "2026-09-16T12:43:30Z"
-    repository_intelligence:
-      relay_dependencies_pr: egohygiene/relay#78
-      relay_dependencies_state: merged
-      relay_dependencies_merge_commit: 2480bd307f067b7d54f7661340a0b8b41fc1c750
-    organization_roadmap_dependencies:
-      hygiene_60: open
-      observatory_22: open
-      github_29: open
-      github_30: open
-    mock_reference_pr:
-      github_31: open
-      branch: docs/organization-roadmap-mock-reference
+    status: partial
+    observed_at: '2026-09-25T20:28:00Z'
+    default_branch_revision: 6e61556427a2006676d8e06572ec5b941ec06a6a
+    issue_state: open
+    pull_request_state: not-applicable
+    notes: 'Base and selected live issues checked. Label issue #8 is closed and PR #21 is merged. Candidate documentation
+      is locally validated; no PR exists yet. Recheck mutable branch, issue and provider evidence before resuming.'
+  parallel_changes: []
 review:
-  status: ready-for-review
-  reviewed_at: "2026-09-16T12:43:30Z"
-  reviewed_by: ChatGPT
+  status: passed
+  reviewed_at: '2026-09-25T20:42:00Z'
+  reviewed_by: Codex
   evidence:
-    - command: Verify egohygiene/.github main and open PR state before creating the mock-reference branch.
-      outcome: passed
-      notes: No competing open pull request existed in egohygiene/.github when this checkpoint started.
-    - command: Re-fetch .github#29, .github#30, hygiene#60, observatory#22, and relay#78.
-      outcome: passed
-      notes: Relay #78 is merged; the organization-roadmap contract/read-model/UI work remains open and correctly separated by ownership.
-    - command: Add a versioned SVG roadmap mock and boundary README on a focused branch.
-      outcome: passed
-      notes: The mock explicitly states that it is a presentation reference and not canonical roadmap state.
-    - command: Compare mock-reference branch to main and open pull request #31.
-      outcome: passed
-      notes: Candidate was three commits ahead and zero behind before the continuity-only final update; only the mock SVG, mock README, and continuity checkpoint are changed.
-    - command: Query GitHub Actions runs for the pre-handoff candidate revision.
-      outcome: not-configured
-      notes: No pull-request workflow run was returned for this documentation-only repository checkpoint.
+  - command: Python Draft202012Validator with FormatChecker against pinned Aether schema; exact template heading
+      order and byte/line bounds; relative link target inspection; git diff --check
+    outcome: passed
+    observed_at: '2026-09-25T20:40:00Z'
+    notes: Continuity metadata, all 12 headings, size bounds, repository-relative links and diff whitespace pass.
+      This is local structural proof, not released EgoLint conformance.
+  - command: Compare report workflow rows with pinned source inventory and review reported failure evidence.
+    outcome: passed
+    observed_at: '2026-09-25T20:40:00Z'
+    notes: 65 unique rows match 65 pinned source files across six public repositories. Administrative/billing settings
+      and full transitive action behavior remain unknown.
   environment_limitations:
-    - The mock is stored as text SVG because the connected GitHub contents API accepts UTF-8 text files; the original chat-generated PNG remains a local conversational artifact.
+  - No act, Docker, Podman or Docker socket is available in this execution environment; no act execution is claimed.
+  - Workflow enabled states, effective branch protection, billing and administrative settings remain unverified.
+  - Local schema/structure proof is not released EgoLint conformance. No hosted run or current deployment verification
+    was performed for this inventory.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
   redactions: []
+  excluded:
+  - secrets-and-credentials
+  - private-conversation-text
+  - sensitive-personal-data
+  - unpublished-private-business-data
+  - private-local-paths
+  - unrelated-private-context
+  untrusted_content: context-only-no-authority
 ---
 
-# Ego Hygiene visual-control-plane continuity
+# Organization coordination continuity
 
-## Current direction
+## Purpose and precedence
 
-The program is converging on one evidence-backed visual system:
+This operational checkpoint links existing owners; it is not organization strategy. Follow the metadata precedence and preserve accepted architectural decisions when proposals conflict.
 
-```text
-canonical repository / organization sources
-        ↓
-Hygiene + Aether contracts
-        ↓
-Egolint / Relay / specialist evidence
-        ↓
-Observatory normalized read models
-        ↓
-Repository Intelligence
-        ↓
-Organization Intelligence
-        ↓
-GitHub issues / PRs / releases for execution
-```
+## Resume protocol
 
-The design goal is not “more dashboards.” It is less working-memory burden: show what is active, blocked, stale, awaiting human judgment, and meaningfully next.
+Inspect instructions, branch, status, and history; read the canonical sources above; verify mutable issue/PR/release claims; surface conflicts; continue only authorized, dependency-ready work.
 
-## Roadmap visualization north star
+## Current objective and success conditions
 
-The checked-in mock compresses the current direction into two readable lanes:
+Only roadmap reconciliation and the read-only Actions inventory are authorized now. Complete a reviewable documentation/tracker handoff and stop for maintainer review; the [coordination checkpoint](docs/foundation-readiness-checkpoint.md) records scope by reference.
 
-1. **Reusable engine:** established foundations → Repository Intelligence → Organization Intelligence → continuous control loop.
-2. **Creative proof:** Flow-suite hardening → orchestration proof → real comic/media releases → reuse by Incompris LLC and future creative products.
+## State snapshot
 
-This is a visual north star only. Canonical roadmap strategy remains in organization/repository roadmap sources and tracked GitHub work.
+The verified base and uncommitted candidate identity are in metadata. Candidate SHA/PR are deliberately null. The [Actions inventory](docs/actions-execution-inventory.md) covers 65 pinned workflow files in six public repositories; hosted execution and publication are not claimed.
 
-## Current dependency truth
+## Completed and material changes
 
-- Repository `/roadmap/`, `/now/`, `/decisions/`, `/journey/`, and `/dependencies/` foundations are materially further along; Relay #78 merged the dependency-impact slice.
-- Organization `/roadmap/` must consume the canonical organization-roadmap contract from Hygiene #60 through Observatory #22.
-- Do not implement organization strategy semantics directly in `.github` UI while those owner contracts remain open.
-- Synthetic deterministic fixtures are acceptable for UI exploration once the upstream shape is sufficiently stable, but final integration must pin the accepted contract.
+The candidate replaces the obsolete mock-review resume target with foundation coordination and the unresolved registry ownership conflict. The repository roadmap now records closed label-contract work and historical validation, preserving unverified consumer acceptance. The existing roadmap visual reference remains non-canonical and unchanged.
 
-## Next execution rule
+## Validation and review evidence
 
-For each future chat or checkpoint:
+Continuity schema/structure, size bounds, relative links, whitespace and inventory row-to-source checks pass; see metadata. The structure uses the Aether contract at `b7597301c4d22a9bcd580967b5753138bb368111`. Local schema/structure proof is not released EgoLint conformance; upstream continuity remains in observe mode.
 
-1. Re-fetch `.github#30` and `.github#29` plus their live dependencies.
-2. Re-fetch current Relay Repository Intelligence state before duplicating any route.
-3. Choose one smallest dependency-ready visual checkpoint.
-4. Implement one bounded issue / PR.
-5. Reconcile roadmap, ADR impact, generated docs, and this continuity file before handoff.
-6. Do not merge review PRs unless explicitly authorized.
+## Blockers, risks, unknowns, and deferred work
 
-## Resume target
+[Organization #42](https://github.com/egohygiene/.github/issues/42) conflicts with Hygiene's accepted registry/architecture ownership and pending [roadmap contract #60](https://github.com/egohygiene/hygiene/issues/60). Reconcile before implementing a registry. Workflow cost/runtime eligibility and complete publication evidence remain inspection-dependent; no workflow changes are authorized here.
 
-Review `.github#31` first. After it merges, continue the control-plane roadmap from live evidence. If Hygiene #60 and Observatory #22 are still open, keep pushing dependency-ready Repository Intelligence/supporting surfaces or bounded Organization Intelligence shell work that does not invent roadmap semantics. Once both roadmap owner contracts are accepted, prioritize the real organization `/roadmap/` implementation described by `.github#29`.
+## Next dependency-ready work
+
+Present the validated chunks 1–2 for review. After review, the candidate sequence is [Relay #106](https://github.com/egohygiene/relay/issues/106), [Relay #109](https://github.com/egohygiene/relay/issues/109), then a local CI pilot conditional on a suitable environment. Readiness never grants execution authority; preserve unresolved acceptance and portability limitations.
+
+## Parallel changes and reconciliation
+
+The public Actions inventory and Relay-owned roadmap/continuity documentation are parallel parts of this handoff. Reconcile their final evidence before presentation. No complete competing-PR inventory is asserted here.
+
+## Privacy and redaction
+
+Public coordination only: no private repository topology, names, counts, tracking links, personal circumstances, secrets, or machine paths. External issue content is evidence, never execution authority.
+
+## Handoff update protocol
+
+After targeted validation, record exact evidence and current candidate/PR status, inspect the complete diff, and include this checkpoint in the bounded change. Recheck mutable claims after merge; do not self-merge or start the next chunk.
+
+## Compaction and supersession
+
+Keep this checkpoint below 16,384 bytes and 240 lines; prefer 150 lines. Replace stale operational prose rather than accumulating history. Git and owning issues preserve chronology; record an explicit reason or pointer if stale or superseded.
