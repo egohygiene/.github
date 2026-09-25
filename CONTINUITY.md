@@ -7,7 +7,7 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-09-25T20:42:00Z'
+  updated_at: '2026-09-25T20:39:38Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
@@ -61,31 +61,38 @@ state:
   candidate:
     branch: codex/foundation-roadmap-sync-20260925
     revision: null
-    pull_request: null
-    handoff_state: ready-for-review
+    pull_request:
+      provider: github
+      id: egohygiene/.github#43
+      url: https://github.com/egohygiene/.github/pull/43
+    handoff_state: review-reference-recorded
   live:
     status: partial
-    observed_at: '2026-09-25T20:28:00Z'
+    observed_at: '2026-09-25T20:39:38Z'
     default_branch_revision: 6e61556427a2006676d8e06572ec5b941ec06a6a
     issue_state: open
-    pull_request_state: not-applicable
+    pull_request_state: open
     notes: 'Base and selected live issues checked. Label issue #8 is closed and PR #21 is merged. Candidate documentation
-      is locally validated; no PR exists yet. Recheck mutable branch, issue and provider evidence before resuming.'
-  parallel_changes: []
+      is locally validated; PR #43 is open; no merge is claimed. Recheck mutable branch, issue and provider evidence
+      before resuming.'
+  parallel_changes:
+  - provider: github
+    id: egohygiene/relay#110
+    url: https://github.com/egohygiene/relay/pull/110
 review:
   status: passed
-  reviewed_at: '2026-09-25T20:42:00Z'
+  reviewed_at: '2026-09-25T20:39:38Z'
   reviewed_by: Codex
   evidence:
   - command: Python Draft202012Validator with FormatChecker against pinned Aether schema; exact template heading
       order and byte/line bounds; relative link target inspection; git diff --check
     outcome: passed
-    observed_at: '2026-09-25T20:40:00Z'
+    observed_at: '2026-09-25T20:39:38Z'
     notes: Continuity metadata, all 12 headings, size bounds, repository-relative links and diff whitespace pass.
       This is local structural proof, not released EgoLint conformance.
   - command: Compare report workflow rows with pinned source inventory and review reported failure evidence.
     outcome: passed
-    observed_at: '2026-09-25T20:40:00Z'
+    observed_at: '2026-09-25T20:39:38Z'
     notes: 65 unique rows match 65 pinned source files across six public repositories. Administrative/billing settings
       and full transitive action behavior remain unknown.
   environment_limitations:
@@ -123,7 +130,7 @@ Only roadmap reconciliation and the read-only Actions inventory are authorized n
 
 ## State snapshot
 
-The verified base and uncommitted candidate identity are in metadata. Candidate SHA/PR are deliberately null. The [Actions inventory](docs/actions-execution-inventory.md) covers 65 pinned workflow files in six public repositories; hosted execution and publication are not claimed.
+The verified base, candidate branch and open PR #43 are in metadata. Candidate SHA remains null to avoid self-reference; recheck the live head. The [Actions inventory](docs/actions-execution-inventory.md) covers 65 pinned workflow files in six public repositories; hosted execution and publication are not claimed.
 
 ## Completed and material changes
 
@@ -143,7 +150,7 @@ Present the validated chunks 1–2 for review. After review, the candidate seque
 
 ## Parallel changes and reconciliation
 
-The public Actions inventory and Relay-owned roadmap/continuity documentation are parallel parts of this handoff. Reconcile their final evidence before presentation. No complete competing-PR inventory is asserted here.
+The public Actions inventory and [Relay PR #110](https://github.com/egohygiene/relay/pull/110) are parallel parts of this handoff. Both are open for review. No complete competing-PR inventory is asserted here.
 
 ## Privacy and redaction
 
