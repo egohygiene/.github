@@ -9,3 +9,5 @@
   narrowest durable owner.
 - [Organization label governance](docs/label-governance.md) — canonical
   taxonomy, overlays, lifecycle, and safe adoption.
+- [Canonical issue titles](docs/issue-titles.md) — versioned emoji/type
+  format, agent entry point, and staged adoption.
