@@ -66,7 +66,7 @@ state:
     observed_at: '2026-10-02T22:52:42.731Z'
     default_branch_revision: 3224abdc6da7347b10060706e7987f6faaf16f28
     issue_state: open
-    pull_request_state: null
+    pull_request_state: not-applicable
     notes: 'Main and issues #44/#24 verified; no open PRs returned. Prior PR #43 is merged. Provider label availability
       remains unverified.'
   parallel_changes: []
