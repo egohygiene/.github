@@ -1,6 +1,6 @@
 # Canonical issue titles
 
-Contract: `egohygiene.issue-title/v1`, version `1.0.0`.
+Contract: `egohygiene.issue-title/v1`, version `1.0.1`.
 Owner: `egohygiene/.github`.
 Tracking: [contract checkpoint #44](https://github.com/egohygiene/.github/issues/44),
 [parent #24](https://github.com/egohygiene/.github/issues/24), and
@@ -128,6 +128,13 @@ event/template conformance and expand the backlog sweep through #23.
 Keep historical issues in a separate recorded batch.
 
 ## Contract changes
+
+Version `1.0.1` updates the exact label-catalog reference to `1.1.0` for
+[Aether enrollment #46](https://github.com/egohygiene/.github/issues/46).
+This dependency-only patch preserves the six mappings, all title rules, and
+every example input and expected output. Existing consumers remain on their
+recorded immutable revision until a separately reviewed upgrade; enrollment
+does not promote title enforcement or change provider issues.
 
 Editorial clarification preserving accepted outputs is a patch.
 Additive optional examples or metadata may be minor. A changed mapping,
