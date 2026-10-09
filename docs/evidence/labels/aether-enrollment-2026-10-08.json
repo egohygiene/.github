@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "checkpoint": "egohygiene/.github#46",
+  "observed_at": "2026-10-08T01:45:42.704458+00:00",
+  "base_revision": "333e4e914b762cb817dcaed1d792435432f4fd5c",
+  "candidate_branch": "codex/aether-label-enrollment-46",
+  "status": "passed-with-deferred-schema-execution",
+  "candidate_files_sha256": {
+    ".github/labels/catalog.v1.json": "8c8c118005b828b4c521d11a9c94309dd4d7affb06a3feddc51d4ef195376399",
+    ".github/labels/repositories.v1.json": "4782d6cf35fceeb66557d0c285d5292e98085ab62c1d497d849e7b07157ba41b",
+    ".github/issues/title-contract.v1.json": "e32b33a4b33dcbb115705043bf37c262d6ee68ccde26a675d5f4d53c095dea59",
+    "fixtures/issue-titles/cases.v1.json": "568d4b18a00da81b8cefd757f27275b472d40f5a8a774b60c8ab338304df16a1",
+    "fixtures/labels/dot-github.expected.json": "4330670416cd95e4b8c63c24b809f0b7e3d2f29cb5b38fc8ffef30491b438a30"
+  },
+  "checks": [
+    {
+      "command": "python3 scripts/validate_labels.py",
+      "outcome": "passed"
+    },
+    {
+      "command": "python3 -m unittest discover --start-directory tests --pattern \"test_labels.py\" --verbose",
+      "passed": 9,
+      "skipped": 0,
+      "failed": 0
+    },
+    {
+      "command": "python3 -m unittest discover --start-directory tests --pattern \"test_issue_title_contract.py\" --verbose",
+      "passed": 5,
+      "skipped": 1,
+      "failed": 0,
+      "skip_reason": "JSON Schema engine unavailable; full schema execution deferred"
+    },
+    {
+      "command": "python3 scripts/project_labels.py --repository \"egohygiene/aether\"",
+      "outcome": "passed",
+      "repeat_byte_identical": true,
+      "labels": 18,
+      "overlays": [],
+      "additional_labels": [],
+      "removal_policy": "retain",
+      "output_sha256": "29837c56f018502e79e2ce3a02baf5122f223b51f6673f37895105e5390339f7"
+    },
+    {
+      "command": "python3 scripts/project_labels.py --repository \"egohygiene/.github\"",
+      "outcome": "passed",
+      "matches_updated_golden": true
+    },
+    {
+      "check": "Exact JSON comparison against base Git blobs",
+      "outcome": "passed",
+      "assertions": [
+        "Catalog differs only in catalog_version",
+        "Assignments differ only in catalog_version and the universal-only Aether entry",
+        "Existing organization golden projection differs only in catalog_version",
+        "Title contract differs only in contract_version and label_catalog.version",
+        "Title examples differ only in contract_version"
+      ]
+    },
+    {
+      "command": "git diff --check",
+      "outcome": "passed"
+    }
+  ],
+  "provider_observations": {
+    "repository": "egohygiene/.github",
+    "date": "2026-10-08",
+    "method": "GET /repos/egohygiene/.github/labels?per_page=100&page=1",
+    "records": 9,
+    "next_link": null,
+    "primary_type_labels": [],
+    "limitation": "Canonical issue title prefix can be authored, but type:architecture is unavailable for attachment; full conformance not claimed."
+  },
+  "limits": [
+    "Source contract projection only; no native Relay synchronization plan generated in this checkpoint",
+    "Full JSON Schema execution deferred because validator engine is unavailable",
+    "No hosted workflows dispatched, broad tests, linting, or audits run",
+    "No Aether labels, issue classifications, titles, states, or relationships changed",
+    "Consumer pins remain unchanged; maintainer review and merge pending"
+  ],
+  "next": "After reviewed upstream merge, repin Relay to the verified merged revision and digests; then refresh the Pace pilot inputs and provider capture for a native checksum-bound preview."
+}

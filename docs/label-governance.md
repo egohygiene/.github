@@ -86,6 +86,39 @@ Rollback means reverting the assignment or catalog commit and generating a new
 preview. Because the default is retain, rollback does not delete labels or
 remove labels already attached to work items.
 
+## Aether enrollment checkpoint
+
+Catalog `1.1.0` adds `egohygiene/aether` with universal labels enabled, no
+overlays, and no repository additions. It projects 18 labels. This is the
+minimal starting scope for [Pace #10](https://github.com/egohygiene/pace/issues/10),
+tracked by [owner issue #46](https://github.com/egohygiene/.github/issues/46).
+The existing `.github` assignment and every label definition are unchanged.
+Existing expressive and local Aether labels are retained; selecting no
+overlays does not retire them or manage their metadata.
+
+The catalog minor bump records the additive assignment. Its matching
+assignment version, golden projection, and issue-title catalog reference
+move together. Title contract `1.0.1` is a dependency-only patch; title
+semantics remain unchanged.
+
+After maintainer review and merge:
+
+1. Relay must repin `actions/repository-labels/contracts/organization-labels.lock.json`
+   to the verified merged revision, updating catalog and assignment digests
+   and the corresponding vendored source files.
+2. Pace must update its pilot lock/vendor inputs to the reviewed Relay source,
+   recapture Aether's labels and config, and generate a native checksum-bound
+   preview. The earlier blocked preview in [Pace PR #33](https://github.com/egohygiene/pace/pull/33)
+   remains dated evidence, not a synchronization plan.
+3. Review that fresh plan before a separate application checkpoint. Creating
+   provider labels, assigning primary types, and applying issue titles remain
+   distinct steps. Title consumers keep their current immutable pins until
+   separately upgraded; this enrollment does not promote title authority.
+
+Source enrollment alone neither creates labels nor enables a path labeler.
+Validation for this checkpoint is recorded in
+[the local receipt](evidence/labels/aether-enrollment-2026-10-08.json).
+
 ## Local issue templates
 
 The organization work form is the fallback for organization-level or unowned

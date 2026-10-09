@@ -2,11 +2,11 @@
   "$schema": "./schema/title-contract.v1.schema.json",
   "schema_version": 1,
   "contract_id": "egohygiene.issue-title/v1",
-  "contract_version": "1.0.0",
+  "contract_version": "1.0.1",
   "owner": "egohygiene/.github",
   "label_catalog": {
     "path": "../labels/catalog.v1.json",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "format": "{emoji} [{type}] {subject}",
   "types": [
