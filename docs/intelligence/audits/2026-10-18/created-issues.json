@@ -1,0 +1,105 @@
+[
+  {
+    "key": "contract_gate",
+    "repo": "egohygiene/hygiene",
+    "number": 69,
+    "url": "https://github.com/egohygiene/hygiene/issues/69",
+    "title": "🏗️ [architecture] Freeze the Intelligence authority and compatibility gate",
+    "updated_at": "2026-10-18T13:43:17Z"
+  },
+  {
+    "key": "scaffold",
+    "repo": "egohygiene/holon",
+    "number": 63,
+    "url": "https://github.com/egohygiene/holon/issues/63",
+    "title": "🐛 [bug] Align ADR scaffold pins with the supported ratified-policy selection",
+    "updated_at": "2026-10-18T13:43:18Z"
+  },
+  {
+    "key": "owner_adoption",
+    "repo": "egohygiene/relay",
+    "number": 144,
+    "url": "https://github.com/egohygiene/relay/issues/144",
+    "title": "🐛 [bug] Adopt canonical-policy-owner support in both validation runtimes",
+    "updated_at": "2026-10-18T13:43:19Z"
+  },
+  {
+    "key": "required_mode",
+    "repo": "egohygiene/relay",
+    "number": 145,
+    "url": "https://github.com/egohygiene/relay/issues/145",
+    "title": "✨ [feature] Qualify explicit required architecture validation after activation gates",
+    "updated_at": "2026-10-18T13:43:20Z"
+  },
+  {
+    "key": "work",
+    "repo": "egohygiene/relay",
+    "number": 146,
+    "url": "https://github.com/egohygiene/relay/issues/146",
+    "title": "✨ [feature] Collect bounded issue and pull-request evidence for Work and Now",
+    "updated_at": "2026-10-18T13:43:20Z"
+  },
+  {
+    "key": "git",
+    "repo": "egohygiene/relay",
+    "number": 147,
+    "url": "https://github.com/egohygiene/relay/issues/147",
+    "title": "✨ [feature] Collect immutable Git and lifecycle evidence for Journey",
+    "updated_at": "2026-10-18T13:43:21Z"
+  },
+  {
+    "key": "dependencies",
+    "repo": "egohygiene/relay",
+    "number": 148,
+    "url": "https://github.com/egohygiene/relay/issues/148",
+    "title": "✨ [feature] Project declared dependency evidence into Intelligence builds",
+    "updated_at": "2026-10-18T13:43:22Z"
+  },
+  {
+    "key": "releases",
+    "repo": "egohygiene/relay",
+    "number": 149,
+    "url": "https://github.com/egohygiene/relay/issues/149",
+    "title": "✨ [feature] Collect release and deployment observations for Intelligence",
+    "updated_at": "2026-10-18T13:43:22Z"
+  },
+  {
+    "key": "checks",
+    "repo": "egohygiene/relay",
+    "number": 150,
+    "url": "https://github.com/egohygiene/relay/issues/150",
+    "title": "✨ [feature] Collect normalized check evidence for Intelligence Health",
+    "updated_at": "2026-10-18T13:43:23Z"
+  },
+  {
+    "key": "composition",
+    "repo": "egohygiene/relay",
+    "number": 151,
+    "url": "https://github.com/egohygiene/relay/issues/151",
+    "title": "✨ [feature] Compose multiple collected evidence domains in one Intelligence snapshot",
+    "updated_at": "2026-10-18T13:43:24Z"
+  },
+  {
+    "key": "compare",
+    "repo": "egohygiene/relay",
+    "number": 152,
+    "url": "https://github.com/egohygiene/relay/issues/152",
+    "title": "✨ [feature] Retain and refresh compatible snapshots for real Compare evidence",
+    "updated_at": "2026-10-18T13:43:25Z"
+  },
+  {
+    "key": "fleet_capture",
+    "repo": "egohygiene/relay",
+    "number": 153,
+    "url": "https://github.com/egohygiene/relay/issues/153",
+    "title": "✨ [feature] Collect and refresh public fleet snapshots for Organization Intelligence",
+    "updated_at": "2026-10-18T13:43:25Z"
+  },
+  {
+    "key": "empathy_upgrade",
+    "repo": "egohygiene/empathy",
+    "number": 105,
+    "url": "https://github.com/egohygiene/empathy/issues/105",
+    "title": "✨ [feature] Qualify the current Intelligence generator across Empathy publication paths"
+  }
+]

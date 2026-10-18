@@ -1,0 +1,1620 @@
+[
+  {
+    "repository": "egohygiene/renderflow",
+    "visibility": "public",
+    "revision": "0427749a2cccececae2d69aa9fa0a02779603509",
+    "branch": "main",
+    "files": 741,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/renderflow",
+      "visibility": "public",
+      "publication": "composed",
+      "route": "/roadmap/",
+      "updated": "2026-09-25"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/.github",
+    "visibility": "public",
+    "revision": "8b16273eaf0709a7ce95f5e352a2b0d38cfac131",
+    "branch": "main",
+    "files": 58,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/.github",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/.github/",
+      "updated": "2026-09-25"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  - Duplicated architecture, roadmaps, issue bodies, and changelog history."
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/reflector",
+    "visibility": "public",
+    "revision": "6b22845970a16e5f787eb944de1bf7b02cbb053e",
+    "branch": "main",
+    "files": 581,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/reflector",
+      "visibility": "public",
+      "publication": "composed",
+      "route": "/roadmap/",
+      "updated": "2026-08-26"
+    },
+    "roadmap_steps": 6,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/egolint",
+    "visibility": "public",
+    "revision": "2d3600f14848e28099acc34ce8043699da2b9a32",
+    "branch": "main",
+    "files": 710,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/egolint",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/egolint/",
+      "updated": "2026-09-28"
+    },
+    "roadmap_steps": 11,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  purpose: Preserve the bounded Intelligence alpha.2 compatibility change and the next Relay ADR collector",
+          "  - docs/repository-intelligence.md",
+          "  - .config/rules/repository-intelligence.v1.toml",
+          "  - .config/rules/repository-intelligence-coverage-sources.v1.json",
+          "  - src/intelligence_coverage.rs",
+          "  - tests/intelligence_coverage_pipeline.rs",
+          "    id: relay-adr-collector-checkpoint-1",
+          "      issue 115 and collect existing canonical ADRs.",
+          "    branch: codex/intelligence-alpha2-coverage",
+          "  - The Intelligence contract remains proposed; merge does not ratify it. This coverage-only validator",
+          "    does not replace full Hygiene schema/graph checks or ADR/roadmap source validation.",
+          "This checkpoint preserves the bounded Repository Intelligence alpha.2 compatibility candidate.",
+          "Support the exact new Intelligence projection pin without breaking the existing alpha.1 pin.",
+          "  alpha.1, accepted ADR, and proposed roadmap tuples retain their separate authority and revisions.",
+          "- `egolint intelligence validate-coverage` and the pure Rust API validate all nine coverage domains,"
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/ci.yml",
+        "relevant_lines": [
+          "workflow_dispatch:"
+        ]
+      },
+      {
+        "path": ".github/workflows/release.yml",
+        "relevant_lines": [
+          "workflow_dispatch:"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/empathy",
+    "visibility": "public",
+    "revision": "480d70bc59c989f46abf7a323e645699b11c7d4a",
+    "branch": "main",
+    "files": 11973,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/empathy",
+      "visibility": "public",
+      "publication": "composed",
+      "route": "/roadmap/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [
+      "docs/decisions/ADR-0001-foundation-ownership.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "3. Read the relevant record under [`docs/decisions/`](docs/decisions/).",
+          "   [`docs/decisions/ADR-0001-foundation-ownership.md`](docs/decisions/ADR-0001-foundation-ownership.md).",
+          "Before changing Repository Intelligence or Pages publication, read",
+          "[`docs/integrations/REPOSITORY_INTELLIGENCE.md`](docs/integrations/REPOSITORY_INTELLIGENCE.md)."
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/lint-architecture.yml",
+        "relevant_lines": [
+          "schedule:",
+          "- cron: \"53 5 * * 5\"",
+          "workflow_dispatch:",
+          "group: \"lint-architecture-${{ github.workflow }}-${{ github.ref }}\"",
+          "name: \"lint-architecture-${{ github.run_id }}-${{ github.run_attempt }}\"",
+          "name: \"lint-architecture-${{ github.run_id }}-${{ github.run_attempt }}\"",
+          "uses: egohygiene/relay/actions/publish-report-snapshot@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0"
+        ]
+      },
+      {
+        "path": ".github/workflows/megalinter.yml",
+        "relevant_lines": [
+          "schedule:",
+          "- cron: \"41 5 * * 3\"",
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/actions/normalize-repository-report@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0",
+          "uses: egohygiene/relay/actions/publish-report-snapshot@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0"
+        ]
+      },
+      {
+        "path": ".github/workflows/mindgarden-pages.yml",
+        "relevant_lines": [
+          "workflow_run:",
+          "workflow_dispatch:",
+          "mode:",
+          "mode: ${{ github.event_name == 'pull_request' && fromJSON('[\"current\",\"rollback-v1.4\"]') || fromJSON(format('[\"{0}\"]', inputs.mode || 'current')) }}",
+          "deployment-mode: \"${{ steps.identity.outputs.deployment-mode }}\"",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6",
+          "# egohygiene/relay repository-intelligence v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence@9a6315978766c336566b9fa7139b800fa8789ba5",
+          "uses: egohygiene/relay/actions/repository-intelligence@9a6315978766c336566b9fa7139b800fa8789ba5",
+          "uses: egohygiene/relay/actions/repository-intelligence@b71b090406a3a9e4cd9f107e9d14a623bbecb127",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6"
+        ]
+      },
+      {
+        "path": ".github/workflows/ossf-scorecard.yml",
+        "relevant_lines": [
+          "schedule:",
+          "- cron: \"23 5 * * 1\"",
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/actions/normalize-repository-report@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0",
+          "uses: egohygiene/relay/actions/publish-report-snapshot@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0"
+        ]
+      },
+      {
+        "path": ".github/workflows/osv-scan.yml",
+        "relevant_lines": [
+          "schedule:",
+          "- cron: \"0 4 * * 3\"",
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/actions/normalize-repository-report@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0",
+          "uses: egohygiene/relay/actions/publish-report-snapshot@1eada5142f7fc7da7862f335589e3b8f5884ffaf # v1.5.0"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-intelligence-checks.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "repository: egohygiene/relay"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-intelligence-failure.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "# egohygiene/relay repository-intelligence v1.6.0",
+          "uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@f19b65b3f8bd8466884dee5529fa77f2430440b6"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-intelligence-gates.yml",
+        "relevant_lines": []
+      },
+      {
+        "path": ".github/workflows/repository-intelligence.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "# egohygiene/relay repository-intelligence v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence@9a6315978766c336566b9fa7139b800fa8789ba5"
+        ]
+      }
+    ],
+    "staging_files": 9583,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/aether",
+    "visibility": "public",
+    "revision": "8ef3bd34d5fec835da54eb8acd0d074b79ee8fe2",
+    "branch": "main",
+    "files": 1538,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/aether",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/aether/",
+      "updated": "2026-08-25"
+    },
+    "roadmap_steps": 7,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "`library/organization/` and `catalog/`; `.staging/` and `dist/` are derived or"
+        ]
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  purpose: Bounded handoff for ratified-policy ADR authoring (#91).",
+          "  - duplicated architecture, roadmap, and changelog content",
+          "  - docs/adr-authoring-adoption.md",
+          "  - library/organization/specs/architecture/governance/decisions.spec.md",
+          "  - library/organization/skills/architecture/create-decisions-document/SKILL.md",
+          "  - library/organization/skills/architecture/create-decisions-document/references/policy-selection.json",
+          "  objective: Align the existing ADR skill and decision-impact guidance with ratified Hygiene policy.",
+          "    id: review-adr-authoring-candidate",
+          "    branch: codex/adr-authoring-91",
+          "    notes: 199 tests passed, zero skips. ADR owner/runtime variables and AETHER_EGOLINT_BINARY were configured;",
+          "      all 11 ADR tests and existing native title tests ran.",
+          "    notes: 205 cases passed across 36 skills, including nine ADR cases. Checks authored examples; does",
+          "    notes: No errors. Existing preserved staging-hash provenance warning remains. Shell and strict staging",
+          "The authoring skill/spec/module remain draft; Intelligence remains proposed."
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 734,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/pace",
+    "visibility": "public",
+    "revision": "57607f6fba0a99df7b70ded834890f44688bcffc",
+    "branch": "main",
+    "files": 80,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/pace",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/pace/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 6,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/realm",
+    "visibility": "public",
+    "revision": "02475f8df066b221c8b367d6261911f6fa5bae9b",
+    "branch": "main",
+    "files": 88,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/realm",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/realm/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/identity",
+    "visibility": "public",
+    "revision": "69d55c1caaa5b3959ed2ffdbbcd1fd69357d87dc",
+    "branch": "main",
+    "files": 403,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/identity",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/identity/",
+      "updated": "2026-10-18"
+    },
+    "roadmap_steps": 40,
+    "root_decisions": true,
+    "adr_files": [
+      "docs/decisions/ADR-001-creative-approval-human-owned.md",
+      "docs/decisions/ADR-002-stable-identity-contract.md",
+      "docs/decisions/ADR-003-deterministic-projection-boundary.md",
+      "docs/decisions/ADR-004-dtcg-token-contract.md",
+      "docs/decisions/ADR-005-json-schema-contract.md",
+      "docs/decisions/ADR-006-rust-rendering-stack.md",
+      "docs/decisions/ADR-007-font-tooling-boundaries.md",
+      "docs/decisions/ADR-008-platform-profile-contracts.md",
+      "docs/decisions/ADR-009-storybook-consumer-adapter.md",
+      "docs/decisions/ADR-010-reference-renderer-boundary.md",
+      "docs/decisions/ADR-011-accessibility-and-visual-evidence.md",
+      "docs/decisions/ADR-012-local-layered-identity-v1.md",
+      "docs/decisions/ADR-013-preserve-guidance-lifecycle.md",
+      "docs/decisions/ADR-014-design-system-projection-boundary.md",
+      "docs/decisions/ADR-015-press-kit-projection-boundary.md",
+      "docs/decisions/ADR-016-pinned-social-surface-projection-boundary.md",
+      "docs/decisions/ADR-017-zensical-launchkit-publication-architecture.md",
+      "docs/decisions/ADR-018-repository-presentation-projection-boundary.md",
+      "docs/decisions/ADR-019-immutable-release-contract.md",
+      "docs/decisions/ADR-020-channel-registry-governance.md",
+      "docs/decisions/ADR-021-governed-mascot-package.md",
+      "docs/decisions/ADR-022-decisions-publication-composition.md",
+      "docs/decisions/ADR-023-canonical-source-digest.md"
+    ],
+    "policy_references": {
+      "docs/decisions/policy-reference.json": "{\n  \"schema\": \"egohygiene.architecture-decision-policy-reference/v1\",\n  \"repository\": \"egohygiene/identity\",\n  \"policy\": {\n    \"contract\": \"egohygiene.architecture-decision/v1\",\n    \"version\": \"1.1.0\",\n    \"source\": {\n      \"repository\": \"egohygiene/hygiene\",\n      \"revision\": \"c589587395750cd1c79c6fa0bef010189c547249\",\n      \"path\": \"docs/decisions/POLICY.md\"\n    }\n  },\n  \"decision_directory\": \"docs/decisions\",\n  \"index\": \"docs/decisions/README.md\",\n  \"extensions\": [],\n  \"exceptions\": []\n}\n"
+    },
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "[create-decisions-document v2.0.0](https://github.com/egohygiene/aether/blob/8ef3bd34d5fec835da54eb8acd0d074b79ee8fe2/library/organization/skills/architecture/create-decisions-document/SKILL.md).",
+          "<!-- aether-instruction {\"id\":\"decision-impact\",\"inherits\":[{\"contract\":\"egohygiene.architecture-decision/v1\",\"policy_version\":\"1.1.0\",\"revision\":\"c589587395750cd1c79c6fa0bef010189c547249\",\"source_url\":\"https://github.com/egohygiene/hygiene/blob/c589587395750cd1c79c6fa0bef010189c547249/docs/decisions/POLICY.md\",\"status\":\"accepted\",\"approval_url\":\"https://github.com/egohygiene/hygiene/issues/15#issuecomment-5647398908\"},{\"contract\":\"egohygiene.repository-intelligence/v1\",\"contract_version\":\"1.0.0-alpha.1\",\"revision\":\"5e0602265b6ac5e5165b89f418e55a3fd12f8a64\",\"source_url\":\"https://github.com/egohygiene/hygiene/blob/5e0602265b6ac5e5165b89f418e55a3fd12f8a64/docs/ecosystem/REPOSITORY_INTELLIGENCE.md\",\"status\":\"proposed\"}],\"status\":\"draft\",\"version\":\"0.2.0\",\"skill\":\"create-decisions-document\"} -->",
+          "the local policy reference, roadmap, local ADRs and relevant organization ADRs.",
+          "Load `create-decisions-document` from the reviewed pinned Aether installation.",
+          "`reference`, or `ADR not required` within the current role's permissions.",
+          "- **Create:** author a proposed ADR for a consequential choice not already governed.",
+          "- **ADR not required:** give one concise reason for routine work; create no duplicate.",
+          "Cite the governing/new/updated ADR or `ADR not required` with its reason. Preserve",
+          "known roadmap references; use real stable IDs and qualify cross-repository references:",
+          "Roadmap-Step: AET-Q07",
+          "ADR-Ref: egohygiene/hygiene#ADR-002",
+          "New records stay proposed. Automated agents never mark an ADR accepted or assign",
+          "Use `docs/decisions/README.md` and the repository policy reference; preserve legacy",
+          "`DECISIONS.md` content until reviewed migration. Read-only roles remain read-only.",
+          "[Hygiene ADR policy v1.1.0](https://github.com/egohygiene/hygiene/blob/c589587395750cd1c79c6fa0bef010189c547249/docs/decisions/POLICY.md)"
+        ]
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  - Artifact-path policy (#76), output confinement/concurrency (#78/#79), broad refactors, new schemas/ADR dispositions,",
+          "  - ROADMAP.md",
+          "  - docs/decisions/policy-reference.json",
+          "  - docs/decisions/ADR-014-design-system-projection-boundary.md",
+          "  - docs/decisions/ADR-019-immutable-release-contract.md",
+          "  - docs/decisions/ADR-023-canonical-source-digest.md",
+          "    - ROADMAP.md#idn-q15--validate-download-paths-and-configured-bases",
+          "  - command: Decision-impact review with pinned Aether create-decisions-document v2.0.0 and continuity v1.1.0",
+          "    notes: 'Reference ADR-014/019 and #74 migration documented by proposed ADR-023. This enforces existing required",
+          "      fields and release invariants; no new schema or ADR is needed. No lifecycle changes.'",
+          "    notes: Schema/headings/size/base/paths/privacy pass. All 40 roadmap steps retain stable IDs and valid dependency/state/exit",
+          "      consistency, with an acyclic graph. ADRs, schemas, existing fixtures/goldens, versions, locks, workflows",
+          "This checkpoint covers [#75](https://github.com/egohygiene/identity/issues/75). Runtime/user instructions, scoped instructions, verified live state and canonical sources outrank this handoff. ROADMAP.md owns order; the renderer and digest contracts own binding semantics and migration.",
+          "Read AGENTS.md, the renderer/design-system/digest contracts, scoped source/tests and governing ADRs. Refresh main, #75/#76, open PRs and candidate CI. Keep merged #74 evidence separate from this pre-PR candidate and from publication.",
+          "The renderer contracts explain the existing handbook binding and #74's atomic upgrade/rollback. ROADMAP records the actual #74 merge and active #75. Schemas, version numbers, prior fixtures/goldens, release/publication bindings, workflows and ADRs are unchanged."
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/decision-validation.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/.github/workflows/repository-architecture-validation.yml@4137cb07a017b7bbae2ee38fe9b039c58b0b17eb",
+          "mode: advisory",
+          "adr-adoption: present",
+          "adr-policy: \".config/egolint/repository-intelligence.toml\""
+        ]
+      },
+      {
+        "path": ".github/workflows/publish-brand-kit.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6",
+          "uses: egohygiene/relay/actions/repository-intelligence@f19b65b3f8bd8466884dee5529fa77f2430440b6",
+          "collect-adrs: \"true\"",
+          "source-commit: ${{ steps.publisher.outputs.intelligence-commit }}",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@f19b65b3f8bd8466884dee5529fa77f2430440b6"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/mindcap",
+    "visibility": "public",
+    "revision": "0749ccdf138fd0d81a6c113e02db454b770e85bb",
+    "branch": "main",
+    "files": 222,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/mindcap",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/mindcap/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/mindgarden",
+    "visibility": "public",
+    "revision": "f44913a340a48f218136c232de958399994ed396",
+    "branch": "main",
+    "files": 106,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/mindgarden",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/mindgarden/",
+      "updated": "2026-08-28"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/aniflow",
+    "visibility": "public",
+    "revision": "5376c48c532513aa8cd5ca6f10ff8a3b16ec58a2",
+    "branch": "main",
+    "files": 646,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/aniflow",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/aniflow/",
+      "updated": "2026-09-25"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": false,
+    "adr_files": [
+      "docs/architecture/governance/decisions/ADR-0001-library-first-thin-cli.md",
+      "docs/architecture/governance/decisions/ADR-0002-polyrepo-independence.md",
+      "docs/architecture/governance/decisions/ADR-0003-typed-external-tool-ports.md",
+      "docs/architecture/governance/decisions/ADR-0004-versioned-public-contracts.md",
+      "docs/architecture/governance/decisions/ADR-0005-temporal-truth.md",
+      "docs/architecture/governance/decisions/ADR-0006-audio-analysis-foundation.md",
+      "docs/architecture/governance/decisions/ADR-0007-provider-neutral-stem-import.md",
+      "docs/architecture/governance/decisions/ADR-0008-layered-validation-acceptance.md",
+      "docs/architecture/governance/decisions/ADR-0009-owned-stage-cache.md",
+      "docs/architecture/governance/decisions/ADR-0010-plan-bound-toolchain-preflight.md",
+      "docs/architecture/governance/decisions/ADR-0011-serial-rife-derived-clock.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "    - ROADMAP.md",
+          "require declared RAM headroom. Resource admission is an uncalibrated estimate,",
+          "unproven. ADR-0010 and ADR-0011 remain proposed. Cargo remains 0.3.0."
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/release.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/.github/workflows/semantic-release.yml@04bd32c8ef492418f47d6df6faee425d6888f341"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/beacon",
+    "visibility": "public",
+    "revision": "e846695648f7fc2ae710d1df6939f06b6460de82",
+    "branch": "main",
+    "files": 1138,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/beacon",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/beacon/",
+      "updated": "2026-08-27"
+    },
+    "roadmap_steps": 9,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 928,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/holon",
+    "visibility": "public",
+    "revision": "660b941f99618806fcadd589bcdae61c519f96e4",
+    "branch": "main",
+    "files": 216,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/holon",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/holon/",
+      "updated": "2026-09-09"
+    },
+    "roadmap_steps": 9,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "      notes: \"All 18 Repository Intelligence JavaScript tests passed.\"",
+          "      command: \"Python compilation, JSON parsing, continuity/ADR profile validation, and git diff --check\"",
+          "      notes: \"tools/tests compile; all 39 catalog/example/schema JSON files parse; continuity and ADR profiles validate; whitespace checks pass.\"",
+          "    - \"DECISIONS.md\"",
+          "    - \"ROADMAP.md\"",
+          "    - \"duplicated architecture, roadmap, and changelog content\"",
+          "    - \"Contracts, ADR-011, HOL-Q10, and this handoff record the candidate and stop for maintainer review.\"",
+          "This checkpoint is subordinate to the authority order recorded in its front matter; it does not replace repository instructions, architecture, roadmaps, decisions, Git, or the work tracker.",
+          "- Success: Contracts, ADR-011, HOL-Q10, and this handoff record the candidate and stop for maintainer review.",
+          "- ADR-011 proposes the bounded adoption exception. HOL-Q10 remains active until maintainer acceptance. Existing continuity state and recovery are unchanged.",
+          "- `npm test` — passed at 2026-09-18T23:53:50Z. All 18 Repository Intelligence JavaScript tests passed.",
+          "- `Python compilation, JSON parsing, continuity/ADR profile validation, and git diff --check` — passed at 2026-09-18T23:53:50Z. tools/tests compile; all 39 catalog/example/schema JSON files parse; continuity and ADR profiles validate; whitespace checks pass."
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/validate.yml",
+        "relevant_lines": [
+          "- name: Validate the architecture-decision blueprint contract"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/hygiene",
+    "visibility": "public",
+    "revision": "b8d2c02368e40d4f6c2017bb1a22c6ec23323ad3",
+    "branch": "main",
+    "files": 166,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/hygiene",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/hygiene/",
+      "updated": "2026-08-25"
+    },
+    "roadmap_steps": 6,
+    "root_decisions": true,
+    "adr_files": [
+      "docs/decisions/ADR-0001-holistic-architecture-v0.1.md",
+      "docs/decisions/ADR-002-organization-adr-and-delivery-history.md",
+      "docs/decisions/ADR-003-route-filament-infrastructure-contracts.md",
+      "docs/decisions/ADR-004-register-sanctuary-incubation-boundary.md",
+      "docs/decisions/ADR-005-unify-repository-intelligence-projection.md",
+      "docs/decisions/ADR-006-repository-presentation-profile.md",
+      "docs/decisions/ADR-007-repository-release-baseline.md",
+      "docs/decisions/ADR-008-repository-continuity-policy.md",
+      "docs/decisions/ADR-009-agent-ready-web-profile-foundation.md",
+      "docs/decisions/ADR-010-agent-ready-web-discovery-representations.md",
+      "docs/decisions/ADR-011-agent-ready-web-guarded-capability-commerce.md",
+      "docs/decisions/ADR-012-agent-ready-web-integration-conformance.md",
+      "docs/decisions/ADR-013-public-site-surface-route-registry.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "3. Read the relevant accepted record under [`docs/decisions/`](docs/decisions/)."
+        ]
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  - Proposed Repository Intelligence alpha.2 coverage semantics, schema, reference validation, fixtures and compatibility migration.",
+          "  - docs/ecosystem/REPOSITORY_INTELLIGENCE_COVERAGE.md",
+          "  - docs/decisions/ADR-005-unify-repository-intelligence-projection.md",
+          "  - schemas/repository-intelligence.alpha2.schema.json",
+          "    notes: Catalog, generated views, context, continuity, profiles, boundaries, fixtures and ADR reference checks passed.",
+          "validator, eight synthetic fixtures, catalog pointer and ADR-005 amendment",
+          "Intelligence contract remains proposed."
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/athena",
+    "visibility": "public",
+    "revision": "75b4d48007a1747615220cfd0d1b5677e867b7bc",
+    "branch": "main",
+    "files": 10863,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/athena",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/athena/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/egohygiene.io",
+    "visibility": "public",
+    "revision": "d8cf7e8e1825de7241d5ccecb69685e17686a75d",
+    "branch": "main",
+    "files": 574,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/egohygiene.io",
+      "visibility": "public",
+      "publication": "canonical",
+      "route": "/roadmap/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [
+      "docs/architecture/decisions/0000-record-architecture-decisions.md",
+      "docs/architecture/decisions/0001-use-pnpm-workspaces.md",
+      "docs/architecture/decisions/0002-use-turborepo.md",
+      "docs/architecture/decisions/0003-design-token-architecture.md",
+      "docs/architecture/decisions/0004-adapt-fourthwall-for-local-store-preview.md",
+      "docs/architecture/decisions/0005-portable-store-domain.md",
+      "docs/architecture/decisions/0006-store-launch-direction.md",
+      "docs/architecture/decisions/0007-canonical-storefront-owner.md",
+      "docs/architecture/decisions/0008-curated-storefront-views.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "   [ADR index](docs/architecture/decisions/README.md),",
+          "[milestone backlog](docs/roadmaps/store-launch.md). On 2026-10-17 the maintainer",
+          "[ADR 0007](docs/architecture/decisions/0007-canonical-storefront-owner.md): the",
+          "[provenance ledger](docs/context/provenance.md). Record new durable decisions in",
+          "the ADR system and link them; do not copy their full text into this file."
+        ]
+      },
+      {
+        "path": "docs/context/current-state.md",
+        "intelligence_lines": [
+          "resuming; do not automatically start another roadmap item. Broader browser/device,",
+          "[ADR 0008 extension](../architecture/decisions/0008-curated-storefront-views.md).",
+          "[ADR 0008](../architecture/decisions/0008-curated-storefront-views.md).",
+          "start the next roadmap slice or add designs.",
+          "The maintainer authorized those merges and the first bounded roadmap task;",
+          "in the existing Store v1 milestone. No new roadmap parents or reparenting occurred.",
+          "[ADR 0007](../architecture/decisions/0007-canonical-storefront-owner.md).",
+          "[ADR 0006](../architecture/decisions/0006-store-launch-direction.md), and",
+          "[proposed milestone backlog](../roadmaps/store-launch.md) before resuming.",
+          "then a sync with proposed milestone/roadmap parent issues and sub-issues.",
+          "sub-issues and parent roadmap records, then sync again before execution.",
+          "   #36 still owns product presentation and #61/#38 provider decisions and"
+        ]
+      },
+      {
+        "path": "docs/context/README.md",
+        "intelligence_lines": [
+          "| Decisions and rationale | [ADR index](../architecture/decisions/README.md) and [high-level decisions](../../DECISIONS.md) |",
+          "| Website/store launch discussion | [Launch plan](../architecture/store-launch-plan.md), [ADR 0006](../architecture/decisions/0006-store-launch-direction.md), and [proposed milestone backlog](../roadmaps/store-launch.md) |",
+          "| Two-store ownership comparison | [Selected owner and preservation plan](../architecture/storefront-ownership.md), [ADR 0007](../architecture/decisions/0007-canonical-storefront-owner.md), issue #75 |",
+          "accepted decisions explain intended constraints; issues/PRs show live delivery",
+          "erase an older receipt or silently supersede an ADR.",
+          "4. Update the ADR index if a decision was recorded/superseded. Keep asset hashes,"
+        ]
+      },
+      {
+        "path": "docs/context/provenance.md",
+        "intelligence_lines": [
+          "| Store ownership and consolidation direction | [High-level ADR-004](../../DECISIONS.md#adr-004-consolidate-the-store-v1-website-and-use-hosted-checkout), [original architecture](../architecture/store-v1.md), [migration ledger](../migration/store-v1-consolidation.md) | The original ledger is a 2026-10-10 snapshot at website `524aa4c139e926ca549f6bef067fc9ed40d15afb`; do not treat its PR states or proposed migration work as current completion. |",
+          "| Existing Fourthwall preview decision | [Implementation ADR 0004](../architecture/decisions/0004-adapt-fourthwall-for-local-store-preview.md), present on main `1c635ea2af5b254c8cd1200f479585fd941b2c33` | The ADR pins the inspected upstream starter at `e571fffe4ab7b51fa08b7441055ca0e3d92a3eeb` and states that no implementation was copied. Provider facts were researched then; reverify before live qualification. |",
+          "| Portable store boundary and adapter | [Implementation ADR 0005](../architecture/decisions/0005-portable-store-domain.md), [draft PR #72](https://github.com/egohygiene/egohygiene.io/pull/72), implementation `08a092b1b576abf9c4b7ea182ec423a586ed5b34` | Decision recorded for the local checkpoint; delivery is still a draft PR. The alternate provider payload is fictional, not an external API contract. |",
+          "| Repository context layer | Maintainer request on 2026-10-13 to preserve agent instructions, ADRs, provenance and restart context; this documentation change in PR #72 | Task authorization is scoped to the requested update. No transcript, private Drive inventory or new operational authority is embedded here. |",
+          "both application repositories, including agent hooks, continuity and ADRs, before",
+          "returning with a proposed milestone and sub-issue roadmap. Issue/milestone",
+          "README/AGENTS/DECISIONS/domain-routing were read. Website PR #73 and store",
+          "accepted decisions and proposals. State coverage gaps such as an unavailable",
+          "roadmap task before the next sync. GitHub confirmed website #74 merged as",
+          "roadmap creation or native sub-issue reparenting was performed. The",
+          "conditions. [ADR 0007](../architecture/decisions/0007-canonical-storefront-owner.md)",
+          "and reciprocal store ADR-005 preserve earlier decisions and record the selected",
+          "review confirmed the comparison and fixed the reciprocal ADR-005 anchor.",
+          "canonical final merge receipt. ADR 0007's status now reflects acceptance.",
+          "[ADR 0008](../architecture/decisions/0008-curated-storefront-views.md) records the"
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/store",
+    "visibility": "public",
+    "revision": "13279f96491d3dad49d9d6ebf558404eccc8103f",
+    "branch": "main",
+    "files": 110,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/store",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/store/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "Consult [DECISIONS.md](DECISIONS.md) for durable decisions; dated conversation",
+          "decisions, actual validation, unresolved questions, and the next action. Do not"
+        ]
+      },
+      {
+        "path": "docs/context/current-state.md",
+        "intelligence_lines": [
+          "and [ADR-005](../../DECISIONS.md#adr-005-select-the-website-as-the-v1-storefront-owner).",
+          "[roadmap proposal](https://github.com/egohygiene/egohygiene.io/blob/ee59e2f83c59c084c23a5f8bcc3311c2dc830859/docs/roadmaps/store-launch.md)",
+          "   preservation inventory, successor ADRs, and cutover/rollback criteria.",
+          "   and mark the successor ADRs accepted without rewriting historical records."
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/mantle",
+    "visibility": "public",
+    "revision": "d1b2a4d77b823df4aa215d4e1a7b4dd9fad9c5ed",
+    "branch": "main",
+    "files": 455,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/mantle",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/mantle/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "This change implements the existing issue and DECISIONS.md boundaries: source",
+          "privileged startup behavior. It introduces no organization policy or ADR-history",
+          "ROADMAP.md; release and Aniflow qualification retain their separate upstream"
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/akashic",
+    "visibility": "public",
+    "revision": "3e647bebc8a44ed33789f5a3d2b0b286d1487775",
+    "branch": "main",
+    "files": 361,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/akashic",
+      "visibility": "public",
+      "publication": "composed",
+      "route": "/roadmap/",
+      "updated": "2026-09-22"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/pages.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "mode:",
+          "uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@04bd32c8ef492418f47d6df6faee425d6888f341",
+          "mode: ${{ github.event_name == 'pull_request' && fromJSON('[\"current\",\"rollback-v1.3\"]') || fromJSON(format('[\"{0}\"]', inputs.mode || 'current')) }}",
+          "deployment-mode: \"${{ steps.identity.outputs.deployment-mode }}\"",
+          "# egohygiene/relay repository-intelligence-deployment-provenance v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@04bd32c8ef492418f47d6df6faee425d6888f341",
+          "# egohygiene/relay repository-intelligence v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence@04bd32c8ef492418f47d6df6faee425d6888f341",
+          "# egohygiene/relay repository-intelligence v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence@04bd32c8ef492418f47d6df6faee425d6888f341",
+          "# egohygiene/relay repository-intelligence v1.3.0",
+          "uses: egohygiene/relay/actions/repository-intelligence@55587de4ff322931d401e964f5af0716633dd675",
+          "# egohygiene/relay repository-intelligence-deployment-provenance v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@04bd32c8ef492418f47d6df6faee425d6888f341",
+          "# egohygiene/relay repository-intelligence-deployment-provenance v1.6.0",
+          "uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@04bd32c8ef492418f47d6df6faee425d6888f341"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-intelligence-failure-evidence.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@04bd32c8ef492418f47d6df6faee425d6888f341"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-intelligence-gates.yml",
+        "relevant_lines": []
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/relay",
+    "visibility": "public",
+    "revision": "f19b65b3f8bd8466884dee5529fa77f2430440b6",
+    "branch": "main",
+    "files": 346,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/relay",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/relay/",
+      "updated": "2026-10-10"
+    },
+    "roadmap_steps": 16,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "   [`DECISIONS.md`](DECISIONS.md).",
+          "2. Read [`ROADMAP.md`](ROADMAP.md) and verify the active issue and pull-request",
+          "## Repository Intelligence evidence",
+          "Detailed procedures belong to the [action README](actions/repository-intelligence/README.md)",
+          "and [publication guide](docs/repository-intelligence-publication.md)."
+        ]
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  - New ADR dispositions, unrelated refactors, Brand Kit redesign, new route ownership and automatic fleet rollout.",
+          "  - DECISIONS.md",
+          "  - ROADMAP.md",
+          "  - actions/repository-intelligence/assets/site.css",
+          "  - actions/repository-intelligence/assets/site.js",
+          "  - tests/test_repository_intelligence_site.py",
+          "  - tests/browser/decisions_filter_regression.py",
+          "  - actions/repository-intelligence/README.md",
+          "  - docs/repository-intelligence-publication.md",
+          "  - docs/repository-adr-collector.md",
+          "  - actions/repository-intelligence/assets/egohygiene.png",
+          "  - actions/repository-intelligence/assets/github.svg",
+          "  - actions/repository-intelligence/scripts/generate_repository_intelligence_site.py",
+          "  - actions/repository-intelligence/scripts/generate_repository_intelligence_dashboard.py",
+          "  - actions/repository-intelligence/scripts/validate_repository_intelligence_bundle.py"
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/continuity-preflight-dogfood.yml",
+        "relevant_lines": [
+          "repository-id: \"egohygiene/relay\"",
+          "rollout-mode: \"observe\""
+        ]
+      },
+      {
+        "path": ".github/workflows/release.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "\"builder\": \"egohygiene/relay/.github/workflows/release.yml\",",
+          "\"creators\": [\"Tool: egohygiene/relay\"],"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-architecture-dogfood.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "group: \"relay-architecture-dogfood-${{ github.repository }}-${{ github.ref }}\"",
+          "uses: $/.github/workflows/repository-architecture-validation.yml",
+          "mode: \"${{ inputs.required-denial && 'required' || 'advisory' }}\"",
+          "adr-adoption: unknown"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-architecture-validation.yml",
+        "relevant_lines": [
+          "mode:",
+          "adr-adoption:",
+          "adr-policy:",
+          "group: \"relay-architecture-v1-${{ github.repository }}-${{ github.workflow_ref }}-${{ github.ref }}-${{ inputs.check-id }}\"",
+          "uses: $/actions/repository-architecture-validation/workflow-evidence",
+          "mode: \"${{ inputs.mode }}\"",
+          "adr-adoption: \"${{ inputs.adr-adoption }}\"",
+          "adr-policy: \"${{ inputs.adr-policy }}\"",
+          "path: relay-architecture-sources/hygiene",
+          "path: relay-architecture-sources/egolint",
+          "path: relay-architecture-sources/holon",
+          "uses: $/actions/repository-architecture-validation/workflow-evidence",
+          "uses: $/actions/repository-architecture-validation/workflow-evidence",
+          "uses: $/actions/repository-architecture-validation/workflow-evidence",
+          "uses: $/actions/repository-architecture-validation/workflow-evidence",
+          "uses: $/actions/repository-architecture-validation/workflow-evidence"
+        ]
+      },
+      {
+        "path": ".github/workflows/repository-intelligence.yml",
+        "relevant_lines": [
+          "collect-adrs:",
+          "observatory-snapshot:",
+          "workflow_dispatch:",
+          "collect-adrs:",
+          "observatory-snapshot:",
+          "collect-adrs: \"${{ inputs.collect-adrs }}\"",
+          "observatory-snapshot: \"${{ inputs.observatory-snapshot }}\"",
+          "collect-adrs: \"${{ inputs.collect-adrs }}\"",
+          "observatory-snapshot: \"${{ inputs.observatory-snapshot }}\"",
+          "source-commit: \"${{ github.sha }}\"",
+          "\"name\": \"egohygiene/relay/actions/repository-intelligence\",",
+          "collect-adrs: \"${{ inputs.collect-adrs }}\"",
+          "observatory-snapshot: \"${{ inputs.observatory-snapshot }}\""
+        ]
+      },
+      {
+        "path": ".github/workflows/validate.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "mode: manual",
+          "repository-id: egohygiene/relay",
+          "mode: blocking",
+          "[[ \"${EVIDENCE_ARTIFACT}\" =~ ^publication-pages-validation- ]]",
+          "[[ \"${REVIEW_ARTIFACT}\" =~ ^publication-pages-review- ]]"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/optiflow",
+    "visibility": "public",
+    "revision": "c5dbcd1761e810aea228389b8ba017acc97a411e",
+    "branch": "main",
+    "files": 283,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/optiflow",
+      "visibility": "public",
+      "publication": "composed",
+      "route": "/roadmap/",
+      "updated": "2026-09-26"
+    },
+    "roadmap_steps": 6,
+    "root_decisions": true,
+    "adr_files": [
+      "docs/decisions/ADR-0001-publication-stack.md"
+    ],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [
+      {
+        "path": ".github/workflows/pages.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/actions/repository-intelligence@1eada5142f7fc7da7862f335589e3b8f5884ffaf"
+        ]
+      },
+      {
+        "path": ".github/workflows/release.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "uses: egohygiene/relay/.github/workflows/release-artifact.yml@1eada5142f7fc7da7862f335589e3b8f5884ffaf  # v1.5.0"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/observatory",
+    "visibility": "public",
+    "revision": "f411b83398dd07aa3d5e6e2c89d1e8dfff746085",
+    "branch": "main",
+    "files": 80,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/observatory",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/observatory/",
+      "updated": "2026-08-25"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [
+      {
+        "path": ".github/workflows/ci.yml",
+        "relevant_lines": [
+          "workflow_dispatch:"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/flow",
+    "visibility": "public",
+    "revision": "af68afa5732a04c237df5fbeee6bc5e901a5c6fd",
+    "branch": "main",
+    "files": 429,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/flow",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/flow/",
+      "updated": "2026-09-25"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": false,
+    "adr_files": [
+      "docs/architecture/governance/decisions/ADR-0001-holonic-monorepo.md",
+      "docs/architecture/governance/decisions/ADR-0002-provenance-preserving-derivatives.md",
+      "docs/architecture/governance/decisions/ADR-0003-docs-first-initialization.md",
+      "docs/architecture/governance/decisions/ADR-0004-federated-suite-contracts.md",
+      "docs/architecture/governance/decisions/ADR-0005-federated-extension-authority.md",
+      "docs/architecture/governance/decisions/ADR-0006-bounded-process-transport.md",
+      "docs/architecture/governance/decisions/ADR-0007-root-confined-artifact-acceptance.md",
+      "docs/architecture/governance/decisions/ADR-0008-locked-execution-subjects.md",
+      "docs/architecture/governance/decisions/ADR-0009-process-authority-isolation.md",
+      "docs/architecture/governance/decisions/ADR-0010-bounded-direct-process-supervision.md",
+      "docs/architecture/governance/decisions/ADR-0011-durable-run-state.md",
+      "docs/architecture/governance/decisions/ADR-0012-fresh-graph-assessment.md",
+      "docs/architecture/governance/decisions/ADR-0013-optiflow-native-read-only-adapter.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "5. `docs/architecture/governance/DECISIONS.md`",
+          "6. The applicable horizon in `ROADMAP.md`",
+          "safety, contract, provenance, release, or workspace decisions. Keep pull"
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/filament",
+    "visibility": "public",
+    "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+    "branch": "main",
+    "files": 23,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/filament",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/filament/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": true,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/sanctuary",
+    "visibility": "public",
+    "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+    "branch": "main",
+    "files": 16,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/sanctuary",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/sanctuary/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": false,
+    "adr_files": [
+      "docs/decisions/ADR-0001-sanctuary-incubation-boundary.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "3. Read the relevant record under [`docs/decisions/`](docs/decisions/)."
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/civics",
+    "visibility": "public",
+    "revision": "c95596afc206e38b3c5b1f80a3ccbae46326daa8",
+    "branch": "main",
+    "files": 87,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/civics",
+      "visibility": "public",
+      "publication": "composed",
+      "route": "/roadmap/",
+      "updated": "2026-08-24"
+    },
+    "roadmap_steps": 5,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "egohygiene/antidote",
+    "visibility": "public",
+    "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+    "branch": "main",
+    "files": 363,
+    "roadmap": {
+      "schema": "hygiene.roadmap/v1alpha1",
+      "repository": "egohygiene/antidote",
+      "visibility": "public",
+      "publication": "central",
+      "route": "/roadmap/antidote/",
+      "updated": "2026-09-07"
+    },
+    "roadmap_steps": 11,
+    "root_decisions": true,
+    "adr_files": [
+      "docs/decisions/ADR-0001-research-ownership-and-beacon-consumption.md",
+      "docs/decisions/ADR-0002-standalone-publication-and-pages.md",
+      "docs/decisions/ADR-0003-publication-hub-and-planned-slots.md",
+      "docs/decisions/ADR-0004-local-first-desktop-and-model-worker.md",
+      "docs/decisions/ADR-0005-consent-scoped-working-context.md",
+      "docs/decisions/ADR-0006-adaptation-maturity-ladder.md",
+      "docs/decisions/ADR-0007-event-and-provenance-record.md",
+      "docs/decisions/ADR-0008-holon-site-suite-adoption.md"
+    ],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "- `DECISIONS.md` and the relevant record under `docs/decisions/`;",
+          "When a durable boundary changes, update the owning architecture document or ADR,",
+          "its downstream links, relevant schemas, tests, roadmap evidence, and"
+        ]
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "architecture corpus, governed research records, the roadmaps, or live GitHub",
+          "  copy, citation metadata, manuscript contract `0.6.0`, roadmaps, availability",
+          "  Pages staging passes route, fragment, manifest, checksum, and repeated-tree",
+          "- the next dependency-ready issue and any roadmap-order change."
+        ]
+      }
+    ],
+    "workflows": [
+      {
+        "path": ".github/workflows/repository-intelligence.yml",
+        "relevant_lines": [
+          "workflow_dispatch:",
+          "# egohygiene/relay repository-intelligence v1.1.0",
+          "uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@46cf1d66a7e66ca5a35d2c99cbaed5ccfb67573f"
+        ]
+      }
+    ],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "incomprisllc/.github",
+    "visibility": "public",
+    "revision": "e32f5d8182c1e384329eb5bc1d5430bb28b67d89",
+    "branch": "main",
+    "files": 5,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "incomprisllc/anime",
+    "visibility": "public",
+    "revision": "d18ae85300290bb6eb13582ae94adce4cae5ca6d",
+    "branch": "main",
+    "files": 3,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "incomprisllc/reverie",
+    "visibility": "public",
+    "revision": "061db7ff8bb5ba9b34ccfc4a700b68087772666b",
+    "branch": "main",
+    "files": 2,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/OpenAI-Retro-SuperMarioWorld-SNES",
+    "visibility": "public",
+    "revision": "9c616309a29d174a65a68ef7dceb751db6d22a43",
+    "branch": "master",
+    "files": 6,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/Pong",
+    "visibility": "public",
+    "revision": "0c0742f48feba3c609257fe7a79ec5cf188a2705",
+    "branch": "master",
+    "files": 208,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/szmyty",
+    "visibility": "public",
+    "revision": "a4f08e9586ac898c00ad266ee0d5abfe79e84e4c",
+    "branch": "master",
+    "files": 262,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": [
+          "│   ├── MIGRATION.md              # Staged-material decisions ledger",
+          "│   ├── ROADMAP.md                # Completed work, deferred decisions",
+          "│   ├── adr/                      # Architecture decision records"
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/visionlog",
+    "visibility": "public",
+    "revision": "1bd8c9714366c65a8d7385976fc6b2fe36ca0333",
+    "branch": "master",
+    "files": 33,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/ratingthumb",
+    "visibility": "public",
+    "revision": "fd91ed0e72fff4ad940531687105c117ff64340b",
+    "branch": "master",
+    "files": 18,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/theatre",
+    "visibility": "public",
+    "revision": "c26aa7483d64ea4415f0d12e8a909a8b7d3a2558",
+    "branch": "master",
+    "files": 65,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/.github",
+    "visibility": "public",
+    "revision": "918acc9d947e47741a76ba73abcb459f3ccbed30",
+    "branch": "master",
+    "files": 3,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/portfolio",
+    "visibility": "public",
+    "revision": "a7a372e18bbffd11d8cdd3e882c8977ebef506d8",
+    "branch": "master",
+    "files": 420,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/obsgod",
+    "visibility": "public",
+    "revision": "d0268d13381b463f5950d202917f437a6288a3e4",
+    "branch": "master",
+    "files": 33,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/resume",
+    "visibility": "public",
+    "revision": "f79c74ffbcdb3913dafc895a2973346bb42d48cc",
+    "branch": "main",
+    "files": 49,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      },
+      {
+        "path": "CONTINUITY.md",
+        "intelligence_lines": [
+          "  - docs/roadmap/issue-25-checkpoint-1.md",
+          "[Issue #25](https://github.com/szmyty/resume/issues/25) remains open. [PR #29](https://github.com/szmyty/resume/pull/29) documents checkpoint 1: the [publisher inventory](docs/roadmap/issue-25-checkpoint-1.md) and [versioned review-to-projection contract](specs/source-projection-contract.v1.md). It changes no claim, renderer, contact policy, or PDF. Review and merge that PR before checking the first roadmap box. Checkpoints 2–6 remain open."
+        ]
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/pokescan",
+    "visibility": "public",
+    "revision": "032af68aa93527f04152694e4af847965e87de47",
+    "branch": "master",
+    "files": 6,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  },
+  {
+    "repository": "szmyty/scout",
+    "visibility": "public",
+    "revision": "fc3ecc5010c9cc610ca2b83af1ec2aeb2a3c0d6d",
+    "branch": "master",
+    "files": 43,
+    "roadmap": {},
+    "roadmap_steps": 0,
+    "root_decisions": false,
+    "adr_files": [],
+    "policy_references": {},
+    "guidance": [
+      {
+        "path": "AGENTS.md",
+        "intelligence_lines": []
+      }
+    ],
+    "workflows": [],
+    "staging_files": 0,
+    "access": "source-inspected"
+  }
+]

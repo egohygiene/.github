@@ -1,0 +1,510 @@
+[
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:21.613858+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/",
+    "bytes": 10644,
+    "sha256": "e996fb9c0930293ddd5e5a856f01f713d03d9164001a92ea08254210c2dd11a2",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Intelligence · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:21.614352+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/provenance.json",
+    "bytes": 11931,
+    "sha256": "bcd01c62cd2aac5684d98af9f7dd36a9d35814375582e0dc1b0e7581fe0a8162"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/summary.json",
+    "path": "/intelligence/summary.json",
+    "observed_at": "2026-10-18T13:32:21.614912+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/summary.json",
+    "bytes": 14766,
+    "sha256": "0410b264c44b623dfa149c49d535640aff4bb03eb5994cfba05f1b649b7d026e"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/build-manifest.json",
+    "path": "/intelligence/build-manifest.json",
+    "observed_at": "2026-10-18T13:32:21.615391+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/build-manifest.json",
+    "bytes": 5450,
+    "sha256": "e5fd09fce2015dca9ee917de12afa12743cd600d19cca60eb5350219c8a1d01e"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/roadmap/",
+    "path": "/intelligence/roadmap/",
+    "observed_at": "2026-10-18T13:32:21.616113+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/roadmap/",
+    "bytes": 7059,
+    "sha256": "8636a11a07a7b0e97d2673d01935fde6deb234b8645996d67aba30ea162c2f85",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Roadmap · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/decisions/",
+    "path": "/intelligence/decisions/",
+    "observed_at": "2026-10-18T13:32:21.617380+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/decisions/",
+    "bytes": 114471,
+    "sha256": "bcb1453f254e9d5a11842a6ca4c2110741871082ff1d111ee92ea515b533f1b8",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Decisions · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/now/",
+    "path": "/intelligence/now/",
+    "observed_at": "2026-10-18T13:32:21.618676+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/now/",
+    "bytes": 12136,
+    "sha256": "47a92212740cac9fe491a0151ee56abc6cae6a070c9062291426b77302db0920",
+    "states": [
+      "stale",
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Now · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/journey/",
+    "path": "/intelligence/journey/",
+    "observed_at": "2026-10-18T13:32:21.619711+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/journey/",
+    "bytes": 7098,
+    "sha256": "b7e514cec1b61397212ab0ca4855c79e4a1c0e6f75e4aa40cd168ecec6bf4455",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Journey · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/dependencies/",
+    "path": "/intelligence/dependencies/",
+    "observed_at": "2026-10-18T13:32:21.621060+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/dependencies/",
+    "bytes": 7628,
+    "sha256": "0644b53b14e5c16e8e30b756a8516968cb7df7fe2964851b81e2a3c0041cef67",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Dependencies · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/work/",
+    "path": "/intelligence/work/",
+    "observed_at": "2026-10-18T13:32:21.623965+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/work/",
+    "bytes": 7247,
+    "sha256": "ff87461792404c0c65eb7eb92f108ccdb7a25eecb4d4271fe41941f1510e3ab2",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Work · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/health/",
+    "path": "/intelligence/health/",
+    "observed_at": "2026-10-18T13:32:26.125208+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/health/",
+    "bytes": 10099,
+    "sha256": "5a7d2a2c6dfbcb1acccd3f29314a806778de49513315fe521e99ca1be39cf69c",
+    "states": [
+      "stale",
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Health · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/search/",
+    "path": "/intelligence/search/",
+    "observed_at": "2026-10-18T13:32:26.126525+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/search/",
+    "bytes": 37567,
+    "sha256": "b6fc425ad66ea8f85a431d98c34d971281d6066f3788182adf8246fd62385756",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Search · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/compare/",
+    "path": "/intelligence/compare/",
+    "observed_at": "2026-10-18T13:32:26.188971+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/compare/",
+    "bytes": 6880,
+    "sha256": "2cff3ab014bf52f96ff079c50daabf1464a57c45b12f0d6c0086b37b3723fc5f",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Compare · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/intelligence/releases/",
+    "path": "/intelligence/releases/",
+    "observed_at": "2026-10-18T13:32:26.239312+00:00",
+    "status": 200,
+    "url_resolved": "https://identity.egohygiene.io/intelligence/releases/",
+    "bytes": 7200,
+    "sha256": "d4560dacb1b7ea6c530a3bb77ae7b4df7527498e16fd9b5c61821c2493846dd7",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Releases · egohygiene/identity · Repository Intelligence"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:26.251564+00:00",
+    "status": 200,
+    "url_resolved": "https://akashic.egohygiene.io/intelligence/",
+    "bytes": 9539,
+    "sha256": "04e55ed45cb91b0463ce9af7dd6d6f3a3a503fe413d21d0c323be30c245d3f00",
+    "states": [
+      "unavailable",
+      "unknown"
+    ],
+    "title": "Intelligence · egohygiene/akashic · Repository Intelligence"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:26.267338+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/summary.json",
+    "path": "/intelligence/summary.json",
+    "observed_at": "2026-10-18T13:32:26.268367+00:00",
+    "status": 200,
+    "url_resolved": "https://akashic.egohygiene.io/intelligence/summary.json",
+    "bytes": 13532,
+    "sha256": "e31b94feac5f59b22439d03fcf9897091b9de2c12599422a92baea4aeca374a1"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/build-manifest.json",
+    "path": "/intelligence/build-manifest.json",
+    "observed_at": "2026-10-18T13:32:26.272698+00:00",
+    "status": 200,
+    "url_resolved": "https://akashic.egohygiene.io/intelligence/build-manifest.json",
+    "bytes": 5113,
+    "sha256": "ad66da5c59a3cd8a261dd7c463960cde66567f8bb2459becd4881f26daf765a7"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/roadmap/",
+    "path": "/intelligence/roadmap/",
+    "observed_at": "2026-10-18T13:32:26.336001+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/decisions/",
+    "path": "/intelligence/decisions/",
+    "observed_at": "2026-10-18T13:32:26.383368+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/now/",
+    "path": "/intelligence/now/",
+    "observed_at": "2026-10-18T13:32:29.880868+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/journey/",
+    "path": "/intelligence/journey/",
+    "observed_at": "2026-10-18T13:32:29.881553+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/dependencies/",
+    "path": "/intelligence/dependencies/",
+    "observed_at": "2026-10-18T13:32:30.340698+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/work/",
+    "path": "/intelligence/work/",
+    "observed_at": "2026-10-18T13:32:30.341484+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/health/",
+    "path": "/intelligence/health/",
+    "observed_at": "2026-10-18T13:32:30.536803+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/search/",
+    "path": "/intelligence/search/",
+    "observed_at": "2026-10-18T13:32:30.553262+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/compare/",
+    "path": "/intelligence/compare/",
+    "observed_at": "2026-10-18T13:32:30.554166+00:00"
+  },
+  {
+    "consumer": "akashic",
+    "url": "https://akashic.egohygiene.io/intelligence/releases/",
+    "path": "/intelligence/releases/",
+    "observed_at": "2026-10-18T13:32:30.593768+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:30.594788+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:30.595223+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/summary.json",
+    "path": "/intelligence/summary.json",
+    "observed_at": "2026-10-18T13:32:30.596605+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/build-manifest.json",
+    "path": "/intelligence/build-manifest.json",
+    "observed_at": "2026-10-18T13:32:30.597010+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/roadmap/",
+    "path": "/intelligence/roadmap/",
+    "observed_at": "2026-10-18T13:32:30.597446+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/decisions/",
+    "path": "/intelligence/decisions/",
+    "observed_at": "2026-10-18T13:32:30.598338+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/now/",
+    "path": "/intelligence/now/",
+    "observed_at": "2026-10-18T13:32:30.598867+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/journey/",
+    "path": "/intelligence/journey/",
+    "observed_at": "2026-10-18T13:32:30.599105+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/dependencies/",
+    "path": "/intelligence/dependencies/",
+    "observed_at": "2026-10-18T13:32:30.599377+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/work/",
+    "path": "/intelligence/work/",
+    "observed_at": "2026-10-18T13:32:30.599663+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/health/",
+    "path": "/intelligence/health/",
+    "observed_at": "2026-10-18T13:32:30.600136+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/search/",
+    "path": "/intelligence/search/",
+    "observed_at": "2026-10-18T13:32:30.600337+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/compare/",
+    "path": "/intelligence/compare/",
+    "observed_at": "2026-10-18T13:32:30.600987+00:00"
+  },
+  {
+    "consumer": "empathy",
+    "url": "https://egohygiene.github.io/empathy/intelligence/releases/",
+    "path": "/intelligence/releases/",
+    "observed_at": "2026-10-18T13:32:30.601660+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:30.602210+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:30.602391+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/summary.json",
+    "path": "/intelligence/summary.json",
+    "observed_at": "2026-10-18T13:32:30.602570+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/build-manifest.json",
+    "path": "/intelligence/build-manifest.json",
+    "observed_at": "2026-10-18T13:32:30.602894+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/roadmap/",
+    "path": "/intelligence/roadmap/",
+    "observed_at": "2026-10-18T13:32:30.603143+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/decisions/",
+    "path": "/intelligence/decisions/",
+    "observed_at": "2026-10-18T13:32:30.603928+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/now/",
+    "path": "/intelligence/now/",
+    "observed_at": "2026-10-18T13:32:30.604349+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/journey/",
+    "path": "/intelligence/journey/",
+    "observed_at": "2026-10-18T13:32:30.604715+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/dependencies/",
+    "path": "/intelligence/dependencies/",
+    "observed_at": "2026-10-18T13:32:30.605115+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/work/",
+    "path": "/intelligence/work/",
+    "observed_at": "2026-10-18T13:32:30.605358+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/health/",
+    "path": "/intelligence/health/",
+    "observed_at": "2026-10-18T13:32:30.605569+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/search/",
+    "path": "/intelligence/search/",
+    "observed_at": "2026-10-18T13:32:30.606376+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/compare/",
+    "path": "/intelligence/compare/",
+    "observed_at": "2026-10-18T13:32:30.606977+00:00"
+  },
+  {
+    "consumer": "optiflow",
+    "url": "https://optiflow.egohygiene.io/intelligence/releases/",
+    "path": "/intelligence/releases/",
+    "observed_at": "2026-10-18T13:32:30.607476+00:00"
+  },
+  {
+    "consumer": "antidote",
+    "url": "https://antidote.egohygiene.io/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:30.608074+00:00"
+  },
+  {
+    "consumer": "antidote",
+    "url": "https://antidote.egohygiene.io/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:30.608308+00:00"
+  },
+  {
+    "consumer": "organization",
+    "url": "https://egohygiene.io/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:30.608727+00:00"
+  },
+  {
+    "consumer": "organization",
+    "url": "https://egohygiene.io/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:30.608979+00:00"
+  },
+  {
+    "consumer": "relay",
+    "url": "https://egohygiene.github.io/relay/intelligence/",
+    "path": "/intelligence/",
+    "observed_at": "2026-10-18T13:32:30.609620+00:00"
+  },
+  {
+    "consumer": "relay",
+    "url": "https://egohygiene.github.io/relay/intelligence/provenance.json",
+    "path": "/intelligence/provenance.json",
+    "observed_at": "2026-10-18T13:32:30.610207+00:00"
+  },
+  {
+    "consumer": "identity",
+    "url": "https://identity.egohygiene.io/decisions/",
+    "path": "/decisions/",
+    "observed_at": "2026-10-18T13:32:30.610494+00:00"
+  }
+]
