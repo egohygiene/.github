@@ -166,7 +166,7 @@ issues: []
 
 **Current evidence:**
 
-- [Local ADR-001](DECISIONS.md) and accepted
+- [Local ADR-0001](DECISIONS.md) and accepted
   [Hygiene ADR-0001](https://github.com/egohygiene/hygiene/blob/main/docs/decisions/ADR-0001-holistic-architecture-v0.1.md)
   assign ecosystem architecture and the repository catalog to Hygiene.
 - [Organization #42](https://github.com/egohygiene/.github/issues/42) proposes a

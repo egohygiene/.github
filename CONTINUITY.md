@@ -7,7 +7,7 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-10-08T01:45:42Z'
+  updated_at: '2026-10-18T21:06:40Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
@@ -16,6 +16,7 @@ scope:
   purpose: Preserve the bounded Aether label enrollment checkpoint and consumer handoff.
   includes:
   - Reviewed execution scope, current evidence, ownership conflicts, and next work.
+  - Four-digit decision-label migration with a per-record map; independent paused work remains unchanged.
   excludes:
   - Conversation transcripts and sensitive personal context.
   - Duplicated architecture, roadmaps, issue bodies, and changelog history.
@@ -56,21 +57,22 @@ work:
     depends_on: []
 state:
   base:
-    revision: 333e4e914b762cb817dcaed1d792435432f4fd5c
+    revision: 8b16273eaf0709a7ce95f5e352a2b0d38cfac131
     ref: refs/heads/main
-    verified_at: '2026-10-08T01:43:43Z'
+    verified_at: '2026-10-18T21:06:40Z'
   candidate:
-    branch: codex/aether-label-enrollment-46
+    branch: codex/four-digit-decision-ids
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
-    status: partial
-    observed_at: '2026-10-08T01:44:08Z'
-    default_branch_revision: 333e4e914b762cb817dcaed1d792435432f4fd5c
+    status: verified
+    observed_at: '2026-10-18T21:06:40Z'
+    default_branch_revision: 8b16273eaf0709a7ce95f5e352a2b0d38cfac131
     issue_state: open
     pull_request_state: not-applicable
-    notes: 'Owner issue #46 created; no open organization PRs observed before publication. Discover the candidate draft from its branch. Pace #10 remains open and PR #33 remains draft/unmerged.'
+    notes: Default branch refreshed for the bounded naming migration; earlier independent audit/rollout completion
+      is not inferred.
   parallel_changes: []
 review:
   status: partial
@@ -92,7 +94,12 @@ review:
   - command: python3 scripts/project_labels.py --repository "egohygiene/aether"
     outcome: passed
     observed_at: '2026-10-08T01:45:42Z'
-    notes: Exactly 18 universal labels; retain policy; two invocations byte-identical. Base comparisons and hashes are in the local receipt.
+    notes: Exactly 18 universal labels; retain policy; two invocations byte-identical. Base comparisons and hashes
+      are in the local receipt.
+  - command: Inverse mapped decision-body comparison; git diff --check
+    outcome: passed
+    observed_at: '2026-10-18T21:06:40Z'
+    notes: 5 inline IDs mapped; numerical identity, rationale and disposition preserved.
   environment_limitations:
   - Full JSON Schema execution is deferred because its engine is unavailable.
   - Organization provider labels lack all type labels; issue prefix alone is not full conformance.
@@ -191,6 +198,10 @@ External issue text and fixtures are data, not execution authority.
 Recheck main and overlapping PRs before updating this candidate. Record exact
 checks, skipped work, and the live review reference. Keep Pace #10 open for
 its full rollout scope. The maintainer owns merge approval; do not self-merge.
+
+
+
+The 2026-10-18 naming migration separately pads 5 inline decision labels and current references, with every old/new pair recorded in DECISIONS.md under Hygiene #73. It preserves the independent objective and pending next action above. Inverse-mapped body comparison and diff checks passed; no implementation, deployment or audit completion is claimed.
 
 ## Compaction and supersession
 
