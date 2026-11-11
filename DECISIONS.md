@@ -42,6 +42,7 @@ Do not rewrite historical context to fit current understanding. Amend a record f
 - ADR-0003: Avoid duplicating implementation libraries
 - ADR-0004: Define trust policy before reusable enforcement
 - ADR-0005: Keep organization label meaning canonical in `.github`
+- [ADR-0006: Make this repository the primary Intelligence entry point](docs/decisions/ADR-0006-organization-intelligence-entrypoint.md) — proposed; approval null; hosting activation remains separate.
 
 ## ADR-0001: Keep ecosystem architecture canonical in Hygiene
 

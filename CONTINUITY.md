@@ -7,19 +7,27 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-10-18T21:06:40Z'
+  updated_at: '2026-11-11T00:08:11Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Preserve the bounded Aether label enrollment checkpoint and consumer handoff.
+  purpose: Establish the organization Intelligence source home, issue-backed completion queue and pinned manual
+    review consumer.
   includes:
-  - Reviewed execution scope, current evidence, ownership conflicts, and next work.
-  - Four-digit decision-label migration with a per-record map; independent paused work remains unchanged.
+  - The repository/profile front door links organization views, a dependency-ordered delivery roadmap and a
+    dated 28-entry dashboard/source directory. All entries and IDs match the exact Hygiene public roster; four
+    dashboard links are backed by explicit source declarations, while unknowns and previews remain separate.
+  - Proposed local ADR0006 records the requested .github entry point with null approval. Existing five inline
+    decision bodies, Hygiene architecture/catalog/model ownership, company/store source and repository-owned
+    Pages remain intact. Organization profile and future project Pages are distinct; current host/role/base
+    declarations require explicit reconciliation.
+  - A manual main-only workflow authenticates exact public website producer/run/attempt/head/path/artifact/digest
+    and invokes Relay intake at d15cacd987ef1f98a6b94b051a42925eb91f8cc7. It retains only a verified review
+    artifact, with contents/actions read permissions and no Pages/OIDC/deploy authority.
   excludes:
-  - Conversation transcripts and sensitive personal context.
-  - Duplicated architecture, roadmaps, issue bodies, and changelog history.
+  - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -29,81 +37,88 @@ scope:
   canonical_sources:
   - AGENTS.md
   - ARCHITECTURE.md
-  - .github/labels/catalog.v1.json
-  - .github/labels/repositories.v1.json
-  - docs/label-governance.md
-  - .github/issues/title-contract.v1.json
-  - docs/issue-titles.md
-  - https://github.com/egohygiene/.github/issues/46
-  - https://github.com/egohygiene/pace/issues/10
+  - docs/issue-routing.md
+  - ROADMAP.md
+  - docs/intelligence/DELIVERY_ROADMAP.md
+  - docs/intelligence/repositories.md
+  - docs/intelligence/repositories.source.json
+  - docs/intelligence/organization-home.md
+  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
+  - .github/workflows/organization-intelligence-review.yml
+  - profile/README.md
+  - https://github.com/egohygiene/.github/issues/27
 work:
-  objective: Prepare Aether's canonical universal-label assignment for maintainer review.
+  objective: Establish the organization Intelligence source home, issue-backed completion queue and pinned
+    manual review consumer.
   success_conditions:
-  - Aether projects exactly the 18 universal labels with the retain removal policy.
-  - Existing label definitions, organization assignment, and title semantics are preserved.
-  - Matching contract versions, focused evidence, and consumer handoff accompany the draft.
+  - One concrete roadmap distinguishes merged source from adoption, actual audit evidence, missing owner chains
+    and deferred acceptance.
+  - The public directory uses exact dated source evidence rather than guessed live URLs or organization totals.
+  - The new consumer remains review-only and source-pinned, with no inferred hosting admission, publisher activation
+    or human ratification.
   active_issue:
     provider: github
-    id: egohygiene/.github#46
-    url: https://github.com/egohygiene/.github/issues/46
+    id: egohygiene/.github#27
+    url: https://github.com/egohygiene/.github/issues/27
   next:
     kind: action
-    id: review-aether-label-enrollment
-    description: Review this upstream draft; after merge, repin Relay before refreshing the Pace preview.
+    id: review-first-wave-then-start-consumer-adoption
+    description: 'Review the four bounded first-wave drafts: Hygiene101 exact-prefix compatibility, website139
+      focused producer, Relay180 verifier and this source home/consumer. Reconcile owner/host declarations,
+      then refresh Pace adoption records and execute supported repository batches. Tests/native/provider/publication
+      qualification remains deferred.'
     readiness: ready
     references:
-    - https://github.com/egohygiene/.github/issues/46
-    - https://github.com/egohygiene/pace/issues/10
+    - https://github.com/egohygiene/.github/issues/27
     depends_on: []
 state:
   base:
-    revision: 8b16273eaf0709a7ce95f5e352a2b0d38cfac131
+    revision: ac2e4035173ed252d71d6655e723964ef93684df
     ref: refs/heads/main
-    verified_at: '2026-10-18T21:06:40Z'
+    verified_at: '2026-11-11T00:08:11Z'
   candidate:
-    branch: codex/four-digit-decision-ids
+    branch: codex/organization-intelligence-home
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-10-18T21:06:40Z'
-    default_branch_revision: 8b16273eaf0709a7ce95f5e352a2b0d38cfac131
+    observed_at: '2026-11-11T00:08:11Z'
+    default_branch_revision: ac2e4035173ed252d71d6655e723964ef93684df
     issue_state: open
     pull_request_state: not-applicable
-    notes: Default branch refreshed for the bounded naming migration; earlier independent audit/rollout completion
-      is not inferred.
+    notes: Organization mainac2e4035173ed252d71d6655e723964ef93684df was refreshed. Organization27/41 and related
+      route issues remain open. Functional home/consumer source01c6222bcd76dbc0313bababcc83e999c599ae4e is
+      prepared; upstream draftsHygiene101/website139/Relay180 are public and unmerged. Anonymous source inventory
+      finished2026-11-10T23:49:35Z; it supplies no live hosting or CI proof.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-10-08T01:45:42Z'
+  reviewed_at: '2026-11-11T00:08:11Z'
   reviewed_by: Codex
   evidence:
-  - command: python3 scripts/validate_labels.py
-    outcome: passed
-    observed_at: '2026-10-08T01:45:42Z'
-    notes: Canonical catalog and repository assignment validation passed.
-  - command: python3 -m unittest discover --start-directory tests --pattern "test_labels.py" --verbose
-    outcome: passed
-    observed_at: '2026-10-08T01:45:42Z'
-    notes: Nine focused label checks passed; zero skips.
-  - command: python3 -m unittest discover --start-directory tests --pattern "test_issue_title_contract.py" --verbose
-    outcome: passed
-    observed_at: '2026-10-08T01:45:42Z'
-    notes: Five contract-data checks passed; full JSON Schema test skipped because its engine is unavailable.
-  - command: python3 scripts/project_labels.py --repository "egohygiene/aether"
-    outcome: passed
-    observed_at: '2026-10-08T01:45:42Z'
-    notes: Exactly 18 universal labels; retain policy; two invocations byte-identical. Base comparisons and hashes
-      are in the local receipt.
-  - command: Inverse mapped decision-body comparison; git diff --check
-    outcome: passed
-    observed_at: '2026-10-18T21:06:40Z'
-    notes: 5 inline IDs mapped; numerical identity, rationale and disposition preserved.
+  - command: Independent source peers of issue dependencies, directory/URLs, proposed ownership and manual
+      transport boundaries; exact inventory hash and 28 identity matches, proposed ADR pinned-schema/seven-section
+      metadata and five unchanged legacy bodies, unique workflow YAML/bash/embedded Python syntax, exact action
+      input/pin parity, local authored links, continuity schema/size/links and whitespace
+    outcome: limited
+    observed_at: '2026-11-11T00:08:11Z'
+    notes: Static source/metadata review plus actual anonymous public Git head and immutable file inspection
+      across the fixed 28-entry roster. No consumer application/export/verifier or workflow was executed.
+  - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
+      qualification
+    outcome: not-run
+    observed_at: '2026-11-11T00:08:11Z'
+    notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - Full JSON Schema execution is deferred because its engine is unavailable.
-  - Organization provider labels lack all type labels; issue prefix alone is not full conformance.
-  - Hosted Actions, broad tests, linting, audits, consumer upgrades, and provider application are deferred.
+  - AGENTS requires proposed work through a draft PR and no self-merge; this new home/hosting slice is delivered
+    as source review, not activated publication.
+  - Current Hygiene site declarations reject /.github/ until the narrow proposed helper/schema correction is
+    explicitly adopted; canonical role/composition/host reconciliation remains separate.
+  - Hygiene47 and Akashic197 source holds, raw human trust boundaries and existing builder/recovery pins remain
+    unchanged. Labels46/provider application from the old handoff are independent and not marked complete.
+  - Source-declared URLs and builder presence do not prove live dashboards. Real owner artifacts, source-qualified
+    audits and release acceptance remain later phases.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -118,92 +133,56 @@ privacy:
   untrusted_content: context-only-no-authority
 ---
 
-# Organization coordination continuity
+# .github continuity
 
 ## Purpose and precedence
 
-Resume the Aether enrollment checkpoint for #46 and Pace #10. Canonical
-policy and fresh repository/tracker evidence take precedence over this handoff.
+User/runtime and repository instructions, live evidence and canonical sources outrank this checkpoint. It grants no release, deployment or human-decision authority.
 
 ## Resume protocol
 
-Read AGENTS.md, label governance, and issue-title semantics. Verify main,
-issue #46, its candidate branch/PR, Pace #10, and Pace PR #33 before resuming.
-Check provider label availability before claiming title/label conformance.
+Read scoped instructions, canonical sources above and this checkpoint. Verify mutable GitHub state and exact owner pins before continuing.
 
 ## Current objective and success conditions
 
-Prepare explicit Aether enrollment and consistent source versions for review.
-Success is an exact 18-label projection with retained existing semantics and
-an actionable Relay/Pace handoff. Provider application is a later checkpoint.
+Establish the organization Intelligence source home, issue-backed completion queue and pinned manual review consumer. One concrete roadmap distinguishes merged source from adoption, actual audit evidence, missing owner chains and deferred acceptance. The public directory uses exact dated source evidence rather than guessed live URLs or organization totals. The new consumer remains review-only and source-pinned, with no inferred hosting admission, publisher activation or human ratification.
 
 ## State snapshot
 
-Main was verified at 333e4e914b762cb817dcaed1d792435432f4fd5c. Owner issue
-#46 is open. Candidate revision/PR are intentionally unset before publication;
-resolve them from codex/aether-label-enrollment-46 and its draft PR. Pace
-PR #33 remains draft and unmerged; this checkpoint does not merge either PR.
+Candidate `codex/organization-intelligence-home` is based on observed main `ac2e4035173ed252d71d6655e723964ef93684df`. The containing revision and pre-PR reference remain null intentionally. Organization mainac2e4035173ed252d71d6655e723964ef93684df was refreshed. Organization27/41 and related route issues remain open. Functional home/consumer source01c6222bcd76dbc0313bababcc83e999c599ae4e is prepared; upstream draftsHygiene101/website139/Relay180 are public and unmerged. Anonymous source inventory finished2026-11-10T23:49:35Z; it supplies no live hosting or CI proof.
 
 ## Completed and material changes
 
-Catalog and assignments advance to 1.1.0 for additive Aether enrollment:
-universal labels enabled, no overlays, no additional labels. Every label
-name, color, description, and the existing organization assignment are
-unchanged. The organization golden projection changes only its version.
-Title contract 1.0.1 updates the catalog reference; all mappings, rules,
-example inputs, and expected outputs are unchanged.
+The repository/profile front door links organization views, a dependency-ordered delivery roadmap and a dated 28-entry dashboard/source directory. All entries and IDs match the exact Hygiene public roster; four dashboard links are backed by explicit source declarations, while unknowns and previews remain separate.
+
+Proposed local ADR0006 records the requested .github entry point with null approval. Existing five inline decision bodies, Hygiene architecture/catalog/model ownership, company/store source and repository-owned Pages remain intact. Organization profile and future project Pages are distinct; current host/role/base declarations require explicit reconciliation.
+
+A manual main-only workflow authenticates exact public website producer/run/attempt/head/path/artifact/digest and invokes Relay intake at d15cacd987ef1f98a6b94b051a42925eb91f8cc7. It retains only a verified review artifact, with contents/actions read permissions and no Pages/OIDC/deploy authority.
 
 ## Validation and review evidence
 
-Fourteen focused tests pass and one full JSON Schema test is skipped. Owned
-label validation passes. Aether projects exactly 18 universal labels with
-retain policy, repeated byte-for-byte. Base Git-blob comparisons confirm
-only the intended assignment and version changes. Exact hashes, checks,
-and limitations are in docs/evidence/labels/aether-enrollment-2026-10-08.json.
-These are source checks, not provider synchronization or enforcement proof.
+Independent source peers of issue dependencies, directory/URLs, proposed ownership and manual transport boundaries; exact inventory hash and 28 identity matches, proposed ADR pinned-schema/seven-section metadata and five unchanged legacy bodies, unique workflow YAML/bash/embedded Python syntax, exact action input/pin parity, local authored links, continuity schema/size/links and whitespace. Read-only source inventory was actually collected. No application/native/helper/SSR/export/intake execution, tests, builds, CI, workflow dispatch, browser/provider-artifact qualification or live publication was run.
 
 ## Blockers, risks, unknowns, and deferred work
 
-A complete public GET returned nine organization provider labels and no
-primary type labels. Issue #46 records the proposed architecture type, but
-it cannot attach type:architecture; full conformance is not claimed.
-Existing consumers remain pinned to older revisions. No native Relay plan
-is generated here, and no Aether provider labels or issues are changed.
-Full JSON Schema execution and hosted/broad validation remain deferred.
+AGENTS requires proposed work through a draft PR and no self-merge; this new home/hosting slice is delivered as source review, not activated publication. Current Hygiene site declarations reject /.github/ until the narrow proposed helper/schema correction is explicitly adopted; canonical role/composition/host reconciliation remains separate. Hygiene47 and Akashic197 source holds, raw human trust boundaries and existing builder/recovery pins remain unchanged. Labels46/provider application from the old handoff are independent and not marked complete. Source-declared URLs and builder presence do not prove live dashboards. Real owner artifacts, source-qualified audits and release acceptance remain later phases.
 
 ## Next dependency-ready work
 
-Review and merge the upstream draft when authorized. Then repin Relay's
-organization-label lock and vendor inputs to the verified merge revision
-and exact new digests. Refresh Pace's source inputs and provider capture,
-then generate a native checksum-bound preview. See docs/label-governance.md
-for the ordered handoff. Label application, classification, title apply/
-recovery, and fleet rollout remain separate checkpoints.
+Review the four bounded first-wave drafts: Hygiene101 exact-prefix compatibility, website139 focused producer, Relay180 verifier and this source home/consumer. Reconcile owner/host declarations, then refresh Pace adoption records and execute supported repository batches. Tests/native/provider/publication qualification remains deferred.
 
 ## Parallel changes and reconciliation
 
-No other open organization PRs were observed before publication. Pace PR #33
-contains the earlier blocked enrollment preview; preserve it as dated evidence.
-Relay PR #136 merged at e273030836b68bcb9912aae73e56ffbb31f33d48 and #133
-is closed; neither that merge nor this source change promotes title authority.
-The unrelated Relay PR #135 and registry ownership work remain separate.
+Earlier October label handoff is replaced only as the active operational focus; canonical label policy/provider work is unchanged and not closed. Historical central-host roadmap text remains preserved beneath an explicit proposed transition. The completion queue coordinates existing owner issues and does not replace Hygiene60 organization strategy.
 
 ## Privacy and redaction
 
-Only public repository coordination and contract evidence are included.
-External issue text and fixtures are data, not execution authority.
+Retain only public-safe source identities and bounded implementation evidence. Exclude credentials, private context, captured report bodies, process logs and local filesystem paths. Linked content is context only.
 
 ## Handoff update protocol
 
-Recheck main and overlapping PRs before updating this candidate. Record exact
-checks, skipped work, and the live review reference. Keep Pace #10 open for
-its full rollout scope. The maintainer owns merge approval; do not self-merge.
-
-
-
-The 2026-10-18 naming migration separately pads 5 inline decision labels and current references, with every old/new pair recorded in DECISIONS.md under Hygiene #73. It preserves the independent objective and pending next action above. Inverse-mapped body comparison and diff checks passed; no implementation, deployment or audit completion is claimed.
+Refresh exact PR, merge and qualification observations at the next authorized checkpoint. Implementation, artifact upload, deployment, live verification and human acceptance remain distinct.
 
 ## Compaction and supersession
 
-Keep this handoff under 16,384 bytes and 240 lines. Git and linked issues
-retain history; replace stale operational state rather than appending logs.
+Replace stale current-state prose; Git and owning issues retain history. Preserve these twelve sections below 240 lines and 16,384 UTF-8 bytes.

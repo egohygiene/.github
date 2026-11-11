@@ -1,0 +1,150 @@
+name: Organization Intelligence review
+
+on:
+  workflow_dispatch:
+    inputs:
+      producer_run_id:
+        description: Exact successful manual organization-export run in egohygiene.io
+        required: true
+        type: string
+      producer_run_attempt:
+        description: Exact producing run attempt
+        required: true
+        default: "1"
+        type: string
+      producer_commit:
+        description: Full reviewed producer source commit
+        required: true
+        type: string
+      artifact_id:
+        description: Exact retained organization-only export artifact ID
+        required: true
+        type: string
+      archive_sha256:
+        description: Raw SHA-256 of the exact retained ZIP
+        required: true
+        type: string
+      manifest_sha256:
+        description: Raw SHA-256 of export-manifest.json
+        required: true
+        type: string
+      origin:
+        description: Intended HTTPS origin for this review; no Pages activation
+        required: true
+        default: https://egohygiene.github.io
+        type: string
+      base_path:
+        description: Intended project mount for this review
+        required: true
+        default: /.github/
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: organization-intelligence-review-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  review:
+    if: github.repository == 'egohygiene/.github' && github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact consumer source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Admit exact public producer run and download retained ZIP
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.INTELLIGENCE_ARTIFACT_READ_TOKEN || github.token }}
+          GH_HOST: github.com
+          REQUESTED_RUN_ID: ${{ inputs.producer_run_id }}
+          REQUESTED_RUN_ATTEMPT: ${{ inputs.producer_run_attempt }}
+          REQUESTED_PRODUCER_COMMIT: ${{ inputs.producer_commit }}
+          REQUESTED_ARTIFACT_ID: ${{ inputs.artifact_id }}
+          REQUESTED_ARCHIVE_SHA256: ${{ inputs.archive_sha256 }}
+          REQUESTED_MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import resource
+          import subprocess
+
+          def require(condition):
+              if not condition:
+                  raise ValueError("Organization export transport admission denied")
+
+          for key in ("REQUESTED_RUN_ID", "REQUESTED_RUN_ATTEMPT", "REQUESTED_ARTIFACT_ID"):
+              require(re.fullmatch(r"[1-9][0-9]{0,19}", os.environ[key]))
+          require(re.fullmatch(r"[a-f0-9]{40}", os.environ["REQUESTED_PRODUCER_COMMIT"]))
+          for key in ("REQUESTED_ARCHIVE_SHA256", "REQUESTED_MANIFEST_SHA256"):
+              require(re.fullmatch(r"[a-f0-9]{64}", os.environ[key]))
+          maximum = 64 * 1024 * 1024
+          resource.setrlimit(resource.RLIMIT_FSIZE, (maximum, maximum))
+          work = Path(".cache/organization-intelligence/transport")
+          work.mkdir(parents=True, exist_ok=False)
+
+          def capture(endpoint, name):
+              path = work / name
+              with path.open("xb") as output:
+                  subprocess.run(["gh", "api", "--hostname", "github.com", "--method", "GET", endpoint],
+                      stdout=output, stderr=subprocess.DEVNULL, timeout=90, check=True)
+              require(path.is_file() and 0 < path.stat().st_size <= maximum)
+              return path
+
+          prefix = "/repos/egohygiene/egohygiene.io"
+          producer = json.loads(capture(prefix, "producer.json").read_bytes())
+          require(producer.get("full_name") == "egohygiene/egohygiene.io"
+              and producer.get("private") is False and producer.get("visibility") == "public")
+          run = json.loads(capture(prefix + "/actions/runs/" + os.environ["REQUESTED_RUN_ID"], "run.json").read_bytes())
+          require(run.get("id") == int(os.environ["REQUESTED_RUN_ID"])
+              and run.get("run_attempt") == int(os.environ["REQUESTED_RUN_ATTEMPT"])
+              and run.get("head_sha") == os.environ["REQUESTED_PRODUCER_COMMIT"]
+              and run.get("head_branch") == "main" and run.get("event") == "workflow_dispatch"
+              and run.get("status") == "completed" and run.get("conclusion") == "success"
+              and run.get("path") == ".github/workflows/intelligence-static-export.yml"
+              and run.get("head_repository", {}).get("full_name") == "egohygiene/egohygiene.io")
+          artifact = json.loads(capture(prefix + "/actions/artifacts/" + os.environ["REQUESTED_ARTIFACT_ID"], "artifact.json").read_bytes())
+          expected_name = "organization-intelligence-static-v1-" + os.environ["REQUESTED_RUN_ID"] + "-" + os.environ["REQUESTED_RUN_ATTEMPT"]
+          require(artifact.get("id") == int(os.environ["REQUESTED_ARTIFACT_ID"])
+              and artifact.get("expired") is False and artifact.get("name") == expected_name
+              and artifact.get("digest") == "sha256:" + os.environ["REQUESTED_ARCHIVE_SHA256"]
+              and type(artifact.get("size_in_bytes")) is int and 0 < artifact["size_in_bytes"] <= maximum
+              and artifact.get("workflow_run", {}).get("id") == int(os.environ["REQUESTED_RUN_ID"])
+              and artifact.get("workflow_run", {}).get("head_sha") == os.environ["REQUESTED_PRODUCER_COMMIT"])
+          archive = capture(prefix + "/actions/artifacts/" + os.environ["REQUESTED_ARTIFACT_ID"] + "/zip", "export.zip")
+          require(hashlib.sha256(archive.read_bytes()).hexdigest() == os.environ["REQUESTED_ARCHIVE_SHA256"])
+          print("Exact public organization export transport admitted; deployment remains disabled")
+          PY
+
+      - name: Verify producer-owned export for review
+        id: verify
+        uses: egohygiene/relay/actions/repository-intelligence-static-intake@d15cacd987ef1f98a6b94b051a42925eb91f8cc7
+        with:
+          archive: .cache/organization-intelligence/transport/export.zip
+          archive-sha256: ${{ inputs.archive_sha256 }}
+          manifest-sha256: ${{ inputs.manifest_sha256 }}
+          producer-commit: ${{ inputs.producer_commit }}
+          origin: ${{ inputs.origin }}
+          base-path: ${{ inputs.base_path }}
+          output-directory: .cache/organization-intelligence/verified
+
+      - name: Retain verified review site and receipt
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: organization-intelligence-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.verify.outputs.review-directory }}
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 7
