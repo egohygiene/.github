@@ -59,6 +59,21 @@ functional source `96d3358c9b745af820702e0013af7380d151a6da`. It remains draft;
 current consumers have not adopted it and hosting/declaration acceptance is
 unchanged.
 
+The first implementation packet is now concrete:
+
+| Owner | Review slice | Source state |
+| --- | --- | --- |
+| `.github` | This roadmap, source home/profile, 28-entry directory, proposed ADR and read-only review consumer | Current candidate |
+| Website | [PR #139](https://github.com/egohygiene/egohygiene.io/pull/139): isolated organization export, explicit origin/base, 39-route manifest and manual producer | Draft; no actual build/export |
+| Relay | [PR #180](https://github.com/egohygiene/relay/pull/180): offline sealed-byte intake and review-only receipt | Draft; verifier not executed |
+| Hygiene | [PR #101](https://github.com/egohygiene/hygiene/pull/101): exact project-prefix compatibility | Draft; helper not executed/adopted |
+
+The proposed consumer selects Relay functional source
+`d15cacd987ef1f98a6b94b051a42925eb91f8cc7`. Its producer contract mirrors are
+bound to website source `54e0b6e66b9b028bad382bbbc4bc6ba588cee665`. Review/merge
+upstream source dependencies before the consumer; these references do not
+activate a publisher or claim whole-pipeline compatibility.
+
 Do not copy the entire website build or pass a fleet model into the repository
 renderer. The current website metadata assumes `egohygiene.io`, and its normal
 build includes unrelated routes. The producer export must have an explicit
