@@ -7,25 +7,25 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-11T00:08:11Z'
+  updated_at: '2026-11-11T19:22:43Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Establish the organization Intelligence source home, issue-backed completion queue and pinned manual
-    review consumer.
+  purpose: Bind retained owner model selection to the organization review export and hand off the completed
+    five-slice adoption source batch for maintainer review.
   includes:
-  - The repository/profile front door links organization views, a dependency-ordered delivery roadmap and a
-    dated 28-entry dashboard/source directory. All entries and IDs match the exact Hygiene public roster; four
-    dashboard links are backed by explicit source declarations, while unknowns and previews remain separate.
-  - Proposed local ADR0006 records the requested .github entry point with null approval. Existing five inline
-    decision bodies, Hygiene architecture/catalog/model ownership, company/store source and repository-owned
-    Pages remain intact. Organization profile and future project Pages are distinct; current host/role/base
-    declarations require explicit reconciliation.
-  - A manual main-only workflow authenticates exact public website producer/run/attempt/head/path/artifact/digest
-    and invokes Relay intake at d15cacd987ef1f98a6b94b051a42925eb91f8cc7. It retains only a verified review
-    artifact, with contents/actions read permissions and no Pages/OIDC/deploy authority.
+  - The existing manual review consumer adds an optional retained-models producer profile. Exact public producer
+    source/workflow/run/attempt and two ordinary artifacts are authenticated; the sanitized companion binds
+    the same final Relay-verified export manifest and admitted presentation identities/clocks. Default static
+    profile and review-only permissions remain unchanged.
+  - Website140 reuses its existing sealed export and unchanged manifest/39-route format. Its separate companion
+    distinguishes input compatibility from actual native presentation state. This consumer adds no owner model,
+    application execution, publisher, Pages/OIDC permission, DNS/CNAME change or human ratification.
+  - The refreshed completion roadmap and dated review packet consolidate the five requested slices across Pace37,
+    Relay181, Identity144, Empathy125, Civics9, website140 and this organization draft. Earlier Hygiene101/website139/Relay180/organization52
+    source merges are recorded separately from deferred runtime/hosting/acceptance proof.
   excludes:
   - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
@@ -46,79 +46,80 @@ scope:
   - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
   - .github/workflows/organization-intelligence-review.yml
   - profile/README.md
+  - scripts/verify_intelligence_model_selection.py
+  - docs/intelligence/2026-11-11-adoption-review.md
   - https://github.com/egohygiene/.github/issues/27
 work:
-  objective: Establish the organization Intelligence source home, issue-backed completion queue and pinned
-    manual review consumer.
+  objective: Bind retained owner model selection to the organization review export and hand off the completed
+    five-slice adoption source batch for maintainer review.
   success_conditions:
-  - One concrete roadmap distinguishes merged source from adoption, actual audit evidence, missing owner chains
-    and deferred acceptance.
-  - The public directory uses exact dated source evidence rather than guessed live URLs or organization totals.
-  - The new consumer remains review-only and source-pinned, with no inferred hosting admission, publisher activation
-    or human ratification.
+  - The companion is authenticated as a separate same-run artifact and bound to the exact verified static manifest
+    without expanding its sealed site contract.
+  - All seven drafts, immutable functional sources and dependency order are reviewable; source merges, report
+    evidence, artifact transport and live acceptance stay distinct.
+  - Original static defaults, existing publisher boundaries and human/source holds remain intact.
   active_issue:
     provider: github
     id: egohygiene/.github#27
     url: https://github.com/egohygiene/.github/issues/27
   next:
     kind: action
-    id: review-first-wave-then-start-consumer-adoption
-    description: 'Review the four bounded first-wave drafts: Hygiene101 exact-prefix compatibility, website139
-      focused producer, Relay180 verifier and this source home/consumer. Reconcile owner/host declarations,
-      then refresh Pace adoption records and execute supported repository batches. Tests/native/provider/publication
-      qualification remains deferred.'
+    id: review-five-slice-adoption-and-next-batch
+    description: Review the seven draft PRs in the dated review packet and their dependency order, then choose
+      the next proposed source batch. Tests/builds/CI/application/provider/publication qualification remains
+      a separately deferred closeout phase; do not self-merge this new batch.
     readiness: ready
     references:
     - https://github.com/egohygiene/.github/issues/27
     depends_on: []
 state:
   base:
-    revision: ac2e4035173ed252d71d6655e723964ef93684df
+    revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     ref: refs/heads/main
-    verified_at: '2026-11-11T00:08:11Z'
+    verified_at: '2026-11-11T19:22:43Z'
   candidate:
-    branch: codex/organization-intelligence-home
+    branch: codex/intelligence-model-selection-review
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-11T00:08:11Z'
-    default_branch_revision: ac2e4035173ed252d71d6655e723964ef93684df
+    observed_at: '2026-11-11T19:22:43Z'
+    default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     issue_state: open
     pull_request_state: not-applicable
-    notes: Organization mainac2e4035173ed252d71d6655e723964ef93684df was refreshed. Organization27/41 and related
-      route issues remain open. Functional home/consumer source01c6222bcd76dbc0313bababcc83e999c599ae4e is
-      prepared; upstream draftsHygiene101/website139/Relay180 are public and unmerged. Anonymous source inventory
-      finished2026-11-10T23:49:35Z; it supplies no live hosting or CI proof.
+    notes: Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Functional consumer02cf41b5b2196ac80316721295176a0975314eef
+      received independent static peer and root source review. The other six current drafts are public. Organization27/41
+      remain open; no actual model artifact, export/intake execution or deployment was qualified.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-11T00:08:11Z'
+  reviewed_at: '2026-11-11T19:22:43Z'
   reviewed_by: Codex
   evidence:
-  - command: Independent source peers of issue dependencies, directory/URLs, proposed ownership and manual
-      transport boundaries; exact inventory hash and 28 identity matches, proposed ADR pinned-schema/seven-section
-      metadata and five unchanged legacy bodies, unique workflow YAML/bash/embedded Python syntax, exact action
-      input/pin parity, local authored links, continuity schema/size/links and whitespace
+  - command: Independent source peers and root review of same-run transport, public admission, bounded companion
+      ZIP, final manifest/clock/presentation bindings and default-profile preservation; Python AST, YAML/Bash/embedded
+      source, exact inventory/source hashes, review references and local links; continuity schema/size and
+      whitespace
     outcome: limited
-    observed_at: '2026-11-11T00:08:11Z'
-    notes: Static source/metadata review plus actual anonymous public Git head and immutable file inspection
-      across the fixed 28-entry roster. No consumer application/export/verifier or workflow was executed.
+    observed_at: '2026-11-11T19:22:43Z'
+    notes: Static source and metadata review only. Prior source inventory and source merge observations are
+      preserved with their dated evidence; no actual artifact/provider/application/export/intake qualification
+      is claimed.
   - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
       qualification
     outcome: not-run
-    observed_at: '2026-11-11T00:08:11Z'
+    observed_at: '2026-11-11T19:22:43Z'
     notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - AGENTS requires proposed work through a draft PR and no self-merge; this new home/hosting slice is delivered
-    as source review, not activated publication.
-  - Current Hygiene site declarations reject /.github/ until the narrow proposed helper/schema correction is
-    explicitly adopted; canonical role/composition/host reconciliation remains separate.
-  - Hygiene47 and Akashic197 source holds, raw human trust boundaries and existing builder/recovery pins remain
-    unchanged. Labels46/provider application from the old handoff are independent and not marked complete.
-  - Source-declared URLs and builder presence do not prove live dashboards. Real owner artifacts, source-qualified
-    audits and release acceptance remain later phases.
+  - Tests, builds, CI, owner/helper/native/application/export/intake execution, actual provider/artifact transport,
+    workflows, browsers and publication/recovery qualification remain deferred by user instruction.
+  - AGENTS requires proposed work via draft PR with no self-merge. New batch is for maintainer review; earlier
+    explicit merge approval applied to the preceding four source slices.
+  - Hygiene47 and Akashic197 source holds, ordinary Hygiene69 compatibility, authentic human dispositions and
+    existing builder/recovery authority remain unchanged.
+  - No actual audit, report, artifact ID/digest or deployment is fabricated. Proposed project hosting and current
+    catalog/declaration acceptance still require explicit compatible adoption and reconciliation.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -145,35 +146,35 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Establish the organization Intelligence source home, issue-backed completion queue and pinned manual review consumer. One concrete roadmap distinguishes merged source from adoption, actual audit evidence, missing owner chains and deferred acceptance. The public directory uses exact dated source evidence rather than guessed live URLs or organization totals. The new consumer remains review-only and source-pinned, with no inferred hosting admission, publisher activation or human ratification.
+Bind retained owner model selection to the organization review export and hand off the completed five-slice adoption source batch for maintainer review. The companion is authenticated as a separate same-run artifact and bound to the exact verified static manifest without expanding its sealed site contract. All seven drafts, immutable functional sources and dependency order are reviewable; source merges, report evidence, artifact transport and live acceptance stay distinct. Original static defaults, existing publisher boundaries and human/source holds remain intact.
 
 ## State snapshot
 
-Candidate `codex/organization-intelligence-home` is based on observed main `ac2e4035173ed252d71d6655e723964ef93684df`. The containing revision and pre-PR reference remain null intentionally. Organization mainac2e4035173ed252d71d6655e723964ef93684df was refreshed. Organization27/41 and related route issues remain open. Functional home/consumer source01c6222bcd76dbc0313bababcc83e999c599ae4e is prepared; upstream draftsHygiene101/website139/Relay180 are public and unmerged. Anonymous source inventory finished2026-11-10T23:49:35Z; it supplies no live hosting or CI proof.
+Candidate `codex/intelligence-model-selection-review` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision and pre-PR reference remain null intentionally. Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Functional consumer02cf41b5b2196ac80316721295176a0975314eef received independent static peer and root source review. The other six current drafts are public. Organization27/41 remain open; no actual model artifact, export/intake execution or deployment was qualified.
 
 ## Completed and material changes
 
-The repository/profile front door links organization views, a dependency-ordered delivery roadmap and a dated 28-entry dashboard/source directory. All entries and IDs match the exact Hygiene public roster; four dashboard links are backed by explicit source declarations, while unknowns and previews remain separate.
+The existing manual review consumer adds an optional retained-models producer profile. Exact public producer source/workflow/run/attempt and two ordinary artifacts are authenticated; the sanitized companion binds the same final Relay-verified export manifest and admitted presentation identities/clocks. Default static profile and review-only permissions remain unchanged.
 
-Proposed local ADR0006 records the requested .github entry point with null approval. Existing five inline decision bodies, Hygiene architecture/catalog/model ownership, company/store source and repository-owned Pages remain intact. Organization profile and future project Pages are distinct; current host/role/base declarations require explicit reconciliation.
+Website140 reuses its existing sealed export and unchanged manifest/39-route format. Its separate companion distinguishes input compatibility from actual native presentation state. This consumer adds no owner model, application execution, publisher, Pages/OIDC permission, DNS/CNAME change or human ratification.
 
-A manual main-only workflow authenticates exact public website producer/run/attempt/head/path/artifact/digest and invokes Relay intake at d15cacd987ef1f98a6b94b051a42925eb91f8cc7. It retains only a verified review artifact, with contents/actions read permissions and no Pages/OIDC/deploy authority.
+The refreshed completion roadmap and dated review packet consolidate the five requested slices across Pace37, Relay181, Identity144, Empathy125, Civics9, website140 and this organization draft. Earlier Hygiene101/website139/Relay180/organization52 source merges are recorded separately from deferred runtime/hosting/acceptance proof.
 
 ## Validation and review evidence
 
-Independent source peers of issue dependencies, directory/URLs, proposed ownership and manual transport boundaries; exact inventory hash and 28 identity matches, proposed ADR pinned-schema/seven-section metadata and five unchanged legacy bodies, unique workflow YAML/bash/embedded Python syntax, exact action input/pin parity, local authored links, continuity schema/size/links and whitespace. Read-only source inventory was actually collected. No application/native/helper/SSR/export/intake execution, tests, builds, CI, workflow dispatch, browser/provider-artifact qualification or live publication was run.
+Independent source peers and root review of same-run transport, public admission, bounded companion ZIP, final manifest/clock/presentation bindings and default-profile preservation; Python AST, YAML/Bash/embedded source, exact inventory/source hashes, review references and local links; continuity schema/size and whitespace. Static source/metadata inspection only. No application/native/helper/model/export/intake execution, tests, builds, CI, workflow dispatch, browser/provider-artifact qualification or live publication was run.
 
 ## Blockers, risks, unknowns, and deferred work
 
-AGENTS requires proposed work through a draft PR and no self-merge; this new home/hosting slice is delivered as source review, not activated publication. Current Hygiene site declarations reject /.github/ until the narrow proposed helper/schema correction is explicitly adopted; canonical role/composition/host reconciliation remains separate. Hygiene47 and Akashic197 source holds, raw human trust boundaries and existing builder/recovery pins remain unchanged. Labels46/provider application from the old handoff are independent and not marked complete. Source-declared URLs and builder presence do not prove live dashboards. Real owner artifacts, source-qualified audits and release acceptance remain later phases.
+Tests, builds, CI, owner/helper/native/application/export/intake execution, actual provider/artifact transport, workflows, browsers and publication/recovery qualification remain deferred by user instruction. AGENTS requires proposed work via draft PR with no self-merge. New batch is for maintainer review; earlier explicit merge approval applied to the preceding four source slices. Hygiene47 and Akashic197 source holds, ordinary Hygiene69 compatibility, authentic human dispositions and existing builder/recovery authority remain unchanged. No actual audit, report, artifact ID/digest or deployment is fabricated. Proposed project hosting and current catalog/declaration acceptance still require explicit compatible adoption and reconciliation.
 
 ## Next dependency-ready work
 
-Review the four bounded first-wave drafts: Hygiene101 exact-prefix compatibility, website139 focused producer, Relay180 verifier and this source home/consumer. Reconcile owner/host declarations, then refresh Pace adoption records and execute supported repository batches. Tests/native/provider/publication qualification remains deferred.
+Review the seven draft PRs in the dated review packet and their dependency order, then choose the next proposed source batch. Tests/builds/CI/application/provider/publication qualification remains a separately deferred closeout phase; do not self-merge this new batch.
 
 ## Parallel changes and reconciliation
 
-Earlier October label handoff is replaced only as the active operational focus; canonical label policy/provider work is unchanged and not closed. Historical central-host roadmap text remains preserved beneath an explicit proposed transition. The completion queue coordinates existing owner issues and does not replace Hygiene60 organization strategy.
+Reference proposed local ADR0006 and website ADR0017 export boundary; additive retained-model companion transport adds no new ownership or lifecycle decision. Existing five legacy ADR bodies and human dispositions are unchanged. Completion queue coordinates owner issues and does not replace Hygiene60 portfolio strategy. Label46/provider-policy work remains independent and unclosed.
 
 ## Privacy and redaction
 
