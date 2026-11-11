@@ -15,7 +15,7 @@ ratification or final acceptance.
 | 3b. Empathy adoption | [Empathy #125](https://github.com/egohygiene/empathy/pull/125) | `0b2d9780bf841db577f3e0e7019e56fa217ab35d` | Current Mindgarden/manual paths share source, clock and models; all 54 original guards preserved |
 | 4. Civics onboarding | [Civics #9](https://github.com/egohygiene/civics/pull/9) | `4d5839b841a67c65c49da09fbdcec96c6e76480e` | Additive `/intelligence/` under existing portal publisher with baseline/composition protection |
 | 5a. Organization model selection | [Website #140](https://github.com/egohygiene/egohygiene.io/pull/140) | `f1388a38eeef5986a33febc8c2b1224dc5227d47` | Exact retained core/review bundles reuse existing sealed export and retain original module clocks |
-| 5b. Organization review intake | This draft | `02cf41b5b2196ac80316721295176a0975314eef` | Same-run companion receipt binds admitted presentation to Relay-verified export; manual review only |
+| 5b. Organization review intake | [Organization #53](https://github.com/egohygiene/.github/pull/53) | `02cf41b5b2196ac80316721295176a0975314eef` | Same-run companion receipt binds admitted presentation to Relay-verified export; manual review only |
 
 Review/land the shared feed before its consumers. Website selection follows the
 same exact receipt profile; review its producer before the organization consumer.
@@ -78,8 +78,9 @@ selection and reconciliation; merged source does not activate publication.
 Preserve [Hygiene #47](https://github.com/egohygiene/hygiene/issues/47)'s
 ADR-0001 metadata/human authority hold and
 [Akashic #197](https://github.com/egohygiene/akashic/issues/197)'s roadmap hold.
-[Hygiene #69](https://github.com/egohygiene/hygiene/issues/69) remains an ordinary
-consumer compatibility choice, not an automatic ban on supported engineering.
+[Hygiene #69](https://github.com/egohygiene/hygiene/issues/69) needs an explicit
+compatibility/authority disposition; supported consumer engineering can proceed
+in parallel.
 Existing ADR dispositions remain unchanged; no merge or AI-authored JSON
 ratifies a human decision.
 
