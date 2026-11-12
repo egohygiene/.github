@@ -7,24 +7,23 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-12T11:13:41Z'
+  updated_at: '2026-11-12T11:17:19Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Integrate the authorized open PR source queue while preserving dated audits and separate qualification
-    gates.
+  purpose: Integrate retained-model review intake after the preserved audit while keeping source merges and
+    runtime acceptance distinct.
   includes:
-  - The paused2026-10-18 audit checkpoint is preserved byte-for-byte as historical evidence, including43 then-public
-    source observations, dated HTTP results, original issue references and proposed roadmap. It does not become
-    the current roster, accepted execution plan or runtime evidence.
-  - Current source-home/README/hosting proposal and manual read-only Intelligence review consumer from main
-    are retained. The current bounded handoff supersedes the historical operational snapshot without rewriting
-    its seven audit artifacts.
-  - The remaining open organization PRs53/56/57 will be integrated sequentially after this historical checkpoint,
-    with separate Empathy/Holon/Hygiene source queues handled by their owners. No issue is closed, proposed
-    policy ratified or provider configured by these merges.
+  - The optional retained-models consumer profile and companion validator from functional02cf41b5b2196ac80316721295176a0975314eef
+    remain byte-identical. Exact public producer/run/artifact/manifest/clock bindings and the default static/manual/read-only
+    boundary are preserved.
+  - The current main and all seven historical audit artifacts from merged48 are retained. Operational continuity
+    is reconciled to the authorized source queue without altering dated audit or prior review evidence.
+  - The earlier review packet/roadmap records source candidates at its dated checkpoint. Current four-repository
+    integration is separate; upstream website140 and Relay181 source proposals remain open outside this merge
+    scope and runtime/artifact/publication qualification is still deferred.
   excludes:
   - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
@@ -37,58 +36,61 @@ scope:
   - AGENTS.md
   - ARCHITECTURE.md
   - docs/issue-routing.md
-  - docs/intelligence/audits/2026-10-18/README.md
-  - docs/intelligence/audits/2026-10-18/checksums.json
+  - ROADMAP.md
   - docs/intelligence/DELIVERY_ROADMAP.md
+  - docs/intelligence/repositories.md
+  - docs/intelligence/repositories.source.json
   - docs/intelligence/organization-home.md
-  - https://github.com/egohygiene/.github/issues/30
+  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
+  - .github/workflows/organization-intelligence-review.yml
+  - profile/README.md
+  - scripts/verify_intelligence_model_selection.py
+  - docs/intelligence/2026-11-11-adoption-review.md
+  - https://github.com/egohygiene/.github/issues/27
 work:
-  objective: Integrate the authorized open PR source queue while preserving dated audits and separate qualification
-    gates.
+  objective: Integrate retained-model review intake after the preserved audit while keeping source merges and
+    runtime acceptance distinct.
   success_conditions:
-  - Historical audit evidence survives source integration without becoming a current completion claim.
-  - The current main and open queue have explicit exact source references and a truthful next merge checkpoint.
-  - User-deferred runtime/acceptance work and all human/source authority boundaries remain intact.
+  - The retained-model companion source integrates without changing transport/authority/publisher semantics.
+  - Current main and historical audit bytes survive the merge.
+  - The remaining56/57 queue and out-of-scope upstream source dependencies remain explicit.
   active_issue:
     provider: github
-    id: egohygiene/.github#30
-    url: https://github.com/egohygiene/.github/issues/30
+    id: egohygiene/.github#27
+    url: https://github.com/egohygiene/.github/issues/27
   next:
     kind: action
-    id: integrate-organization-open-pr-queue
-    description: After this source merge, reconcile and merge53 retained-model intake,56 read-only Project
-      preview and57 Discussions/checklist/review packet in order; record exact final revisions and remaining
-      acceptance separately.
+    id: integrate-project-preview-and-discussions
+    description: After this source merge, integrate56 read-only Project preview then57 Discussions/checklist
+      and consolidated source-integration record. Qualify real upstream artifacts and consumer/runtime behavior
+      separately after the user-deferred phase.
     readiness: ready
     references:
-    - https://github.com/egohygiene/.github/issues/30
+    - https://github.com/egohygiene/.github/issues/27
     depends_on: []
 state:
   base:
-    revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
+    revision: 89d4a31e0427f5c312a5a06170f49f926d11f6c2
     ref: refs/heads/main
-    verified_at: '2026-11-12T11:13:41Z'
+    verified_at: '2026-11-12T11:17:19Z'
   candidate:
-    branch: codex/intelligence-audit-checkpoint-30
+    branch: codex/intelligence-model-selection-review
     revision: null
     pull_request:
       provider: github
-      id: egohygiene/.github#48
-      url: https://github.com/egohygiene/.github/pull/48
+      id: egohygiene/.github#53
+      url: https://github.com/egohygiene/.github/pull/53
     handoff_state: review-reference-recorded
   live:
     status: verified
-    observed_at: '2026-11-12T11:13:41Z'
-    default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
+    observed_at: '2026-11-12T11:17:19Z'
+    default_branch_revision: 89d4a31e0427f5c312a5a06170f49f926d11f6c2
     issue_state: open
     pull_request_state: draft
-    notes: Observed main101a0d4553dc380ab3f88c50b11cb53beadfce18; organization48/53/56/57 are open, with no
-      submitted reviews or inline threads when inspected. The previous pause is superseded by the current explicit
-      all-open source merge instruction; historical planning prose remains dated and unchanged.
+    notes: Observed main89d4a31e0427f5c312a5a06170f49f926d11f6c2 contains audit48 at prepared5104c7cb0c77114f07760935f90e78d9d56b5868.
+      PR53 remains open before this exact candidate merge, with no submitted reviews/threads. Optional retained-model
+      source is unchanged; website140 and Relay181 are open outside the four-repository queue.
   parallel_changes:
-  - provider: github
-    id: egohygiene/.github#53
-    url: https://github.com/egohygiene/.github/pull/53
   - provider: github
     id: egohygiene/.github#56
     url: https://github.com/egohygiene/.github/pull/56
@@ -97,27 +99,28 @@ state:
     url: https://github.com/egohygiene/.github/pull/57
 review:
   status: partial
-  reviewed_at: '2026-11-12T11:13:41Z'
+  reviewed_at: '2026-11-12T11:17:19Z'
   reviewed_by: Codex
   evidence:
-  - command: Independent source-preservation review, exact seven audit Git blob comparison and five SHA256
-      checks, JSON parsing and authored local references, current-main conflict inspection, continuity schema/size
-      and whitespace
+  - command: Independent source-preservation review; exact functional workflow/validator/guide and current-main/audit
+      Git blob comparisons; Python AST and YAML metadata inspection, continuity schema/size and whitespace
     outcome: limited
-    observed_at: '2026-11-12T11:13:41Z'
-    notes: Static source and metadata inspection only; no application execution.
+    observed_at: '2026-11-12T11:17:19Z'
+    notes: Static source and metadata review only. Prior source inventory and source merge observations are
+      preserved with their dated evidence; no actual artifact/provider/application/export/intake qualification
+      is claimed.
   - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
       qualification
     outcome: not-run
-    observed_at: '2026-11-12T11:13:41Z'
+    observed_at: '2026-11-12T11:17:19Z'
     notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - Tests, lint, builds, CI investigation, application/native/helper/model/export/intake execution and actual
-    provider/publication qualification remain deferred.
-  - The historical43-source scan includes then-public sources across three owners and is not the current fixed28-entry
-    Hygiene roster or complete fleet adoption proof.
-  - Source merges do not authenticate human ratification, activate proposed contracts or supply live audit/deployment/recovery
-    evidence.
+  - Tests, linters, builds, CI investigation, helper/export/intake/native/application execution and actual
+    upstream artifact/provider/publication qualification remain deferred.
+  - The manual retained-model producer workflow in website140 and shared feed181 remain open outside the user-selected
+    four repositories; source integration does not execute or qualify either path.
+  - Original historical audit whitespace/evidence and source snapshots remain unchanged. Human dispositions,
+    source holds, proposed hosting and live publication remain their own gates.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -144,35 +147,35 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Integrate the authorized open PR source queue while preserving dated audits and separate qualification gates. Historical audit evidence survives source integration without becoming a current completion claim. The current main and open queue have explicit exact source references and a truthful next merge checkpoint. User-deferred runtime/acceptance work and all human/source authority boundaries remain intact.
+Integrate retained-model review intake after the preserved audit while keeping source merges and runtime acceptance distinct. The retained-model companion source integrates without changing transport/authority/publisher semantics. Current main and historical audit bytes survive the merge. The remaining56/57 queue and out-of-scope upstream source dependencies remain explicit.
 
 ## State snapshot
 
-Candidate `codex/intelligence-audit-checkpoint-30` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision remains null intentionally; the PR reference is captured above. Observed main101a0d4553dc380ab3f88c50b11cb53beadfce18; organization48/53/56/57 are open, with no submitted reviews or inline threads when inspected. The previous pause is superseded by the current explicit all-open source merge instruction; historical planning prose remains dated and unchanged.
+Candidate `codex/intelligence-model-selection-review` is based on observed main `89d4a31e0427f5c312a5a06170f49f926d11f6c2`. The containing revision remains null intentionally; the PR reference is captured above. Observed main89d4a31e0427f5c312a5a06170f49f926d11f6c2 contains audit48 at prepared5104c7cb0c77114f07760935f90e78d9d56b5868. PR53 remains open before this exact candidate merge, with no submitted reviews/threads. Optional retained-model source is unchanged; website140 and Relay181 are open outside the four-repository queue.
 
 ## Completed and material changes
 
-The paused2026-10-18 audit checkpoint is preserved byte-for-byte as historical evidence, including43 then-public source observations, dated HTTP results, original issue references and proposed roadmap. It does not become the current roster, accepted execution plan or runtime evidence.
+The optional retained-models consumer profile and companion validator from functional02cf41b5b2196ac80316721295176a0975314eef remain byte-identical. Exact public producer/run/artifact/manifest/clock bindings and the default static/manual/read-only boundary are preserved.
 
-Current source-home/README/hosting proposal and manual read-only Intelligence review consumer from main are retained. The current bounded handoff supersedes the historical operational snapshot without rewriting its seven audit artifacts.
+The current main and all seven historical audit artifacts from merged48 are retained. Operational continuity is reconciled to the authorized source queue without altering dated audit or prior review evidence.
 
-The remaining open organization PRs53/56/57 will be integrated sequentially after this historical checkpoint, with separate Empathy/Holon/Hygiene source queues handled by their owners. No issue is closed, proposed policy ratified or provider configured by these merges.
+The earlier review packet/roadmap records source candidates at its dated checkpoint. Current four-repository integration is separate; upstream website140 and Relay181 source proposals remain open outside this merge scope and runtime/artifact/publication qualification is still deferred.
 
 ## Validation and review evidence
 
-Independent source-preservation review, exact seven audit Git blob comparison and five SHA256 checks, JSON parsing and authored local references, current-main conflict inspection, continuity schema/size and whitespace. Static source/metadata inspection and Git/blob/hash observations only. Historical audit execution remains its own dated record; no new tests/lint/build/CI or runtime/provider qualification was executed.
+Independent source-preservation review; exact functional workflow/validator/guide and current-main/audit Git blob comparisons; Python AST and YAML metadata inspection, continuity schema/size and whitespace. Static source and Git/metadata inspection only. No application/helper/model/export/intake execution, tests, build, CI, workflow dispatch, actual upstream artifact transport or live publication was run.
 
 ## Blockers, risks, unknowns, and deferred work
 
-Tests, lint, builds, CI investigation, application/native/helper/model/export/intake execution and actual provider/publication qualification remain deferred. The historical43-source scan includes then-public sources across three owners and is not the current fixed28-entry Hygiene roster or complete fleet adoption proof. Source merges do not authenticate human ratification, activate proposed contracts or supply live audit/deployment/recovery evidence.
+Tests, linters, builds, CI investigation, helper/export/intake/native/application execution and actual upstream artifact/provider/publication qualification remain deferred. The manual retained-model producer workflow in website140 and shared feed181 remain open outside the user-selected four repositories; source integration does not execute or qualify either path. Original historical audit whitespace/evidence and source snapshots remain unchanged. Human dispositions, source holds, proposed hosting and live publication remain their own gates.
 
 ## Next dependency-ready work
 
-After this source merge, reconcile and merge53 retained-model intake,56 read-only Project preview and57 Discussions/checklist/review packet in order; record exact final revisions and remaining acceptance separately.
+After this source merge, integrate56 read-only Project preview then57 Discussions/checklist and consolidated source-integration record. Qualify real upstream artifacts and consumer/runtime behavior separately after the user-deferred phase.
 
 ## Parallel changes and reconciliation
 
-The latest user instruction explicitly authorizes merging all open PRs in the four named repos, superseding draft/pause/no-selfmerge wording for this source queue. Preserve actual policy/ADR lifecycle and frozen inputs; ordinary exact-head merges only, no administrator/ruleset bypass. Current main wins operational continuity over stale snapshots.
+The current user explicitly authorizes all-open source merges, superseding older draft/no-selfmerge instructions for this queue. Retain proposed ADR0006/website0017 approval states and all old contracts. This candidate changes only operational continuity relative to reviewed53+main; later57 records current merge state without rewriting historical audit evidence.
 
 ## Privacy and redaction
 
