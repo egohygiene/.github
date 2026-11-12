@@ -1,5 +1,14 @@
 # Repository Intelligence completion roadmap
 
+Source integration update, 2026-11-12: the current four-repository cleanup lands
+organization #53 and Empathy #125 alongside the foundation/setup source queue.
+The [integration checkpoint](../reviews/2026-11-12-open-pr-integration.md)
+records exact merges and separate qualification gates. Pace #37, Relay #181,
+Identity #144, Civics #9 and website #140 were still open when observed outside
+this merge scope; their exact immutable source references are unchanged. The
+wave states and proposed next work below retain their original dated context;
+source merges do not complete fleet adoption, audit execution or acceptance.
+
 Observed 2026-11-11. This is the execution queue for
 [organization #30](https://github.com/egohygiene/.github/issues/30) and
 [acceptance #41](https://github.com/egohygiene/.github/issues/41). It coordinates

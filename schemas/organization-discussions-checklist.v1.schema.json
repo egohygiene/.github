@@ -1,0 +1,309 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Organization-owned Discussions setup evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "contract_version",
+    "status",
+    "repository",
+    "visibility",
+    "applicability",
+    "profiles",
+    "enabled",
+    "starter_discussion_url",
+    "category",
+    "verified_at",
+    "observation",
+    "starter_state",
+    "blocker",
+    "draft",
+    "completion"
+  ],
+  "properties": {
+    "schema": {
+      "const": "egohygiene.organization-discussions-checklist/v1"
+    },
+    "contract_version": {
+      "const": "1.0.0-alpha.1"
+    },
+    "status": {
+      "const": "proposed"
+    },
+    "repository": {
+      "type": "string",
+      "pattern": "^egohygiene/[A-Za-z0-9_.-]+$"
+    },
+    "visibility": {
+      "const": "public"
+    },
+    "applicability": {
+      "enum": [
+        "applicable",
+        "not_applicable",
+        "unknown",
+        "exception"
+      ]
+    },
+    "profiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hygiene",
+        "empathy"
+      ],
+      "properties": {
+        "hygiene": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "repository",
+            "revision",
+            "path",
+            "sha256"
+          ],
+          "properties": {
+            "repository": {
+              "type": "string",
+              "pattern": "^egohygiene/[A-Za-z0-9_.-]+$"
+            },
+            "revision": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{40}$"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "lifecycle": {
+              "const": "proposed"
+            },
+            "selection": {
+              "const": "community-health"
+            }
+          }
+        },
+        "empathy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "repository",
+            "revision",
+            "path",
+            "sha256"
+          ],
+          "properties": {
+            "repository": {
+              "type": "string",
+              "pattern": "^egohygiene/[A-Za-z0-9_.-]+$"
+            },
+            "revision": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{40}$"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "lifecycle": {
+              "const": "proposed"
+            },
+            "selection": {
+              "const": "community-health"
+            }
+          }
+        }
+      }
+    },
+    "enabled": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "starter_discussion_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^https://github\\.com/egohygiene/[^/?#]+/discussions/[1-9][0-9]*$"
+    },
+    "category": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    },
+    "verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "starter_state": {
+      "enum": [
+        "unknown",
+        "draft-only",
+        "existing-unverified",
+        "verified",
+        "blocked",
+        "not_applicable"
+      ]
+    },
+    "blocker": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "draft": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "state"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "const": "draft-only"
+        }
+      }
+    },
+    "completion": {
+      "enum": [
+        "unknown",
+        "partial",
+        "verified",
+        "blocked",
+        "not_applicable"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "completion": {
+            "const": "verified"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "enabled": {
+            "const": true
+          },
+          "starter_state": {
+            "const": "verified"
+          },
+          "starter_discussion_url": {
+            "type": "string"
+          },
+          "category": {
+            "type": "object"
+          },
+          "verified_at": {
+            "type": "string"
+          },
+          "blocker": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "completion": {
+            "const": "blocked"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "blocker": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "enabled": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "completion": {
+            "enum": [
+              "blocked",
+              "not_applicable"
+            ]
+          },
+          "starter_state": {
+            "enum": [
+              "blocked",
+              "not_applicable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

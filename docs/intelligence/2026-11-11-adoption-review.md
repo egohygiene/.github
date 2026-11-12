@@ -1,5 +1,10 @@
 # Repository Intelligence adoption review — 2026-11-11
 
+> Dated source-review snapshot. Its draft/unmerged wording records the original
+> checkpoint. The [2026-11-12 source integration record](../reviews/2026-11-12-open-pr-integration.md)
+> records subsequent merges in the selected four repositories. Other owners'
+> PRs and runtime/acceptance gates retain their own current provider state.
+
 Five requested slices are implemented in seven draft PRs. This packet records
 source implementation for maintainer review. It establishes no executed audit,
 owner normalization, artifact transport, application build, deployment, human

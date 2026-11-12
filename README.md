@@ -32,3 +32,14 @@ publication evidence remain separate.
   taxonomy, overlays, lifecycle, and safe adoption.
 - [Canonical issue titles](docs/issue-titles.md) — versioned emoji/type
   format, agent entry point, and staged adoption.
+
+## Repository setup
+
+- [Discussions setup and canary evidence](docs/repository-setup/discussions.md) —
+  distinguish configured settings, draft content and verified provider outcomes.
+
+- [Ten-issue foundation review packet](docs/reviews/2026-11-12-foundation-batch.md) —
+  original source slices, review pins, integration order and remaining acceptance.
+
+- [Current source integration checkpoint](docs/reviews/2026-11-12-open-pr-integration.md) —
+  observed merges, combined owner selections and pending qualification.
