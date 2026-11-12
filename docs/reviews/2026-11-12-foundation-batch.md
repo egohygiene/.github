@@ -1,5 +1,11 @@
 # Foundation repair and setup batch — 2026-11-12
 
+> This is the original source-review snapshot from 2026-11-12. Draft/status
+> wording and functional pins below describe those reviewed candidates. See the
+> [current source integration checkpoint](2026-11-12-open-pr-integration.md)
+> for actual merge receipts and integrated owner selections; original pins do
+> not imply qualification of the later combined tree.
+
 The ten selected issues have separate source-review slices. All new PRs remain
 draft and unmerged. Implementation, authored regressions, schema/source review,
 actual runtime evidence, human decisions and issue acceptance remain separate.

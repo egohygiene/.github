@@ -21,6 +21,9 @@ publication evidence remain separate.
 
 ## Organization contracts
 
+- [Read-only Project intake preview](docs/project-intake/README.md) — inspect
+  missing public issue membership before any separately reviewed apply step.
+
 - [Repository trust policy](TRUST_POLICY.md) — DCO, signing, provenance, SBOM,
   exceptions, and staged adoption.
 - [Organization issue routing](docs/issue-routing.md) — route work to its
@@ -36,4 +39,7 @@ publication evidence remain separate.
   distinguish configured settings, draft content and verified provider outcomes.
 
 - [Ten-issue foundation review packet](docs/reviews/2026-11-12-foundation-batch.md) —
-  separate draft PRs, source pins, integration order and remaining acceptance.
+  original source slices, review pins, integration order and remaining acceptance.
+
+- [Current source integration checkpoint](docs/reviews/2026-11-12-open-pr-integration.md) —
+  observed merges, combined owner selections and pending qualification.

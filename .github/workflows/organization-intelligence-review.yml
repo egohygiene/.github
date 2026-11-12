@@ -38,6 +38,27 @@ on:
         required: true
         default: /.github/
         type: string
+      producer_profile:
+        description: Select the original static producer or the retained-model producer with its companion receipt.
+        required: true
+        default: static
+        type: choice
+        options: [static, retained-models]
+      selection_artifact_id:
+        description: Exact companion selection receipt artifact ID; required only for retained-models.
+        required: false
+        default: ""
+        type: string
+      selection_archive_sha256:
+        description: Raw companion ZIP SHA-256; required only for retained-models.
+        required: false
+        default: ""
+        type: string
+      selection_receipt_sha256:
+        description: Raw model-selection-receipt.json SHA-256; required only for retained-models.
+        required: false
+        default: ""
+        type: string
 
 permissions:
   contents: read
@@ -70,10 +91,15 @@ jobs:
           REQUESTED_ARTIFACT_ID: ${{ inputs.artifact_id }}
           REQUESTED_ARCHIVE_SHA256: ${{ inputs.archive_sha256 }}
           REQUESTED_MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+          PRODUCER_PROFILE: ${{ inputs.producer_profile }}
+          SELECTION_ARTIFACT_ID: ${{ inputs.selection_artifact_id }}
+          SELECTION_ARCHIVE_SHA256: ${{ inputs.selection_archive_sha256 }}
+          SELECTION_RECEIPT_SHA256: ${{ inputs.selection_receipt_sha256 }}
         run: |
           set -euo pipefail
           python - <<'PY'
           import hashlib
+          from datetime import datetime, timezone
           import json
           import os
           from pathlib import Path
@@ -90,6 +116,14 @@ jobs:
           require(re.fullmatch(r"[a-f0-9]{40}", os.environ["REQUESTED_PRODUCER_COMMIT"]))
           for key in ("REQUESTED_ARCHIVE_SHA256", "REQUESTED_MANIFEST_SHA256"):
               require(re.fullmatch(r"[a-f0-9]{64}", os.environ[key]))
+          profile = os.environ["PRODUCER_PROFILE"]
+          require(profile in {"static", "retained-models"})
+          selection_keys = ("SELECTION_ARTIFACT_ID", "SELECTION_ARCHIVE_SHA256", "SELECTION_RECEIPT_SHA256")
+          if profile == "retained-models":
+              require(re.fullmatch(r"[1-9][0-9]{0,19}", os.environ["SELECTION_ARTIFACT_ID"]))
+              require(all(re.fullmatch(r"[a-f0-9]{64}", os.environ[key]) for key in selection_keys[1:]))
+          else:
+              require(not any(os.environ[key] for key in selection_keys))
           maximum = 64 * 1024 * 1024
           resource.setrlimit(resource.RLIMIT_FSIZE, (maximum, maximum))
           work = Path(".cache/organization-intelligence/transport")
@@ -107,13 +141,17 @@ jobs:
           producer = json.loads(capture(prefix, "producer.json").read_bytes())
           require(producer.get("full_name") == "egohygiene/egohygiene.io"
               and producer.get("private") is False and producer.get("visibility") == "public")
-          run = json.loads(capture(prefix + "/actions/runs/" + os.environ["REQUESTED_RUN_ID"], "run.json").read_bytes())
+          run_endpoint = prefix + "/actions/runs/" + os.environ["REQUESTED_RUN_ID"]
+          if profile == "retained-models":
+              run_endpoint += "/attempts/" + os.environ["REQUESTED_RUN_ATTEMPT"]
+          run = json.loads(capture(run_endpoint, "run.json").read_bytes())
           require(run.get("id") == int(os.environ["REQUESTED_RUN_ID"])
               and run.get("run_attempt") == int(os.environ["REQUESTED_RUN_ATTEMPT"])
               and run.get("head_sha") == os.environ["REQUESTED_PRODUCER_COMMIT"]
               and run.get("head_branch") == "main" and run.get("event") == "workflow_dispatch"
               and run.get("status") == "completed" and run.get("conclusion") == "success"
-              and run.get("path") == ".github/workflows/intelligence-static-export.yml"
+              and run.get("path") == (".github/workflows/intelligence-model-artifacts-export.yml" if profile == "retained-models"
+                  else ".github/workflows/intelligence-static-export.yml")
               and run.get("head_repository", {}).get("full_name") == "egohygiene/egohygiene.io")
           artifact = json.loads(capture(prefix + "/actions/artifacts/" + os.environ["REQUESTED_ARTIFACT_ID"], "artifact.json").read_bytes())
           expected_name = "organization-intelligence-static-v1-" + os.environ["REQUESTED_RUN_ID"] + "-" + os.environ["REQUESTED_RUN_ATTEMPT"]
@@ -125,6 +163,31 @@ jobs:
               and artifact.get("workflow_run", {}).get("head_sha") == os.environ["REQUESTED_PRODUCER_COMMIT"])
           archive = capture(prefix + "/actions/artifacts/" + os.environ["REQUESTED_ARTIFACT_ID"] + "/zip", "export.zip")
           require(hashlib.sha256(archive.read_bytes()).hexdigest() == os.environ["REQUESTED_ARCHIVE_SHA256"])
+          if profile == "retained-models":
+              def provider_time(value):
+                  require(isinstance(value, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,6})?Z", value))
+                  return datetime.fromisoformat(value.replace("Z", "+00:00"))
+              now = datetime.now(timezone.utc)
+              require(provider_time(run.get("run_started_at")) <= provider_time(artifact.get("created_at"))
+                  <= provider_time(run.get("updated_at")) <= now
+                  and provider_time(artifact.get("expires_at")) > now
+                  and archive.stat().st_size == artifact["size_in_bytes"])
+              companion = json.loads(capture(prefix + "/actions/artifacts/" + os.environ["SELECTION_ARTIFACT_ID"],
+                  "selection-artifact.json").read_bytes())
+              require(companion.get("id") == int(os.environ["SELECTION_ARTIFACT_ID"])
+                  and companion.get("expired") is False
+                  and companion.get("name") == "organization-intelligence-model-selection-v1-"
+                      + os.environ["REQUESTED_RUN_ID"] + "-" + os.environ["REQUESTED_RUN_ATTEMPT"]
+                  and companion.get("digest") == "sha256:" + os.environ["SELECTION_ARCHIVE_SHA256"]
+                  and type(companion.get("size_in_bytes")) is int and 0 < companion["size_in_bytes"] <= 262144
+                  and companion.get("workflow_run", {}).get("id") == int(os.environ["REQUESTED_RUN_ID"])
+                  and companion.get("workflow_run", {}).get("head_sha") == os.environ["REQUESTED_PRODUCER_COMMIT"]
+                  and provider_time(run.get("run_started_at")) <= provider_time(companion.get("created_at"))
+                      <= provider_time(run.get("updated_at"))
+                  and provider_time(companion.get("expires_at")) > now)
+              selected = capture(prefix + "/actions/artifacts/" + os.environ["SELECTION_ARTIFACT_ID"] + "/zip", "selection.zip")
+              require(selected.stat().st_size == companion["size_in_bytes"]
+                  and hashlib.sha256(selected.read_bytes()).hexdigest() == os.environ["SELECTION_ARCHIVE_SHA256"])
           print("Exact public organization export transport admitted; deployment remains disabled")
           PY
 
@@ -139,6 +202,26 @@ jobs:
           origin: ${{ inputs.origin }}
           base-path: ${{ inputs.base_path }}
           output-directory: .cache/organization-intelligence/verified
+
+      - name: Bind the retained-model companion to the verified export
+        if: inputs.producer_profile == 'retained-models'
+        shell: bash
+        env:
+          SELECTION_ARCHIVE_SHA256: ${{ inputs.selection_archive_sha256 }}
+          SELECTION_RECEIPT_SHA256: ${{ inputs.selection_receipt_sha256 }}
+          EXPORT_MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+          PRODUCER_COMMIT: ${{ inputs.producer_commit }}
+          REVIEW_DIRECTORY: ${{ steps.verify.outputs.review-directory }}
+        run: |
+          set -euo pipefail
+          python3 -I scripts/verify_intelligence_model_selection.py \
+            --archive .cache/organization-intelligence/transport/selection.zip \
+            --archive-sha256 "$SELECTION_ARCHIVE_SHA256" --receipt-sha256 "$SELECTION_RECEIPT_SHA256" \
+            --manifest-sha256 "$EXPORT_MANIFEST_SHA256" --producer-commit "$PRODUCER_COMMIT" \
+            --export-manifest "$REVIEW_DIRECTORY/export-manifest.json" \
+            --export-artifact-metadata .cache/organization-intelligence/transport/artifact.json \
+            --selection-artifact-metadata .cache/organization-intelligence/transport/selection-artifact.json \
+            --output "$REVIEW_DIRECTORY/model-selection-receipt.json"
 
       - name: Retain verified review site and receipt
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a

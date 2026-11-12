@@ -37,6 +37,39 @@ manual-only on this repository's main. The proposed project target is origin
 `https://egohygiene.github.io` with base `/.github/`; those values are review
 intent, not proof that Pages is configured or live.
 
+## Retained-model producer profile
+
+The default `static` producer profile retains the original workflow and input
+contract. The optional `retained-models` profile selects the website's manual
+`.github/workflows/intelligence-model-artifacts-export.yml` producer. That path
+selects exact existing core/Audits/Sanity model bundles, preserving each module's
+own observation clock and failure state before invoking the same sealed exporter.
+It does not assemble another fleet or fabricate reports, artifact IDs or hashes.
+
+For this profile supply the additional exact companion artifact ID, raw companion
+ZIP SHA-256 and `model-selection-receipt.json` SHA-256. Its expected name is
+`organization-intelligence-model-selection-v1-<run-id>-<attempt>`. Both ordinary
+artifacts must belong to the same admitted public producer revision/run/attempt.
+The consumer checks the companion against the exact Relay-verified export
+manifest, admitted presentation identities, intended project target and module
+clocks before retaining it. The companion is outside the static ZIP; it does not
+expand Relay's sealed site format or publication inventory.
+
+`scripts/verify_intelligence_model_selection.py` reads the exact dated public
+source inventory already checked in here to admit provenance repository names.
+That is a pinned observation projection, not a new registry or a claim about
+current organization totals. Refreshing it requires a separately reviewed source
+and digest change. Raw model packets, provider captures, rejected source names,
+credentials and their acquisition-only checksums are not uploaded.
+
+Each module may remain unavailable, incompatible, stale or partial. A source
+artifact being accessible does not make the underlying audit complete, a
+repository conformant or an architecture human-ratified. The companion binds
+producer declarations to admitted presentation; it does not replay upstream
+normalization or authenticate human claims. The workflow remains review-only.
+Its input `state` and literal native `presentation_state` are separate: a
+compatible file can still present stale evidence or no authored records.
+
 GitHub may require a read credential for another repository's retained artifact.
 The workflow uses `INTELLIGENCE_ARTIFACT_READ_TOKEN` from repository secrets when
 configured, otherwise its normal GitHub token. An inaccessible artifact fails

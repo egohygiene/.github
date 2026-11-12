@@ -1,6 +1,15 @@
 # Repository Intelligence completion roadmap
 
-Observed 2026-11-10. This is the execution queue for
+Source integration update, 2026-11-12: the current four-repository cleanup lands
+organization #53 and Empathy #125 alongside the foundation/setup source queue.
+The [integration checkpoint](../reviews/2026-11-12-open-pr-integration.md)
+records exact merges and separate qualification gates. Pace #37, Relay #181,
+Identity #144, Civics #9 and website #140 were still open when observed outside
+this merge scope; their exact immutable source references are unchanged. The
+wave states and proposed next work below retain their original dated context;
+source merges do not complete fleet adoption, audit execution or acceptance.
+
+Observed 2026-11-11. This is the execution queue for
 [organization #30](https://github.com/egohygiene/.github/issues/30) and
 [acceptance #41](https://github.com/egohygiene/.github/issues/41). It coordinates
 existing owners and issues; Hygiene [#60](https://github.com/egohygiene/hygiene/issues/60)
@@ -24,9 +33,9 @@ Consumer adoption, real artifacts, source holds and acceptance are separate.
 
 | Wave | State | Work | Exit evidence |
 | --- | --- | --- | --- |
-| RI-01 | Active | `.github` home, directory, explicit hosting transition and portable organization-only export | Source home/profile; dated public directory; sealed review artifact; consumer verifies exact producer/source/origin/base/files; named hosting gates |
-| RI-02 | Ready after inventory | Repository adoption in bounded batches | Every admitted repository records current source, builder pin, model/artifact, declared destination and upkeep independently; existing publishers/recovery preserved |
-| RI-03 | Next | Real organization audit and architecture-review feeds | Exact source revisions, repository-owned reports, explicit scope/unknowns, normalized owner models and retained artifacts; no inferred human approval |
+| RI-01 | First source wave merged; artifacts/hosting unqualified | `.github` home, directory, explicit hosting transition and portable organization-only export | Source home/profile; dated public directory; sealed review artifact; consumer verifies exact producer/source/origin/base/files; named hosting gates |
+| RI-02 | First five-slice adoption batch in draft | Repository adoption in bounded batches | Every admitted repository records current source, builder pin, model/artifact, declared destination and upkeep independently; existing publishers/recovery preserved |
+| RI-03 | Feed source in draft; actual sweep pending | Real organization audit and architecture-review feeds | Exact source revisions, repository-owned reports, explicit scope/unknowns, normalized owner models and retained artifacts; no inferred human approval |
 | RI-04 | Owner dependencies | Finish the genuinely missing model chains | Typed owner contract → Observatory query → bounded renderer/intake → consumer source evidence for each chain below |
 | RI-05 | After usable feeds | Finish organization attention, navigation and failure isolation | One primary home, context-preserving repository links, explicit freshness/unknowns, separate module failure states and reviewed migration aliases |
 | RI-06 | Deferred qualification | Qualify, adopt and close acceptance | Privacy/failure canaries, accessible/responsive/browser/performance proof, exact deployment/rollback evidence and checklist reconciliation |
@@ -54,25 +63,29 @@ Owners: `.github` [#15](https://github.com/egohygiene/.github/issues/15),
    route profile: organization `/audits/`, `/sanity/`, `/roadmap/` and related
    canonical routes remain organization routes beneath that prefix.
 
-The narrow compatibility source is prepared in [Hygiene PR #101](https://github.com/egohygiene/hygiene/pull/101),
-functional source `96d3358c9b745af820702e0013af7380d151a6da`. It remains draft;
-current consumers have not adopted it and hosting/declaration acceptance is
-unchanged.
+The first four source slices were merged after maintainer approval. These are
+observed source merges, not successful exports, deployments or hosting acceptance:
 
-The first implementation packet is now concrete:
-
-| Owner | Review slice | Source state |
+| Owner | Merged source | Merge revision |
 | --- | --- | --- |
-| `.github` | This roadmap, source home/profile, 28-entry directory, proposed ADR and read-only review consumer | Current candidate |
-| Website | [PR #139](https://github.com/egohygiene/egohygiene.io/pull/139): isolated organization export, explicit origin/base, 39-route manifest and manual producer | Draft; no actual build/export |
-| Relay | [PR #180](https://github.com/egohygiene/relay/pull/180): offline sealed-byte intake and review-only receipt | Draft; verifier not executed |
-| Hygiene | [PR #101](https://github.com/egohygiene/hygiene/pull/101): exact project-prefix compatibility | Draft; helper not executed/adopted |
+| `.github` | [PR #52](https://github.com/egohygiene/.github/pull/52): home/profile, directory, roadmap and manual review consumer | `101a0d4553dc380ab3f88c50b11cb53beadfce18` |
+| Website | [PR #139](https://github.com/egohygiene/egohygiene.io/pull/139): focused organization export and manual producer | `c35932b77fe3623cad19f1f1b890e51ec16f38a8` |
+| Relay | [PR #180](https://github.com/egohygiene/relay/pull/180): sealed-byte review intake | `a3d87ab48d92d10f74d8d0df8a6106b66cce0dac` |
+| Hygiene | [PR #101](https://github.com/egohygiene/hygiene/pull/101): exact `/.github/` compatibility | `31ae6fb78757502e7474e5518904fc568840c1ee` |
 
-The proposed consumer selects Relay functional source
-`d15cacd987ef1f98a6b94b051a42925eb91f8cc7`. Its producer contract mirrors are
-bound to website source `54e0b6e66b9b028bad382bbbc4bc6ba588cee665`. Review/merge
-upstream source dependencies before the consumer; these references do not
-activate a publisher or claim whole-pipeline compatibility.
+The review consumer selects Relay functional source
+`d15cacd987ef1f98a6b94b051a42925eb91f8cc7`. Its unchanged producer schema/route
+lock selects website `54e0b6e66b9b028bad382bbbc4bc6ba588cee665`. The Hygiene
+correction is merged source; old pinned consumers do not gain it automatically.
+Canonical hosting/declaration reconciliation and actual pipeline qualification
+remain pending.
+
+The next five slices are now implemented for review across seven draft PRs:
+Pace's actionable adoption ledger, shared typed review feed, Identity/Empathy
+feed adoption, Civics onboarding and retained-model organization export/intake.
+See the [current review packet](2026-11-11-adoption-review.md) for exact references,
+source pins, dependency order and deferred acceptance. This new batch is not
+merged; it activates no publisher.
 
 Do not copy the entire website build or pass a fleet model into the repository
 renderer. The current website metadata assumes `egohygiene.io`, and its normal
@@ -101,6 +114,18 @@ The five earlier consumer upgrades select `981ddf43`; they predate the new owner
 review inputs. Their source is useful baseline evidence, not full-fleet adoption
 or a reason to reinstall every existing producer.
 
+[Pace PR #37](https://github.com/egohygiene/pace/pull/37) now provides the
+source-backed ledger over the fixed 28-entry public roster. Source, builder,
+destination, artifact/live verification and refresh ownership remain independent;
+eligibility is unassessed and missing runtime evidence stays unknown. Its
+projection clock cannot refresh the original source observations.
+
+[Identity #144](https://github.com/egohygiene/identity/pull/144),
+[Empathy #125](https://github.com/egohygiene/empathy/pull/125) and
+[Civics #9](https://github.com/egohygiene/civics/pull/9) add or upgrade supported
+current paths to the exact shared feed. Existing publishers, product bytes and
+frozen recovery stay protected; no report or publication result is supplied.
+
 ### RI-03 — Populate the audit and sanity views
 
 Owners: [Reflector #258](https://github.com/egohygiene/reflector/issues/258),
@@ -118,6 +143,16 @@ The existing 28-repository inventory is preparation; no organization sweep ran
 in the preceding implementation batch. AI recommendations, raw JSON human
 claims, successful checks and merged code cannot authenticate ratification.
 Keep actual human dispositions and material-change freshness in their owners.
+
+[Relay PR #181](https://github.com/egohygiene/relay/pull/181), functional source
+`5d27be5ce1599df883e31f14cd894eb18622c18c`, supplies the checked-in Git report
+profile and existing repository/singleton-fleet owner models. Empty selections
+are unavailable; historical report subjects and clocks stay historical. A
+captured-current report source profile and actual organization sweep remain
+separate future work. [Website #140](https://github.com/egohygiene/egohygiene.io/pull/140)
+and this companion consumer can select retained owner bundles for the primary
+organization overview, preserving independent module clocks and failure states.
+There is no new semantic fleet assembler or automatic latest-artifact selection.
 
 ### RI-04 — Complete the remaining owner chains
 
@@ -156,6 +191,28 @@ Explicitly disposition [Relay #42](https://github.com/egohygiene/relay/issues/42
 [Observatory #17](https://github.com/egohygiene/observatory/issues/17) as required
 release work or named later milestones. A v1 finish line cannot silently drop
 them or expand forever.
+
+## Proposed next batch — awaiting maintainer review
+
+Live issue/default-branch source triage on 2026-11-11 supports these five slices.
+They are a proposal; this handoff does not start or approve them.
+
+| Order | Owning issue / source slice | Concrete next change and boundary |
+| --- | --- | --- |
+| 1 | [Pace #13](https://github.com/egohygiene/pace/issues/13): OptiFlow adoption | Upgrade the existing current `981ddf43` path to the reviewed typed feed, same-frame owner inputs and separate receipt artifact. Keep native publisher/tool ordering. Declared `https://optiflow.egohygiene.io` is source intent; publication qualification remains [Flow #88](https://github.com/egohygiene/flow/issues/88). OptiFlow #60 is closed as superseded, not qualified. |
+| 2 | [Pace #13](https://github.com/egohygiene/pace/issues/13): Akashic adoption | Reuse one exact feed/model/clock pair across both current deterministic builds; update current receipt/profile admission. Preserve [Akashic #197](https://github.com/egohygiene/akashic/issues/197), disabled unsupported collectors and frozen recovery bytes. |
+| 3 | [Pace #13](https://github.com/egohygiene/pace/issues/13): Hygiene evidence | Add optional read-only retained review evidence independently of the existing publication hold. Preserve [Hygiene #47](https://github.com/egohygiene/hygiene/issues/47); do not admit held ADRs or enable its gated publisher. |
+| 4 | [Hygiene #60](https://github.com/egohygiene/hygiene/issues/60): organization initiative contract | Propose the canonical owner contract/path, repository membership by reference, state and disclosure semantics. No invented strategic priorities. Enables [Observatory #22](https://github.com/egohygiene/observatory/issues/22) then [organization #29](https://github.com/egohygiene/.github/issues/29); remains distinct from this execution queue and repository roadmaps. |
+| 5 | [Hygiene #62](https://github.com/egohygiene/hygiene/issues/62): status contract | Propose provider-neutral service/incident, applicability, freshness and disclosure semantics. Enables [Observatory #23](https://github.com/egohygiene/observatory/issues/23), [Relay #41](https://github.com/egohygiene/relay/issues/41), [organization #33](https://github.com/egohygiene/.github/issues/33) and [Pace #15](https://github.com/egohygiene/pace/issues/15). No monitors, incident writes or inference that successful CI means healthy service. |
+
+The three consumers depend on review/adoption of Relay #181's exact shared
+functional source. Their current `981ddf43` paths lack typed feed wiring; this is
+bounded adoption work, not a reason to rebuild existing renderers. The two
+Hygiene owner contracts and corresponding Observatory model chains have no
+implementation on the refreshed main sources; draft semantics precede models
+and renderers. Contract proposals remain proposed pending actual human review.
+Tests/CI/runtime/publication qualification stays in RI-06 unless the maintainer
+changes the deferral.
 
 ## Execution rules and source holds
 
