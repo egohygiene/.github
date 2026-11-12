@@ -51,6 +51,16 @@ jobs:
           as-of: ${{ steps.boundary.outputs.as-of }}
           output-directory: .cache/ri-real-report/models
 
+      - name: Retain the exact five-file model and receipt bundle
+        id: models
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: repository-intelligence-real-review-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.feed.outputs.artifact-directory }}
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
       - name: Build the existing repository dashboard from those same models
         id: dashboard
         uses: egohygiene/relay/actions/repository-intelligence@5d27be5ce1599df883e31f14cd894eb18622c18c
@@ -64,16 +74,6 @@ jobs:
           work-directory: .cache/ri-real-report-build
           observatory-audits: ${{ steps.feed.outputs.repository-audits }}
           observatory-sanity: ${{ steps.feed.outputs.repository-sanity }}
-
-      - name: Retain the exact five-file model and receipt bundle
-        id: models
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
-        with:
-          name: repository-intelligence-real-review-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ steps.feed.outputs.artifact-directory }}
-          include-hidden-files: true
-          if-no-files-found: error
-          retention-days: 30
 
       - name: Retain the generated dashboard separately for source review
         id: site

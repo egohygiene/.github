@@ -103,6 +103,16 @@ The future cutover needs reviewed route aliases and declared publication evidenc
 
 ## Implementation and evidence links
 
+Source checkpoint, 2026-11-12: the narrow `/.github/` compatibility correction
+described in the original context was merged in
+[Hygiene #101](https://github.com/egohygiene/hygiene/pull/101). Consumers must
+select those compatible owner resources explicitly; an older pin retains its
+original behavior. The focused export, typed review feed and retained-model
+intake are now source-integrated. The
+[real report canary](../intelligence/real-report-canary.md) tracks the next
+artifact proof. These implementation observations do not accept this proposed
+decision, enable a publisher or satisfy hosting/declaration acceptance.
+
 This proposal records source implementation and the user's requested direction;
 approval remains null. This is a local consumption/publisher proposal; Hygiene
 retains organization-level policy and declaration authority. The selected
