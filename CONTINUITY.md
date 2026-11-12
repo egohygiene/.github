@@ -7,13 +7,14 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-12T05:46:19Z'
+  updated_at: '2026-11-12T06:08:28Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Record Discussions configuration and starter evidence separately for one public repository canary.
+  purpose: Record the Discussions canary checkpoint and consolidate the ten selected foundation/setup source
+    slices for review.
   includes:
   - A closed proposed organization checklist records actual enabled state, starter URL/category, dated source
     observation or explicit blocker, and a separately labeled content draft. Exact Hygiene presentation and
@@ -25,6 +26,9 @@ scope:
   - A purpose-aware brain-prefixed organization starter is authored for review. Setup guidance covers existing-starter
     reuse, complete inventory, explicit archived/unsupported exceptions, selected configuration/post/readback
     steps and repository-scoped rollout while retaining Hygiene/Empathy/Holon/Relay/Pace owners.
+  - The dated ten-issue review packet links all10 unmerged drafts, immutable functional sources, source review,
+    integration order and explicit acceptance still owned by each issue. The earlier Intelligence batch remains
+    separate; no issue is closed or policy promoted.
   excludes:
   - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
@@ -43,14 +47,17 @@ scope:
   - docs/repository-setup/discussions.md
   - docs/repository-setup/organization-discussion-draft.md
   - README.md
+  - docs/reviews/2026-11-12-foundation-batch.md
   - https://github.com/egohygiene/.github/issues/54
 work:
-  objective: Record Discussions configuration and starter evidence separately for one public repository canary.
+  objective: Record the Discussions canary checkpoint and consolidate the ten selected foundation/setup source
+    slices for review.
   success_conditions:
   - Provider configuration and actual starter outcome have distinct evidence or explicit unknown/blocker fields.
   - The public canary snapshot, exact hashes and draft remain truthful without asserting configured/posted/verified
     completion.
   - Profile ownership, later provider authority and explicit reviewed rollout stay separate.
+  - All ten distinct source slices and their remaining evidence/authority gates have concrete review references.
   active_issue:
     provider: github
     id: egohygiene/.github#54
@@ -58,9 +65,9 @@ work:
   next:
     kind: action
     id: review-discussions-checklist-before-selected-canary-setup
-    description: Review this first checkpoint and starter draft. Later propose the compatible common-profile
-      amendment, select provider/category configuration and posting/readback explicitly, then reuse the actual
-      starter on repeat before any fleet rollout.
+    description: Review the ten linked source slices and their proposed integration order. Later qualify runtime/consumer/schema/holistic
+      behavior; separately select compatible profile adoption and Discussions configuration/category/post/readback
+      before any completion or rollout claim.
     readiness: ready
     references:
     - https://github.com/egohygiene/.github/issues/54
@@ -69,21 +76,25 @@ state:
   base:
     revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     ref: refs/heads/main
-    verified_at: '2026-11-12T05:46:19Z'
+    verified_at: '2026-11-12T06:08:28Z'
   candidate:
     branch: codex/org-54-discussions-checklist
     revision: null
-    pull_request: null
-    handoff_state: ready-for-review
+    pull_request:
+      provider: github
+      id: egohygiene/.github#57
+      url: https://github.com/egohygiene/.github/pull/57
+    handoff_state: review-reference-recorded
   live:
     status: verified
-    observed_at: '2026-11-12T05:46:19Z'
+    observed_at: '2026-11-12T06:08:28Z'
     default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     issue_state: open
-    pull_request_state: not-applicable
-    notes: Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization54 is open. Functional
-      source273ecc695b66cf73ea7fc82265d4d88aef43f30c received independent static peer. The public canary inventory
-      actually ran at2026-11-12T05:35:58Z and observed disabled Discussions; provider settings/posts were unchanged.
+    pull_request_state: draft
+    notes: Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Draft57 contains source273ecc695b66cf73ea7fc82265d4d88aef43f30c
+      plus the consolidated review packet. All ten new drafts are public and unmerged; source peers and root
+      review are clear. The actual public canary observation at2026-11-12T05:35:58Z remains disabled. No settings,
+      posts or Project items changed.
   parallel_changes:
   - provider: github
     id: egohygiene/.github#53
@@ -91,22 +102,28 @@ state:
   - provider: github
     id: egohygiene/.github#56
     url: https://github.com/egohygiene/.github/pull/56
+  - provider: github
+    id: egohygiene/hygiene#106
+    url: https://github.com/egohygiene/hygiene/pull/106
+  - provider: github
+    id: egohygiene/hygiene#107
+    url: https://github.com/egohygiene/hygiene/pull/107
 review:
   status: partial
-  reviewed_at: '2026-11-12T05:46:19Z'
+  reviewed_at: '2026-11-12T06:08:28Z'
   reviewed_by: Codex
   evidence:
   - command: Independent source peer and root review; closed Draft202012 schema/record validation with formats,
       exact observation/checklist and immutable source-profile hashes, local link/claim and visibility review,
-      continuity schema/size and whitespace
+      continuity schema/size and whitespace; exact ten-PR/source review-index mapping and local links
     outcome: limited
-    observed_at: '2026-11-12T05:46:19Z'
+    observed_at: '2026-11-12T06:08:28Z'
     notes: Static source/metadata review plus an actual scoped public REST/GraphQL canary observation. Schema
       validity and raw JSON cannot authenticate future provider completion or human approval.
   - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
       qualification
     outcome: not-run
-    observed_at: '2026-11-12T05:46:19Z'
+    observed_at: '2026-11-12T06:08:28Z'
     notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
   - User deferred tests, linters, builds, CI, runtime/setup/helper execution, provider mutations and live rollout
@@ -141,11 +158,11 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Record Discussions configuration and starter evidence separately for one public repository canary. Provider configuration and actual starter outcome have distinct evidence or explicit unknown/blocker fields. The public canary snapshot, exact hashes and draft remain truthful without asserting configured/posted/verified completion. Profile ownership, later provider authority and explicit reviewed rollout stay separate.
+Record the Discussions canary checkpoint and consolidate the ten selected foundation/setup source slices for review. Provider configuration and actual starter outcome have distinct evidence or explicit unknown/blocker fields. The public canary snapshot, exact hashes and draft remain truthful without asserting configured/posted/verified completion. Profile ownership, later provider authority and explicit reviewed rollout stay separate. All ten distinct source slices and their remaining evidence/authority gates have concrete review references.
 
 ## State snapshot
 
-Candidate `codex/org-54-discussions-checklist` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision and pre-PR reference remain null intentionally. Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization54 is open. Functional source273ecc695b66cf73ea7fc82265d4d88aef43f30c received independent static peer. The public canary inventory actually ran at2026-11-12T05:35:58Z and observed disabled Discussions; provider settings/posts were unchanged.
+Candidate `codex/org-54-discussions-checklist` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision remains null intentionally; the PR reference is captured above. Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Draft57 contains source273ecc695b66cf73ea7fc82265d4d88aef43f30c plus the consolidated review packet. All ten new drafts are public and unmerged; source peers and root review are clear. The actual public canary observation at2026-11-12T05:35:58Z remains disabled. No settings, posts or Project items changed.
 
 ## Completed and material changes
 
@@ -155,9 +172,11 @@ A read-only public GitHub REST/GraphQL inventory observed organization Discussio
 
 A purpose-aware brain-prefixed organization starter is authored for review. Setup guidance covers existing-starter reuse, complete inventory, explicit archived/unsupported exceptions, selected configuration/post/readback steps and repository-scoped rollout while retaining Hygiene/Empathy/Holon/Relay/Pace owners.
 
+The dated ten-issue review packet links all10 unmerged drafts, immutable functional sources, source review, integration order and explicit acceptance still owned by each issue. The earlier Intelligence batch remains separate; no issue is closed or policy promoted.
+
 ## Validation and review evidence
 
-Independent source peer and root review; closed Draft202012 schema/record validation with formats, exact observation/checklist and immutable source-profile hashes, local link/claim and visibility review, continuity schema/size and whitespace. The public read-only GitHub canary inventory actually ran. Source/schema/metadata checks are limited validation; no tests, lint, build, CI, setup/helper runtime, provider mutation, discussion post or live rollout qualification was executed.
+Independent source peer and root review; closed Draft202012 schema/record validation with formats, exact observation/checklist and immutable source-profile hashes, local link/claim and visibility review, continuity schema/size and whitespace; exact ten-PR/source review-index mapping and local links. The public read-only GitHub canary inventory actually ran. Source/schema/metadata checks are limited validation; no tests, lint, build, CI, setup/helper runtime, provider mutation, discussion post or live rollout qualification was executed.
 
 ## Blockers, risks, unknowns, and deferred work
 
@@ -165,7 +184,7 @@ User deferred tests, linters, builds, CI, runtime/setup/helper execution, provid
 
 ## Next dependency-ready work
 
-Review this first checkpoint and starter draft. Later propose the compatible common-profile amendment, select provider/category configuration and posting/readback explicitly, then reuse the actual starter on repeat before any fleet rollout.
+Review the ten linked source slices and their proposed integration order. Later qualify runtime/consumer/schema/holistic behavior; separately select compatible profile adoption and Discussions configuration/category/post/readback before any completion or rollout claim.
 
 ## Parallel changes and reconciliation
 
