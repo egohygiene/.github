@@ -21,6 +21,9 @@ publication evidence remain separate.
 
 ## Organization contracts
 
+- [Read-only Project intake preview](docs/project-intake/README.md) — inspect
+  missing public issue membership before any separately reviewed apply step.
+
 - [Repository trust policy](TRUST_POLICY.md) — DCO, signing, provenance, SBOM,
   exceptions, and staged adoption.
 - [Organization issue routing](docs/issue-routing.md) — route work to its
