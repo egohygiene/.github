@@ -7,25 +7,23 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-11T19:24:11Z'
+  updated_at: '2026-11-12T11:17:19Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Bind retained owner model selection to the organization review export and hand off the completed
-    five-slice adoption source batch for maintainer review.
+  purpose: Integrate retained-model review intake after the preserved audit while keeping source merges and
+    runtime acceptance distinct.
   includes:
-  - The existing manual review consumer adds an optional retained-models producer profile. Exact public producer
-    source/workflow/run/attempt and two ordinary artifacts are authenticated; the sanitized companion binds
-    the same final Relay-verified export manifest and admitted presentation identities/clocks. Default static
-    profile and review-only permissions remain unchanged.
-  - Website140 reuses its existing sealed export and unchanged manifest/39-route format. Its separate companion
-    distinguishes input compatibility from actual native presentation state. This consumer adds no owner model,
-    application execution, publisher, Pages/OIDC permission, DNS/CNAME change or human ratification.
-  - The refreshed completion roadmap and dated review packet consolidate the five requested slices across Pace37,
-    Relay181, Identity144, Empathy125, Civics9, website140 and this organization draft. Earlier Hygiene101/website139/Relay180/organization52
-    source merges are recorded separately from deferred runtime/hosting/acceptance proof.
+  - The optional retained-models consumer profile and companion validator from functional02cf41b5b2196ac80316721295176a0975314eef
+    remain byte-identical. Exact public producer/run/artifact/manifest/clock bindings and the default static/manual/read-only
+    boundary are preserved.
+  - The current main and all seven historical audit artifacts from merged48 are retained. Operational continuity
+    is reconciled to the authorized source queue without altering dated audit or prior review evidence.
+  - The earlier review packet/roadmap records source candidates at its dated checkpoint. Current four-repository
+    integration is separate; upstream website140 and Relay181 source proposals remain open outside this merge
+    scope and runtime/artifact/publication qualification is still deferred.
   excludes:
   - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
@@ -50,33 +48,31 @@ scope:
   - docs/intelligence/2026-11-11-adoption-review.md
   - https://github.com/egohygiene/.github/issues/27
 work:
-  objective: Bind retained owner model selection to the organization review export and hand off the completed
-    five-slice adoption source batch for maintainer review.
+  objective: Integrate retained-model review intake after the preserved audit while keeping source merges and
+    runtime acceptance distinct.
   success_conditions:
-  - The companion is authenticated as a separate same-run artifact and bound to the exact verified static manifest
-    without expanding its sealed site contract.
-  - All seven drafts, immutable functional sources and dependency order are reviewable; source merges, report
-    evidence, artifact transport and live acceptance stay distinct.
-  - Original static defaults, existing publisher boundaries and human/source holds remain intact.
+  - The retained-model companion source integrates without changing transport/authority/publisher semantics.
+  - Current main and historical audit bytes survive the merge.
+  - The remaining56/57 queue and out-of-scope upstream source dependencies remain explicit.
   active_issue:
     provider: github
     id: egohygiene/.github#27
     url: https://github.com/egohygiene/.github/issues/27
   next:
     kind: action
-    id: review-five-slice-adoption-and-next-batch
-    description: Review the seven draft PRs in the dated review packet and their dependency order, then choose
-      the next proposed source batch. Tests/builds/CI/application/provider/publication qualification remains
-      a separately deferred closeout phase; do not self-merge this new batch.
+    id: integrate-project-preview-and-discussions
+    description: After this source merge, integrate56 read-only Project preview then57 Discussions/checklist
+      and consolidated source-integration record. Qualify real upstream artifacts and consumer/runtime behavior
+      separately after the user-deferred phase.
     readiness: ready
     references:
     - https://github.com/egohygiene/.github/issues/27
     depends_on: []
 state:
   base:
-    revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
+    revision: 89d4a31e0427f5c312a5a06170f49f926d11f6c2
     ref: refs/heads/main
-    verified_at: '2026-11-11T19:24:11Z'
+    verified_at: '2026-11-12T11:17:19Z'
   candidate:
     branch: codex/intelligence-model-selection-review
     revision: null
@@ -87,44 +83,44 @@ state:
     handoff_state: review-reference-recorded
   live:
     status: verified
-    observed_at: '2026-11-11T19:24:11Z'
-    default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
+    observed_at: '2026-11-12T11:17:19Z'
+    default_branch_revision: 89d4a31e0427f5c312a5a06170f49f926d11f6c2
     issue_state: open
     pull_request_state: draft
-    notes: Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization draft53 exposes
-      functional consumer02cf41b5b2196ac80316721295176a0975314eef plus the review packet/roadmap; independent
-      static peers and root review are clear. All seven current drafts are public and unmerged. Organization27/41
-      remain open; no actual model artifact, export/intake execution or deployment was qualified.
-  parallel_changes: []
+    notes: Observed main89d4a31e0427f5c312a5a06170f49f926d11f6c2 contains audit48 at prepared5104c7cb0c77114f07760935f90e78d9d56b5868.
+      PR53 remains open before this exact candidate merge, with no submitted reviews/threads. Optional retained-model
+      source is unchanged; website140 and Relay181 are open outside the four-repository queue.
+  parallel_changes:
+  - provider: github
+    id: egohygiene/.github#56
+    url: https://github.com/egohygiene/.github/pull/56
+  - provider: github
+    id: egohygiene/.github#57
+    url: https://github.com/egohygiene/.github/pull/57
 review:
   status: partial
-  reviewed_at: '2026-11-11T19:24:11Z'
+  reviewed_at: '2026-11-12T11:17:19Z'
   reviewed_by: Codex
   evidence:
-  - command: Independent source peers and root review of same-run transport, public admission, bounded companion
-      ZIP, final manifest/clock/presentation bindings and default-profile preservation; Python AST, YAML/Bash/embedded
-      source, exact inventory/source hashes, review references and local links; continuity schema/size and
-      whitespace
+  - command: Independent source-preservation review; exact functional workflow/validator/guide and current-main/audit
+      Git blob comparisons; Python AST and YAML metadata inspection, continuity schema/size and whitespace
     outcome: limited
-    observed_at: '2026-11-11T19:24:11Z'
+    observed_at: '2026-11-12T11:17:19Z'
     notes: Static source and metadata review only. Prior source inventory and source merge observations are
       preserved with their dated evidence; no actual artifact/provider/application/export/intake qualification
       is claimed.
   - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
       qualification
     outcome: not-run
-    observed_at: '2026-11-11T19:24:11Z'
+    observed_at: '2026-11-12T11:17:19Z'
     notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - Tests, builds, CI, owner/helper/native/application/export/intake execution, actual provider/artifact transport,
-    workflows, browsers and publication/recovery qualification remain deferred by user instruction.
-  - AGENTS requires proposed work via draft PR with no self-merge. New batch is for maintainer review; earlier
-    explicit merge approval applied to the preceding four source slices.
-  - Hygiene47 and Akashic197 source holds, authentic human dispositions and existing builder/recovery authority
-    remain unchanged. Hygiene69 requires an explicit compatibility/authority disposition; supported consumer
-    engineering can proceed in parallel.
-  - No actual audit, report, artifact ID/digest or deployment is fabricated. Proposed project hosting and current
-    catalog/declaration acceptance still require explicit compatible adoption and reconciliation.
+  - Tests, linters, builds, CI investigation, helper/export/intake/native/application execution and actual
+    upstream artifact/provider/publication qualification remain deferred.
+  - The manual retained-model producer workflow in website140 and shared feed181 remain open outside the user-selected
+    four repositories; source integration does not execute or qualify either path.
+  - Original historical audit whitespace/evidence and source snapshots remain unchanged. Human dispositions,
+    source holds, proposed hosting and live publication remain their own gates.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -151,35 +147,35 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Bind retained owner model selection to the organization review export and hand off the completed five-slice adoption source batch for maintainer review. The companion is authenticated as a separate same-run artifact and bound to the exact verified static manifest without expanding its sealed site contract. All seven drafts, immutable functional sources and dependency order are reviewable; source merges, report evidence, artifact transport and live acceptance stay distinct. Original static defaults, existing publisher boundaries and human/source holds remain intact.
+Integrate retained-model review intake after the preserved audit while keeping source merges and runtime acceptance distinct. The retained-model companion source integrates without changing transport/authority/publisher semantics. Current main and historical audit bytes survive the merge. The remaining56/57 queue and out-of-scope upstream source dependencies remain explicit.
 
 ## State snapshot
 
-Candidate `codex/intelligence-model-selection-review` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision remains null intentionally; the PR reference is captured above. Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization draft53 exposes functional consumer02cf41b5b2196ac80316721295176a0975314eef plus the review packet/roadmap; independent static peers and root review are clear. All seven current drafts are public and unmerged. Organization27/41 remain open; no actual model artifact, export/intake execution or deployment was qualified.
+Candidate `codex/intelligence-model-selection-review` is based on observed main `89d4a31e0427f5c312a5a06170f49f926d11f6c2`. The containing revision remains null intentionally; the PR reference is captured above. Observed main89d4a31e0427f5c312a5a06170f49f926d11f6c2 contains audit48 at prepared5104c7cb0c77114f07760935f90e78d9d56b5868. PR53 remains open before this exact candidate merge, with no submitted reviews/threads. Optional retained-model source is unchanged; website140 and Relay181 are open outside the four-repository queue.
 
 ## Completed and material changes
 
-The existing manual review consumer adds an optional retained-models producer profile. Exact public producer source/workflow/run/attempt and two ordinary artifacts are authenticated; the sanitized companion binds the same final Relay-verified export manifest and admitted presentation identities/clocks. Default static profile and review-only permissions remain unchanged.
+The optional retained-models consumer profile and companion validator from functional02cf41b5b2196ac80316721295176a0975314eef remain byte-identical. Exact public producer/run/artifact/manifest/clock bindings and the default static/manual/read-only boundary are preserved.
 
-Website140 reuses its existing sealed export and unchanged manifest/39-route format. Its separate companion distinguishes input compatibility from actual native presentation state. This consumer adds no owner model, application execution, publisher, Pages/OIDC permission, DNS/CNAME change or human ratification.
+The current main and all seven historical audit artifacts from merged48 are retained. Operational continuity is reconciled to the authorized source queue without altering dated audit or prior review evidence.
 
-The refreshed completion roadmap and dated review packet consolidate the five requested slices across Pace37, Relay181, Identity144, Empathy125, Civics9, website140 and this organization draft. Earlier Hygiene101/website139/Relay180/organization52 source merges are recorded separately from deferred runtime/hosting/acceptance proof.
+The earlier review packet/roadmap records source candidates at its dated checkpoint. Current four-repository integration is separate; upstream website140 and Relay181 source proposals remain open outside this merge scope and runtime/artifact/publication qualification is still deferred.
 
 ## Validation and review evidence
 
-Independent source peers and root review of same-run transport, public admission, bounded companion ZIP, final manifest/clock/presentation bindings and default-profile preservation; Python AST, YAML/Bash/embedded source, exact inventory/source hashes, review references and local links; continuity schema/size and whitespace. Static source/metadata inspection only. No application/native/helper/model/export/intake execution, tests, builds, CI, workflow dispatch, browser/provider-artifact qualification or live publication was run.
+Independent source-preservation review; exact functional workflow/validator/guide and current-main/audit Git blob comparisons; Python AST and YAML metadata inspection, continuity schema/size and whitespace. Static source and Git/metadata inspection only. No application/helper/model/export/intake execution, tests, build, CI, workflow dispatch, actual upstream artifact transport or live publication was run.
 
 ## Blockers, risks, unknowns, and deferred work
 
-Tests, builds, CI, owner/helper/native/application/export/intake execution, actual provider/artifact transport, workflows, browsers and publication/recovery qualification remain deferred by user instruction. AGENTS requires proposed work via draft PR with no self-merge. New batch is for maintainer review; earlier explicit merge approval applied to the preceding four source slices. Hygiene47 and Akashic197 source holds, authentic human dispositions and existing builder/recovery authority remain unchanged. Hygiene69 requires an explicit compatibility/authority disposition; supported consumer engineering can proceed in parallel. No actual audit, report, artifact ID/digest or deployment is fabricated. Proposed project hosting and current catalog/declaration acceptance still require explicit compatible adoption and reconciliation.
+Tests, linters, builds, CI investigation, helper/export/intake/native/application execution and actual upstream artifact/provider/publication qualification remain deferred. The manual retained-model producer workflow in website140 and shared feed181 remain open outside the user-selected four repositories; source integration does not execute or qualify either path. Original historical audit whitespace/evidence and source snapshots remain unchanged. Human dispositions, source holds, proposed hosting and live publication remain their own gates.
 
 ## Next dependency-ready work
 
-Review the seven draft PRs in the dated review packet and their dependency order, then choose the next proposed source batch. Tests/builds/CI/application/provider/publication qualification remains a separately deferred closeout phase; do not self-merge this new batch.
+After this source merge, integrate56 read-only Project preview then57 Discussions/checklist and consolidated source-integration record. Qualify real upstream artifacts and consumer/runtime behavior separately after the user-deferred phase.
 
 ## Parallel changes and reconciliation
 
-Reference proposed local ADR0006 and website ADR0017 export boundary; additive retained-model companion transport adds no new ownership or lifecycle decision. Existing five legacy ADR bodies and human dispositions are unchanged. Completion queue coordinates owner issues and does not replace Hygiene60 portfolio strategy. Label46/provider-policy work remains independent and unclosed.
+The current user explicitly authorizes all-open source merges, superseding older draft/no-selfmerge instructions for this queue. Retain proposed ADR0006/website0017 approval states and all old contracts. This candidate changes only operational continuity relative to reviewed53+main; later57 records current merge state without rewriting historical audit evidence.
 
 ## Privacy and redaction
 
