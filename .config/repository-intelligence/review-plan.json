@@ -1,0 +1,13 @@
+{
+  "schema": "egohygiene.relay.typed-review-plan/v1",
+  "contract_version": "1.0.0-alpha.1",
+  "visibility": "public",
+  "repository": "egohygiene/.github",
+  "audits": [
+    {
+      "path": "audits/ri-review-boundary-20261112T234641Z.json",
+      "sha256": "fba14958748b573ce9045417452de470c2054f028aa9100be4eadaf659aefa92"
+    }
+  ],
+  "sanity": []
+}

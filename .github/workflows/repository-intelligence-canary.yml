@@ -1,0 +1,112 @@
+name: Repository Intelligence real-report canary
+run-name: Review one committed source audit through the existing Intelligence builder
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-intelligence-real-report-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  review:
+    if: >-
+      github.repository == 'egohygiene/.github' &&
+      github.event.repository.visibility == 'public' &&
+      github.event_name == 'workflow_dispatch' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Read the exact public source and complete history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Capture one actual evaluation boundary
+        id: boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -I - <<'PY'
+          from datetime import datetime, timezone
+          import os
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as target:
+              target.write("as-of=" + datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") + "\n")
+          PY
+
+      - name: Normalize the explicitly selected committed audit
+        id: feed
+        uses: egohygiene/relay/actions/repository-intelligence-review-feed@5d27be5ce1599df883e31f14cd894eb18622c18c
+        with:
+          source-root: "."
+          plan: .config/repository-intelligence/review-plan.json
+          repository: ${{ github.repository }}
+          represented-commit: ${{ github.sha }}
+          as-of: ${{ steps.boundary.outputs.as-of }}
+          output-directory: .cache/ri-real-report/models
+
+      - name: Build the existing repository dashboard from those same models
+        id: dashboard
+        uses: egohygiene/relay/actions/repository-intelligence@5d27be5ce1599df883e31f14cd894eb18622c18c
+        with:
+          repository: ${{ github.repository }}
+          repository-visibility: public
+          default-branch: main
+          source-commit: ${{ github.sha }}
+          as-of: ${{ steps.boundary.outputs.as-of }}
+          output-directory: .cache/ri-real-report-site/intelligence
+          work-directory: .cache/ri-real-report-build
+          observatory-audits: ${{ steps.feed.outputs.repository-audits }}
+          observatory-sanity: ${{ steps.feed.outputs.repository-sanity }}
+
+      - name: Retain the exact five-file model and receipt bundle
+        id: models
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: repository-intelligence-real-review-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.feed.outputs.artifact-directory }}
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Retain the generated dashboard separately for source review
+        id: site
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: repository-intelligence-real-dashboard-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.dashboard.outputs.output-directory }}
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Record the distinct source, model and artifact observations
+        shell: bash
+        env:
+          SOURCE_REVISION: ${{ github.sha }}
+          AS_OF: ${{ steps.boundary.outputs.as-of }}
+          FEED_RECEIPT_SHA256: ${{ steps.feed.outputs.receipt-sha256 }}
+          MODEL_ARTIFACT_ID: ${{ steps.models.outputs.artifact-id }}
+          MODEL_ARCHIVE_SHA256: ${{ steps.models.outputs.artifact-digest }}
+          SITE_ARTIFACT_ID: ${{ steps.site.outputs.artifact-id }}
+          SITE_ARCHIVE_SHA256: ${{ steps.site.outputs.artifact-digest }}
+        run: |
+          set -euo pipefail
+          python3 -I - <<'PY'
+          import os
+          from pathlib import Path
+          import json
+          receipt = json.loads(Path(".cache/ri-real-report/models/review-feed-receipt.json").read_bytes())
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              summary.write("## Real report canary\n\n")
+              for name in ("SOURCE_REVISION", "AS_OF", "FEED_RECEIPT_SHA256", "MODEL_ARTIFACT_ID",
+                           "MODEL_ARCHIVE_SHA256", "SITE_ARTIFACT_ID", "SITE_ARCHIVE_SHA256"):
+                  summary.write(name + ": `" + os.environ[name] + "`\n\n")
+              summary.write("Selected report states: `" + ", ".join(item["state"] for item in receipt["reports"]) + "`.\n\n")
+              summary.write("This retains ordinary review artifacts. Original audit subject, scope and clocks remain unchanged; Sanity without a selected report remains unavailable.\n")
+          PY
