@@ -1,0 +1,39 @@
+{
+  "schema": "egohygiene.organization-discussions-checklist/v1",
+  "contract_version": "1.0.0-alpha.1",
+  "status": "proposed",
+  "repository": "egohygiene/.github",
+  "visibility": "public",
+  "applicability": "applicable",
+  "profiles": {
+    "hygiene": {
+      "repository": "egohygiene/hygiene",
+      "revision": "87bef166fcba4c89161be6adb6e491f92b061a08",
+      "path": "catalog/repository-presentation-profile.json",
+      "sha256": "44e0881519350e6747723995939c79c6fb4659e38a74b2c32e409866e7a186ba",
+      "lifecycle": "proposed"
+    },
+    "empathy": {
+      "repository": "egohygiene/empathy",
+      "revision": "058d92a0f8c970f98a58d446408716936e593c99",
+      "path": "foundation/catalog.json",
+      "sha256": "bbd43a1f7d286b46d31595d93a801584a96802ffb1a10e72532a9273195c041f",
+      "selection": "community-health"
+    }
+  },
+  "enabled": false,
+  "starter_discussion_url": null,
+  "category": null,
+  "verified_at": "2026-11-12T05:35:58Z",
+  "observation": {
+    "path": "docs/evidence/discussions/2026-11-12-organization.json",
+    "sha256": "b36bda35621097733f32034c6e0c2f20bc5681d00987d786f9bdd83052f0a04a"
+  },
+  "starter_state": "blocked",
+  "blocker": "discussions-disabled; category and provider configuration must be selected before posting",
+  "draft": {
+    "path": "docs/repository-setup/organization-discussion-draft.md",
+    "state": "draft-only"
+  },
+  "completion": "blocked"
+}
