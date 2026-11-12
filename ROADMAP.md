@@ -26,6 +26,14 @@ supersedes: []
 
 # Ego Hygiene .github Roadmap
 
+The current cross-repository Intelligence execution queue is the
+[completion roadmap](docs/intelligence/DELIVERY_ROADMAP.md), starting with this
+repository as the primary organization entry point. The proposed
+[ADR-0006](docs/decisions/ADR-0006-organization-intelligence-entrypoint.md)
+records the requested hosting transition; older central-host publication text
+below is historical strategy pending explicit declaration/acceptance reconciliation.
+The queue coordinates delivery and does not replace Hygiene's organization strategy.
+
 This is the roadmap for the `.github` repository's own defaults, intake, and
 coordination responsibilities. Hygiene is the accepted owner of ecosystem
 architecture and the repository catalog; [Hygiene #60](https://github.com/egohygiene/hygiene/issues/60)
@@ -166,7 +174,7 @@ issues: []
 
 **Current evidence:**
 
-- [Local ADR-001](DECISIONS.md) and accepted
+- [Local ADR-0001](DECISIONS.md) and accepted
   [Hygiene ADR-0001](https://github.com/egohygiene/hygiene/blob/main/docs/decisions/ADR-0001-holistic-architecture-v0.1.md)
   assign ecosystem architecture and the repository catalog to Hygiene.
 - [Organization #42](https://github.com/egohygiene/.github/issues/42) proposes a

@@ -1,6 +1,24 @@
 # .github
 🧠 Organization-wide standards, templates, and developer experience for Ego Hygiene
 
+## Organization Intelligence
+
+Use this repository as the organization starting point, then drill into each
+repository's own dashboard and canonical evidence.
+
+- [Organization overview](https://egohygiene.io/intelligence/) ·
+  [Audits](https://egohygiene.io/audits/) ·
+  [Architecture reviews](https://egohygiene.io/sanity/)
+- [Repository dashboards and source inventory](docs/intelligence/repositories.md)
+- [Completion roadmap and next work](docs/intelligence/DELIVERY_ROADMAP.md)
+- [Organization export and review path](docs/intelligence/organization-home.md)
+- [Merged implementation review](https://github.com/egohygiene/relay/blob/73f750ef9dd1782b20d280b4c555aacd92ee5f4e/docs/repository-intelligence-audits-sanity-review.md)
+
+The overview links retain the existing website route during the proposed
+[`.github` Pages transition](docs/decisions/ADR-0006-organization-intelligence-entrypoint.md).
+The first consumer workflow produces a reviewed artifact; live hosting and
+publication evidence remain separate.
+
 ## Organization contracts
 
 - [Repository trust policy](TRUST_POLICY.md) — DCO, signing, provenance, SBOM,

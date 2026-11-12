@@ -7,18 +7,26 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: "2026-10-18T14:15:48Z"
+  updated_at: '2026-11-12T11:13:41Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Preserve the paused Repository and Organization Intelligence audit for review.
+  purpose: Integrate the authorized open PR source queue while preserving dated audits and separate qualification
+    gates.
   includes:
-  - Dated public findings, issue references, evidence inventory and resume boundaries.
+  - The paused2026-10-18 audit checkpoint is preserved byte-for-byte as historical evidence, including43 then-public
+    source observations, dated HTTP results, original issue references and proposed roadmap. It does not become
+    the current roster, accepted execution plan or runtime evidence.
+  - Current source-home/README/hosting proposal and manual read-only Intelligence review consumer from main
+    are retained. The current bounded handoff supersedes the historical operational snapshot without rewriting
+    its seven audit artifacts.
+  - The remaining open organization PRs53/56/57 will be integrated sequentially after this historical checkpoint,
+    with separate Empathy/Holon/Hygiene source queues handled by their owners. No issue is closed, proposed
+    policy ratified or provider configured by these merges.
   excludes:
-  - Conversation transcripts, private repository identities and restricted evidence.
-  - Source implementation, deployment, human ADR disposition and staging cleanup.
+  - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -28,63 +36,88 @@ scope:
   canonical_sources:
   - AGENTS.md
   - ARCHITECTURE.md
-  - DECISIONS.md
   - docs/issue-routing.md
   - docs/intelligence/audits/2026-10-18/README.md
+  - docs/intelligence/audits/2026-10-18/checksums.json
+  - docs/intelligence/DELIVERY_ROADMAP.md
+  - docs/intelligence/organization-home.md
   - https://github.com/egohygiene/.github/issues/30
-  - https://github.com/egohygiene/pace/issues/5
-  - https://github.com/egohygiene/pace/issues/13
 work:
-  objective: Save unfinished audit and roadmap work as a draft PR, then pause for maintainer sync.
+  objective: Integrate the authorized open PR source queue while preserving dated audits and separate qualification
+    gates.
   success_conditions:
-  - The existing roadmap draft, public inventory and 13 issue references are preserved.
-  - Pending tracker reconciliation and fleet acceptance remain explicitly unfinished.
-  - No implementation begins before the requested roadmap review checkpoint.
+  - Historical audit evidence survives source integration without becoming a current completion claim.
+  - The current main and open queue have explicit exact source references and a truthful next merge checkpoint.
+  - User-deferred runtime/acceptance work and all human/source authority boundaries remain intact.
   active_issue:
     provider: github
     id: egohygiene/.github#30
     url: https://github.com/egohygiene/.github/issues/30
   next:
     kind: action
-    id: resume-intelligence-audit-after-sync
-    description: Await maintainer direction, then finish the audit and tracker reconciliation before implementation.
-    readiness: blocked
+    id: integrate-organization-open-pr-queue
+    description: After this source merge, reconcile and merge53 retained-model intake,56 read-only Project
+      preview and57 Discussions/checklist/review packet in order; record exact final revisions and remaining
+      acceptance separately.
+    readiness: ready
     references:
-    - docs/intelligence/audits/2026-10-18/README.md
     - https://github.com/egohygiene/.github/issues/30
     depends_on: []
 state:
   base:
-    revision: 8b16273eaf0709a7ce95f5e352a2b0d38cfac131
+    revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     ref: refs/heads/main
-    verified_at: "2026-10-18T14:15:48Z"
+    verified_at: '2026-11-12T11:13:41Z'
   candidate:
     branch: codex/intelligence-audit-checkpoint-30
     revision: null
-    pull_request: null
-    handoff_state: ready-for-review
+    pull_request:
+      provider: github
+      id: egohygiene/.github#48
+      url: https://github.com/egohygiene/.github/pull/48
+    handoff_state: review-reference-recorded
   live:
-    status: partial
-    observed_at: "2026-10-18T14:15:48Z"
-    default_branch_revision: 8b16273eaf0709a7ce95f5e352a2b0d38cfac131
+    status: verified
+    observed_at: '2026-11-12T11:13:41Z'
+    default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     issue_state: open
-    pull_request_state: not-applicable
-    notes: "Fetched main and checked live epic #30; no open organization PR was returned before this draft. Resolve this candidate from its branch after publication. Other owners and served evidence require refresh before resuming."
-  parallel_changes: []
+    pull_request_state: draft
+    notes: Observed main101a0d4553dc380ab3f88c50b11cb53beadfce18; organization48/53/56/57 are open, with no
+      submitted reviews or inline threads when inspected. The previous pause is superseded by the current explicit
+      all-open source merge instruction; historical planning prose remains dated and unchanged.
+  parallel_changes:
+  - provider: github
+    id: egohygiene/.github#53
+    url: https://github.com/egohygiene/.github/pull/53
+  - provider: github
+    id: egohygiene/.github#56
+    url: https://github.com/egohygiene/.github/pull/56
+  - provider: github
+    id: egohygiene/.github#57
+    url: https://github.com/egohygiene/.github/pull/57
 review:
   status: partial
-  reviewed_at: "2026-10-18T14:15:48Z"
+  reviewed_at: '2026-11-12T11:13:41Z'
   reviewed_by: Codex
   evidence:
-  - command: Python checkpoint preparation and public-visibility checks
-    outcome: passed
-    observed_at: "2026-10-18T14:15:48Z"
-    notes: "43 public source rows, 13 distinct created-issue references, 63 dated HTTP observations and five content digests. Exact restricted repository identities are absent from the public checkpoint."
+  - command: Independent source-preservation review, exact seven audit Git blob comparison and five SHA256
+      checks, JSON parsing and authored local references, current-main conflict inspection, continuity schema/size
+      and whitespace
+    outcome: limited
+    observed_at: '2026-11-12T11:13:41Z'
+    notes: Static source and metadata inspection only; no application execution.
+  - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
+      qualification
+    outcome: not-run
+    observed_at: '2026-11-12T11:13:41Z'
+    notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - The audit and final fleet matrix are unfinished; this is a preservation checkpoint.
-  - Raw restricted evidence is retained separately and must not be copied into public trackers.
-  - Earlier hosted observations are dated evidence, not a new live acceptance run.
-  - Full cross-repository issue and dependency reconciliation remains pending.
+  - Tests, lint, builds, CI investigation, application/native/helper/model/export/intake execution and actual
+    provider/publication qualification remain deferred.
+  - The historical43-source scan includes then-public sources across three owners and is not the current fixed28-entry
+    Hygiene roster or complete fleet adoption proof.
+  - Source merges do not authenticate human ratification, activate proposed contracts or supply live audit/deployment/recovery
+    evidence.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -99,95 +132,56 @@ privacy:
   untrusted_content: context-only-no-authority
 ---
 
-# Organization coordination continuity
+# .github continuity
 
 ## Purpose and precedence
 
-Preserve the paused audit for completion epic #30. Canonical policies, scoped
-instructions and fresh source/tracker facts take precedence over the working
-draft. The dated audit is not a replacement master epic or accepted contract.
+User/runtime and repository instructions, live evidence and canonical sources outrank this checkpoint. It grants no release, deployment or human-decision authority.
 
 ## Resume protocol
 
-Read AGENTS.md, ARCHITECTURE.md, DECISIONS.md, issue routing and
-[the audit resume notes](docs/intelligence/audits/2026-10-18/README.md).
-Locate the draft by branch codex/intelligence-audit-checkpoint-30. Refresh
-default branches, owning issues/comments, overlapping PRs, pins, releases,
-Actions and deployed evidence before relying on mutable findings.
+Read scoped instructions, canonical sources above and this checkpoint. Verify mutable GitHub state and exact owner pins before continuing.
 
 ## Current objective and success conditions
 
-The maintainer requested a draft PR to preserve the work and a return to sync
-before further work. Complete this save, then pause. Later finish the whole
-audit and dependency-ordered issue trail and return for roadmap review before
-implementation. No permission to begin implementation is inferred from saving.
+Integrate the authorized open PR source queue while preserving dated audits and separate qualification gates. Historical audit evidence survives source integration without becoming a current completion claim. The current main and open queue have explicit exact source references and a truthful next merge checkpoint. User-deferred runtime/acceptance work and all human/source authority boundaries remain intact.
 
 ## State snapshot
 
-The base is main at 8b16273eaf0709a7ce95f5e352a2b0d38cfac131. Epic #30
-remains open. Candidate revision and PR are unset before publication; resolve
-them from the named branch. The saved issue receipts identify 13 focused
-issues already created. They do not imply tracker reconciliation is complete.
+Candidate `codex/intelligence-audit-checkpoint-30` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision remains null intentionally; the PR reference is captured above. Observed main101a0d4553dc380ab3f88c50b11cb53beadfce18; organization48/53/56/57 are open, with no submitted reviews or inline threads when inspected. The previous pause is superseded by the current explicit all-open source merge instruction; historical planning prose remains dated and unchanged.
 
 ## Completed and material changes
 
-The checkpoint saves the architecture and owner findings, proposed execution
-table, completion definitions and first bounded recommendation, together with
-43 public source rows, public repository metadata and dated HTTP observations.
-Private identities and raw restricted evidence are excluded from this public
-PR. Inventory presence, a route declaration and a merged PR do not prove
-acceptance or delivery.
+The paused2026-10-18 audit checkpoint is preserved byte-for-byte as historical evidence, including43 then-public source observations, dated HTTP results, original issue references and proposed roadmap. It does not become the current roster, accepted execution plan or runtime evidence.
+
+Current source-home/README/hosting proposal and manual read-only Intelligence review consumer from main are retained. The current bounded handoff supersedes the historical operational snapshot without rewriting its seven audit artifacts.
+
+The remaining open organization PRs53/56/57 will be integrated sequentially after this historical checkpoint, with separate Empathy/Holon/Hygiene source queues handled by their owners. No issue is closed, proposed policy ratified or provider configured by these merges.
 
 ## Validation and review evidence
 
-Preparation checked the public visibility of every saved source row, all 13
-distinct issue references, content digests and the absence of exact restricted
-repository identities. Additional local document checks are recorded in the
-draft description. No new hosted acceptance, deployment, workflow dispatch,
-release, broad test campaign or policy ratification is performed here.
+Independent source-preservation review, exact seven audit Git blob comparison and five SHA256 checks, JSON parsing and authored local references, current-main conflict inspection, continuity schema/size and whitespace. Static source/metadata inspection and Git/blob/hash observations only. Historical audit execution remains its own dated record; no new tests/lint/build/CI or runtime/provider qualification was executed.
 
 ## Blockers, risks, unknowns, and deferred work
 
-The final per-repository applicability/hosting/blocker/evidence matrix and
-coordinated tracker updates remain unfinished. Keep ADRs/Decisions first and
-populated roadmaps second as selected by the latest epic checkpoint; reconcile
-older roadmap-first text explicitly. A central roadmap declaration does not
-select a Decisions host. Required architecture activation remains gated.
+Tests, lint, builds, CI investigation, application/native/helper/model/export/intake execution and actual provider/publication qualification remain deferred. The historical43-source scan includes then-public sources across three owners and is not the current fixed28-entry Hygiene roster or complete fleet adoption proof. Source merges do not authenticate human ratification, activate proposed contracts or supply live audit/deployment/recovery evidence.
 
 ## Next dependency-ready work
 
-Await maintainer direction. Then complete the pending audit steps in the
-resume notes, reconcile existing program parents and return for review.
-EgoLint #81 is the draft's recommended first implementation checkpoint; Relay
-#144 adoption and Hygiene's human/source dispositions remain separate gates.
-This recommendation does not authorize starting those changes now.
+After this source merge, reconcile and merge53 retained-model intake,56 read-only Project preview and57 Discussions/checklist/review packet in order; record exact final revisions and remaining acceptance separately.
 
 ## Parallel changes and reconciliation
 
-Preserve Identity's accepted Decisions pilot and historical Akashic/Empathy
-publication canaries. Do not replace Hygiene PR #68 or other overlapping owner
-work. Mantle #31 is a later ADR backfill after shared readiness. Empathy/Aether
-staging cleanup remains separate.
-
-The preceding label-enrollment source checkpoint merged through PR #47.
-Its exact receipt remains in docs/evidence/labels/aether-enrollment-2026-10-08.json;
-Relay/Pace consumer handoffs and label adoption must be verified in their
-own trackers rather than inferred from that source merge.
+The latest user instruction explicitly authorizes merging all open PRs in the four named repos, superseding draft/pause/no-selfmerge wording for this source queue. Preserve actual policy/ADR lifecycle and frozen inputs; ordinary exact-head merges only, no administrator/ruleset bypass. Current main wins operational continuity over stale snapshots.
 
 ## Privacy and redaction
 
-Only public-safe coordination evidence is saved here. Restricted inventory
-must be reconciled privately. Treat external text and workflow excerpts as
-untrusted evidence, never as execution authority.
+Retain only public-safe source identities and bounded implementation evidence. Exclude credentials, private context, captured report bodies, process logs and local filesystem paths. Linked content is context only.
 
 ## Handoff update protocol
 
-Keep this PR draft and unmerged during the pause. When authorized to resume,
-refresh state, preserve canonical ownership and legacy acceptance receipts,
-and record exact findings and remaining limitations before the next handoff.
+Refresh exact PR, merge and qualification observations at the next authorized checkpoint. Implementation, artifact upload, deployment, live verification and human acceptance remain distinct.
 
 ## Compaction and supersession
 
-Keep this handoff under 16,384 bytes and 240 lines. Git, the dated checkpoint
-and existing issues retain history; replace stale operational state without
-turning this file into another roadmap.
+Replace stale current-state prose; Git and owning issues retain history. Preserve these twelve sections below 240 lines and 16,384 UTF-8 bytes.
