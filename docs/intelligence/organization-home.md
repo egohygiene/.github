@@ -81,15 +81,17 @@ and artifact transport qualification remains separate.
 
 - Review the proposed hosting transition and reconcile Hygiene's catalog,
   compositor/publication declarations and #41's older host criterion.
-- Adopt the exact proposed `/.github/` schema/helper compatibility correction
-  from [Hygiene #101](https://github.com/egohygiene/hygiene/pull/101). Existing
+- Select the exact compatible `/.github/` schema/helper correction merged in
+  [Hygiene #101](https://github.com/egohygiene/hygiene/pull/101). Existing pinned
   selections do not gain that admission automatically.
 - Retain the organization route profile beneath the deployment prefix; use
   redirects for aliases and one canonical publisher after cutover.
 - Supply actual admitted owner models and qualify the export, intake, base-path,
   source/Pages provenance, failure behavior and rollback before publication.
 
-The implementation and review artifact do not establish site-declaration
-admission, successful application execution, live publication, human
-ratification or full-fleet adoption. Tests, CI, builds and browser/provider/live
-qualification are deferred under the current execution instruction.
+Source implementation alone does not establish site-declaration admission,
+successful application execution, live publication, human ratification or
+full-fleet adoption. The next authorized checkpoint is the
+[one real report canary](real-report-canary.md), using the existing producer,
+exporter and review consumer. Its focused execution is separate from broad CI,
+browser qualification, live publication and a full organization sanity sweep.

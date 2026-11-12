@@ -1,13 +1,18 @@
 # Repository Intelligence completion roadmap
 
-Source integration update, 2026-11-12: the current four-repository cleanup lands
-organization #53 and Empathy #125 alongside the foundation/setup source queue.
-The [integration checkpoint](../reviews/2026-11-12-open-pr-integration.md)
-records exact merges and separate qualification gates. Pace #37, Relay #181,
-Identity #144, Civics #9 and website #140 were still open when observed outside
-this merge scope; their exact immutable source references are unchanged. The
-wave states and proposed next work below retain their original dated context;
-source merges do not complete fleet adoption, audit execution or acceptance.
+Current checkpoint, 2026-11-12: the five remaining source slices are merged:
+Relay #181, Pace #37, Identity #144, Civics #9 and website #140. The
+[convergence record](../reviews/2026-11-12-ri-convergence.md) pins their exact
+heads and outcomes. Organization #53 and Empathy #125 were merged in the
+[preceding source integration](../reviews/2026-11-12-open-pr-integration.md).
+
+The active next step is [one real report canary](real-report-canary.md): actual
+supported report → repository model/dashboard → retained organization export →
+organization review artifact. Local normalization has executed; hosted producer,
+export/intake, publication and fleet acceptance remain independent evidence.
+Finish this path before expanding the feature or adoption queue. The wave
+states and follow-on proposal below retain their dated November 11 context;
+source merges do not complete fleet adoption or final acceptance.
 
 Observed 2026-11-11. This is the execution queue for
 [organization #30](https://github.com/egohygiene/.github/issues/30) and
@@ -192,7 +197,11 @@ Explicitly disposition [Relay #42](https://github.com/egohygiene/relay/issues/42
 release work or named later milestones. A v1 finish line cannot silently drop
 them or expand forever.
 
-## Proposed next batch — awaiting maintainer review
+## Historical follow-on proposal — awaiting maintainer review
+
+This November 11 proposal remains unstarted. The current authorized checkpoint
+above is the real report artifact path; these additional consumers/contracts
+are not the next active implementation batch.
 
 Live issue/default-branch source triage on 2026-11-11 supports these five slices.
 They are a proposal; this handoff does not start or approve them.

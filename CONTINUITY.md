@@ -7,29 +7,35 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-12T11:47:00Z'
+  updated_at: '2026-11-12T23:56:26Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Conclude the authorized twenty-PR source queue with the final organization integration checkpoint.
+  purpose: Exercise one real source audit through the existing repository and organization review artifact
+    path.
   includes:
-  - The original five Discussions/checklist/schema/observation/starter files remain byte-identical. The dated
-    public canary remains its actual disabled observation; no category, starter post, setting or profile lifecycle
-    is changed.
-  - Main now preserves audit48, retained-model intake53 and readonly Project preview56. README keeps all source-home,
-    Project and setup entries; dated review packets gain explicit historical framing rather than being presented
-    as current draft status.
-  - The integration record pins19 completed exact original/prepared/merge identities across the four repositories
-    plus this final57 source change, without inventing its own future merge SHA. Independent source peers and
-    exact tree/ancestry checks support source preservation; tests and actual consumer acceptance remain separate.
-  - Necessary canonical source generation in Empathy refreshed the Task listing and one rolling staging-inventory
-    row. This was inert/list-only source generation, distinct from deferred tests/builds/native/runtime/CI
-    qualification. No staged source or human receipt was removed; Hygiene107 explicitly rebound corrected owner
-    interfaces without policy promotion.
+  - Added an actual bounded contract-drift audit of the organization review workflow and guide at inspected
+    source8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7, authored through pinned Aether74490907bf3979ac45594d97fb1bb5fa7071346d.
+    Canonical Markdown and typed sidecar share one observed positive finding and explicitly partial scope;
+    prior audit history is not compared and no human acceptance is inferred.
+  - The exact-hash Git plan selects that sidecar. Actual pinned owner validation and local Relay typed-feed
+    execution produced one audit run and one finding, retaining original report clocks and a different historical
+    subject. Sanity remains unavailable because no Sanity report is selected.
+  - Added one manual public/main-only, contents-read canary workflow using exact reviewed5d27 feed and existing
+    builder with one source/as-of frame. It retains the five-file ordinary model receipt bundle before the
+    dashboard build and retains the generated dashboard separately; it has no Pages or deployment job.
+  - Current source guidance now points to the concrete canary and distinguishes the newly authorized narrow
+    execution from deferred broad CI, browser/live publication and full-organization sweep. Existing publishers,
+    review consumer, dated audits, human decisions, frozen recovery and owner pins remain unchanged.
+  - The current convergence record pins all five merged sources and separates existing catalog/fleet implementations
+    from runtime acceptance. The active roadmap now selects the one real artifact chain; the older follow-on
+    proposal is explicitly historical. Hosting/registry reconciliation stays with existing owners and the proposed
+    ADR retains null approval.
   excludes:
-  - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
+  - Broad CI suites, browser qualification, full-fleet audit execution, live Pages activation, human ratification
+    and final acceptance closure.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -40,92 +46,93 @@ scope:
   - AGENTS.md
   - ARCHITECTURE.md
   - docs/issue-routing.md
-  - schemas/organization-discussions-checklist.v1.schema.json
-  - checklists/organization-discussions.json
-  - docs/evidence/discussions/2026-11-12-organization.json
-  - docs/repository-setup/discussions.md
-  - docs/repository-setup/organization-discussion-draft.md
-  - README.md
-  - docs/reviews/2026-11-12-foundation-batch.md
-  - docs/reviews/2026-11-12-open-pr-integration.md
-  - docs/intelligence/2026-11-11-adoption-review.md
+  - docs/intelligence/real-report-canary.md
+  - docs/intelligence/organization-home.md
+  - .github/workflows/organization-intelligence-review.yml
+  - .github/workflows/repository-intelligence-canary.yml
+  - .config/repository-intelligence/review-plan.json
+  - audits/ri-review-boundary-20261112T234641Z.md
+  - audits/ri-review-boundary-20261112T234641Z.json
+  - docs/reviews/2026-11-12-ri-convergence.md
   - docs/intelligence/DELIVERY_ROADMAP.md
-  - https://github.com/egohygiene/.github/issues/54
+  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
+  - https://github.com/egohygiene/.github/issues/41
 work:
-  objective: Conclude the authorized twenty-PR source queue with the final organization integration checkpoint.
+  objective: Exercise one real source audit through the existing repository and organization review artifact
+    path.
   success_conditions:
-  - All completed source merges have concrete provider/Git references and this final candidate preserves its
-    original behavior plus current main.
-  - The four-repository queues and current checkouts can be verified clean after the final merge without fabricating
-    runtime or human acceptance.
-  - Historical audits/review pins, current source selections and remaining qualification gates are clearly
-    separated.
+  - The actual source assessment is immutable, scoped and owner-valid; models preserve its original date, partial
+    completion and historical context.
+  - A manual read-only producer can emit separate model and repository-dashboard artifacts for the existing
+    retained organization export and review consumer.
+  - Source integration, actual runtime normalization, artifact transport, application execution and live hosting
+    remain distinct evidence states.
   active_issue:
     provider: github
-    id: egohygiene/.github#54
-    url: https://github.com/egohygiene/.github/issues/54
+    id: egohygiene/.github#41
+    url: https://github.com/egohygiene/.github/issues/41
   next:
     kind: action
-    id: verify-final-merge-and-select-next-work
-    description: After this final source merge, verify direct open-PR inventories and exact current mains across
-      all four repos, synchronize clean primary checkouts, then select the next bounded work. Tests/CI/native
-      qualification and actual profile/provider adoption remain deferred or owned by their existing issues.
+    id: execute-one-real-report-artifact-chain
+    description: After source integration, run the manual canary on exact main; verify successful producer
+      run/attempt, actual model/dashboard artifact IDs and raw hashes. Check in an exact retained-model selection
+      in the website owner, run its existing export, then run the organization review consumer using same-run
+      export/companion identities. Keep Pages activation and a full organization sanity sweep separate.
     readiness: ready
     references:
-    - https://github.com/egohygiene/.github/issues/54
+    - https://github.com/egohygiene/.github/issues/41
     depends_on: []
 state:
   base:
-    revision: c2ba7d3b0380821c3720de1323d4e68e529702b5
+    revision: 8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7
     ref: refs/heads/main
-    verified_at: '2026-11-12T11:47:00Z'
+    verified_at: '2026-11-12T23:56:26Z'
   candidate:
-    branch: codex/org-54-discussions-checklist
+    branch: codex/ri-real-report-canary
     revision: null
-    pull_request:
-      provider: github
-      id: egohygiene/.github#57
-      url: https://github.com/egohygiene/.github/pull/57
-    handoff_state: review-reference-recorded
+    pull_request: null
+    handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-12T11:47:00Z'
-    default_branch_revision: c2ba7d3b0380821c3720de1323d4e68e529702b5
+    observed_at: '2026-11-12T23:56:26Z'
+    default_branch_revision: 8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7
     issue_state: open
-    pull_request_state: draft
-    notes: Observed organization mainc2ba7d3b0380821c3720de1323d4e68e529702b5 contains48/53/56; only57 remains
-      here before final merge. Empathy0f0669739ae173ec8b374103a915c71968ac9304, Holon1d8129a1651c477500d51fd3e5b77cbfe7943691
-      and Hygiene0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f have completed their requested queues with direct
-      empty open-PR inventories and clean dedicated checkouts. No provider feature setup/post was requested.
+    pull_request_state: not-applicable
+    notes: Organization main8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7 was refreshed before this candidate. Relay181
+      merged at12d3a0823c8c8f885dea4acf482160fd726325e2, Pace37 at a224545490848162a5f8a9d89d2664a3a3f46993,
+      Identity144 atcfb6c29bd02589a47fc48050ab02e7e0da359719 and Civics9 atbcd391f97b83eb24686ef888b83677932c152cf2.
+      Website140 merged at eed5070382e36c0f29e71519c8df476d8c131ca2; all five exact prepared heads and merge
+      identities were independently checked through current provider metadata. No live Pages publication is
+      established.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-12T11:47:00Z'
+  reviewed_at: '2026-11-12T23:56:26Z'
   reviewed_by: Codex
   evidence:
-  - command: Independent source/semantic conflict peers; exact original/current Git blob/mode preservation,
-      nineteen completed merge ancestry/tree equality checks, Python/JSON/schema/hash metadata and local links,
-      current/historical review framing, bounded continuity schema and whitespace except unchanged historical
-      audit EOF
+  - command: Pinned Aether owner validate_report and actual local Relay5d27 typed-feed execution at2026-11-12T23:48:29Z;
+      exact report/source/plan raw hashes and source predicates; independent canary source peers; workflow/YAML
+      and embedded Python inspection; bounded continuity schema and whitespace
     outcome: limited
-    observed_at: '2026-11-12T11:47:00Z'
-    notes: Independent source peers and exact Git/provider merge receipts; actual Task-list/staging-inventory
-      generation distinguished from unexecuted tests and qualification. The final57 merge identity cannot yet
-      be known inside its own source.
-  - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
-      qualification
+    observed_at: '2026-11-12T23:56:26Z'
+    notes: Actual local normalization produced one partial audit, one finding, historical revision_status=different
+      and unavailable Sanity. This is runtime normalization evidence, not an uploaded artifact, application
+      build, live transport or publication proof.
+  - command: Hosted manual canary and real retained-artifact acquisition; focused website export/intake; broad
+      CI, browser, live publication and recovery qualification
     outcome: not-run
-    observed_at: '2026-11-12T11:47:00Z'
-    notes: Deferred at maintainer request; source merges do not establish acceptance.
+    observed_at: '2026-11-12T23:56:26Z'
+    notes: The focused artifact chain is authorized next but not yet run at this source checkpoint. Broad CI/browser/live
+      activation and full organization audit acceptance remain separate.
   environment_limitations:
-  - Tests, linters, builds, CI investigation, actual consumer/native/runtime/artifact/publication qualification
-    remain deferred. Actual canonical Task/staging generation is recorded separately and is not acceptance
-    proof.
-  - The recorded Discussions observation is dated, its starter remains draft-only, and Project enrollment/status
-    mutation is not implemented by the preview. Proposed contracts/ADRs keep null approval and human/source
-    holds remain.
-  - Upstream Pace37/Relay181/Identity144/Civics9/website140 were still open outside this four-repository scope
-    when observed. Historical audits and source review pins are not current full-fleet or live pipeline qualification.
+  - This source audit inspects exactly two files; partial profile scope is not whole-repository conformance
+    or a fresh organization sanity sweep.
+  - The new manual workflow is not an uploaded model/dashboard or successful website export/intake until actual
+    steps execute and exact run/attempt/artifact hashes are retained.
+  - Sanity has no selected report; current-review capture and multi-capture aggregation remain later owner
+    work. No report, provider identity or human disposition is fabricated.
+  - The proposed .github hosting transition remains proposed with null approval; existing publisher, route
+    and declaration cutover/rollback qualification is still required.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -152,37 +159,39 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Conclude the authorized twenty-PR source queue with the final organization integration checkpoint. All completed source merges have concrete provider/Git references and this final candidate preserves its original behavior plus current main. The four-repository queues and current checkouts can be verified clean after the final merge without fabricating runtime or human acceptance. Historical audits/review pins, current source selections and remaining qualification gates are clearly separated.
+Exercise one real source audit through the existing repository and organization review artifact path. The actual source assessment is immutable, scoped and owner-valid; models preserve its original date, partial completion and historical context. A manual read-only producer can emit separate model and repository-dashboard artifacts for the existing retained organization export and review consumer. Source integration, actual runtime normalization, artifact transport, application execution and live hosting remain distinct evidence states.
 
 ## State snapshot
 
-Candidate `codex/org-54-discussions-checklist` is based on observed main `c2ba7d3b0380821c3720de1323d4e68e529702b5`. The containing revision remains null intentionally; the PR reference is captured above. Observed organization mainc2ba7d3b0380821c3720de1323d4e68e529702b5 contains48/53/56; only57 remains here before final merge. Empathy0f0669739ae173ec8b374103a915c71968ac9304, Holon1d8129a1651c477500d51fd3e5b77cbfe7943691 and Hygiene0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f have completed their requested queues with direct empty open-PR inventories and clean dedicated checkouts. No provider feature setup/post was requested.
+Candidate `codex/ri-real-report-canary` is based on observed main `8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7`. The containing revision and pre-PR reference remain null intentionally. Organization main8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7 was refreshed before this candidate. Relay181 merged at12d3a0823c8c8f885dea4acf482160fd726325e2, Pace37 at a224545490848162a5f8a9d89d2664a3a3f46993, Identity144 atcfb6c29bd02589a47fc48050ab02e7e0da359719 and Civics9 atbcd391f97b83eb24686ef888b83677932c152cf2. Website140 merged at eed5070382e36c0f29e71519c8df476d8c131ca2; all five exact prepared heads and merge identities were independently checked through current provider metadata. No live Pages publication is established.
 
 ## Completed and material changes
 
-The original five Discussions/checklist/schema/observation/starter files remain byte-identical. The dated public canary remains its actual disabled observation; no category, starter post, setting or profile lifecycle is changed.
+Added an actual bounded contract-drift audit of the organization review workflow and guide at inspected source8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7, authored through pinned Aether74490907bf3979ac45594d97fb1bb5fa7071346d. Canonical Markdown and typed sidecar share one observed positive finding and explicitly partial scope; prior audit history is not compared and no human acceptance is inferred.
 
-Main now preserves audit48, retained-model intake53 and readonly Project preview56. README keeps all source-home, Project and setup entries; dated review packets gain explicit historical framing rather than being presented as current draft status.
+The exact-hash Git plan selects that sidecar. Actual pinned owner validation and local Relay typed-feed execution produced one audit run and one finding, retaining original report clocks and a different historical subject. Sanity remains unavailable because no Sanity report is selected.
 
-The integration record pins19 completed exact original/prepared/merge identities across the four repositories plus this final57 source change, without inventing its own future merge SHA. Independent source peers and exact tree/ancestry checks support source preservation; tests and actual consumer acceptance remain separate.
+Added one manual public/main-only, contents-read canary workflow using exact reviewed5d27 feed and existing builder with one source/as-of frame. It retains the five-file ordinary model receipt bundle before the dashboard build and retains the generated dashboard separately; it has no Pages or deployment job.
 
-Necessary canonical source generation in Empathy refreshed the Task listing and one rolling staging-inventory row. This was inert/list-only source generation, distinct from deferred tests/builds/native/runtime/CI qualification. No staged source or human receipt was removed; Hygiene107 explicitly rebound corrected owner interfaces without policy promotion.
+Current source guidance now points to the concrete canary and distinguishes the newly authorized narrow execution from deferred broad CI, browser/live publication and full-organization sweep. Existing publishers, review consumer, dated audits, human decisions, frozen recovery and owner pins remain unchanged.
+
+The current convergence record pins all five merged sources and separates existing catalog/fleet implementations from runtime acceptance. The active roadmap now selects the one real artifact chain; the older follow-on proposal is explicitly historical. Hosting/registry reconciliation stays with existing owners and the proposed ADR retains null approval.
 
 ## Validation and review evidence
 
-Independent source/semantic conflict peers; exact original/current Git blob/mode preservation, nineteen completed merge ancestry/tree equality checks, Python/JSON/schema/hash metadata and local links, current/historical review framing, bounded continuity schema and whitespace except unchanged historical audit EOF. Source/metadata/Git inspection plus narrowly authorized canonical source generation in Empathy. No tests, lint, builds, CI investigation or actual consumer/native/runtime qualification was performed. Earlier dated read-only Discussions observation is preserved; no new provider setup/post or Project mutation was requested.
+Pinned Aether owner validate_report and actual local Relay5d27 typed-feed execution at2026-11-12T23:48:29Z; exact report/source/plan raw hashes and source predicates; independent canary source peers; workflow/YAML and embedded Python inspection; bounded continuity schema and whitespace. One actual bounded source assessment and the actual pinned typed feed executed. Independent peers verified original source blobs, plan and canonical report hashes, permissions/guards and source/as-of bindings. Hosted canary, website export, organization intake and live hosting have not yet executed at this source checkpoint.
 
 ## Blockers, risks, unknowns, and deferred work
 
-Tests, linters, builds, CI investigation, actual consumer/native/runtime/artifact/publication qualification remain deferred. Actual canonical Task/staging generation is recorded separately and is not acceptance proof. The recorded Discussions observation is dated, its starter remains draft-only, and Project enrollment/status mutation is not implemented by the preview. Proposed contracts/ADRs keep null approval and human/source holds remain. Upstream Pace37/Relay181/Identity144/Civics9/website140 were still open outside this four-repository scope when observed. Historical audits and source review pins are not current full-fleet or live pipeline qualification.
+This source audit inspects exactly two files; partial profile scope is not whole-repository conformance or a fresh organization sanity sweep. The new manual workflow is not an uploaded model/dashboard or successful website export/intake until actual steps execute and exact run/attempt/artifact hashes are retained. Sanity has no selected report; current-review capture and multi-capture aggregation remain later owner work. No report, provider identity or human disposition is fabricated. The proposed .github hosting transition remains proposed with null approval; existing publisher, route and declaration cutover/rollback qualification is still required.
 
 ## Next dependency-ready work
 
-After this final source merge, verify direct open-PR inventories and exact current mains across all four repos, synchronize clean primary checkouts, then select the next bounded work. Tests/CI/native qualification and actual profile/provider adoption remain deferred or owned by their existing issues.
+After source integration, run the manual canary on exact main; verify successful producer run/attempt, actual model/dashboard artifact IDs and raw hashes. Check in an exact retained-model selection in the website owner, run its existing export, then run the organization review consumer using same-run export/companion identities. Keep Pages activation and a full organization sanity sweep separate.
 
 ## Parallel changes and reconciliation
 
-The current explicit all-open source merge instruction supersedes prior draft/pause/no-selfmerge text for this queue, without ratifying policy or granting provider/setup authority. Dated artifacts remain immutable; only current operational handoffs, necessary integration metadata and explicit owner rebind/source-generation deltas are updated. No admin/ruleset bypass, forcepush or explicit source deletion.
+The accepted next batch authorizes five dependency-ordered source merges and one real artifact canary. The newly accepted narrow validation path supersedes the earlier blanket test/runtime deferral only for this canary; it grants no live publication or human ratification. Historical evidence and valid immutable pins stay unchanged.
 
 ## Privacy and redaction
 
