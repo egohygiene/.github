@@ -7,25 +7,24 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-11T00:08:11Z'
+  updated_at: '2026-11-12T05:46:19Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Establish the organization Intelligence source home, issue-backed completion queue and pinned manual
-    review consumer.
+  purpose: Record Discussions configuration and starter evidence separately for one public repository canary.
   includes:
-  - The repository/profile front door links organization views, a dependency-ordered delivery roadmap and a
-    dated 28-entry dashboard/source directory. All entries and IDs match the exact Hygiene public roster; four
-    dashboard links are backed by explicit source declarations, while unknowns and previews remain separate.
-  - Proposed local ADR0006 records the requested .github entry point with null approval. Existing five inline
-    decision bodies, Hygiene architecture/catalog/model ownership, company/store source and repository-owned
-    Pages remain intact. Organization profile and future project Pages are distinct; current host/role/base
-    declarations require explicit reconciliation.
-  - A manual main-only workflow authenticates exact public website producer/run/attempt/head/path/artifact/digest
-    and invokes Relay intake at d15cacd987ef1f98a6b94b051a42925eb91f8cc7. It retains only a verified review
-    artifact, with contents/actions read permissions and no Pages/OIDC/deploy authority.
+  - A closed proposed organization checklist records actual enabled state, starter URL/category, dated source
+    observation or explicit blocker, and a separately labeled content draft. Exact Hygiene presentation and
+    Empathy community-health profile source hashes remain references, not unsupported additions to their closed
+    manifests or a new universal rule.
+  - A read-only public GitHub REST/GraphQL inventory observed organization Discussions disabled at2026-11-12T05:35:58Z,
+    with complete empty category/discussion connections. The source-bound checklist remains blocked with null
+    category/starter URL; no configuration, post or duplicate discussion was created.
+  - A purpose-aware brain-prefixed organization starter is authored for review. Setup guidance covers existing-starter
+    reuse, complete inventory, explicit archived/unsupported exceptions, selected configuration/post/readback
+    steps and repository-scoped rollout while retaining Hygiene/Empathy/Holon/Relay/Pace owners.
   excludes:
   - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
@@ -38,87 +37,84 @@ scope:
   - AGENTS.md
   - ARCHITECTURE.md
   - docs/issue-routing.md
-  - ROADMAP.md
-  - docs/intelligence/DELIVERY_ROADMAP.md
-  - docs/intelligence/repositories.md
-  - docs/intelligence/repositories.source.json
-  - docs/intelligence/organization-home.md
-  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
-  - .github/workflows/organization-intelligence-review.yml
-  - profile/README.md
-  - https://github.com/egohygiene/.github/issues/27
+  - schemas/organization-discussions-checklist.v1.schema.json
+  - checklists/organization-discussions.json
+  - docs/evidence/discussions/2026-11-12-organization.json
+  - docs/repository-setup/discussions.md
+  - docs/repository-setup/organization-discussion-draft.md
+  - README.md
+  - https://github.com/egohygiene/.github/issues/54
 work:
-  objective: Establish the organization Intelligence source home, issue-backed completion queue and pinned
-    manual review consumer.
+  objective: Record Discussions configuration and starter evidence separately for one public repository canary.
   success_conditions:
-  - One concrete roadmap distinguishes merged source from adoption, actual audit evidence, missing owner chains
-    and deferred acceptance.
-  - The public directory uses exact dated source evidence rather than guessed live URLs or organization totals.
-  - The new consumer remains review-only and source-pinned, with no inferred hosting admission, publisher activation
-    or human ratification.
+  - Provider configuration and actual starter outcome have distinct evidence or explicit unknown/blocker fields.
+  - The public canary snapshot, exact hashes and draft remain truthful without asserting configured/posted/verified
+    completion.
+  - Profile ownership, later provider authority and explicit reviewed rollout stay separate.
   active_issue:
     provider: github
-    id: egohygiene/.github#27
-    url: https://github.com/egohygiene/.github/issues/27
+    id: egohygiene/.github#54
+    url: https://github.com/egohygiene/.github/issues/54
   next:
     kind: action
-    id: review-first-wave-then-start-consumer-adoption
-    description: 'Review the four bounded first-wave drafts: Hygiene101 exact-prefix compatibility, website139
-      focused producer, Relay180 verifier and this source home/consumer. Reconcile owner/host declarations,
-      then refresh Pace adoption records and execute supported repository batches. Tests/native/provider/publication
-      qualification remains deferred.'
+    id: review-discussions-checklist-before-selected-canary-setup
+    description: Review this first checkpoint and starter draft. Later propose the compatible common-profile
+      amendment, select provider/category configuration and posting/readback explicitly, then reuse the actual
+      starter on repeat before any fleet rollout.
     readiness: ready
     references:
-    - https://github.com/egohygiene/.github/issues/27
+    - https://github.com/egohygiene/.github/issues/54
     depends_on: []
 state:
   base:
-    revision: ac2e4035173ed252d71d6655e723964ef93684df
+    revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     ref: refs/heads/main
-    verified_at: '2026-11-11T00:08:11Z'
+    verified_at: '2026-11-12T05:46:19Z'
   candidate:
-    branch: codex/organization-intelligence-home
+    branch: codex/org-54-discussions-checklist
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-11T00:08:11Z'
-    default_branch_revision: ac2e4035173ed252d71d6655e723964ef93684df
+    observed_at: '2026-11-12T05:46:19Z'
+    default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
     issue_state: open
     pull_request_state: not-applicable
-    notes: Organization mainac2e4035173ed252d71d6655e723964ef93684df was refreshed. Organization27/41 and related
-      route issues remain open. Functional home/consumer source01c6222bcd76dbc0313bababcc83e999c599ae4e is
-      prepared; upstream draftsHygiene101/website139/Relay180 are public and unmerged. Anonymous source inventory
-      finished2026-11-10T23:49:35Z; it supplies no live hosting or CI proof.
-  parallel_changes: []
+    notes: Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization54 is open. Functional
+      source273ecc695b66cf73ea7fc82265d4d88aef43f30c received independent static peer. The public canary inventory
+      actually ran at2026-11-12T05:35:58Z and observed disabled Discussions; provider settings/posts were unchanged.
+  parallel_changes:
+  - provider: github
+    id: egohygiene/.github#53
+    url: https://github.com/egohygiene/.github/pull/53
+  - provider: github
+    id: egohygiene/.github#56
+    url: https://github.com/egohygiene/.github/pull/56
 review:
   status: partial
-  reviewed_at: '2026-11-11T00:08:11Z'
+  reviewed_at: '2026-11-12T05:46:19Z'
   reviewed_by: Codex
   evidence:
-  - command: Independent source peers of issue dependencies, directory/URLs, proposed ownership and manual
-      transport boundaries; exact inventory hash and 28 identity matches, proposed ADR pinned-schema/seven-section
-      metadata and five unchanged legacy bodies, unique workflow YAML/bash/embedded Python syntax, exact action
-      input/pin parity, local authored links, continuity schema/size/links and whitespace
+  - command: Independent source peer and root review; closed Draft202012 schema/record validation with formats,
+      exact observation/checklist and immutable source-profile hashes, local link/claim and visibility review,
+      continuity schema/size and whitespace
     outcome: limited
-    observed_at: '2026-11-11T00:08:11Z'
-    notes: Static source/metadata review plus actual anonymous public Git head and immutable file inspection
-      across the fixed 28-entry roster. No consumer application/export/verifier or workflow was executed.
+    observed_at: '2026-11-12T05:46:19Z'
+    notes: Static source/metadata review plus an actual scoped public REST/GraphQL canary observation. Schema
+      validity and raw JSON cannot authenticate future provider completion or human approval.
   - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
       qualification
     outcome: not-run
-    observed_at: '2026-11-11T00:08:11Z'
+    observed_at: '2026-11-12T05:46:19Z'
     notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - AGENTS requires proposed work through a draft PR and no self-merge; this new home/hosting slice is delivered
-    as source review, not activated publication.
-  - Current Hygiene site declarations reject /.github/ until the narrow proposed helper/schema correction is
-    explicitly adopted; canonical role/composition/host reconciliation remains separate.
-  - Hygiene47 and Akashic197 source holds, raw human trust boundaries and existing builder/recovery pins remain
-    unchanged. Labels46/provider application from the old handoff are independent and not marked complete.
-  - Source-declared URLs and builder presence do not prove live dashboards. Real owner artifacts, source-qualified
-    audits and release acceptance remain later phases.
+  - User deferred tests, linters, builds, CI, runtime/setup/helper execution, provider mutations and live rollout
+    qualification. Read-only canary inventory is actual evidence, separate from those deferred actions.
+  - Discussions is disabled; no category/starter post exists at the recorded observation. Issue54 enabled-and-posted
+    canary acceptance remains open.
+  - The companion does not amend or activate the canonical common profiles. Their compatible field/applicability
+    work and explicit provider execution remain separate owner checkpoints.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -145,35 +141,35 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Establish the organization Intelligence source home, issue-backed completion queue and pinned manual review consumer. One concrete roadmap distinguishes merged source from adoption, actual audit evidence, missing owner chains and deferred acceptance. The public directory uses exact dated source evidence rather than guessed live URLs or organization totals. The new consumer remains review-only and source-pinned, with no inferred hosting admission, publisher activation or human ratification.
+Record Discussions configuration and starter evidence separately for one public repository canary. Provider configuration and actual starter outcome have distinct evidence or explicit unknown/blocker fields. The public canary snapshot, exact hashes and draft remain truthful without asserting configured/posted/verified completion. Profile ownership, later provider authority and explicit reviewed rollout stay separate.
 
 ## State snapshot
 
-Candidate `codex/organization-intelligence-home` is based on observed main `ac2e4035173ed252d71d6655e723964ef93684df`. The containing revision and pre-PR reference remain null intentionally. Organization mainac2e4035173ed252d71d6655e723964ef93684df was refreshed. Organization27/41 and related route issues remain open. Functional home/consumer source01c6222bcd76dbc0313bababcc83e999c599ae4e is prepared; upstream draftsHygiene101/website139/Relay180 are public and unmerged. Anonymous source inventory finished2026-11-10T23:49:35Z; it supplies no live hosting or CI proof.
+Candidate `codex/org-54-discussions-checklist` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision and pre-PR reference remain null intentionally. Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization54 is open. Functional source273ecc695b66cf73ea7fc82265d4d88aef43f30c received independent static peer. The public canary inventory actually ran at2026-11-12T05:35:58Z and observed disabled Discussions; provider settings/posts were unchanged.
 
 ## Completed and material changes
 
-The repository/profile front door links organization views, a dependency-ordered delivery roadmap and a dated 28-entry dashboard/source directory. All entries and IDs match the exact Hygiene public roster; four dashboard links are backed by explicit source declarations, while unknowns and previews remain separate.
+A closed proposed organization checklist records actual enabled state, starter URL/category, dated source observation or explicit blocker, and a separately labeled content draft. Exact Hygiene presentation and Empathy community-health profile source hashes remain references, not unsupported additions to their closed manifests or a new universal rule.
 
-Proposed local ADR0006 records the requested .github entry point with null approval. Existing five inline decision bodies, Hygiene architecture/catalog/model ownership, company/store source and repository-owned Pages remain intact. Organization profile and future project Pages are distinct; current host/role/base declarations require explicit reconciliation.
+A read-only public GitHub REST/GraphQL inventory observed organization Discussions disabled at2026-11-12T05:35:58Z, with complete empty category/discussion connections. The source-bound checklist remains blocked with null category/starter URL; no configuration, post or duplicate discussion was created.
 
-A manual main-only workflow authenticates exact public website producer/run/attempt/head/path/artifact/digest and invokes Relay intake at d15cacd987ef1f98a6b94b051a42925eb91f8cc7. It retains only a verified review artifact, with contents/actions read permissions and no Pages/OIDC/deploy authority.
+A purpose-aware brain-prefixed organization starter is authored for review. Setup guidance covers existing-starter reuse, complete inventory, explicit archived/unsupported exceptions, selected configuration/post/readback steps and repository-scoped rollout while retaining Hygiene/Empathy/Holon/Relay/Pace owners.
 
 ## Validation and review evidence
 
-Independent source peers of issue dependencies, directory/URLs, proposed ownership and manual transport boundaries; exact inventory hash and 28 identity matches, proposed ADR pinned-schema/seven-section metadata and five unchanged legacy bodies, unique workflow YAML/bash/embedded Python syntax, exact action input/pin parity, local authored links, continuity schema/size/links and whitespace. Read-only source inventory was actually collected. No application/native/helper/SSR/export/intake execution, tests, builds, CI, workflow dispatch, browser/provider-artifact qualification or live publication was run.
+Independent source peer and root review; closed Draft202012 schema/record validation with formats, exact observation/checklist and immutable source-profile hashes, local link/claim and visibility review, continuity schema/size and whitespace. The public read-only GitHub canary inventory actually ran. Source/schema/metadata checks are limited validation; no tests, lint, build, CI, setup/helper runtime, provider mutation, discussion post or live rollout qualification was executed.
 
 ## Blockers, risks, unknowns, and deferred work
 
-AGENTS requires proposed work through a draft PR and no self-merge; this new home/hosting slice is delivered as source review, not activated publication. Current Hygiene site declarations reject /.github/ until the narrow proposed helper/schema correction is explicitly adopted; canonical role/composition/host reconciliation remains separate. Hygiene47 and Akashic197 source holds, raw human trust boundaries and existing builder/recovery pins remain unchanged. Labels46/provider application from the old handoff are independent and not marked complete. Source-declared URLs and builder presence do not prove live dashboards. Real owner artifacts, source-qualified audits and release acceptance remain later phases.
+User deferred tests, linters, builds, CI, runtime/setup/helper execution, provider mutations and live rollout qualification. Read-only canary inventory is actual evidence, separate from those deferred actions. Discussions is disabled; no category/starter post exists at the recorded observation. Issue54 enabled-and-posted canary acceptance remains open. The companion does not amend or activate the canonical common profiles. Their compatible field/applicability work and explicit provider execution remain separate owner checkpoints.
 
 ## Next dependency-ready work
 
-Review the four bounded first-wave drafts: Hygiene101 exact-prefix compatibility, website139 focused producer, Relay180 verifier and this source home/consumer. Reconcile owner/host declarations, then refresh Pace adoption records and execute supported repository batches. Tests/native/provider/publication qualification remains deferred.
+Review this first checkpoint and starter draft. Later propose the compatible common-profile amendment, select provider/category configuration and posting/readback explicitly, then reuse the actual starter on repeat before any fleet rollout.
 
 ## Parallel changes and reconciliation
 
-Earlier October label handoff is replaced only as the active operational focus; canonical label policy/provider work is unchanged and not closed. Historical central-host roadmap text remains preserved beneath an explicit proposed transition. The completion queue coordinates existing owner issues and does not replace Hygiene60 organization strategy.
+ADR not required: bounded organization setup evidence and draft content under existing owner/profile boundaries, without a new domain owner, universal policy or provider change. Preserve parallelProject51 and Intelligence53. Draft for maintainer review; no self-merge.
 
 ## Privacy and redaction
 
