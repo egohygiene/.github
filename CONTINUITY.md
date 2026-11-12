@@ -7,23 +7,21 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-12T05:45:38Z'
+  updated_at: '2026-11-12T11:19:39Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Preview missing public issue membership in the existing organization Project without writes.
+  purpose: Integrate the read-only Project intake preview into the current merged organization source.
   includes:
-  - The new fixed-host GitHub CLI adapter walks complete Project and public repository/open-issue pagination,
-    excludes pull requests and private/redacted identities before public decisions, and distinguishes missing/existing/duplicate
-    membership. Page budgets, provider errors and per-repository failures remain incomplete and return nonzero.
-  - Each admitted public issue gets an exact URL/node identity and read-only proposed action. Existing items
-    and statuses remain unchanged; no apply mutation exists. The public-only accessible inventory is a declared
-    first scope, not a claim about all organization repositories or private coverage.
-  - Documentation records portable Python/macOS Bash prerequisites and the separate future Relay apply requirement,
-    including explicit Backlog resolution, re-read/idempotency/readback and no unguarded status overwrite.
-    Synthetic pagination/failure/visibility regressions are authored but unexecuted.
+  - 'The public-scope fixed-host Project membership preview from functional7ed20efd34a31aece0edf94f87578bd17c50f914
+    remains byte-identical: complete pagination, missing/existing/duplicate identity and bounded incomplete
+    errors with zero writes.'
+  - The current merged historical audit48 and retained-model intake53 are retained unchanged. This source merge
+    does not execute the preview or authorize a later Project apply/status mutation.
+  - The current operational checkpoint selects57 as the last organization integration and source-queue review
+    ledger; historical review snapshots remain dated and final qualification is deferred.
   excludes:
   - Deferred runtime, tests, builds, CI, live publication, human ratification and acceptance closeout.
   precedence:
@@ -42,75 +40,74 @@ scope:
   - README.md
   - https://github.com/egohygiene/.github/issues/51
 work:
-  objective: Preview missing public issue membership in the existing organization Project without writes.
+  objective: Integrate the read-only Project intake preview into the current merged organization source.
   success_conditions:
-  - Complete declared public observations produce concrete membership decisions with zero writes.
-  - Any unavailable/truncated source remains incomplete rather than being interpreted as existing or missing
-    membership.
-  - The initial preview neither authorizes an apply nor closes later pilot/mutation acceptance.
+  - All original preview source/docs/tests and current-main functional source survive integration.
+  - No Project item, status or other provider setting is changed by this source merge.
+  - The final57 integration queue and remaining actual preview/apply acceptance are explicit.
   active_issue:
     provider: github
     id: egohygiene/.github#51
     url: https://github.com/egohygiene/.github/issues/51
   next:
     kind: action
-    id: review-project-preview-before-apply-checkpoint
-    description: Review the read-only preview and authored regression source. Later qualify actual complete
-      Project transport, then design/select the Relay-owned idempotent apply/Backlog/readback checkpoint without
-      racing existing manual statuses.
+    id: finish-organization-open-pr-integration
+    description: Integrate57 Discussions evidence and consolidated merge record after the other repository
+      queues settle; then verify all four current mains and open PR inventories. Actual preview/apply/runtime
+      qualification remains deferred.
     readiness: ready
     references:
     - https://github.com/egohygiene/.github/issues/51
     depends_on: []
 state:
   base:
-    revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
+    revision: b10dce43d64a61d880a0483cc611b39b8eb29d45
     ref: refs/heads/main
-    verified_at: '2026-11-12T05:45:38Z'
+    verified_at: '2026-11-12T11:19:39Z'
   candidate:
     branch: codex/org-51-project-intake
     revision: null
-    pull_request: null
-    handoff_state: ready-for-review
+    pull_request:
+      provider: github
+      id: egohygiene/.github#56
+      url: https://github.com/egohygiene/.github/pull/56
+    handoff_state: review-reference-recorded
   live:
     status: verified
-    observed_at: '2026-11-12T05:45:38Z'
-    default_branch_revision: 101a0d4553dc380ab3f88c50b11cb53beadfce18
+    observed_at: '2026-11-12T11:19:39Z'
+    default_branch_revision: b10dce43d64a61d880a0483cc611b39b8eb29d45
     issue_state: open
-    pull_request_state: not-applicable
-    notes: Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization51 is open; functional
-      source7ed20efd34a31aece0edf94f87578bd17c50f914 received independent static peer. No Project preview,
-      enrollment, status write or provider workflow was executed.
+    pull_request_state: draft
+    notes: Observed mainb10dce43d64a61d880a0483cc611b39b8eb29d45 contains merged48 and53. PR56 is open with
+      no reviews/threads, prepared from original6fd4a81e58c1ba535893f826ea6dd9d910d8d623. No preview or provider
+      mutation ran.
   parallel_changes:
   - provider: github
-    id: egohygiene/.github#53
-    url: https://github.com/egohygiene/.github/pull/53
-  - provider: github
-    id: egohygiene/.github#54
-    url: https://github.com/egohygiene/.github/issues/54
+    id: egohygiene/.github#57
+    url: https://github.com/egohygiene/.github/pull/57
 review:
   status: partial
-  reviewed_at: '2026-11-12T05:45:38Z'
+  reviewed_at: '2026-11-12T11:19:39Z'
   reviewed_by: Codex
   evidence:
-  - command: Independent source peer and root review of fixed read-only transport, pagination, public-first
-      admission, identity/duplicate/partial failures and no-write contract; Python AST, authored local links,
-      continuity schema/size and whitespace
+  - command: Independent source peer; exact four original non-CT file and all current-main Git blob comparisons;
+      two Python ASTs and documentation links, continuity schema/size and whitespace excluding unchanged dated
+      audit EOF
     outcome: limited
-    observed_at: '2026-11-12T05:45:38Z'
+    observed_at: '2026-11-12T11:19:39Z'
     notes: Static source and metadata inspection only; no application execution.
   - command: Native/runtime execution, tests, builds, CI investigation, browser/provider/consumer/publication
       qualification
     outcome: not-run
-    observed_at: '2026-11-12T05:45:38Z'
+    observed_at: '2026-11-12T11:19:39Z'
     notes: Deferred at maintainer request; source merges do not establish acceptance.
   environment_limitations:
-  - User deferred tests, linters, builds, CI, helper/runtime and actual Project transport qualification; authored
-    fake-transport regressions have not run.
-  - This first checkpoint is public accessible scope and preview only. Private coverage and issue51 live add/Backlog/readback
-    acceptance remain open.
-  - GitHub multi-step add/status does not provide a conditional status write. A later mutation adapter must
-    preserve existing items and resolve raced/new item identity; a successful add/time window is not enough.
+  - Tests, linters, builds, CI investigation, preview/helper/runtime and actual Project transport qualification
+    remain deferred.
+  - Project apply/Backlog/readback and private coverage remain outside this read-only checkpoint; existing
+    membership/statuses remain unchanged.
+  - Historical audit whitespace and prior source review prose are preserved as dated source; neither supplies
+    current acceptance.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -137,35 +134,35 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Preview missing public issue membership in the existing organization Project without writes. Complete declared public observations produce concrete membership decisions with zero writes. Any unavailable/truncated source remains incomplete rather than being interpreted as existing or missing membership. The initial preview neither authorizes an apply nor closes later pilot/mutation acceptance.
+Integrate the read-only Project intake preview into the current merged organization source. All original preview source/docs/tests and current-main functional source survive integration. No Project item, status or other provider setting is changed by this source merge. The final57 integration queue and remaining actual preview/apply acceptance are explicit.
 
 ## State snapshot
 
-Candidate `codex/org-51-project-intake` is based on observed main `101a0d4553dc380ab3f88c50b11cb53beadfce18`. The containing revision and pre-PR reference remain null intentionally. Fresh main101a0d4553dc380ab3f88c50b11cb53beadfce18 remains the base. Organization51 is open; functional source7ed20efd34a31aece0edf94f87578bd17c50f914 received independent static peer. No Project preview, enrollment, status write or provider workflow was executed.
+Candidate `codex/org-51-project-intake` is based on observed main `b10dce43d64a61d880a0483cc611b39b8eb29d45`. The containing revision remains null intentionally; the PR reference is captured above. Observed mainb10dce43d64a61d880a0483cc611b39b8eb29d45 contains merged48 and53. PR56 is open with no reviews/threads, prepared from original6fd4a81e58c1ba535893f826ea6dd9d910d8d623. No preview or provider mutation ran.
 
 ## Completed and material changes
 
-The new fixed-host GitHub CLI adapter walks complete Project and public repository/open-issue pagination, excludes pull requests and private/redacted identities before public decisions, and distinguishes missing/existing/duplicate membership. Page budgets, provider errors and per-repository failures remain incomplete and return nonzero.
+The public-scope fixed-host Project membership preview from functional7ed20efd34a31aece0edf94f87578bd17c50f914 remains byte-identical: complete pagination, missing/existing/duplicate identity and bounded incomplete errors with zero writes.
 
-Each admitted public issue gets an exact URL/node identity and read-only proposed action. Existing items and statuses remain unchanged; no apply mutation exists. The public-only accessible inventory is a declared first scope, not a claim about all organization repositories or private coverage.
+The current merged historical audit48 and retained-model intake53 are retained unchanged. This source merge does not execute the preview or authorize a later Project apply/status mutation.
 
-Documentation records portable Python/macOS Bash prerequisites and the separate future Relay apply requirement, including explicit Backlog resolution, re-read/idempotency/readback and no unguarded status overwrite. Synthetic pagination/failure/visibility regressions are authored but unexecuted.
+The current operational checkpoint selects57 as the last organization integration and source-queue review ledger; historical review snapshots remain dated and final qualification is deferred.
 
 ## Validation and review evidence
 
-Independent source peer and root review of fixed read-only transport, pagination, public-first admission, identity/duplicate/partial failures and no-write contract; Python AST, authored local links, continuity schema/size and whitespace. Static source and metadata inspection only. No Project helper/preview transport, tests, lint, build, CI, issue enrollment or status mutation was executed.
+Independent source peer; exact four original non-CT file and all current-main Git blob comparisons; two Python ASTs and documentation links, continuity schema/size and whitespace excluding unchanged dated audit EOF. Static source and metadata inspection only. No Project helper/preview transport, tests, lint, build, CI, issue enrollment or status mutation was executed.
 
 ## Blockers, risks, unknowns, and deferred work
 
-User deferred tests, linters, builds, CI, helper/runtime and actual Project transport qualification; authored fake-transport regressions have not run. This first checkpoint is public accessible scope and preview only. Private coverage and issue51 live add/Backlog/readback acceptance remain open. GitHub multi-step add/status does not provide a conditional status write. A later mutation adapter must preserve existing items and resolve raced/new item identity; a successful add/time window is not enough.
+Tests, linters, builds, CI investigation, preview/helper/runtime and actual Project transport qualification remain deferred. Project apply/Backlog/readback and private coverage remain outside this read-only checkpoint; existing membership/statuses remain unchanged. Historical audit whitespace and prior source review prose are preserved as dated source; neither supplies current acceptance.
 
 ## Next dependency-ready work
 
-Review the read-only preview and authored regression source. Later qualify actual complete Project transport, then design/select the Relay-owned idempotent apply/Backlog/readback checkpoint without racing existing manual statuses.
+Integrate57 Discussions evidence and consolidated merge record after the other repository queues settle; then verify all four current mains and open PR inventories. Actual preview/apply/runtime qualification remains deferred.
 
 ## Parallel changes and reconciliation
 
-ADR not required: bounded read-only organization intake under existing coordination boundaries. Reusable mutation mechanics remain Relay-owned. Preserve organizationRI53 and separate setup54; draft for maintainer review, no self-merge.
+Current explicit all-open merge authorization supersedes earlier draft/no-selfmerge instructions for this source queue. Preserve exact readonly56 source and merged48/53; only operational continuity is reconciled. No administrator bypass, human ratification or provider action.
 
 ## Privacy and redaction
 
