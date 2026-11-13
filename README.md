@@ -6,22 +6,23 @@
 Use this repository as the organization starting point, then drill into each
 repository's own dashboard and canonical evidence.
 
-- [Organization overview](https://egohygiene.io/intelligence/) ·
-  [Audits](https://egohygiene.io/audits/) ·
-  [Architecture reviews](https://egohygiene.io/sanity/)
+- [Organization overview](https://egohygiene.github.io/.github/intelligence/) ·
+  [Audits](https://egohygiene.github.io/.github/audits/) ·
+  [Architecture reviews](https://egohygiene.github.io/.github/sanity/)
 - [Repository dashboards and source inventory](docs/intelligence/repositories.md)
 - [Completion roadmap and next work](docs/intelligence/DELIVERY_ROADMAP.md)
 - [Organization export and review path](docs/intelligence/organization-home.md)
-- [Prepared organization Pages publisher and recovery](docs/intelligence/organization-pages.md)
+- [Organization Pages publisher and recovery](docs/intelligence/organization-pages.md)
 - [Actual 28-repository source sanity assessment](docs/intelligence/organization-source-sweep.md)
 - [One real report canary](docs/intelligence/real-report-canary.md)
 - [Verified report-to-organization review artifact](docs/reviews/2026-11-13-real-report-proof.md)
 - [Merged implementation review](https://github.com/egohygiene/relay/blob/73f750ef9dd1782b20d280b4c555aacd92ee5f4e/docs/repository-intelligence-audits-sanity-review.md)
 
-The overview links retain the existing website route during the proposed
-[`.github` Pages transition](docs/decisions/ADR-0006-organization-intelligence-entrypoint.md).
-The first consumer workflow produces a reviewed artifact; live hosting and
-publication evidence remain separate.
+The organization project Pages site is live; its [verified publication](docs/reviews/2026-11-13-organization-live-publication.json)
+records exact source, artifact, recovery and canonical HTTPS evidence. The website
+remains the UI/export owner and keeps its company publisher. Each repository
+keeps its own dashboard. The [hosting ADR](docs/decisions/ADR-0006-organization-intelligence-entrypoint.md)
+remains proposed; deployment does not ratify human decisions.
 
 ## Organization contracts
 
