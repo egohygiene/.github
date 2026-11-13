@@ -1,0 +1,128 @@
+{
+  "schema": "egohygiene.organization-source-sweep.hosted-proof/v1alpha1",
+  "observed_at": "2026-11-13T03:25:59Z",
+  "repository": "egohygiene/.github",
+  "repository_id": 1196401336,
+  "run_id": 43358630670,
+  "run_attempt": 1,
+  "workflow_path": ".github/workflows/repository-intelligence-canary.yml",
+  "source_commit": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+  "conclusion": "success",
+  "as_of": "2026-11-13T03:23:31Z",
+  "artifacts": [
+    {
+      "id": 14007481492,
+      "name": "repository-intelligence-real-review-v1-43358630670-1",
+      "size_in_bytes": 48874,
+      "created_at": "2026-11-13T03:23:33Z",
+      "expires_at": "2026-12-13T03:23:32Z",
+      "digest": "sha256:6c0307435f17a03808ddb71da53216463d87fe2183aebb3380e795c45d1b94f5"
+    },
+    {
+      "id": 14007341969,
+      "name": "repository-intelligence-real-dashboard-v1-43358630670-1",
+      "size_in_bytes": 206283,
+      "created_at": "2026-11-13T03:23:35Z",
+      "expires_at": "2026-12-13T03:23:34Z",
+      "digest": "sha256:6c4b2013d916fb91c62ddb2c29dbf82e858be14eb0f31a644ac44cbfdeb21b13"
+    }
+  ],
+  "feed_receipt_sha256": "3dd9c1668211559ee69c0597d33de776aa9d2249a4fb68d12bc701e0a1d813a2",
+  "model_metadata": {
+    "fleet-audits": {
+      "as_of": "2026-11-13T03:23:31Z",
+      "canonical_digest": "b8b9bc3d8052008750efbf28f5866885236ca33368bfc3235f7aee95cbd1c5fe",
+      "contract_version": "1.0.0-alpha.1",
+      "evidence_state": "supplied",
+      "path": "fleet-audits.json",
+      "repository": "egohygiene/.github",
+      "represented_commit": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+      "schema": "egohygiene.observatory.fleet-audits/v1",
+      "sha256": "5a47b55419617fa92be4cc76933c330f1d26a93379bb75a566da76cf7d8e109e",
+      "size_bytes": 23702
+    },
+    "fleet-sanity": {
+      "as_of": "2026-11-13T03:23:31Z",
+      "canonical_digest": "1227f65434de5e491b31ac50db03779ca71b69b1f51b4ac3333a789f6b49b85a",
+      "contract_version": "1.0.0-alpha.1",
+      "evidence_state": "supplied",
+      "path": "fleet-sanity.json",
+      "repository": "egohygiene/.github",
+      "represented_commit": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+      "schema": "egohygiene.observatory.fleet-sanity/v1",
+      "sha256": "913368c6e94008c07a5dc606747dfe0f3dafc38e68055a718ff3884d958ca88d",
+      "size_bytes": 152776
+    },
+    "repository-audits": {
+      "as_of": "2026-11-13T03:23:31Z",
+      "canonical_digest": "6ea608236bff45f3e990db9c7124748d932fd2707d567e044b07842b1647557b",
+      "contract_version": "1.0.0-alpha.1",
+      "evidence_state": "supplied",
+      "path": "repository-audits.json",
+      "repository": "egohygiene/.github",
+      "represented_commit": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+      "schema": "egohygiene.observatory.repository-audits/v1",
+      "sha256": "012d0b011957cfaedecd695d56abcec19ee58325155a8b4607035dedf56f5366",
+      "size_bytes": 18748
+    },
+    "repository-sanity": {
+      "as_of": "2026-11-13T03:23:31Z",
+      "canonical_digest": "7b821e21321f4f614b8e4709fee6e2de428d30e16767788f7a545a97e2be1787",
+      "contract_version": "1.0.0-alpha.1",
+      "evidence_state": "supplied",
+      "path": "repository-sanity.json",
+      "repository": "egohygiene/.github",
+      "represented_commit": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+      "schema": "egohygiene.observatory.repository-sanity/v1",
+      "sha256": "911bf0a0a0c8778d507aeeae4663b7f515b97066ab5e51c4c423a2f50583cb52",
+      "size_bytes": 138008
+    }
+  },
+  "report_inputs": [
+    {
+      "domain": "audits",
+      "expected_sha256": "a9a7cf5955e69c4f80f7e5b767b87741c6399b68ec2ac47860a5bd1cd1b4e251",
+      "path": "audits/organization-source-sanity-20261113T022735Z.json",
+      "sha256": "a9a7cf5955e69c4f80f7e5b767b87741c6399b68ec2ac47860a5bd1cd1b4e251",
+      "state": "provided"
+    },
+    {
+      "domain": "sanity",
+      "expected_sha256": "87128a2a27e4f7b1611b4b62712175ec2d087f4610436d8d9716d49ece72d80d",
+      "path": "audits/organization-source-sanity-20261113T022735Z.sanity.json",
+      "sha256": "87128a2a27e4f7b1611b4b62712175ec2d087f4610436d8d9716d49ece72d80d",
+      "state": "provided"
+    }
+  ],
+  "native_presentation": {
+    "site_file_count": 30,
+    "audits": {
+      "available": true,
+      "run_count": 1,
+      "finding_count": 1,
+      "completion": "partial",
+      "revision_status": "different",
+      "html_sha256": "04f1292d6b7ad01d14e8f466ac31e17f884860f3638b4bce46e3e159b6ba65a9"
+    },
+    "sanity": {
+      "available": true,
+      "review_count": 1,
+      "components": 28,
+      "concerns": 8,
+      "strengths": 28,
+      "dimensions": 17,
+      "execution": "partial",
+      "governance": "not-reviewed",
+      "human_state": "unavailable",
+      "revision_status": "different",
+      "all_concern_summaries_present": true,
+      "html_sha256": "945811829b9f28b1b0abedb67e796a58ce8d17cf311529080e0627342df019d5"
+    },
+    "fleet_repository_rows": 1
+  },
+  "limitations": [
+    "The canonical organization Audit retains 36 findings; repository Audits projects its one target finding.",
+    "These are actual ordinary review artifacts and native repository views, not a website export, Pages deployment, human ratification or 28-row fleet transport.",
+    "The original 28 source heads and assessment clocks remain historical and are not retimed to the hosted evaluation boundary."
+  ]
+}

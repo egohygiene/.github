@@ -111,6 +111,29 @@ The first dashboard invocation rejected an unsupported local CLI value
 `timestamp-source=explicit`. The retained rendering used the documented
 `explicit-input`; no implementation fix or weakened validation was needed.
 
+## Actual hosted review handoff
+
+The existing manual canary [43358630670/1](https://github.com/egohygiene/.github/actions/runs/43358630670)
+completed successfully from actual main
+`281c3827378ae08bb44cde810ad6467fdb0c8adc`. Its original evaluation boundary is
+`2026-11-13T03:23:31Z`. The [hosted proof](../reviews/2026-11-13-organization-source-sweep.hosted-proof.json)
+records both actual retained artifacts and independently recomputed ZIP hashes.
+The ordinary five-file model bundle is artifact `14007481492`; the separate
+native dashboard is artifact `14007341969`.
+
+The exact pinned feed receipt and all four owner models validate. Downloaded
+native HTML preserves one partial Audit run with the one target finding, and
+one partial organization Sanity review with 28 components, eight concerns,
+28 strengths and all 17 dimensions. Every concern summary is present in the
+actual Sanity HTML; both native provenance receipts bind the downloaded model
+bytes. Governance remains not-reviewed and human state unavailable. Historical
+source revisions remain different from the new producer commit.
+
+This proves the hosted report-to-model-to-native-view handoff for these records.
+It does not establish a fresh website export, intake, Pages deployment or
+28-row fleet transport. Those follow-on outcomes require their own receipts;
+this source change updates no publisher selection, source or declaration.
+
 ## Refresh through the existing path
 
 The existing `.config/repository-intelligence/review-plan.json` now selects the
