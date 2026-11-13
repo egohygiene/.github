@@ -1,0 +1,77 @@
+{
+  "schema": "egohygiene.organization-source-sweep.local-proof/v1alpha1",
+  "visibility": "public",
+  "source_commit": "1e3f31bade2ecb036e3b668e5231cd7024584751",
+  "evaluated_at": "2026-11-13T03:13:43Z",
+  "relay_revision": "5d27be5ce1599df883e31f14cd894eb18622c18c",
+  "qualification": "actual-local-owner-normalization-and-native-rendering-only",
+  "owner_validation": "passed",
+  "typed_feed": {
+    "exit_code": 0,
+    "reports": {
+      "audits": "provided",
+      "sanity": "provided"
+    },
+    "receipt_sha256": "156c71f4385134070f60b95ab18ff515ca820ca1f8a6c659ad6e4225a39b0120",
+    "models": {
+      "fleet-audits.json": {
+        "sha256": "a5f5b58caf6033453b074bfd9c40a254a4a1c97ad8f29d33505076947eef0282",
+        "size_bytes": 23702
+      },
+      "fleet-sanity.json": {
+        "sha256": "07c3b717fce23d42c89df03420cbb5abcc39002840845da2cb19cbc74e8fb30b",
+        "size_bytes": 152776
+      },
+      "repository-audits.json": {
+        "sha256": "d6571d1fe2d23f980fcd023e97b5c17831a2a9e8baeff4df6cc48bb6a1ae632b",
+        "size_bytes": 18748
+      },
+      "repository-sanity.json": {
+        "sha256": "ffb8bc43644285d0f5bbbbf937eb8fe524a5e6e5ef4324d3c2ca9359db785e5c",
+        "size_bytes": 138008
+      }
+    }
+  },
+  "canonical_assessment": {
+    "scope_repositories": 28,
+    "audit_findings": 36,
+    "substantive_findings": 8,
+    "positive_observations": 28,
+    "state": "partial",
+    "governance": null,
+    "source_heads_observed_at": "2026-11-13T02:31Z"
+  },
+  "native_repository_projection": {
+    "repository": "egohygiene/.github",
+    "audit_runs": 1,
+    "audit_findings": 1,
+    "audit_revision_status": "different",
+    "sanity_reviews": 1,
+    "sanity_components": 28,
+    "sanity_concerns": 8,
+    "sanity_strengths": 28,
+    "sanity_dimensions": 17,
+    "sanity_execution": "partial",
+    "sanity_governance_state": "not-reviewed",
+    "sanity_human_state": "unavailable",
+    "sanity_revision_status": "different",
+    "fleet_model_repository_rows": 1,
+    "rendered": {
+      "audits": {
+        "sha256": "133e69c061541fcb034c8e1225b0e55b28ae7ff061ba931917a3b7ce69a221b5",
+        "size_bytes": 48822
+      },
+      "sanity": {
+        "sha256": "888187e76e40a1de958fee9c5f2cd82e6d0ca6289f29388ce20477f7a65decad",
+        "size_bytes": 318745
+      }
+    }
+  },
+  "limitations": [
+    "The organization Audit is canonical once, not copied into 28 repository reports. Repository Audits filters findings to the .github target; it does not display all eight cross-repository concerns.",
+    "The singleton fleet receipts do not establish 28-row fleet transport or repository-local report adoption.",
+    "This proof is local execution. It records no successful hosted workflow, retained provider artifact, website export, Pages publication or human ratification for these new records.",
+    "An initial dashboard command used unsupported timestamp-source explicit and correctly failed. The retained rendering used the documented explicit-input value without modifying owner code.",
+    "No full consumer tests, builds, CI, paid provider, browser or live-deployment qualification ran as part of this source review. The later local owner normalization/native rendering are separately recorded here."
+  ]
+}
