@@ -1,5 +1,11 @@
 # Organization home: source and review path
 
+Current publication preparation: the [organization Pages publisher](organization-pages.md)
+selects the verified review artifact, exact Hygiene declaration dialect and
+separate manual publication boundary. The explicit live-hosting task is now
+authorized; source preparation does not claim Pages is configured or deployed.
+The earlier review-only path and its immutable receipts below stay unchanged.
+
 The profile and repository README are the initial organization entry point.
 They link the [completion queue](DELIVERY_ROADMAP.md),
 [repository directory](repositories.md) and existing organization views.
