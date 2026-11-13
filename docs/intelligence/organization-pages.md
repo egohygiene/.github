@@ -14,10 +14,10 @@ publish dispatch are separate from those human decision records.
 ## Reviewed selection and owner sources
 
 The checked-in [selection](../../publication/organization-intelligence-selection.json)
-binds actual successful organization review run `43339209486`, attempt `1`,
-source `b1539be1ab718de2db3da4b1eaa6827e36d4753f`, artifact `13998892236` and
+binds actual successful organization review run `43362027530`, attempt `1`,
+source `281c3827378ae08bb44cde810ad6467fdb0c8adc`, artifact `14008223697` and
 raw archive SHA-256
-`d23cb76f235f473a5955e0aaade6c7e6afd493d80eb873ea241e4ba1f9caeb96`.
+`45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7`.
 It also binds the original producer, sealed manifest, intake receipt and model
 selection receipt. The original review receipt stays `review-only`, with
 `deployment_authorized: false`; it is not edited into publication permission.
@@ -38,7 +38,7 @@ The [complete declaration](../../publication/organization-site-surfaces.json)
 uses the narrowly scoped v2 hosting profile and the same 36-surface registry.
 It names the actual website renderer and exact producer commit. Its semantic
 source is this repository's immutable
-[composition reference](../../publication/organization-intelligence-source.json),
+[composition reference](../../publication/sources/organization-sweep-2026-11-13.json),
 which points to upstream evidence without claiming ownership of its models.
 Twenty UI surfaces are implemented but unpublished; the other sixteen retain
 evidence-backed unknown applicability and delivery state. Unavailable model
@@ -51,7 +51,7 @@ Use `.github/workflows/organization-intelligence-pages.yml` on canonical main.
 Supply the raw selection SHA-256:
 
 ```text
-36eae53d26e6387b7ff8ec2203aced90318994148867e15dde3ea9b961ed535c
+37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9
 ```
 
 `publish: false` is the default. The read-only preparation authenticates the
@@ -107,7 +107,7 @@ deployment or verification retains available recovery evidence but never writes
 a success receipt. Provider failure does not prove the prior deployment stayed
 unchanged.
 
-## Executed preparation evidence
+## Initial publisher qualification — historical 2026-11-13 checkpoint
 
 At functional source `77a04f800a398ee1971b6d069b5d7846a969609b`, eight focused
 publisher tests passed. They cover exact hash/source binding, changed/missing/
@@ -123,8 +123,58 @@ the separate consumer provenance file added. Acquisition was explicitly marked
 `local-unverified`; the deploy boundary correctly rejected that replay. It
 cannot mint provider acquisition, deployment or publication proof.
 
-An actual main-workflow preparation/publication, browser qualification and
-canonical live/recovery evidence remain separate next checks. The selected
-report remains one partial historical audit; Core/Sanity are unavailable.
-The organization-wide sanity sweep is a separate source-backed collection task,
-not a result of publishing this artifact.
+At that initial checkpoint the selected report was one partial historical audit,
+and Core/Sanity were unavailable. Its source and receipts remain historical
+evidence. Actual prepare-only run `43356501268/1` later passed for that initial
+selection; it did not configure or deploy Pages.
+
+
+## Current Audit and Sanity selection — 2026-11-13
+
+The [actual export/intake evidence](../reviews/2026-11-13-organization-export-intake.json)
+records the full retained-artifact chain:
+
+- Public model run [43358630670/1](https://github.com/egohygiene/.github/actions/runs/43358630670)
+  retained the actual Audit and Sanity bundle at source `281c3827378ae08bb44cde810ad6467fdb0c8adc`.
+- Graph-fixed website export [43361706555/1](https://github.com/egohygiene/egohygiene.io/actions/runs/43361706555)
+  succeeded at `342673b110915f4a29ada01625a77416a1e105d7`. All three source
+  checkpoints were clean with that exact HEAD. Both native input and admitted
+  presentation states are available; Core remains unavailable.
+- Organization review [43362027530/1](https://github.com/egohygiene/.github/actions/runs/43362027530)
+  admitted the exact static and companion artifacts. Its downloaded retained
+  artifact preserves all 43 producer files, the manifest and the companion
+  byte-for-byte. The intake receipt remains review-only and deployment-unauthorized.
+
+The original model frame is `2026-11-13T03:23:31Z`; export evaluation is
+`03:36:14Z`. There is one `.github` fleet target, containing a Sanity review of
+28 components, eight concerns, 28 strengths and 17 dimensions. All eight concern
+summaries appear in retained HTML. Execution remains partial, governance
+not-reviewed and human evidence unavailable. The canonical Audit has 36 findings;
+its target projection retains one positive finding. Neither source clocks nor
+these independent scopes are expanded by publication.
+
+The new source pointer was committed first at
+`7550df88a67d62de1704105b27556cb6fb723236`; the complete declaration references
+that immutable existing blob. It binds the actual website exporter revision,
+20 implemented/unpublished surfaces and 16 unresolved applicability assessments.
+The original composition pointer and earlier review receipts remain unchanged.
+
+At functional source `8ce7d4501e0fa599b31096974582f72a04e61805`, the unchanged
+publisher revalidated the actual 46-member review archive through the pinned
+Relay and Hygiene owners. The v2 schema passed. All 43 producer files remained
+exact, with only the separate consumer metadata added; no private captures or
+CLI state enter the 44-file public site. This local replay is explicitly
+`local-unverified`, and the deployable check correctly rejects it.
+
+Independent Chromium replay of these exact hosted 43 site files passes all
+12 focused checks: route traversal, pointer and keyboard navigation, first-touch
+Sanity concern selection and original partial/human states. No console/page or
+response errors were observed. Audit/Sanity detail pages retain a 402px width
+at a 390px viewport; the graph hub fits. This is local browser replay, not live
+HTTPS or full accessibility acceptance.
+
+After source integration, root runs a new actual `publish: false` preparation
+with the selection hash above and inspects its retained artifact. Pages is still
+awaiting the administrator's GitHub Actions source setting after the integration's
+403 activation response. No `publish: true` dispatch, provider setting, deployment,
+canonical live-byte verification or human ratification is claimed here.

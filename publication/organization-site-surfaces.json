@@ -18,7 +18,7 @@
     "route_profile": "organization",
     "site_class": "application",
     "visibility": "public",
-    "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+    "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236"
   },
   "surfaces": [
     {
@@ -30,9 +30,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -66,9 +66,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -77,14 +77,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -110,9 +110,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -144,9 +144,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -180,9 +180,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -191,14 +191,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"
@@ -228,9 +228,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -239,14 +239,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"
@@ -277,9 +277,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -288,14 +288,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -323,9 +323,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -334,14 +334,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -369,9 +369,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -380,14 +380,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"
@@ -417,9 +417,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -428,14 +428,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "releases"
@@ -465,9 +465,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -499,9 +499,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -533,9 +533,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -567,9 +567,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -603,9 +603,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -614,14 +614,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -647,9 +647,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -683,9 +683,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -694,14 +694,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -727,9 +727,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -761,9 +761,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -772,14 +772,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "identity-artifact",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"
@@ -807,9 +807,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -818,14 +818,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -855,9 +855,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -866,14 +866,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"
@@ -901,9 +901,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -912,14 +912,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-content",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -945,9 +945,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -979,9 +979,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1015,9 +1015,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1026,14 +1026,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"
@@ -1063,9 +1063,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1097,9 +1097,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1131,9 +1131,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1169,9 +1169,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1180,14 +1180,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -1215,9 +1215,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1226,14 +1226,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -1261,9 +1261,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1272,14 +1272,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -1307,9 +1307,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1318,14 +1318,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "generated-index",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -1351,9 +1351,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1362,14 +1362,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [],
       "publication": {
@@ -1395,9 +1395,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1429,9 +1429,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1465,9 +1465,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
-        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
-        "observed_at": "2026-11-13T02:50:36Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
+        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+        "observed_at": "2026-11-13T03:56:24Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1476,14 +1476,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/organization-intelligence-source.json",
-        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+        "location": "publication/sources/organization-sweep-2026-11-13.json",
+        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
-        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
+        "version": "342673b110915f4a29ada01625a77416a1e105d7"
       },
       "dependencies": [
         "intelligence"

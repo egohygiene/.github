@@ -1,0 +1,149 @@
+{
+  "observed_at": "2026-11-13T03:54:30.957783Z",
+  "repository": "egohygiene/egohygiene.io",
+  "run_id": 43361706555,
+  "run_attempt": 1,
+  "producer_revision": "342673b110915f4a29ada01625a77416a1e105d7",
+  "conclusion": "success",
+  "static_artifact_id": 14008422802,
+  "static_archive_sha256": "d28f9df0989dfa04bebd2f531cab9b44341879f487362348475e1f36ca292799",
+  "manifest_sha256": "6fe95bb157d5c419d1db59b37ab27bc994b62441d4906e6c971f2ec71557ee97",
+  "selection_artifact_id": 14008148910,
+  "selection_archive_sha256": "2145697bd38f317089b0291f0c77c9197bbea90650b845b263f39db9e25bbb97",
+  "selection_receipt_sha256": "486cbaad1bccbcd0e19e323eb5df11fc2f495ddd027d4d57fb795a4ac86cb04c",
+  "scope": [
+    "egohygiene/.github"
+  ],
+  "models": {
+    "audits": {
+      "contract_version": "1.0.0-alpha.1",
+      "presentation_sha256": "480c4f0fee01dc68ff215b6a52f5d7e5b7c2a71954d732d0285518ef5a80e240",
+      "schema": "egohygiene.observatory.fleet-audits/v1",
+      "state": "available"
+    },
+    "core": {
+      "contract_version": "1.0.0-alpha.2",
+      "presentation_sha256": null,
+      "schema": "egohygiene.observatory.repository-intelligence-fleet/v1",
+      "state": "unavailable"
+    },
+    "sanity": {
+      "contract_version": "1.0.0-alpha.1",
+      "presentation_sha256": "ce1d3241f9e3a0eb923cf970ed6a7bd487407d481672ed42dcd2e29279eac5f7",
+      "schema": "egohygiene.observatory.fleet-sanity/v1",
+      "state": "available"
+    }
+  },
+  "native_input_and_presentation_states": {
+    "audits": {
+      "state": "available",
+      "presentation_state": "available",
+      "code": "NONE",
+      "source_as_of": "2026-11-13T03:23:31Z"
+    },
+    "sanity": {
+      "state": "available",
+      "presentation_state": "available",
+      "code": "NONE",
+      "source_as_of": "2026-11-13T03:23:31Z"
+    },
+    "core": {
+      "state": "unavailable",
+      "presentation_state": "unavailable",
+      "code": "NOT_CONFIGURED",
+      "source_as_of": null
+    }
+  },
+  "selection_evaluation_at": "2026-11-13T03:36:14Z",
+  "route_count": 39,
+  "file_count": 43,
+  "all_declared_file_hashes_sizes_verified": true,
+  "sanity_concern_summaries_rendered": 8,
+  "partial_and_unreviewed_states_rendered": true,
+  "source_observers": {
+    "checkout": {
+      "head": "342673b110915f4a29ada01625a77416a1e105d7",
+      "head_valid": true,
+      "paths": [],
+      "status_read_ok": true,
+      "truncated": false
+    },
+    "acquisition": {
+      "head": "342673b110915f4a29ada01625a77416a1e105d7",
+      "head_valid": true,
+      "paths": [],
+      "status_read_ok": true,
+      "truncated": false
+    },
+    "install": {
+      "head": "342673b110915f4a29ada01625a77416a1e105d7",
+      "head_valid": true,
+      "paths": [],
+      "status_read_ok": true,
+      "truncated": false
+    }
+  },
+  "publication": "review-only",
+  "limits": [
+    "One .github target row; its Sanity review has 28 components, not 28 captured fleet rows",
+    "Canonical Audit has 36 findings; its target projection has one positive finding",
+    "Core unavailable; original partial and human-unreviewed assessment states and source clocks retained",
+    "No Pages settings, deployment, live verification or human ratification"
+  ],
+  "organization_review": {
+    "repository": "egohygiene/.github",
+    "run_id": 43362027530,
+    "run_attempt": 1,
+    "consumer_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+    "conclusion": "success",
+    "artifact_id": 14008223697,
+    "archive_sha256": "45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7",
+    "intake_receipt_sha256": "208320a354d30a30791c09fe6ab2f531ffdb820dfe97eea6a7d73ae91df09777",
+    "selection_receipt_sha256": "486cbaad1bccbcd0e19e323eb5df11fc2f495ddd027d4d57fb795a4ac86cb04c",
+    "producer_site_and_manifest_bytes": "exact",
+    "publication": "review-only",
+    "deployment_authorized": false
+  },
+  "publication_preparation_local": {
+    "functional_revision": "8ce7d4501e0fa599b31096974582f72a04e61805",
+    "selection_sha256": "37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9",
+    "declaration_sha256": "4d8c9966037e16256de090768ba6a910f1dc00e9412b3cd349286e226a444069",
+    "source_pointer_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+    "declaration_schema_formats": "passed",
+    "native_hygiene_declaration": "passed through unchanged publisher prepare",
+    "surfaces": 36,
+    "implemented_unpublished_surfaces": 20,
+    "unknown_applicability_surfaces": 16,
+    "native_relay_sealed_public_scope": "passed through unchanged publisher prepare",
+    "actual_review_artifact": 14008223697,
+    "all_43_producer_public_files_byte_exact": true,
+    "public_site_files": 44,
+    "private_capture_or_cli_state_in_public_site": false,
+    "local_acquisition": "local-unverified",
+    "deployable_check": "denied as required",
+    "old_source_pointer": "unchanged",
+    "publication_sha256": "944ebdb8ebeef0c6ddb222ea66d75bdcfaa547418c7961cc2dfd5c349050a844",
+    "limits": [
+      "Offline replay against actual retained artifact; no fresh provider authentication",
+      "Actual main publish:false is next after source integration",
+      "Pages settings, deployment and live HTTPS remain administrator coordinated and unexecuted"
+    ]
+  },
+  "independent_browser_replay": {
+    "input": "actual hosted export43361706555/1, all43 site bytes independently matched",
+    "checks_passed": 12,
+    "runtime_errors": 0,
+    "responses": 193,
+    "navigation": [
+      "first pointer module and finding",
+      "keyboard Sanity destination",
+      "first touch actual concern",
+      "39 routes"
+    ],
+    "limits": [
+      "Local Chromium replay, no live HTTPS deployment",
+      "Audit and Sanity detail pages retain402px overflow at390px; graph hub fits",
+      "Full accessibility and physical-device qualification remain separate"
+    ]
+  }
+}
