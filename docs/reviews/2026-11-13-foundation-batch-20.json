@@ -162,7 +162,7 @@
       "repository": "egohygiene/holon",
       "issue": 63,
       "issue_url": "https://github.com/egohygiene/holon/issues/63",
-      "selected_scope": "Reconcile repository-presentation profile metadata and qualify upgrade/legacy recovery.",
+      "selected_scope": "Align ADR scaffold pins/provenance and qualify native upgrade and rollback.",
       "issue_state": "closed",
       "state_reason": "completed",
       "closed_at": "2026-11-13T03:31:07Z",
