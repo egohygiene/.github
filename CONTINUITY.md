@@ -7,35 +7,38 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-12T23:56:26Z'
+  updated_at: '2026-11-13T00:46:56Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Exercise one real source audit through the existing repository and organization review artifact
-    path.
+  purpose: Retain the verified one-report organization review artifact proof and hand off canonical hosting
+    work.
   includes:
-  - Added an actual bounded contract-drift audit of the organization review workflow and guide at inspected
-    source8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7, authored through pinned Aether74490907bf3979ac45594d97fb1bb5fa7071346d.
-    Canonical Markdown and typed sidecar share one observed positive finding and explicitly partial scope;
-    prior audit history is not compared and no human acceptance is inferred.
-  - The exact-hash Git plan selects that sidecar. Actual pinned owner validation and local Relay typed-feed
-    execution produced one audit run and one finding, retaining original report clocks and a different historical
-    subject. Sanity remains unavailable because no Sanity report is selected.
-  - Added one manual public/main-only, contents-read canary workflow using exact reviewed5d27 feed and existing
-    builder with one source/as-of frame. It retains the five-file ordinary model receipt bundle before the
-    dashboard build and retains the generated dashboard separately; it has no Pages or deployment job.
-  - Current source guidance now points to the concrete canary and distinguishes the newly authorized narrow
-    execution from deferred broad CI, browser/live publication and full-organization sweep. Existing publishers,
-    review consumer, dated audits, human decisions, frozen recovery and owner pins remain unchanged.
-  - The current convergence record pins all five merged sources and separates existing catalog/fleet implementations
-    from runtime acceptance. The active roadmap now selects the one real artifact chain; the older follow-on
-    proposal is explicitly historical. Hosting/registry reconciliation stays with existing owners and the proposed
-    ADR retains null approval.
+  - 'The five proposed RI source integrations are merged: Relay181, Pace37, Identity144, Civics9 and website140.
+    Website141 enforces the pinned schema contains rules;142 adds bounded source-state observations;143 confines
+    GitHub CLI state to the private acquisition workspace. Existing publisher/recovery/policy boundaries remain
+    unchanged.'
+  - Actual manual producer43333273329/1 atconsumer sourceb1539be1ab718de2db3da4b1eaa6827e36d4753f emitted model
+    artifact13996296082 and dashboard13996695693. Downloaded archives match provider digests; the real audit
+    has one observed positive finding, partial scope and historical subject8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7.
+    Original source_as_of2026-11-12T23:58:44Z stays unchanged.
+  - Actual website export43338700534/1 at3672c05323b348edba8720998e735668c5d4a3a9 retained export13997279164
+    and companion13997503599. Both actual input and native Audits presentation are available; only public.github
+    scope is selected. All39 routes and43 declared file hashes/sizes, actual finding anchor/title and partial
+    label were verified; Core and Sanity remain unavailable.
+  - Actual organization review43339209486/1 atb1539be1ab718de2db3da4b1eaa6827e36d4753f admitted the exact producer/export/companion,
+    verified the sealed inventory and retained artifact13998892236. Its downloaded46-file archive preserves
+    every producer file plus the selection receipt byte-for-byte, adds the native intake receipt and preserves
+    the real finding. Deployment remains explicitly unauthorized.
+  - The current roadmap and canary guide now point to the concrete hosted proof. Existing issue23/41/42 body
+    reconciliation preserves original history/titles/labels/states/checklists and distinguishes registry ownership,
+    proposed host transition and focused proof from broad acceptance. No organization sweep, publisher activation
+    or human ratification is inferred.
   excludes:
-  - Broad CI suites, browser qualification, full-fleet audit execution, live Pages activation, human ratification
-    and final acceptance closure.
+  - Broad CI and browser qualification, whole-fleet or fresh organization sweep, live Pages activation, human
+    ratification and final acceptance closure.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -46,93 +49,95 @@ scope:
   - AGENTS.md
   - ARCHITECTURE.md
   - docs/issue-routing.md
+  - README.md
+  - docs/reviews/2026-11-13-real-report-proof.md
+  - docs/reviews/2026-11-12-ri-convergence.md
   - docs/intelligence/real-report-canary.md
+  - docs/intelligence/DELIVERY_ROADMAP.md
   - docs/intelligence/organization-home.md
+  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
   - .github/workflows/organization-intelligence-review.yml
   - .github/workflows/repository-intelligence-canary.yml
   - .config/repository-intelligence/review-plan.json
-  - audits/ri-review-boundary-20261112T234641Z.md
-  - audits/ri-review-boundary-20261112T234641Z.json
-  - docs/reviews/2026-11-12-ri-convergence.md
-  - docs/intelligence/DELIVERY_ROADMAP.md
-  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
   - https://github.com/egohygiene/.github/issues/41
 work:
-  objective: Exercise one real source audit through the existing repository and organization review artifact
-    path.
+  objective: Retain the verified one-report organization review artifact proof and hand off canonical hosting
+    work.
   success_conditions:
-  - The actual source assessment is immutable, scoped and owner-valid; models preserve its original date, partial
-    completion and historical context.
-  - A manual read-only producer can emit separate model and repository-dashboard artifacts for the existing
-    retained organization export and review consumer.
-  - Source integration, actual runtime normalization, artifact transport, application execution and live hosting
-    remain distinct evidence states.
+  - The real report/model/dashboard/export/intake path has exact successful provider runs and downloaded content
+    proof, not just green source metadata.
+  - Original partial scope and historical clocks survive all layers; unavailable modules and human authority
+    remain explicit.
+  - The next hosting/declaration boundary and remaining acceptance are named without a second registry, publisher
+    or model assembler.
   active_issue:
     provider: github
     id: egohygiene/.github#41
     url: https://github.com/egohygiene/.github/issues/41
   next:
     kind: action
-    id: execute-one-real-report-artifact-chain
-    description: After source integration, run the manual canary on exact main; verify successful producer
-      run/attempt, actual model/dashboard artifact IDs and raw hashes. Check in an exact retained-model selection
-      in the website owner, run its existing export, then run the organization review consumer using same-run
-      export/companion identities. Keep Pages activation and a full organization sanity sweep separate.
+    id: review-canonical-hosting-declaration-cutover
+    description: Prepare the single canonical hosting/declaration cutover through the existing Hygiene and
+      organization owners, reconciling the proposed .github target with the historical website criterion. Review
+      compatible owner selections, canonical navigation and recovery, then obtain the necessary publisher/human
+      disposition before live activation. Keep current-report capture, multi-capture review aggregation and
+      broader fleet adoption with their existing owners.
     readiness: ready
     references:
     - https://github.com/egohygiene/.github/issues/41
     depends_on: []
 state:
   base:
-    revision: 8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7
+    revision: b1539be1ab718de2db3da4b1eaa6827e36d4753f
     ref: refs/heads/main
-    verified_at: '2026-11-12T23:56:26Z'
+    verified_at: '2026-11-13T00:46:56Z'
   candidate:
-    branch: codex/ri-real-report-canary
+    branch: codex/ri-canary-proof
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-12T23:56:26Z'
-    default_branch_revision: 8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7
+    observed_at: '2026-11-13T00:46:56Z'
+    default_branch_revision: b1539be1ab718de2db3da4b1eaa6827e36d4753f
     issue_state: open
     pull_request_state: not-applicable
-    notes: Organization main8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7 was refreshed before this candidate. Relay181
-      merged at12d3a0823c8c8f885dea4acf482160fd726325e2, Pace37 at a224545490848162a5f8a9d89d2664a3a3f46993,
-      Identity144 atcfb6c29bd02589a47fc48050ab02e7e0da359719 and Civics9 atbcd391f97b83eb24686ef888b83677932c152cf2.
-      Website140 merged at eed5070382e36c0f29e71519c8df476d8c131ca2; all five exact prepared heads and merge
-      identities were independently checked through current provider metadata. No live Pages publication is
-      established.
+    notes: Observed organization mainb1539be1ab718de2db3da4b1eaa6827e36d4753f contains58 and is the actual
+      tested consumer/producer source for the three-stage canary. Five original integrations and website141/142/143
+      are merged; successful website3672 source has independently clean checkout/acquisition/install observations.
+      Existing23/41/42 remain open after bounded body reconciliation. This candidate only retains proof and
+      current handoff; it does not invent its own future merge identity.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-12T23:56:26Z'
+  reviewed_at: '2026-11-13T00:46:56Z'
   reviewed_by: Codex
   evidence:
-  - command: Pinned Aether owner validate_report and actual local Relay5d27 typed-feed execution at2026-11-12T23:48:29Z;
-      exact report/source/plan raw hashes and source predicates; independent canary source peers; workflow/YAML
-      and embedded Python inspection; bounded continuity schema and whitespace
+  - command: Independent source peers and exact merge ancestry/trees; pinned Aether owner validation and actual
+      local normalization; actual hosted producer43333273329/1, website43338700534/1 and organization43339209486/1
+      required step conclusions; downloaded archive/provider SHA-256 equality, exact model/selection/manifest
+      bindings, all39 routes43 declared file hashes/sizes, real finding anchor/title/partial and byte-identical
+      final retention; bounded continuity schema and whitespace
     outcome: limited
-    observed_at: '2026-11-12T23:56:26Z'
-    notes: Actual local normalization produced one partial audit, one finding, historical revision_status=different
-      and unavailable Sanity. This is runtime normalization evidence, not an uploaded artifact, application
-      build, live transport or publication proof.
-  - command: Hosted manual canary and real retained-artifact acquisition; focused website export/intake; broad
-      CI, browser, live publication and recovery qualification
+    observed_at: '2026-11-13T00:46:56Z'
+    notes: The focused actual artifact chain passed. The final native intake authenticates public scope and
+      inventory while model derivation stays producer-declared; separate upstream normalization, website execution
+      and actual rendered content were verified independently. Broad/browser/live-hosting acceptance is not
+      claimed.
+  - command: Canonical hosting/declaration admission, browser/accessibility/performance, live Pages activation,
+      publication/recovery and full-fleet/current-report acceptance
     outcome: not-run
-    observed_at: '2026-11-12T23:56:26Z'
-    notes: The focused artifact chain is authorized next but not yet run at this source checkpoint. Broad CI/browser/live
-      activation and full organization audit acceptance remain separate.
+    observed_at: '2026-11-13T00:46:56Z'
+    notes: These remain separate unexecuted gates; the focused report-to-review-artifact canary is verified.
+      Source integration, uploaded review artifacts and actual rendering do not authorize a publisher or authenticate
+      human decisions.
   environment_limitations:
-  - This source audit inspects exactly two files; partial profile scope is not whole-repository conformance
-    or a fresh organization sanity sweep.
-  - The new manual workflow is not an uploaded model/dashboard or successful website export/intake until actual
-    steps execute and exact run/attempt/artifact hashes are retained.
-  - Sanity has no selected report; current-review capture and multi-capture aggregation remain later owner
-    work. No report, provider identity or human disposition is fabricated.
-  - The proposed .github hosting transition remains proposed with null approval; existing publisher, route
-    and declaration cutover/rollback qualification is still required.
+  - This is one explicitly partial contract-drift audit of two source files, not a complete or fresh organization
+    sanity sweep. Core and Sanity have no selected evidence.
+  - ADR-0006 remains proposed/null approval and native intake reports hosting_transition=not-admitted and deployment_authorized=false.
+    Browsers, broader privacy/failure/performance and publication/recovery acceptance remain open.
+  - Final review artifact13998892236 expires2026-11-20T00:42:47Z under the existing seven-day retention. Future
+    refreshes require actual new run/artifact bindings and must preserve original report clocks.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -159,39 +164,39 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Exercise one real source audit through the existing repository and organization review artifact path. The actual source assessment is immutable, scoped and owner-valid; models preserve its original date, partial completion and historical context. A manual read-only producer can emit separate model and repository-dashboard artifacts for the existing retained organization export and review consumer. Source integration, actual runtime normalization, artifact transport, application execution and live hosting remain distinct evidence states.
+Retain the verified one-report organization review artifact proof and hand off canonical hosting work. The real report/model/dashboard/export/intake path has exact successful provider runs and downloaded content proof, not just green source metadata. Original partial scope and historical clocks survive all layers; unavailable modules and human authority remain explicit. The next hosting/declaration boundary and remaining acceptance are named without a second registry, publisher or model assembler.
 
 ## State snapshot
 
-Candidate `codex/ri-real-report-canary` is based on observed main `8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7`. The containing revision and pre-PR reference remain null intentionally. Organization main8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7 was refreshed before this candidate. Relay181 merged at12d3a0823c8c8f885dea4acf482160fd726325e2, Pace37 at a224545490848162a5f8a9d89d2664a3a3f46993, Identity144 atcfb6c29bd02589a47fc48050ab02e7e0da359719 and Civics9 atbcd391f97b83eb24686ef888b83677932c152cf2. Website140 merged at eed5070382e36c0f29e71519c8df476d8c131ca2; all five exact prepared heads and merge identities were independently checked through current provider metadata. No live Pages publication is established.
+Candidate `codex/ri-canary-proof` is based on observed main `b1539be1ab718de2db3da4b1eaa6827e36d4753f`. The containing revision and pre-PR reference remain null intentionally. Observed organization mainb1539be1ab718de2db3da4b1eaa6827e36d4753f contains58 and is the actual tested consumer/producer source for the three-stage canary. Five original integrations and website141/142/143 are merged; successful website3672 source has independently clean checkout/acquisition/install observations. Existing23/41/42 remain open after bounded body reconciliation. This candidate only retains proof and current handoff; it does not invent its own future merge identity.
 
 ## Completed and material changes
 
-Added an actual bounded contract-drift audit of the organization review workflow and guide at inspected source8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7, authored through pinned Aether74490907bf3979ac45594d97fb1bb5fa7071346d. Canonical Markdown and typed sidecar share one observed positive finding and explicitly partial scope; prior audit history is not compared and no human acceptance is inferred.
+The five proposed RI source integrations are merged: Relay181, Pace37, Identity144, Civics9 and website140. Website141 enforces the pinned schema contains rules;142 adds bounded source-state observations;143 confines GitHub CLI state to the private acquisition workspace. Existing publisher/recovery/policy boundaries remain unchanged.
 
-The exact-hash Git plan selects that sidecar. Actual pinned owner validation and local Relay typed-feed execution produced one audit run and one finding, retaining original report clocks and a different historical subject. Sanity remains unavailable because no Sanity report is selected.
+Actual manual producer43333273329/1 atconsumer sourceb1539be1ab718de2db3da4b1eaa6827e36d4753f emitted model artifact13996296082 and dashboard13996695693. Downloaded archives match provider digests; the real audit has one observed positive finding, partial scope and historical subject8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7. Original source_as_of2026-11-12T23:58:44Z stays unchanged.
 
-Added one manual public/main-only, contents-read canary workflow using exact reviewed5d27 feed and existing builder with one source/as-of frame. It retains the five-file ordinary model receipt bundle before the dashboard build and retains the generated dashboard separately; it has no Pages or deployment job.
+Actual website export43338700534/1 at3672c05323b348edba8720998e735668c5d4a3a9 retained export13997279164 and companion13997503599. Both actual input and native Audits presentation are available; only public.github scope is selected. All39 routes and43 declared file hashes/sizes, actual finding anchor/title and partial label were verified; Core and Sanity remain unavailable.
 
-Current source guidance now points to the concrete canary and distinguishes the newly authorized narrow execution from deferred broad CI, browser/live publication and full-organization sweep. Existing publishers, review consumer, dated audits, human decisions, frozen recovery and owner pins remain unchanged.
+Actual organization review43339209486/1 atb1539be1ab718de2db3da4b1eaa6827e36d4753f admitted the exact producer/export/companion, verified the sealed inventory and retained artifact13998892236. Its downloaded46-file archive preserves every producer file plus the selection receipt byte-for-byte, adds the native intake receipt and preserves the real finding. Deployment remains explicitly unauthorized.
 
-The current convergence record pins all five merged sources and separates existing catalog/fleet implementations from runtime acceptance. The active roadmap now selects the one real artifact chain; the older follow-on proposal is explicitly historical. Hosting/registry reconciliation stays with existing owners and the proposed ADR retains null approval.
+The current roadmap and canary guide now point to the concrete hosted proof. Existing issue23/41/42 body reconciliation preserves original history/titles/labels/states/checklists and distinguishes registry ownership, proposed host transition and focused proof from broad acceptance. No organization sweep, publisher activation or human ratification is inferred.
 
 ## Validation and review evidence
 
-Pinned Aether owner validate_report and actual local Relay5d27 typed-feed execution at2026-11-12T23:48:29Z; exact report/source/plan raw hashes and source predicates; independent canary source peers; workflow/YAML and embedded Python inspection; bounded continuity schema and whitespace. One actual bounded source assessment and the actual pinned typed feed executed. Independent peers verified original source blobs, plan and canonical report hashes, permissions/guards and source/as-of bindings. Hosted canary, website export, organization intake and live hosting have not yet executed at this source checkpoint.
+Independent source peers and exact merge ancestry/trees; pinned Aether owner validation and actual local normalization; actual hosted producer43333273329/1, website43338700534/1 and organization43339209486/1 required step conclusions; downloaded archive/provider SHA-256 equality, exact model/selection/manifest bindings, all39 routes43 declared file hashes/sizes, real finding anchor/title/partial and byte-identical final retention; bounded continuity schema and whitespace. Actual focused runtime/build/provider executions and downloaded content verification passed for this one report. Source review, focused Pace/website regressions and source-state probes are recorded with their owners. No broad CI, browser accessibility/performance or live publication qualification was run.
 
 ## Blockers, risks, unknowns, and deferred work
 
-This source audit inspects exactly two files; partial profile scope is not whole-repository conformance or a fresh organization sanity sweep. The new manual workflow is not an uploaded model/dashboard or successful website export/intake until actual steps execute and exact run/attempt/artifact hashes are retained. Sanity has no selected report; current-review capture and multi-capture aggregation remain later owner work. No report, provider identity or human disposition is fabricated. The proposed .github hosting transition remains proposed with null approval; existing publisher, route and declaration cutover/rollback qualification is still required.
+This is one explicitly partial contract-drift audit of two source files, not a complete or fresh organization sanity sweep. Core and Sanity have no selected evidence. ADR-0006 remains proposed/null approval and native intake reports hosting_transition=not-admitted and deployment_authorized=false. Browsers, broader privacy/failure/performance and publication/recovery acceptance remain open. Final review artifact13998892236 expires2026-11-20T00:42:47Z under the existing seven-day retention. Future refreshes require actual new run/artifact bindings and must preserve original report clocks.
 
 ## Next dependency-ready work
 
-After source integration, run the manual canary on exact main; verify successful producer run/attempt, actual model/dashboard artifact IDs and raw hashes. Check in an exact retained-model selection in the website owner, run its existing export, then run the organization review consumer using same-run export/companion identities. Keep Pages activation and a full organization sanity sweep separate.
+Prepare the single canonical hosting/declaration cutover through the existing Hygiene and organization owners, reconciling the proposed .github target with the historical website criterion. Review compatible owner selections, canonical navigation and recovery, then obtain the necessary publisher/human disposition before live activation. Keep current-report capture, multi-capture review aggregation and broader fleet adoption with their existing owners.
 
 ## Parallel changes and reconciliation
 
-The accepted next batch authorizes five dependency-ordered source merges and one real artifact canary. The newly accepted narrow validation path supersedes the earlier blanket test/runtime deferral only for this canary; it grants no live publication or human ratification. Historical evidence and valid immutable pins stay unchanged.
+The accepted five-source batch and one real canary are complete at the inspected evidence boundaries. Two prior website runs stopped before artifacts; actual diagnostics identified GitHub CLI state under the source checkout, then private state isolation preserved the original clean-source gate. A green preparation step alone was not treated as model admission; actual input, native presentation, rendered finding and final bytes were inspected. This is a documentation/handoff candidate; report, plan, workflow and production code stay unchanged.
 
 ## Privacy and redaction
 
