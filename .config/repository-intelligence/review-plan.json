@@ -5,9 +5,14 @@
   "repository": "egohygiene/.github",
   "audits": [
     {
-      "path": "audits/ri-review-boundary-20261112T234641Z.json",
-      "sha256": "fba14958748b573ce9045417452de470c2054f028aa9100be4eadaf659aefa92"
+      "path": "audits/organization-source-sanity-20261113T022735Z.json",
+      "sha256": "a9a7cf5955e69c4f80f7e5b767b87741c6399b68ec2ac47860a5bd1cd1b4e251"
     }
   ],
-  "sanity": []
+  "sanity": [
+    {
+      "path": "audits/organization-source-sanity-20261113T022735Z.sanity.json",
+      "sha256": "87128a2a27e4f7b1611b4b62712175ec2d087f4610436d8d9716d49ece72d80d"
+    }
+  ]
 }

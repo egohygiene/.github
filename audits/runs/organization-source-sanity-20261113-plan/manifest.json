@@ -1,0 +1,466 @@
+{
+  "analysis_execution": "external-captures-only",
+  "budgets": {
+    "concurrency": 4,
+    "depth": 1,
+    "maximum_findings": 4096,
+    "maximum_report_bytes": 1048576,
+    "maximum_reports_per_repository": 16,
+    "maximum_repositories": 64,
+    "maximum_seconds": 600
+  },
+  "campaign_id": "organization-source-sanity-20261113",
+  "candidate_backlog": "disabled",
+  "catalog": {
+    "observed_at": "2026-11-09T14:06:57Z",
+    "path": "catalog/public-repositories.json",
+    "repository": "egohygiene/hygiene",
+    "revision": "49639c1845cdfd08fbd5a768261a8b3cf515f80f",
+    "sha256": "af9c7186ded0bb57b18741eaa5905314b96d6adb03736946c868e0fc4aa50b26"
+  },
+  "contract_version": "1.0.0-alpha.1",
+  "generator": {
+    "immutable": true,
+    "implementation_sha256": {
+      "contracts/audit-campaign-owners.v1.lock.json": "1b9067f2abacf241c7ac52e50a848ed114a2caf8013cb50d68113e2ecba59bfa",
+      "reflector/orchestration/audit_backlog.py": "468ec89913b82534c8a7780cffaa6870c07a86193120d1d5519ce727028f29ef",
+      "reflector/orchestration/audit_campaign.py": "cfee67032489621d4dfb54a52291e562251e90fa8c1c982f2e39c6f793ba2b52",
+      "reflector/orchestration/audit_executor.py": "7af9176cc18b3028624e5c803fcbb858653dbd417bf756fc6783fcde9edefabb",
+      "reflector/schemas/audit_campaign.py": "09cfa97565bb506b0c5ed333b8cb9dfc3234f08566787a89ef4487a76849689b"
+    },
+    "repository": "egohygiene/reflector",
+    "revision": "8c5069dfa8b9a8537ea2cdfbae923730785ae87e"
+  },
+  "mode": "plan",
+  "mutation_authority": "none",
+  "observed_at": "2026-11-13T02:40:31Z",
+  "organization": "egohygiene",
+  "owner_inputs": {
+    "aether_audit": {
+      "files": {
+        "catalog/schemas/aether.audit-profile-registry.v1.schema.json": "ad1335fe7662d91308d3d501197df70fac00892de40da8820538631b0f80312d",
+        "catalog/schemas/aether.repository-audit-report.v1.schema.json": "060446225135d573da15d4c31a6a59a89e04665e0c3cce43f8373b1e465bc96b",
+        "library/organization/skills/quality/audit-repository/SKILL.md": "e5e47f5f28403d361eb30b44cfe5fce6b6b8d2f9b53c48ce321f83affe7e2a07",
+        "library/organization/skills/quality/audit-repository/references/audit-data-contract.md": "cabcaa538cd2282ba32aa1ca8a7703a8b04d6a093d7f656c1daec6c8d2e0ec2e",
+        "library/organization/skills/quality/audit-repository/references/audit-profiles.v1.json": "dde4d72db9e0a952e1e10b01b8fdfa7cfecd4c001095af8b23d9f821ea789737",
+        "library/organization/skills/quality/audit-repository/references/finding-classification-guide.md": "2486279d7c7ec7567e1c88db6b28e4c8d14d9559b868175f854e508b4fc751fd",
+        "library/organization/skills/quality/audit-repository/references/staged-reconciliation.md": "1e136cb483d3f7e6681163385458cf56d2823734aeaa6fda24c2de9c4881b99b",
+        "library/organization/skills/quality/audit-repository/references/validation-checklist.md": "4a3d43119184a5c2c6f548aa47872f7676d9cac8389c083c21caaf961595dc6c",
+        "library/organization/skills/quality/audit-repository/scripts/audit_contract.py": "a700d9469cae02e9f929bc076cfb37940f3c64349380c0142efe94a7a83e0b85",
+        "library/organization/skills/quality/audit-repository/templates/AUDIT.template.md": "1668f9edd2e8509a923d8fdb955510a5acfbdc030c6d5c3b8551c90aeba06ff5",
+        "library/organization/specs/quality/auditor.spec.md": "f9f4d56673cefac4233fad4d53c78d1ba0726201b7e097bb78f67a721b81e62f",
+        "library/organization/specs/quality/repository-audit-data.spec.md": "b361d567e08dddcae6bf160bcaff61e3fa27d6138fa4da9867725d5186936464"
+      },
+      "repository": "egohygiene/aether",
+      "revision": "74490907bf3979ac45594d97fb1bb5fa7071346d",
+      "tree": "56ea563ac34dd057e0b56feeeb4e459a5b27d8f8"
+    },
+    "aether_sanity": {
+      "files": {
+        "catalog/schemas/aether.architecture-coherence-review.v1.schema.json": "5875e2563bac3a0d987781aef69742598cd5d840b838759e8abca1efeb61f810",
+        "library/organization/skills/architecture/review-architecture-coherence/SKILL.md": "4b09afad0fbb95c83025363a551ec10cdb975631badc17b16a3adcc080c3c484",
+        "library/organization/skills/architecture/review-architecture-coherence/references/contract-and-human-boundary.md": "a33289d62c917501a4d2f9dc79c03726cfe8da5fdb71315cb679a0682dbae931",
+        "library/organization/skills/architecture/review-architecture-coherence/scripts/architecture_coherence.py": "d3e751bff903a11c0d01e2b5476836d9c1f9c28df77d7d03f50f8200595521ee",
+        "library/organization/skills/architecture/review-architecture-coherence/scripts/architecture_coherence_governance.py": "cc0608819cf7755fdbcafd279c5b575916fe8d30547c8a17b58c35dcc520c6fe",
+        "library/organization/skills/architecture/review-architecture-coherence/scripts/governance.lock.json": "17005c8a71f75fd8b3dcacf6ba1b0f1a68e91ff5b191ca64041deb2ecb77b3aa",
+        "library/organization/skills/architecture/review-architecture-coherence/templates/REVIEW.template.md": "c0d0bf752825266529624c35d196b1e0587b056d88a300c2a7a0ca12b57a41e4",
+        "library/organization/specs/architecture/architecture-coherence-review.spec.md": "6676d05ac90be62a2128e5cc4d1d5479afc743dece5718ef71ab5f3e279b3a9a"
+      },
+      "repository": "egohygiene/aether",
+      "revision": "74490907bf3979ac45594d97fb1bb5fa7071346d",
+      "tree": "56ea563ac34dd057e0b56feeeb4e459a5b27d8f8"
+    }
+  },
+  "passes": [
+    {
+      "id": "public-selection",
+      "state": "selected"
+    },
+    {
+      "id": "profile-resolution",
+      "state": "resolved"
+    },
+    {
+      "id": "source-binding",
+      "state": "declared"
+    },
+    {
+      "id": "audit-execution",
+      "state": "not-executed"
+    },
+    {
+      "id": "coherence-review",
+      "state": "not-executed"
+    },
+    {
+      "id": "evidence-index",
+      "state": "partial"
+    },
+    {
+      "id": "candidate-backlog",
+      "state": "disabled"
+    },
+    {
+      "id": "human-review",
+      "state": "not-requested"
+    }
+  ],
+  "profiles": {
+    "registry_sha256": "58fd660134444c480d16c48c106b1572974fd2243beedfe665962c96fccfe525",
+    "registry_version": "1.0.0",
+    "requested": [
+      {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      }
+    ],
+    "resolved": [
+      {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "executions": [],
+      "input_sha256": "68dd35b817ccfac0f5591b57dba1f6c1775f7267b81321ffa6e0805f57c6dd1e",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/.github",
+      "represented_commit": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "0d7552286f249c73af86a6a7fba037f02d1fc5db2a0a040a97f0cb2bc40d6daf",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/aether",
+      "represented_commit": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "ca252416b7b8ef496f35a17b8c2d41cad1e34bc12f183cb3741f7a267137a20e",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/akashic",
+      "represented_commit": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "61890c5d7e0aa2b68432a20472a06fb57c6253bd8f741551397d23724d1cc2d8",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/aniflow",
+      "represented_commit": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "c948d23111391a7bf1266744e3b27c7c98c2f49542baff03fc75921056ff49cb",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/antidote",
+      "represented_commit": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "92ec67104976df4f0f884666b1054d1a4de8b74cf43be293bdcc3fc254ae4e39",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/athena",
+      "represented_commit": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "1b2e45d674836f048029ddd3c41a5da433e9400d13d4e803ccdd881bad7a868e",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/beacon",
+      "represented_commit": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "f01e38c783e3f320b1c034a5a05b855b25e33d64e76dae518570a74c205fa521",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/civics",
+      "represented_commit": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "931edcaa25a3a4f4687bb6f843d85b9d0abe1ba1db8e3c0253b76347d86a3f75",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/egohygiene.io",
+      "represented_commit": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "8f30d83c144a23def30ce83d767359fd5bdd587ed1f6f7e3b91911c316e7d20f",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/egolint",
+      "represented_commit": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "9380b6f700fd6622a7f8935b02a8b2c2e0dbbcd0b2ffae27229951b9f949027b",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/empathy",
+      "represented_commit": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "207a44deaf0aacee7aa207714068dc4d4b29bb37e521967e10a3eaa85c99c7ba",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/filament",
+      "represented_commit": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "1da4b5ee5a8738200a64d241ba8a3d9a44dc2a26106e6eef30f6e1b2a148b024",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/flow",
+      "represented_commit": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "e8fff89c8383c92ed74366807a9c77dfabda23e0b636d2990c2c7cdba32d45ad",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/holon",
+      "represented_commit": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "053538c9815e06eed08f7a1feaff4ef1624847c4668b0eebf2e88176c3b1aea1",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/hygiene",
+      "represented_commit": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "09e098e2a9d93fce3361a917621beda1c272495076b8545f79a66c7376824207",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/identity",
+      "represented_commit": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "57430585758001c3eb4b507e134b23a10784f5a2cb9bef6dba2bc110b503765c",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/mantle",
+      "represented_commit": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "58515b9baa3829d798d13eaef01a3b2671e23b1a2790203a30a096f4b7261800",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/mindcap",
+      "represented_commit": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "e06bd850cd8d54d1b74aa352176d86b0abb5f56e3928ef1ef955a74e14860c9c",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/mindgarden",
+      "represented_commit": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "e456ca5a992c1738c11015cae60ba5ab6580297105218eaea0eaad673fbd7f23",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/observatory",
+      "represented_commit": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "39df1cbdf587c6fc5a7bf059c6aa033b2765ec00fde20cd71294428ca921ea42",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/optiflow",
+      "represented_commit": "23df7486643db9541a004b60a360e43f721566f9",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "94fecb8484b484c5c16cd549b3b71cde4ab1291b6ea412df1fc66344d1165238",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/pace",
+      "represented_commit": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "6dc28ae914ca46bc149e730189edc361b2f9429834e0b149cd43f6bac6726cbf",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/realm",
+      "represented_commit": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "fbfec1a2d5f38846122880fca8e31b2c9daf0c29722ee75bf3d2b276151948e0",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/reflector",
+      "represented_commit": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "625f65008f00d3026943af7113521ef595d97a7bb01780324701fc796f07eb94",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/relay",
+      "represented_commit": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "89a101515147a6bf19fdf9f4991374ef263ba63b9093add7e223332b2377a257",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/renderflow",
+      "represented_commit": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "be4cba1492d2358b5b2f0e03cf224595704013caf90a5347d4bc06cfbb06e08f",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/sanctuary",
+      "represented_commit": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "state": "planned"
+    },
+    {
+      "executions": [],
+      "input_sha256": "a08ed9791e1116b97d8066507b2415aa95298b8848832d386c12ca2a225354d1",
+      "reason": null,
+      "reports": [],
+      "repository": "egohygiene/store",
+      "represented_commit": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "resume": "new",
+      "source_capabilities": null,
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "state": "planned"
+    }
+  ],
+  "request_sha256": "dc951cac316e49cc2d6559c65ed84761f38febdeb18cf5ce5ae34f91e062f991",
+  "schema": "egohygiene.reflector.audit-campaign-manifest/v1",
+  "status": "planned",
+  "visibility": "public"
+}

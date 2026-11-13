@@ -1,5 +1,5 @@
 name: Repository Intelligence real-report canary
-run-name: Review one committed source audit through the existing Intelligence builder
+run-name: Review committed organization Audit and Sanity records through the existing Intelligence builder
 
 on:
   workflow_dispatch:
@@ -40,7 +40,7 @@ jobs:
               target.write("as-of=" + datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") + "\n")
           PY
 
-      - name: Normalize the explicitly selected committed audit
+      - name: Normalize the explicitly selected committed Audit and Sanity records
         id: feed
         uses: egohygiene/relay/actions/repository-intelligence-review-feed@5d27be5ce1599df883e31f14cd894eb18622c18c
         with:
@@ -108,5 +108,5 @@ jobs:
                            "MODEL_ARCHIVE_SHA256", "SITE_ARTIFACT_ID", "SITE_ARCHIVE_SHA256"):
                   summary.write(name + ": `" + os.environ[name] + "`\n\n")
               summary.write("Selected report states: `" + ", ".join(item["state"] for item in receipt["reports"]) + "`.\n\n")
-              summary.write("This retains ordinary review artifacts. Original audit subject, scope and clocks remain unchanged; Sanity without a selected report remains unavailable.\n")
+              summary.write("This retains ordinary review artifacts. Original report subjects, organization scope and clocks remain unchanged. The feed is a singleton consumer projection; it does not claim 28 independent repository runs, runtime conformance or human ratification.\n")
           PY

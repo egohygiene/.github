@@ -1,0 +1,167 @@
+{
+  "audit_raw_sha256": "a9a7cf5955e69c4f80f7e5b767b87741c6399b68ec2ac47860a5bd1cd1b4e251",
+  "canonical_markdown_sha256": "e911b2150806f338edb6c8038a67168d067e79753262e061cfcb359dcda23008",
+  "execution": "actual pinned Aether owner structural/public-scope validation",
+  "human_ratification": "not-recorded",
+  "implementation_runtime": "not-executed",
+  "owner": "egohygiene/aether",
+  "positive_observation_count": 28,
+  "revision": "74490907bf3979ac45594d97fb1bb5fa7071346d",
+  "sanity_raw_sha256": "87128a2a27e4f7b1611b4b62712175ec2d087f4610436d8d9716d49ece72d80d",
+  "sanity_subject": {
+    "assessment_sha256": "7d48d5f536bc63b044951749887fcc8a00df95d3052a4b1620e45446c466bb5f",
+    "completed_at": null,
+    "id": "organization-source-sanity-20261113t022735z",
+    "represented_revisions": [
+      {
+        "repository": "egohygiene/.github",
+        "revision": "58e1e6b336c3350bb31ceb4286d660860c992207"
+      },
+      {
+        "repository": "egohygiene/aether",
+        "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375"
+      },
+      {
+        "repository": "egohygiene/akashic",
+        "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753"
+      },
+      {
+        "repository": "egohygiene/aniflow",
+        "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3"
+      },
+      {
+        "repository": "egohygiene/antidote",
+        "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33"
+      },
+      {
+        "repository": "egohygiene/athena",
+        "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de"
+      },
+      {
+        "repository": "egohygiene/beacon",
+        "revision": "1d53983ee1ed760d59802dcb472be4481710d507"
+      },
+      {
+        "repository": "egohygiene/civics",
+        "revision": "bcd391f97b83eb24686ef888b83677932c152cf2"
+      },
+      {
+        "repository": "egohygiene/egohygiene.io",
+        "revision": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      {
+        "repository": "egohygiene/egolint",
+        "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59"
+      },
+      {
+        "repository": "egohygiene/empathy",
+        "revision": "4853a1e55808bc5104dc509199c411e798d104dc"
+      },
+      {
+        "repository": "egohygiene/filament",
+        "revision": "c3eb64b8087face7504e7571dc8396c19525649f"
+      },
+      {
+        "repository": "egohygiene/flow",
+        "revision": "f356b842d13911fde7c598368a9668c870bc9c1a"
+      },
+      {
+        "repository": "egohygiene/holon",
+        "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691"
+      },
+      {
+        "repository": "egohygiene/hygiene",
+        "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f"
+      },
+      {
+        "repository": "egohygiene/identity",
+        "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719"
+      },
+      {
+        "repository": "egohygiene/mantle",
+        "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a"
+      },
+      {
+        "repository": "egohygiene/mindcap",
+        "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22"
+      },
+      {
+        "repository": "egohygiene/mindgarden",
+        "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756"
+      },
+      {
+        "repository": "egohygiene/observatory",
+        "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636"
+      },
+      {
+        "repository": "egohygiene/optiflow",
+        "revision": "23df7486643db9541a004b60a360e43f721566f9"
+      },
+      {
+        "repository": "egohygiene/pace",
+        "revision": "a224545490848162a5f8a9d89d2664a3a3f46993"
+      },
+      {
+        "repository": "egohygiene/realm",
+        "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a"
+      },
+      {
+        "repository": "egohygiene/reflector",
+        "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02"
+      },
+      {
+        "repository": "egohygiene/relay",
+        "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2"
+      },
+      {
+        "repository": "egohygiene/renderflow",
+        "revision": "d999522faf201caa3d250fce420097cc8f4834a9"
+      },
+      {
+        "repository": "egohygiene/sanctuary",
+        "revision": "0db2d923e110e49dec823c486ec4084d266f3627"
+      },
+      {
+        "repository": "egohygiene/store",
+        "revision": "e97ee727e6c2300e804579cf2122d34d4c162158"
+      }
+    ],
+    "scope": {
+      "key": "egohygiene",
+      "kind": "organization",
+      "repositories": [
+        "egohygiene/.github",
+        "egohygiene/aether",
+        "egohygiene/akashic",
+        "egohygiene/aniflow",
+        "egohygiene/antidote",
+        "egohygiene/athena",
+        "egohygiene/beacon",
+        "egohygiene/civics",
+        "egohygiene/egohygiene.io",
+        "egohygiene/egolint",
+        "egohygiene/empathy",
+        "egohygiene/filament",
+        "egohygiene/flow",
+        "egohygiene/holon",
+        "egohygiene/hygiene",
+        "egohygiene/identity",
+        "egohygiene/mantle",
+        "egohygiene/mindcap",
+        "egohygiene/mindgarden",
+        "egohygiene/observatory",
+        "egohygiene/optiflow",
+        "egohygiene/pace",
+        "egohygiene/realm",
+        "egohygiene/reflector",
+        "egohygiene/relay",
+        "egohygiene/renderflow",
+        "egohygiene/sanctuary",
+        "egohygiene/store"
+      ]
+    }
+  },
+  "scope_repository_count": 28,
+  "substantive_finding_count": 8,
+  "validated_at": "2026-11-13T03:09:40Z"
+}

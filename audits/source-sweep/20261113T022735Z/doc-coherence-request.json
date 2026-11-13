@@ -1,0 +1,54 @@
+{
+  "admission": "admission.json",
+  "audit_name": "organization-root-document-coherence-20261113",
+  "budgets": {
+    "concurrency": 1,
+    "maximum_file_bytes": 262144,
+    "maximum_repositories": 28,
+    "maximum_root_documents_per_repository": 6,
+    "maximum_seconds": 180,
+    "maximum_total_bytes": 16777216,
+    "maximum_workflows_per_repository": 2
+  },
+  "governing_specification": {
+    "path": "library/organization/specs/quality/auditor.spec.md",
+    "repository": "egohygiene/aether",
+    "revision": "74490907bf3979ac45594d97fb1bb5fa7071346d",
+    "version": "2.0.0"
+  },
+  "limitations": [
+    "Captured source bytes are not equivalent to semantically reviewing every line. Human/AI semantic review coverage is recorded separately in reviews/*.json.",
+    "File-scope capture/prioritization is not an implemented Reflector campaign input; this is a bounded follow-up source pass using its existing immutable blob primitive."
+  ],
+  "method": "Read explicit canonical Git blobs through existing pinned Reflector blob API. Retain omitted/absent separately. No consumer source execution, LLM provider, tests, build, CI, mutation or human ratification. These path filters belong to the approved generic Aether request, not unsupported Reflector campaign fields.",
+  "profiles": [
+    {
+      "id": "contract-drift",
+      "version": "1.0.0"
+    }
+  ],
+  "requested_at": "2026-11-13T02:52:04Z",
+  "scope": {
+    "exclude": [
+      ".staging/**",
+      "dist/**",
+      "node_modules/**",
+      "tests/**",
+      "generated/**"
+    ],
+    "include": [
+      "README.md",
+      "00-README.md",
+      "ARCHITECTURE.md",
+      "SYSTEM.md",
+      "DECISIONS.md",
+      "AGENTS.md",
+      "CONTINUITY.md",
+      ".github/workflows/*intelligence*.yml",
+      ".github/workflows/*pages*.yml",
+      ".github/workflows/*publish*.yml"
+    ]
+  },
+  "source_roster": "source-heads.json",
+  "strategy": "scoped"
+}
