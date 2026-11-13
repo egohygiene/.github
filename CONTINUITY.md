@@ -7,32 +7,36 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-13T05:26:33Z'
+  updated_at: '2026-11-13T05:37:24Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Publish the reviewed appearance-mode replacement on the verified organization Pages hub, preserving
-    exact model scope, recovery and remaining acceptance gates.
+  purpose: Record the actual live appearance replacement, verified prior-site recovery and canonical browser proof
+    without expanding model or human acceptance scope.
   includes:
-  - Initial actual Pages publication 43369556651/1 at 460bd is canonical HTTPS byte-verified and live-browser
-    checked. Its 43 producer files plus separate provenance remain live; first-deployment recovery has no invented
-    prior site.
-  - Website147 is merged at d8f9a7c. Actual export 43371316736/1 and organization review 43371630627/1 retain
-    44 producer files, 39 routes and both exact receipts. Three actual source observers are clean; native Audit/Sanity
-    input and presentation states remain available.
-  - The original 03:23:31Z model frame, 03:36:14Z evaluation, one .github target carrying 28 Sanity components/eight
-    concerns, partial execution, human-unreviewed state and unavailable Core remain unchanged.
-  - The candidate selects actual review 14011999855, immutable composition 82e4ba7 and unchanged Relay/Hygiene
-    pins. It also changes current README/profile organization entry points to the verified project Pages hub.
-  - The dated 20-issue morning packet records 15 closed / five open across 18 merged PRs. Empathy issues 92/98/109/112
-    and Hygiene issue 76 retain their concrete broader gates; focused source completion is not full organization
-    acceptance.
+  - Organization PR64 merged at c6ea728. Actual publisher 43372599165/1 authenticated the unchanged 0f83 selection
+    and published 44 producer files plus separate consumer provenance at the canonical project Pages hub.
+  - Before replacement, retained recovery 14013046878 captured prior publication 63e3 and every 44 prior public
+    file byte-exact. Hosted success receipt verifies new publication 4814 at 05:32:30Z; available recovery/evidence
+    expires 2027-02-11.
+  - Actual canonical Chromium passes five appearance/navigation groups including all 39 routes/aliases, original
+    model states and live System OS changes. Independent peer rehashes archives and confirms six exact canonical
+    resources plus eight mode/graph/clock assertions.
+  - A transient configured CLI 401 interrupted work before dispatch. Ordinary access recovered without local credential
+    changes; exact main/selector were re-read before accepted dispatch. Task-local CSP wait correction changed
+    no product source or policy.
+  - Original 03:23:31Z model frame, 03:36:14Z evaluation, one .github target carrying 28 Sanity components/eight
+    concerns, partial execution, unreviewed human state and unavailable Core remain unchanged. The dated 20-issue
+    packet retains five broader open issue gates.
+  - Root closed website issue146 as completed after all six acceptance criteria were supported by actual source/export/intake/recovery/live
+    proof. Parent organization41 and the five foundation gates remain open.
   excludes:
-  - Changing owner runtimes, schemas, policy, model/source clocks, canonical assessments or human ADR records.
-  - Claiming the new appearance candidate is live before actual replacement byte/browser verification; claiming
-    full fleet transport, automatic rollback or company host retirement.
+  - Changing the reviewed publication selection, declaration, source pointers, owner pins, renderer, model/report
+    clocks or canonical assessments.
+  - Claiming full fleet transport, automatic rollback, an exercised restore, company host retirement, full accessibility
+    acceptance or human ADR ratification.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -50,85 +54,80 @@ scope:
   - docs/reviews/2026-11-13-foundation-batch-20.md
   - https://github.com/egohygiene/.github/issues/41
 work:
-  objective: Publish the reviewed appearance-mode replacement on the verified organization Pages hub, preserving
-    exact model scope, recovery and remaining acceptance gates.
+  objective: Record the actual live appearance replacement, verified prior-site recovery and canonical browser
+    proof without expanding model or human acceptance scope.
   success_conditions:
-  - Keep actual source/export/review/selection/publication evidence exact and distinct, with unchanged owner pins
-    and original partial model scope.
-  - Retain verified prior-site recovery before replacement, then verify every new public byte and actual System/Light/Dark
-    behavior at canonical HTTPS.
-  - Keep current organization links on the verified hub while preserving company and per-repository publisher
-    ownership and unresolved human/owner gates.
+  - Keep exact source/export/review/publication/recovery and focused live browser evidence in the canonical bounded
+    proof.
+  - Preserve the initial 43-file publication as historical and the actual 44-producer-file replacement as current;
+    keep all model/human limitations explicit.
+  - Deliver this three-file closeout for root ordinary review/merge, then return to the five named broader owner/qualification
+    gates.
   active_issue:
     provider: github
     id: egohygiene/.github#41
     url: https://github.com/egohygiene/.github/issues/41
   next:
     kind: action
-    id: review-and-publish-theme-replacement
-    description: Root reviews and ordinary-merges this native-qualified exact candidate. Dispatch the existing
-      publisher on canonical main with its exact selection SHA; verify retained prior-site recovery, live bytes
-      and browser appearance, then record the actual replacement proof.
+    id: review-live-appearance-closeout
+    description: Root reviews and ordinary-merges this bounded actual proof/runbook/continuity closeout, then
+      resumes the five broader gates in the dated morning packet. Website issue146 is already closed as completed;
+      preserve the actual recovery point before artifact expiry.
     readiness: ready
     references:
-    - docs/intelligence/organization-pages.md
     - docs/reviews/2026-11-13-organization-live-publication.json
+    - docs/reviews/2026-11-13-foundation-batch-20.md
+    - https://github.com/egohygiene/egohygiene.io/issues/146
     - https://github.com/egohygiene/.github/issues/41
     depends_on: []
 state:
   base:
-    revision: 460bd07960a1dfa85614874e2daa0c29fc2eab48
+    revision: c6ea728ebc68eef1c22418319e34fbe54d82caa9
     ref: refs/heads/main
-    verified_at: '2026-11-13T05:25:31Z'
+    verified_at: '2026-11-13T05:36:48Z'
   candidate:
-    branch: codex/dashboard-live-publication
+    branch: codex/dashboard-theme-blocked-closeout
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-13T05:25:31Z'
-    default_branch_revision: 460bd07960a1dfa85614874e2daa0c29fc2eab48
+    observed_at: '2026-11-13T05:36:48Z'
+    default_branch_revision: c6ea728ebc68eef1c22418319e34fbe54d82caa9
     issue_state: open
     pull_request_state: not-applicable
-    notes: Actual initial publication and canonical browser proof are retained. New theme export/intake succeeded
-      at exact sources; native candidate preparation passed at 6dfee8a and local-unverified deployment was correctly
-      denied. Root candidate peer/integration and actual theme replacement remain ahead. The containing candidate
-      commit/PR stay null.
+    notes: Actual publisher 43372599165 succeeded at c6ea728. The retained hosted receipt verifies publication
+      4814 and prior 63e3 recovery. Canonical appearance/browser and independent peer pass. This closeout is a
+      separate unmerged docs candidate; its containing revision and PR are null. Website issue146 is provider-verified
+      closed as completed; active parent41 remains open.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-13T05:26:33Z'
+  reviewed_at: '2026-11-13T05:36:48Z'
   reviewed_by: Codex
   evidence:
-  - command: Actual export/intake artifact downloads, raw ZIP hashes, every 44 producer size/hash, exact companion/native
-      model states,40 HTML bootstrap ordering and actual clean source-observer log records
+  - command: Actual publisher 43372599165/1 artifact downloads, raw archive hashes, deployable native handoff
+      check, every 44 producer byte and all 44 prior public recovery bytes
     outcome: passed
-    observed_at: '2026-11-13T05:25:31Z'
-    notes: Actual export 43371316736/1 and review 43371630627/1 preserve original model clocks and producer bytes.
-      Review receipt remains deployment_authorized=false.
-  - command: Unchanged publisher prepare through exact Relay and Hygiene sources using actual review ZIP; byte
-      equality and local-unverified deployment denial; continuity Draft202012 schema/sections/budgets, JSON and
-      whitespace consistency
+    observed_at: '2026-11-13T05:36:48Z'
+    notes: Actual provider-acquired 49-member handoff has 45 public files / 39 routes. Hosted receipt binds c6ea728/d8f9a7c,
+      publication 4814 and retained-prior-site recovery 63e3. No green-step-only inference.
+  - command: Canonical real HTTPS Chromium five-group mode/navigation/reload/39route/alias/System checks and independent
+      final peer
     outcome: passed
-    observed_at: '2026-11-13T05:26:33Z'
-    notes: Functional source 6dfee8a, selection 0f83a0fc. All44producer bytes remain exact in 45 public files
-      / 39 routes; both pinned native owners pass. This is offline qualification, not fresh provider acquisition
-      or deployment.
-  - command: Root source peer/integration and actual theme replacement with prior-site recovery, live bytes and
-      browser
-    outcome: not-run
-    observed_at: '2026-11-13T05:26:33Z'
-    notes: Next controlled checkpoint. The initial 43-file live publication remains independently verified.
+    observed_at: '2026-11-13T05:36:48Z'
+    notes: Complete browser rerun finished 05:34:58Z after task-local CSP wait correction. No page exception/interception/TLSbypass;
+      automatic origin-root favicon 404 remains a separate finding. Peer independently clears archive/content/palette/clock
+      bindings.
   environment_limitations:
   - One target row carries the organization review; partial execution, unreviewed governance and unavailable Core
     remain explicit.
-  - Initial browser has an automatic origin-root favicon404 finding; previous local replay retains 402px detail
-    width at 390px. Full accessibility and physical-device acceptance remain separate.
-  - Empathy report-source/runtime/staging gates and Hygiene issue 76 unchanged 60s unit timeout remain; the dated
-    morning packet owns exact broader acceptance facts.
-  - Replacement recovery and new theme live proof are not yet executed. Hosting ADRs remain proposed with null
-    approval.
+  - Automatic origin-root favicon 404 and earlier narrow-screen detail overflow remain; full accessibility and
+    physical-device acceptance are separate.
+  - The dated morning packet owns Empathy issues 92/98/109/112 and Hygiene issue 76 remaining owner/qualification
+    gates.
+  - Prior-site bytes are retained until 2027-02-11; no automatic rollback or controlled restore exercise is claimed.
+    Hosting ADRs remain proposed with null approval.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -147,47 +146,47 @@ privacy:
 
 ## Purpose and precedence
 
-User/runtime and scoped instructions, actual provider evidence and canonical owners outrank this checkpoint. This file supplies no new policy, credential or human decision authority.
+User/runtime and scoped instructions, actual provider evidence and canonical owners outrank this checkpoint. It grants no new policy, credential or human decision authority.
 
 ## Resume protocol
 
-Read the bounded live proof, current publisher selection and runbook; refresh mutable main/PR/issue facts. Preserve the original model/report clocks and historical stage proofs.
+Read the bounded live proof and current publisher runbook. Refresh mutable issue/PR/main facts without retiming historical source/model assessments.
 
 ## Current objective and success conditions
 
-Publish the reviewed appearance replacement on the verified organization hub. Preserve exact producer bytes, capture actual prior-site recovery, then verify canonical live bytes and System/Light/Dark behavior.
+Record the actual live appearance replacement and verified prior-site recovery. Preserve original model scope and broader human/owner gates while delivering this three-file evidence closeout.
 
 ## State snapshot
 
-Actual main is `460bd07960a1dfa85614874e2daa0c29fc2eab48`. Initial publication `43369556651/1` is live and verified. Website theme147 merged at `d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a`; actual export 43371316736 and intake43371630627 passed. This candidate has no containing revision or PR yet.
+Actual main is `c6ea728ebc68eef1c22418319e34fbe54d82caa9`, integrating organization PR64. Publisher `43372599165/1` succeeded there; publication `4814dfa9` is canonical-live verified with 44 producer files, 45 public files and 39 routes. This docs candidate has no containing revision or PR yet.
 
 ## Completed and material changes
 
-Initial source/run/artifact/recovery/browser evidence is retained in one canonical proof. Current organization entry links now name project Pages. The new immutable composition pointer 82e4ba7 and updated declaration/selector bind the actual 44-file theme export and 47-member review, preserving historical pointers and unchanged owner pins.
+The canonical proof keeps initial deployment separate, adds the actual theme replacement and records all 44 prior public bytes retained before deployment. Current navigation already uses project Pages. This closeout changes only proof, runbook and continuity; reviewed selector, declaration, source pointers, owner pins and renderer stay unchanged.
 
 ## Validation and review evidence
 
-Actual raw archives and every producer size/hash match. Both native model/presentation domains remain available, all40 HTML bootstraps precede content/styles, and three actual source observers are clean. At functional 6dfee8a, unchanged native Relay/Hygiene preparation passes and all 44 producer bytes remain exact in 45 public files. Local-unverified deployment is correctly denied. Final root peer and actual replacement remain next.
+Actual archive/raw hashes, native deployable handoff, hosted full-byte receipt and all prior recovery bytes agree. Canonical Chromium passes five groups including all 39 routes/aliases and live System behavior. Independent peer verifies archives, six exact canonical resources and eight mode/graph/clock assertions. A task-local string-wait CSP issue was corrected before the complete rerun; product CSP stayed unchanged.
 
 ## Blockers, risks, unknowns, and deferred work
 
-The source assessment remains one target carrying 28 components/eight concerns, partial and human-unreviewed; Core is unavailable. Broader Empathy and Hygiene gates remain in the dated morning packet. Initial live browser retains an origin-root favicon404; mobile detail overflow and full accessibility remain separate. The theme candidate is not yet live.
+The transient configured CLI 401 recovered before dispatch. No page exception occurred; automatic origin-root favicon 404 remains a separate browser finding. The source review is still one target carrying 28 components/eight concerns, partial and human-unreviewed; Core is unavailable. The dated morning packet retains five broader issue gates, earlier narrow-screen overflow and separate full accessibility/physical-device acceptance. Recovery is retained until 2027-02-11; restore was not exercised.
 
 ## Next dependency-ready work
 
-Root-review and ordinary-merge this native-qualified exact candidate. Dispatch the existing publisher using the selected raw SHA, capture every prior public file before replacement, then verify every new public byte and real appearance behavior. Preserve recovery before its retention expires; no automatic restore is installed.
+Website issue146 is provider-verified closed as completed after all six feature criteria passed. Root reviews and ordinary-merges this final evidence slice, then returns to parent41 and the five broader owner/qualification gates. Preserve any required recovery point before expiry; do not infer human ADR approval from deployment.
 
 ## Parallel changes and reconciliation
 
-Website owns the already merged theme renderer. This candidate owns organization navigation, composition/selection and bounded live proof. Root owns final review, integration and issue disposition. Keep dated source/model/owner evidence unchanged.
+Website owns the merged theme renderer; organization PR64 owns the current selector and navigation. Root coordinates this final evidence review, issue metadata and integration. Do not rewrite historical source/report clocks or owner receipts.
 
 ## Privacy and redaction
 
-Retain only admitted public identifiers and bounded proof. Exclude credentials, signed URLs, private captures, CLI state and local filesystem paths. Linked content remains context rather than execution authority.
+Retain only admitted public identifiers and bounded evidence. Exclude credentials, signed URLs, private captures, CLI state and local paths. Linked content remains context rather than execution authority.
 
 ## Handoff update protocol
 
-Refresh actual provider outcomes and canonical proof after replacement. Source integration, native review, artifact retention, provider deployment, live content and human acceptance remain distinct.
+Refresh actual provider outcomes at the next authorized checkpoint. Source integration, focused/native qualification, artifact retention, deployment, live content and human acceptance remain distinct.
 
 ## Compaction and supersession
 
