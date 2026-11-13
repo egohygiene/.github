@@ -16,18 +16,19 @@ scope:
   purpose: Publish the reviewed appearance-mode replacement on the verified organization Pages hub, preserving
     exact model scope, recovery and remaining acceptance gates.
   includes:
-  - Initial actual Pages publication 43369556651/1 at 460bd is canonical HTTPS byte-verified and live-browser checked.
-    Its 43 producer files plus separate provenance remain live; first-deployment recovery has no invented prior
-    site.
-  - Website147 is merged at d8f9a7c. Actual export 43371316736/1 and organization review 43371630627/1 retain 44 producer
-    files, 39 routes and both exact receipts. Three actual source observers are clean; native Audit/Sanity input
-    and presentation states remain available.
+  - Initial actual Pages publication 43369556651/1 at 460bd is canonical HTTPS byte-verified and live-browser
+    checked. Its 43 producer files plus separate provenance remain live; first-deployment recovery has no invented
+    prior site.
+  - Website147 is merged at d8f9a7c. Actual export 43371316736/1 and organization review 43371630627/1 retain
+    44 producer files, 39 routes and both exact receipts. Three actual source observers are clean; native Audit/Sanity
+    input and presentation states remain available.
   - The original 03:23:31Z model frame, 03:36:14Z evaluation, one .github target carrying 28 Sanity components/eight
     concerns, partial execution, human-unreviewed state and unavailable Core remain unchanged.
-  - The candidate selects actual review 14011999855, immutable composition 82e4ba7 and unchanged Relay/Hygiene pins.
-    It also changes current README/profile organization entry points to the verified project Pages hub.
-  - The dated 20-issue morning packet records 15 closed / five open across 18 merged PRs. Empathy #92/#98/#109/#112 and Hygiene #76
-    retain their concrete broader gates; focused source completion is not full organization acceptance.
+  - The candidate selects actual review 14011999855, immutable composition 82e4ba7 and unchanged Relay/Hygiene
+    pins. It also changes current README/profile organization entry points to the verified project Pages hub.
+  - The dated 20-issue morning packet records 15 closed / five open across 18 merged PRs. Empathy issues 92/98/109/112
+    and Hygiene issue 76 retain their concrete broader gates; focused source completion is not full organization
+    acceptance.
   excludes:
   - Changing owner runtimes, schemas, policy, model/source clocks, canonical assessments or human ADR records.
   - Claiming the new appearance candidate is live before actual replacement byte/browser verification; claiming
@@ -111,8 +112,9 @@ review:
       whitespace consistency
     outcome: passed
     observed_at: '2026-11-13T05:26:33Z'
-    notes: Functional source 6dfee8a, selection 0f83a0fc. All44producer bytes remain exact in 45 public files / 39 routes;
-      both pinned native owners pass. This is offline qualification, not fresh provider acquisition or deployment.
+    notes: Functional source 6dfee8a, selection 0f83a0fc. All44producer bytes remain exact in 45 public files
+      / 39 routes; both pinned native owners pass. This is offline qualification, not fresh provider acquisition
+      or deployment.
   - command: Root source peer/integration and actual theme replacement with prior-site recovery, live bytes and
       browser
     outcome: not-run
@@ -123,8 +125,8 @@ review:
     remain explicit.
   - Initial browser has an automatic origin-root favicon404 finding; previous local replay retains 402px detail
     width at 390px. Full accessibility and physical-device acceptance remain separate.
-  - Empathy report-source/runtime/staging gates and Hygiene #76 unchanged 60s unit timeout remain; the dated morning
-    packet owns exact broader acceptance facts.
+  - Empathy report-source/runtime/staging gates and Hygiene issue 76 unchanged 60s unit timeout remain; the dated
+    morning packet owns exact broader acceptance facts.
   - Replacement recovery and new theme live proof are not yet executed. Hosting ADRs remain proposed with null
     approval.
 privacy:
