@@ -1,0 +1,103 @@
+{
+  "schema": "egohygiene.github.organization-live-evidence/v1alpha1",
+  "target": {
+    "base_path": "/.github/",
+    "origin": "https://egohygiene.github.io"
+  },
+  "initial_publication": {
+    "source_revision": "460bd07960a1dfa85614874e2daa0c29fc2eab48",
+    "workflow_path": ".github/workflows/organization-intelligence-pages.yml",
+    "run_id": 43369556651,
+    "run_attempt": 1,
+    "conclusion": "success",
+    "pages_configuration": {
+      "build_type": "workflow",
+      "html_url": "https://egohygiene.github.io/.github/",
+      "cname": null,
+      "https_enforced": true
+    },
+    "selection_sha256": "37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9",
+    "publication_sha256": "63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322",
+    "publication_verified_at": "2026-11-13T05:04:53Z",
+    "producer_files": 43,
+    "public_files": 44,
+    "route_count": 39,
+    "before": [
+      {
+        "url": "https://egohygiene.github.io/.github/",
+        "status": 404,
+        "final_url": "https://egohygiene.github.io/.github/",
+        "body_sha256": "70d613e3acfba24fd2876fcbacaf639e1e111ef4d54baf70761c47673f37d6a3"
+      },
+      {
+        "url": "https://egohygiene.github.io/.github/organization-intelligence-publication.json",
+        "status": 404,
+        "final_url": "https://egohygiene.github.io/.github/organization-intelligence-publication.json",
+        "body_sha256": "70d613e3acfba24fd2876fcbacaf639e1e111ef4d54baf70761c47673f37d6a3"
+      }
+    ],
+    "recovery": {
+      "prior_publication_sha256": null,
+      "state": "first-deployment"
+    },
+    "artifacts": [
+      {
+        "id": 14011946753,
+        "kind": "verified-public-handoff",
+        "archive_sha256": "22096049c05e98cf107ce8042fe4b0d853097b1e21b81646dd4074a2c4c565ef"
+      },
+      {
+        "id": 14012340473,
+        "kind": "first-deployment-recovery",
+        "archive_sha256": "49392a821d07c22f888d0c94cd1ea2b4b666c92e19d6a57ba092279a970772e7"
+      },
+      {
+        "id": 14011124894,
+        "kind": "live-verification-evidence",
+        "archive_sha256": "2a1e50a7cb57da1ea82b9d787ef9ad39e9f5cbbaaba27d26d6ad0f9912b0e482"
+      }
+    ],
+    "review": {
+      "archive_sha256": "45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7",
+      "artifact_id": 14008223697,
+      "consumer_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+      "intake_receipt_sha256": "208320a354d30a30791c09fe6ab2f531ffdb820dfe97eea6a7d73ae91df09777",
+      "manifest_sha256": "6fe95bb157d5c419d1db59b37ab27bc994b62441d4906e6c971f2ec71557ee97",
+      "producer_revision": "342673b110915f4a29ada01625a77416a1e105d7",
+      "run_attempt": 1,
+      "run_id": 43362027530,
+      "selection_receipt_sha256": "486cbaad1bccbcd0e19e323eb5df11fc2f495ddd027d4d57fb795a4ac86cb04c"
+    },
+    "provider_and_independent_https_byte_verification": "passed",
+    "canonical_browser": {
+      "started_at": "2026-11-13T05:08:41.452430+00:00",
+      "finished_at": "2026-11-13T05:08:45.494602+00:00",
+      "browser": "151.0.7922.173",
+      "mode": "canonical-live-https",
+      "checks": [
+        "canonical root resolves to the real organization hub",
+        "first visible graph link opens actual Audits evidence",
+        "native graph selection opens28component/8concern Sanity with original partial/human states"
+      ],
+      "outcome": "passed-with-findings",
+      "certificate_errors_ignored": false,
+      "request_interception": false,
+      "page_exceptions": 0,
+      "failed_requests": 0,
+      "findings": [
+        {
+          "kind": "browser-default-icon",
+          "url": "https://egohygiene.github.io/favicon.ico",
+          "status": 404,
+          "scope": "Browser automatic request outside the selected project base; no declared producer resource mismatch."
+        }
+      ]
+    }
+  },
+  "limits": [
+    "One .github fleet target contains an organization Sanity review of28components/8concerns; this is not28independent fleet reports.",
+    "Core remains unavailable and original03:23:31Z model clocks, partial execution and unreviewed human state remain unchanged.",
+    "No automatic rollback, company host retirement, full accessibility certification or human ADR ratification is inferred.",
+    "Initial publication recovery is first-deployment; a future replacement must capture and verify the actual prior public site."
+  ]
+}

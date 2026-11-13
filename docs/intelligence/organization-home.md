@@ -1,10 +1,12 @@
 # Organization home: source and review path
 
-Current publication preparation: the [organization Pages publisher](organization-pages.md)
-selects the verified review artifact, exact Hygiene declaration dialect and
-separate manual publication boundary. The explicit live-hosting task is now
-authorized; source preparation does not claim Pages is configured or deployed.
-The earlier review-only path and its immutable receipts below stay unchanged.
+The [organization Intelligence home](https://egohygiene.github.io/.github/intelligence/)
+is live. The [publication evidence](../reviews/2026-11-13-organization-live-publication.json)
+binds its exact source, retained public artifact, first-deployment recovery and
+canonical HTTPS byte verification. The [organization publisher](organization-pages.md)
+retains the website UI/export owner, exact Hygiene declaration dialect and
+separate manual publication boundary. The earlier review-only path and immutable
+receipts below remain distinct from this actual deployment.
 
 The profile and repository README are the initial organization entry point.
 They link the [completion queue](DELIVERY_ROADMAP.md),
@@ -39,9 +41,9 @@ lock selects website `54e0b6e66b9b028bad382bbbc4bc6ba588cee665`.
 
 The workflow has only contents/actions read permissions. It has no Pages job,
 OIDC permission, DNS/CNAME mutation, schedule or automatic deployment. It is
-manual-only on this repository's main. The proposed project target is origin
-`https://egohygiene.github.io` with base `/.github/`; those values are review
-intent, not proof that Pages is configured or live.
+manual-only on this repository's main. The review target is origin `https://egohygiene.github.io` with base `/.github/`.
+This review workflow itself grants no publication authority; the separate
+publisher now supplies the actual live evidence linked above.
 
 ## Retained-model producer profile
 
