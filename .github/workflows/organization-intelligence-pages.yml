@@ -1,0 +1,191 @@
+name: Organization Intelligence Pages
+run-name: Verify a selected review artifact and explicitly publish organization Intelligence
+
+on:
+  workflow_dispatch:
+    inputs:
+      selection_sha256:
+        description: SHA-256 of the reviewed publication/organization-intelligence-selection.json.
+        required: true
+        type: string
+      publish:
+        description: Publish the verified site after owner-source and hosting qualification.
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: organization-intelligence-pages
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    if: >-
+      github.repository == 'egohygiene/.github' &&
+      github.event.repository.visibility == 'public' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    outputs:
+      artifact-id: ${{ steps.retain.outputs.artifact-id }}
+      publication-sha256: ${{ steps.seal.outputs.publication-sha256 }}
+    steps:
+      - name: Read the exact publication source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Admit the reviewed selection and immutable owner pins
+        id: selection
+        env:
+          SELECTION_SHA256: ${{ inputs.selection_sha256 }}
+        run: >-
+          python3 -I scripts/organization_intelligence_pages.py inspect
+          --selection publication/organization-intelligence-selection.json
+          --selection-sha256 "$SELECTION_SHA256" --github-output "$GITHUB_OUTPUT"
+      - name: Read the selected Relay verifier
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: egohygiene/relay
+          ref: ${{ steps.selection.outputs.relay-revision }}
+          path: .cache/organization-intelligence/relay
+          persist-credentials: false
+      - name: Read the selected Hygiene declaration owner
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: egohygiene/hygiene
+          ref: ${{ steps.selection.outputs.hygiene-revision }}
+          path: .cache/organization-intelligence/hygiene
+          persist-credentials: false
+      - name: Reauthenticate and verify the unchanged review site and declaration
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SELECTION_SHA256: ${{ inputs.selection_sha256 }}
+        run: |
+          set -euo pipefail
+          python3 -I scripts/organization_intelligence_pages.py prepare \
+            --selection publication/organization-intelligence-selection.json \
+            --selection-sha256 "$SELECTION_SHA256" \
+            --relay-source .cache/organization-intelligence/relay \
+            --hygiene-source .cache/organization-intelligence/hygiene \
+            --output "$RUNNER_TEMP/organization-intelligence-pages"
+      - name: Bind the exact publication handoff
+        id: seal
+        run: |
+          python3 -I - <<'PY'
+          import hashlib
+          import os
+          from pathlib import Path
+          raw = (Path(os.environ["RUNNER_TEMP"]) / "organization-intelligence-pages/publication.json").read_bytes()
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write("publication-sha256=" + hashlib.sha256(raw).hexdigest() + "\n")
+          PY
+      - name: Retain only the verified public handoff
+        id: retain
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: organization-intelligence-pages-verified-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/organization-intelligence-pages/site/
+            ${{ runner.temp }}/organization-intelligence-pages/publication.json
+            ${{ runner.temp }}/organization-intelligence-pages/export-manifest.json
+            ${{ runner.temp }}/organization-intelligence-pages/declaration.json
+            ${{ runner.temp }}/organization-intelligence-pages/selection.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
+  deploy:
+    if: inputs.publish
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Read the same reviewed publisher source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Read this run's exact verified handoff
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        with:
+          artifact-ids: ${{ needs.prepare.outputs.artifact-id }}
+          path: ${{ runner.temp }}/organization-intelligence-deployment
+          merge-multiple: true
+      - name: Recheck every file at the deployment boundary
+        env:
+          PUBLICATION_SHA256: ${{ needs.prepare.outputs.publication-sha256 }}
+        run: |
+          python3 -I scripts/organization_intelligence_pages.py check \
+            --site "$RUNNER_TEMP/organization-intelligence-deployment/site" \
+            --publication-sha256 "$PUBLICATION_SHA256" --consumer-revision "$GITHUB_SHA"
+      - name: Read the preconfigured Pages target without enabling it
+        id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
+        with:
+          enablement: false
+      - name: Require the exact GitHub project target
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          python3 -I - <<'PY'
+          import os
+          if os.environ["PAGES_BASE_URL"] not in {
+              "https://egohygiene.github.io/.github", "https://egohygiene.github.io/.github/"}:
+              raise SystemExit("Pages target differs from the reviewed declaration")
+          PY
+      - name: Capture and verify the prior site before deployment
+        env:
+          PUBLICATION_SHA256: ${{ needs.prepare.outputs.publication-sha256 }}
+        run: |
+          python3 -I scripts/organization_intelligence_pages.py capture-recovery \
+            --site "$RUNNER_TEMP/organization-intelligence-deployment/site" \
+            --publication-sha256 "$PUBLICATION_SHA256" --consumer-revision "$GITHUB_SHA" \
+            --output "$RUNNER_TEMP/organization-intelligence-recovery"
+      - name: Retain the recovery point before deployment
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: organization-intelligence-pages-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/organization-intelligence-recovery/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90
+      - name: Package only the verified public site
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+        with:
+          path: ${{ runner.temp }}/organization-intelligence-deployment/site
+      - name: Deploy the selected organization Intelligence site
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
+      - name: Verify canonical HTTPS bytes and record the actual deployment
+        env:
+          PUBLICATION_SHA256: ${{ needs.prepare.outputs.publication-sha256 }}
+        run: |
+          python3 -I scripts/organization_intelligence_pages.py verify-live \
+            --site "$RUNNER_TEMP/organization-intelligence-deployment/site" \
+            --publication-sha256 "$PUBLICATION_SHA256" --consumer-revision "$GITHUB_SHA" \
+            --recovery "$RUNNER_TEMP/organization-intelligence-recovery" \
+            --output "$RUNNER_TEMP/organization-intelligence-live-receipt.json"
+      - name: Preserve available recovery and live verification evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: organization-intelligence-pages-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/organization-intelligence-recovery/
+            ${{ runner.temp }}/organization-intelligence-live-receipt.json
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 90
