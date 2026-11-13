@@ -1,0 +1,68 @@
+{
+  "observed_at": "2026-11-13T04:08:34Z",
+  "repository": "egohygiene/.github",
+  "workflow_path": ".github/workflows/organization-intelligence-pages.yml",
+  "run_id": 43363401173,
+  "run_attempt": 1,
+  "consumer_revision": "f3e90df69710492fe55d0d5fb0f5f203a5804bc9",
+  "input_publish": false,
+  "prepare_conclusion": "success",
+  "deploy_conclusion": "skipped",
+  "artifact_id": 14008693427,
+  "archive_sha256": "66588a1e98fd7d2480ba7b11653fc15217b73b524e0ff2f0143af5bd174afa14",
+  "archive_size_bytes": 305929,
+  "archive_members": 48,
+  "publication_sha256": "ee446df191be95b2acdc728d8fb4e783f4183d36ce7648093c1900dcdeb39627",
+  "selection_sha256": "37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9",
+  "declaration_sha256": "4d8c9966037e16256de090768ba6a910f1dc00e9412b3cd349286e226a444069",
+  "source_pointer_revision": "7550df88a67d62de1704105b27556cb6fb723236",
+  "manifest_sha256": "6fe95bb157d5c419d1db59b37ab27bc994b62441d4906e6c971f2ec71557ee97",
+  "review": {
+    "archive_sha256": "45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7",
+    "artifact_id": 14008223697,
+    "consumer_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+    "intake_receipt_sha256": "208320a354d30a30791c09fe6ab2f531ffdb820dfe97eea6a7d73ae91df09777",
+    "manifest_sha256": "6fe95bb157d5c419d1db59b37ab27bc994b62441d4906e6c971f2ec71557ee97",
+    "producer_revision": "342673b110915f4a29ada01625a77416a1e105d7",
+    "run_attempt": 1,
+    "run_id": 43362027530,
+    "selection_receipt_sha256": "486cbaad1bccbcd0e19e323eb5df11fc2f495ddd027d4d57fb795a4ac86cb04c"
+  },
+  "acquisition": "github-read-only",
+  "route_count": 39,
+  "producer_file_count": 43,
+  "public_site_file_count": 44,
+  "all_producer_site_and_manifest_bytes": "exact",
+  "public_private_capture_or_cli_state_present": false,
+  "public_models": {
+    "audits": {
+      "contract_version": "1.0.0-alpha.1",
+      "presentation_sha256": "480c4f0fee01dc68ff215b6a52f5d7e5b7c2a71954d732d0285518ef5a80e240",
+      "schema": "egohygiene.observatory.fleet-audits/v1",
+      "state": "available"
+    },
+    "core": {
+      "contract_version": "1.0.0-alpha.2",
+      "presentation_sha256": null,
+      "schema": "egohygiene.observatory.repository-intelligence-fleet/v1",
+      "state": "unavailable"
+    },
+    "sanity": {
+      "contract_version": "1.0.0-alpha.1",
+      "presentation_sha256": "ce1d3241f9e3a0eb923cf970ed6a7bd487407d481672ed42dcd2e29279eac5f7",
+      "schema": "egohygiene.observatory.fleet-sanity/v1",
+      "state": "available"
+    }
+  },
+  "source_clean_gate_evidence": "Successful unchanged prepare executes source_revision before and after artifact/owner validation; this job does not emit literal paths[] observer records",
+  "pages_setting_mutated": false,
+  "deployment_performed": false,
+  "live_https_verified": false,
+  "limits": [
+    "Authenticated preparation is not deployment; publisher job was skipped",
+    "One .github target contains the organization review; original03:23:31 model clocks and partial/unreviewed states remain",
+    "Core unavailable; canonical36finding Audit and projected1finding target stay distinct",
+    "Pages administrator Actions setting remains pending; no publish:true or live/recovery claim"
+  ],
+  "downloaded_native_deployable_byte_check": "passed; offline check only, no settings or deployment"
+}
