@@ -14,10 +14,10 @@ publish dispatch are separate from those human decision records.
 ## Reviewed selection and owner sources
 
 The checked-in [selection](../../publication/organization-intelligence-selection.json)
-binds actual successful organization review run `43362027530`, attempt `1`,
-source `281c3827378ae08bb44cde810ad6467fdb0c8adc`, artifact `14008223697` and
+binds actual successful organization review run `43371630627`, attempt `1`,
+source `460bd07960a1dfa85614874e2daa0c29fc2eab48`, artifact `14011999855` and
 raw archive SHA-256
-`45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7`.
+`818b8ded0abb5ede0f36c967f6235e06c29be488b691ed6c4dda4046de6cd316`.
 It also binds the original producer, sealed manifest, intake receipt and model
 selection receipt. The original review receipt stays `review-only`, with
 `deployment_authorized: false`; it is not edited into publication permission.
@@ -38,12 +38,14 @@ The [complete declaration](../../publication/organization-site-surfaces.json)
 uses the narrowly scoped v2 hosting profile and the same 36-surface registry.
 It names the actual website renderer and exact producer commit. Its semantic
 source is this repository's immutable
-[composition reference](../../publication/sources/organization-sweep-2026-11-13.json),
+[composition reference](../../publication/sources/organization-theme-2026-11-13.json),
 which points to upstream evidence without claiming ownership of its models.
-Twenty UI surfaces are implemented but unpublished; the other sixteen retain
+Twenty UI surfaces are implemented in the selected theme candidate but not yet
+deployed; the prior version is live under the separate proof below. The other
+sixteen retain
 evidence-backed unknown applicability and delivery state. Unavailable model
 inputs do not imply that a rendered UI is unimplemented or that an audit passed.
-This is a dated prepublication assessment; later live evidence is separate.
+This is an assessment of the selected candidate; live evidence is separate.
 
 ## Manual preparation and publication
 
@@ -51,7 +53,7 @@ Use `.github/workflows/organization-intelligence-pages.yml` on canonical main.
 Supply the raw selection SHA-256:
 
 ```text
-37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9
+0f83a0fc255bb505df7472740e38f3611f28310adb65b48d10672f10875aaae5
 ```
 
 `publish: false` is the default. The read-only preparation authenticates the
@@ -129,7 +131,7 @@ evidence. Actual prepare-only run `43356501268/1` later passed for that initial
 selection; it did not configure or deploy Pages.
 
 
-## Current Audit and Sanity selection — 2026-11-13
+## Prior Audit and Sanity selection — historical 2026-11-13 checkpoint
 
 The [actual export/intake evidence](../reviews/2026-11-13-organization-export-intake.json)
 records the full retained-artifact chain:
@@ -173,8 +175,49 @@ response errors were observed. Audit/Sanity detail pages retain a 402px width
 at a 390px viewport; the graph hub fits. This is local browser replay, not live
 HTTPS or full accessibility acceptance.
 
-After source integration, root runs a new actual `publish: false` preparation
-with the selection hash above and inspects its retained artifact. Pages is still
-awaiting the administrator's GitHub Actions source setting after the integration's
-403 activation response. No `publish: true` dispatch, provider setting, deployment,
-canonical live-byte verification or human ratification is claimed here.
+At this historical checkpoint, source integration and a later actual
+`publish: false` preparation remained ahead, and Pages awaited the administrator's
+GitHub Actions source setting after an integration 403. This checkpoint itself
+claimed no deployment, live verification or human ratification. The actual later
+publication and current candidate are recorded separately below.
+
+
+## Actual live publication and theme replacement
+
+The administrator configured the project to use GitHub Actions. Actual manual
+[publish run 43369556651/1](https://github.com/egohygiene/.github/actions/runs/43369556651)
+at `460bd07960a1dfa85614874e2daa0c29fc2eab48` then published the prior 43-file
+producer export. The [bounded live evidence](../reviews/2026-11-13-organization-live-publication.json)
+records canonical HTTPS equality for every producer file, the separate consumer
+provenance, actual first-deployment recovery and live browser navigation through
+the root, Audits and Sanity. The canonical entry point is
+[Organization Intelligence](https://egohygiene.github.io/.github/intelligence/).
+The browser's automatic origin-root favicon request returned 404; no selected
+project resource or producer byte mismatch was observed.
+
+Website [PR #147](https://github.com/egohygiene/egohygiene.io/pull/147) added
+System, Light and Dark appearance using the existing shared preference.
+Actual retained-model export
+[43371316736/1](https://github.com/egohygiene/egohygiene.io/actions/runs/43371316736)
+at `d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a` produced 44 sealed files for the
+same 39 routes. The new file is `assets/theme-preference.js`; all 40 HTML files
+load it before content and any stylesheet. Original Audit/Sanity source and
+presentation hashes, model clocks, partial scope and unavailable Core remain
+unchanged. All three actual source observers were clean at that exact producer.
+
+Organization review
+[43371630627/1](https://github.com/egohygiene/.github/actions/runs/43371630627)
+admitted the exact static and companion archives. Its 47 retained members
+preserve the producer bytes and both review receipts. The new immutable
+composition pointer was committed at `82e4ba749daebc05377e456a87833ea03cb19c54`;
+the declaration and selection above reference that candidate without rewriting
+the historical sweep pointer or promoting review-only receipts.
+
+After this candidate is reviewed and integrated, the existing manually
+authorized publisher can replace the current site. It must capture and verify
+the actual prior publication `63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322`
+and all 44 previous public files before deployment. The new public inventory
+will be 44 producer files plus separate consumer provenance. Replacement live
+bytes and actual appearance behavior remain the next checkpoint; this candidate
+does not claim them. The company publisher and repository-specific publishers
+retain their ownership, and neither hosting ADR is ratified by publication.

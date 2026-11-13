@@ -18,7 +18,7 @@
     "route_profile": "organization",
     "site_class": "application",
     "visibility": "public",
-    "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236"
+    "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
   },
   "surfaces": [
     {
@@ -30,9 +30,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -66,9 +66,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -77,14 +77,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -97,7 +97,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -110,9 +110,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -144,9 +144,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -180,9 +180,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -191,14 +191,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -213,7 +213,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -228,9 +228,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -239,14 +239,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -261,7 +261,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -277,9 +277,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -288,14 +288,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -308,7 +308,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -323,9 +323,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -334,14 +334,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -354,7 +354,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -369,9 +369,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -380,14 +380,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -402,7 +402,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -417,9 +417,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -428,14 +428,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "releases"
@@ -450,7 +450,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -465,9 +465,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -499,9 +499,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -533,9 +533,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -567,9 +567,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -603,9 +603,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -614,14 +614,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -634,7 +634,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -647,9 +647,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -683,9 +683,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -694,14 +694,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -714,7 +714,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -727,9 +727,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -761,9 +761,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -772,14 +772,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "identity-artifact",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -794,7 +794,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -807,9 +807,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -818,14 +818,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -838,7 +838,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -855,9 +855,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -866,14 +866,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -888,7 +888,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -901,9 +901,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -912,14 +912,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-content",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -932,7 +932,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -945,9 +945,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -979,9 +979,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1015,9 +1015,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1026,14 +1026,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -1048,7 +1048,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -1063,9 +1063,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1097,9 +1097,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1131,9 +1131,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1169,9 +1169,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1180,14 +1180,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -1200,7 +1200,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -1215,9 +1215,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1226,14 +1226,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -1246,7 +1246,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -1261,9 +1261,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1272,14 +1272,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -1292,7 +1292,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -1307,9 +1307,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1318,14 +1318,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "generated-index",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -1338,7 +1338,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -1351,9 +1351,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1362,14 +1362,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "operational-evidence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [],
       "publication": {
@@ -1382,7 +1382,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     },
@@ -1395,9 +1395,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1429,9 +1429,9 @@
         "state": "unknown",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
       },
       "disposition": "omitted",
@@ -1465,9 +1465,9 @@
         "state": "applicable",
         "freshness": "current",
         "assertion": "authoritative",
-        "evidence_url": "https://github.com/egohygiene/.github/blob/7550df88a67d62de1704105b27556cb6fb723236/publication/sources/organization-sweep-2026-11-13.json",
-        "represented_revision": "7550df88a67d62de1704105b27556cb6fb723236",
-        "observed_at": "2026-11-13T03:56:24Z",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/82e4ba749daebc05377e456a87833ea03cb19c54/publication/sources/organization-theme-2026-11-13.json",
+        "represented_revision": "82e4ba749daebc05377e456a87833ea03cb19c54",
+        "observed_at": "2026-11-13T05:24:10Z",
         "reason": null
       },
       "disposition": "owned",
@@ -1476,14 +1476,14 @@
       "source_artifact": {
         "owner": "egohygiene/.github",
         "kind": "repository-intelligence",
-        "location": "publication/sources/organization-sweep-2026-11-13.json",
-        "revision": "7550df88a67d62de1704105b27556cb6fb723236"
+        "location": "publication/sources/organization-theme-2026-11-13.json",
+        "revision": "82e4ba749daebc05377e456a87833ea03cb19c54"
       },
       "renderer": {
         "owner": "egohygiene/egohygiene.io",
         "contract": "organization-intelligence-static-export",
-        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/342673b110915f4a29ada01625a77416a1e105d7/scripts/build-intelligence-export.mts",
-        "version": "342673b110915f4a29ada01625a77416a1e105d7"
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a/scripts/build-intelligence-export.mts",
+        "version": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
       },
       "dependencies": [
         "intelligence"
@@ -1498,7 +1498,7 @@
         "evidence_url": null,
         "represented_revision": null,
         "observed_at": null,
-        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "reason": "The selected theme candidate is implemented and not yet deployed. The prior 43-producer-file version is live under the separate initial-publication proof; module evidence availability remains independent.",
         "blocked_by": []
       }
     }
