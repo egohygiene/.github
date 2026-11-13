@@ -1,0 +1,75 @@
+{
+  "schema": "egohygiene.github.organization-intelligence-source/v1",
+  "target": {
+    "origin": "https://egohygiene.github.io",
+    "base_path": "/.github/"
+  },
+  "semantic_owner": "egohygiene/.github",
+  "source_compositor": "egohygiene/egohygiene.io",
+  "publication_repository": "egohygiene/.github",
+  "producer_revision": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a",
+  "review": {
+    "run_id": 43371630627,
+    "run_attempt": 1,
+    "consumer_revision": "460bd07960a1dfa85614874e2daa0c29fc2eab48",
+    "artifact_id": 14011999855,
+    "archive_sha256": "818b8ded0abb5ede0f36c967f6235e06c29be488b691ed6c4dda4046de6cd316",
+    "selection_receipt_sha256": "a1147de4bdc78da5b53ac2dfefb13fc29f9ec075a7a7041c0fb2eac1a5028e03",
+    "intake_receipt_sha256": "c1424052a6f9dc39322d187641945d854c494cb0b6af3ade3fb3e1460d7f9a9c",
+    "export_manifest_sha256": "6574c9c10e91fd9150439f4c2c0a0b934bb42ecc2f2bc9ccd307607f85989623"
+  },
+  "producer_export": {
+    "run_id": 43371316736,
+    "run_attempt": 1,
+    "static_artifact_id": 14012273181,
+    "static_archive_sha256": "a91a09436ef64bcef47475d36be136276d4b8ae8fc3469e89b00d5c7c3c8d4c3",
+    "selection_artifact_id": 14012283577,
+    "selection_archive_sha256": "0084c94497d29c718719256521a4b6ea981673bb2cb02125a8c752e824a678ee"
+  },
+  "assessment": {
+    "implemented": "The selected export provides landing navigation and the nineteen Intelligence UI surfaces. UI availability is independent of module evidence availability.",
+    "other_surfaces": "Applicability is unresolved for every other registry surface; the focused export does not assess them.",
+    "observed_model_scope": [
+      "egohygiene/.github"
+    ],
+    "available_models": [
+      "audits",
+      "sanity"
+    ],
+    "unavailable_models": [
+      "core"
+    ],
+    "report_completion": "partial",
+    "governance": "not-reviewed",
+    "human_evidence": "unavailable",
+    "model_source_as_of": "2026-11-13T03:23:31Z",
+    "export_evaluated_at": "2026-11-13T03:36:14Z",
+    "sanity_components": 28,
+    "sanity_concerns": 8,
+    "sanity_strengths": 28,
+    "sanity_dimensions": 17,
+    "canonical_audit_findings": 36,
+    "projected_audit_target_findings": 1,
+    "source_boundary": "One .github fleet target contains the organization review; component records are not separate captured fleet rows. Canonical per-repository source heads and assessment clocks stay historical.",
+    "publication_at_assessment": "selected-theme-candidate-unpublished",
+    "presentation_change": "Appearance System/Light/Dark uses the existing shared preference; the new theme asset increases this exact export to44producer files with39routes. Model scope and original assessment clocks are unchanged."
+  },
+  "canonical_reports": {
+    "source_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+    "audit": "https://github.com/egohygiene/.github/blob/281c3827378ae08bb44cde810ad6467fdb0c8adc/audits/organization-source-sanity-20261113T022735Z.md",
+    "sanity": "https://github.com/egohygiene/.github/blob/281c3827378ae08bb44cde810ad6467fdb0c8adc/audits/organization-source-sanity-20261113T022735Z.sanity.json"
+  },
+  "authority": {
+    "publication": "Explicit repository-owner request, followed by a manual publish dispatch after reviewed source and qualification. This artifact reference alone grants no deployment authority.",
+    "adr": "ADR-0006 remains proposed with null approval; source implementation and publication do not ratify it."
+  },
+  "prior_live_publication": {
+    "run_id": 43369556651,
+    "run_attempt": 1,
+    "publication_sha256": "63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322",
+    "producer_files": 43,
+    "public_files": 44,
+    "evidence": "docs/reviews/2026-11-13-organization-live-publication.json",
+    "status": "canonical-https-byte-and-browser-verified"
+  }
+}
