@@ -1,0 +1,209 @@
+{
+  "observed_at": "2026-11-13T02:30:59Z",
+  "organization": "egohygiene",
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/.github",
+      "repository_id": 1196401336,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/aether",
+      "repository_id": 1315637692,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/akashic",
+      "repository_id": 1320228396,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/aniflow",
+      "repository_id": 1315637894,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/antidote",
+      "repository_id": 1347532537,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/athena",
+      "repository_id": 1315681605,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/beacon",
+      "repository_id": 1315637921,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/civics",
+      "repository_id": 1344564036,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/egohygiene.io",
+      "repository_id": 1318535423,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/egolint",
+      "repository_id": 1315144197,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/empathy",
+      "repository_id": 1315637648,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/filament",
+      "repository_id": 1340174644,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/flow",
+      "repository_id": 1333207724,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/holon",
+      "repository_id": 1315637967,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/hygiene",
+      "repository_id": 1315637988,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/identity",
+      "repository_id": 1315637826,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/mantle",
+      "repository_id": 1320127077,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/mindcap",
+      "repository_id": 1315637844,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/mindgarden",
+      "repository_id": 1315637864,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/observatory",
+      "repository_id": 1325309565,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/optiflow",
+      "repository_id": 1324450169,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/pace",
+      "repository_id": 1315637735,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/realm",
+      "repository_id": 1315637781,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/reflector",
+      "repository_id": 1247115338,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/relay",
+      "repository_id": 1321918958,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/renderflow",
+      "repository_id": 1187580231,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/sanctuary",
+      "repository_id": 1341342928,
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "full_name": "egohygiene/store",
+      "repository_id": 1318861461,
+      "visibility": "public"
+    }
+  ],
+  "schema": "egohygiene.repository-public-discovery/v1",
+  "source": {
+    "completeness": "complete",
+    "provider": "github",
+    "scope": "public",
+    "url": "https://api.github.com/orgs/egohygiene/repos?type=public&per_page=100"
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "repositories": [
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/organization-intelligence-review.yml",
+        ".github/workflows/repository-intelligence-canary.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/decisions/ADR-0006-organization-intelligence-entrypoint.md",
+        "docs/intelligence/organization-home.md"
+      ],
+      "purpose_and_owner_boundary": "Organization-facing source home, defaults, intake and review surface; Hygiene retains policy/catalog ownership, website retains composition and repositories retain their publishers.",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "catalog/first-party/catalog.v1.json",
+        "aether"
+      ],
+      "purpose_and_owner_boundary": "Aether owns canonical provider-neutral AI specifications, skills and agent guidance; reusable execution, applicability, conformance and consumer credentials stay with their declared owners.",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/pages.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "ROADMAP.md",
+        "docs/repository-intelligence-publication.md",
+        "docs/repository-intelligence-sources.md"
+      ],
+      "purpose_and_owner_boundary": "Curated public-knowledge collections and discovery site, with a repository-owned Pages publisher and a pinned Relay Intelligence subtree.",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "Cargo.toml",
+        "docs/architecture/foundation/ARCHITECTURE.md"
+      ],
+      "purpose_and_owner_boundary": "Reproducible Rust temporal/video-processing orchestration with explicit frame/audio stages and run evidence. Aniflow owns temporal orchestration; specialized processors retain operations, and Flow owns suite-level selection/orchestration without a required sibling dependency.",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/pages.yml",
+        ".github/workflows/repository-intelligence.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/decisions/ADR-0002-standalone-publication-and-pages.md"
+      ],
+      "purpose_and_owner_boundary": "Repository-owned adaptive-audio research manuscript and local synthetic research instrument; product publication remains native while Beacon is optional and personal/runtime research data requires separate approval.",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "purpose_and_owner_boundary": "Preserve useful assets, references, resources and collections as a shared source library. Athena preserves source provenance/licensing; consumer-specific transformations belong outside the source collection.",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "Cargo.toml",
+        "src/main.rs"
+      ],
+      "purpose_and_owner_boundary": "Discover, initialize, validate, build and package publication-profile projects with project-owned content and build kits. Beacon owns profile discovery/contracts and orchestration; projects own authored content and local adapters, and host/Relay owners retain deployment. The historical Renderflow delegation language needs alignment.",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/pages.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/repository-intelligence.md"
+      ],
+      "purpose_and_owner_boundary": "Experimental public static civic-evidence graph and ballot-support portal; candidate coverage is not a voting score, private preferences remain local and repository review evidence is separate from civic facts.",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/deploy.yml",
+        ".github/workflows/intelligence-model-artifacts-export.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/development/intelligence-model-artifact-selection.md",
+        "docs/development/intelligence-real-audit-canary.md"
+      ],
+      "purpose_and_owner_boundary": "Public website and organization Intelligence source compositor; it owns selected retained-model export while organization intake and each consumer publisher retain separate authority.",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "source_observed_at": "2026-11-13T02:31:00Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "Cargo.toml",
+        "action.yml"
+      ],
+      "purpose_and_owner_boundary": "EgoLint owns policy-driven lint orchestration and native validation; its alpha CLI, caller-selected engine image and published runtime availability are distinct source interfaces.",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/mindgarden-pages.yml",
+        ".github/workflows/repository-intelligence.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/integrations/REPOSITORY_INTELLIGENCE.md",
+        "docs/integrations/REPOSITORY_INTELLIGENCE_REVIEWS.md"
+      ],
+      "purpose_and_owner_boundary": "Golden repository baseline and integration consumer with transitional specialist/staging source; durable reusable policy/implementations retain their specialist owners.",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "purpose_and_owner_boundary": "Define reusable infrastructure-as-code building blocks, interfaces and validation for consumer-controlled environments. Filament owns reusable IaC implementation contracts; consumers retain intent, credentials, budgets, production state and deployment authority.",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "Cargo.toml",
+        "docs/architecture/foundation/ARCHITECTURE.md",
+        "src/optiflow.rs"
+      ],
+      "purpose_and_owner_boundary": "Compose independent Aniflow, Optiflow and Renderflow capabilities through explicit plans, execution/provenance/authority and recovery interfaces. Flow owns cross-holon orchestration, not specialized engines; the inspected Cargo manifest has no direct sibling package dependency, and the selected Optiflow adapter uses a pinned public CLI protocol.",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "package.json",
+        "packages/repository-intelligence/src/model.js"
+      ],
+      "purpose_and_owner_boundary": "Holon owns deterministic local repository materialization and visual projection of owner models; collection, canonical policy, publication and fleet reconciliation remain outside its engine.",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "docs/ecosystem/ARCHITECTURE.md",
+        "catalog/repository-documentation-profile.json"
+      ],
+      "purpose_and_owner_boundary": "Hygiene owns ecosystem architecture, the repository catalog and organization policy; proposed composition profiles preserve repository-local source and do not ratify themselves or absorb sibling implementations.",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/publish-brand-kit.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/decisions/ADR-0022-decisions-publication-composition.md",
+        "docs/publication/IDENTITY_PAGES.md",
+        "docs/publication/REVIEW_FEEDS.md"
+      ],
+      "purpose_and_owner_boundary": "Canonical reviewed identity intent and Brand Kit projections; consumer-owned creative approvals, immutable release publication, current Intelligence evidence and recovery remain separate.",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "bin/mantle",
+        "INSTALLER_ASSURANCE.md"
+      ],
+      "purpose_and_owner_boundary": "Mantle owns shell runtime behavior and reusable command/installation primitives; Realm owns environment construction, services, mounts and workspace lifecycle.",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "pyproject.toml",
+        "src/mindcap/application/facade.py"
+      ],
+      "purpose_and_owner_boundary": "Capture provider source material, preserve versioned archives and prepare canonical knowledge inputs through a Python CLI/library. Mindcap owns capture and normalization; semantic knowledge extraction/Gardenization remains outside the inspected bootstrap. Provider browser behavior stays behind replaceable strategies.",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/decisions-preview.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/memory-hygiene-publication-draft.md",
+        "docs/publication-conformance.md"
+      ],
+      "purpose_and_owner_boundary": "Portable committed knowledge contract and native adapters; sites, indexes and AI integrations are derived projections, while real private-consumer and publication acceptance remain separately gated.",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "pyproject.toml",
+        "src/observatory/audits.py",
+        "src/observatory/sanity.py"
+      ],
+      "purpose_and_owner_boundary": "Observatory owns deterministic evidence-derived public read models and queries; roadmap intent, human decisions, validation policy, provider collection and publication remain independently owned.",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        ".github/workflows/pages.yml",
+        "ARCHITECTURE.md",
+        "README.md",
+        "docs/decisions/ADR-0001-publication-stack.md",
+        "docs/repository-intelligence-source-feeds.md",
+        "docs/site-publication.md"
+      ],
+      "purpose_and_owner_boundary": "Media product and deterministic site compositor with independently owned producers; publishing the product site does not grant source-media execution or mutation authority.",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "LOCK_POLICY.md",
+        "scripts/project_intelligence_adoption.py"
+      ],
+      "purpose_and_owner_boundary": "Pace owns reviewed desired-state convergence and adoption projection; its source-only ledger does not collect evidence or establish delivery, and bounded proposals do not merge default branches.",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "profiles/base.profile.json",
+        "docs/devcontainer-projection.md"
+      ],
+      "purpose_and_owner_boundary": "Realm owns canonical capability-based environment intent and derived environment projections; source inventory, local runtime proof, host support and registry publication remain separate.",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "pyproject.toml",
+        "reflector/orchestration/audit_campaign.py"
+      ],
+      "purpose_and_owner_boundary": "Reflector owns bounded campaign selection, capture transport and run metadata while Aether owns audit methodology, Hygiene owns public roster/governance, Observatory owns models and Relay owns publication.",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "source_observed_at": "2026-11-13T02:31:01Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "AGENTS.md",
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "actions/repository-intelligence-review-feed/action.yml",
+        "actions/repository-intelligence-review-feed/scripts/review_feed.py"
+      ],
+      "purpose_and_owner_boundary": "Relay owns reusable execution and typed evidence transport; owner policy and normalization semantics are pinned inputs, while each consumer retains its publication/deployment authority.",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "Cargo.toml",
+        "crates/renderflow-core/Cargo.toml"
+      ],
+      "purpose_and_owner_boundary": "Plan and execute spec-driven static artifact transformations through a reusable Rust engine and thin CLI/SDK surfaces. Renderflow owns generic artifact planning/rendering/evidence; consumer projects own content/rights/publication and Flow owns cross-tool orchestration through released interfaces.",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "docs/decisions/ADR-0001-sanctuary-incubation-boundary.md",
+        "schemas/incubation-manifest.v1.schema.json"
+      ],
+      "purpose_and_owner_boundary": "Incubate unfinished/imported/ownerless work with explicit provenance, ownership questions and exit evidence. Sanctuary is provisional incubation, not a stable production dependency or permanent specialist owner; Hygiene retains organization policy and durable owners receive reviewed graduations.",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    },
+    {
+      "assessment": "partial-source-review",
+      "inspected_paths": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "package.json",
+        "packages/commerce/src/types.ts"
+      ],
+      "purpose_and_owner_boundary": "Preserve a provider-neutral React/Vite commerce reference and research source while the website owns the selected V1 customer-facing storefront. The reusable commerce port separates mock/Fourthwall responses; current decision text preserves Store source/history but assigns one V1 storefront build to the website, with provider-hosted checkout and qualification still separate.",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "source_observed_at": "2026-11-13T02:31:02Z",
+      "uninspected": [
+        "Full implementation and dependency closure",
+        "Tests/builds/runtime/provider/deployment",
+        "Authentic human alignment/applicability and current upkeep"
+      ]
+    }
+  ],
+  "scope": "28 exact admitted public repositories; no organization-total claim",
+  "semantic_source_blob_count": 152
+}

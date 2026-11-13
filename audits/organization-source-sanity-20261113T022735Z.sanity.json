@@ -1,0 +1,3203 @@
+{
+  "alternatives": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112"
+      ],
+      "id": "alternative-source-docs",
+      "summary": "Update the existing canonical entry documents from their implemented interfaces and existing machine catalog.",
+      "tradeoffs": "Maintenance is smaller than another source inventory, but source readiness must remain distinct from release/runtime proof.",
+      "why_not_chosen": "This sweep is read-only; owner changes and review remain separate."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-035",
+        "source-036",
+        "source-037",
+        "source-038"
+      ],
+      "id": "alternative-renderer-boundary",
+      "summary": "Explain project-local profile adapters separately from optional generic Renderflow transformations, or explicitly propose a changed ownership decision.",
+      "tradeoffs": "Standalone usability can coexist with reusable transformation ownership; an unexplained blanket dependency would reduce portability.",
+      "why_not_chosen": "The inspected source does not establish which interpretation the owner intends; do not rewrite retained decisions automatically."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112"
+      ],
+      "id": "alternative-publisher-privilege",
+      "summary": "Review isolating Pages configuration/deployment credentials from source normalization/build jobs.",
+      "tradeoffs": "An extra job can narrow authority but adds scheduling/artifact complexity and must preserve Configure Pages requirements and native publisher gates.",
+      "why_not_chosen": "No misuse or applicable mandatory policy was established; the current pipeline remains intact pending owning review."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112"
+      ],
+      "id": "alternative-capture-priority",
+      "summary": "Prioritize explicit canonical context or add bounded file selection to the existing Reflector source pass.",
+      "tradeoffs": "The same byte/time caps remain necessary; preserved intake still needs separate coverage and cannot simply disappear.",
+      "why_not_chosen": "The current primitive honestly reports partial capture. This sweep uses an explicit supplemental document pass and proposes no replacement collector."
+    }
+  ],
+  "assumptions": [
+    {
+      "basis": "observed",
+      "consequence": "Unknown or unadmitted identities are not represented or counted.",
+      "evidence": [
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083"
+      ],
+      "id": "assumption-scope",
+      "statement": "The reviewed public projection defines this assessment scope; it is not an organization-total or automatic eligibility assertion."
+    },
+    {
+      "basis": "observed",
+      "consequence": "Positive observations and concerns remain bounded to their cited sources.",
+      "evidence": [
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112"
+      ],
+      "id": "assumption-source-intent",
+      "statement": "Source declarations describe intended ownership, but source presence does not prove implementation, deployment or authentic human acceptance."
+    }
+  ],
+  "components": [
+    {
+      "evidence": [
+        "source-003",
+        "source-004"
+      ],
+      "id": "component-github",
+      "name": "egohygiene/.github",
+      "owner": "egohygiene/.github",
+      "responsibility": "Organization-facing source home, defaults, intake and review surface; Hygiene retains policy/catalog ownership, website retains composition and repositories retain their publishers."
+    },
+    {
+      "evidence": [
+        "source-007",
+        "source-012"
+      ],
+      "id": "component-aether",
+      "name": "egohygiene/aether",
+      "owner": "egohygiene/aether",
+      "responsibility": "Aether owns canonical provider-neutral AI specifications, skills and agent guidance; reusable execution, applicability, conformance and consumer credentials stay with their declared owners."
+    },
+    {
+      "evidence": [
+        "source-014",
+        "source-015",
+        "source-017"
+      ],
+      "id": "component-akashic",
+      "name": "egohygiene/akashic",
+      "owner": "egohygiene/akashic",
+      "responsibility": "Curated public-knowledge collections and discovery site, with a repository-owned Pages publisher and a pinned Relay Intelligence subtree."
+    },
+    {
+      "evidence": [
+        "source-021",
+        "source-022",
+        "source-024"
+      ],
+      "id": "component-aniflow",
+      "name": "egohygiene/aniflow",
+      "owner": "egohygiene/aniflow",
+      "responsibility": "Reproducible Rust temporal/video-processing orchestration with explicit frame/audio stages and run evidence. Aniflow owns temporal orchestration; specialized processors retain operations, and Flow owns suite-level selection/orchestration without a required sibling dependency."
+    },
+    {
+      "evidence": [
+        "source-027",
+        "source-028"
+      ],
+      "id": "component-antidote",
+      "name": "egohygiene/antidote",
+      "owner": "egohygiene/antidote",
+      "responsibility": "Repository-owned adaptive-audio research manuscript and local synthetic research instrument; product publication remains native while Beacon is optional and personal/runtime research data requires separate approval."
+    },
+    {
+      "evidence": [
+        "source-030",
+        "source-031",
+        "source-032"
+      ],
+      "id": "component-athena",
+      "name": "egohygiene/athena",
+      "owner": "egohygiene/athena",
+      "responsibility": "Preserve useful assets, references, resources and collections as a shared source library. Athena preserves source provenance/licensing; consumer-specific transformations belong outside the source collection."
+    },
+    {
+      "evidence": [
+        "source-035",
+        "source-037",
+        "source-038",
+        "source-040"
+      ],
+      "id": "component-beacon",
+      "name": "egohygiene/beacon",
+      "owner": "egohygiene/beacon",
+      "responsibility": "Discover, initialize, validate, build and package publication-profile projects with project-owned content and build kits. Beacon owns profile discovery/contracts and orchestration; projects own authored content and local adapters, and host/Relay owners retain deployment. The historical Renderflow delegation language needs alignment."
+    },
+    {
+      "evidence": [
+        "source-043",
+        "source-044"
+      ],
+      "id": "component-civics",
+      "name": "egohygiene/civics",
+      "owner": "egohygiene/civics",
+      "responsibility": "Experimental public static civic-evidence graph and ballot-support portal; candidate coverage is not a voting score, private preferences remain local and repository review evidence is separate from civic facts."
+    },
+    {
+      "evidence": [
+        "source-047",
+        "source-049"
+      ],
+      "id": "component-egohygiene-io",
+      "name": "egohygiene/egohygiene.io",
+      "owner": "egohygiene/egohygiene.io",
+      "responsibility": "Public website and organization Intelligence source compositor; it owns selected retained-model export while organization intake and each consumer publisher retain separate authority."
+    },
+    {
+      "evidence": [
+        "source-053",
+        "source-054",
+        "source-056"
+      ],
+      "id": "component-egolint",
+      "name": "egohygiene/egolint",
+      "owner": "egohygiene/egolint",
+      "responsibility": "EgoLint owns policy-driven lint orchestration and native validation; its alpha CLI, caller-selected engine image and published runtime availability are distinct source interfaces."
+    },
+    {
+      "evidence": [
+        "source-059",
+        "source-060"
+      ],
+      "id": "component-empathy",
+      "name": "egohygiene/empathy",
+      "owner": "egohygiene/empathy",
+      "responsibility": "Golden repository baseline and integration consumer with transitional specialist/staging source; durable reusable policy/implementations retain their specialist owners."
+    },
+    {
+      "evidence": [
+        "source-063",
+        "source-064",
+        "source-065",
+        "source-067"
+      ],
+      "id": "component-filament",
+      "name": "egohygiene/filament",
+      "owner": "egohygiene/filament",
+      "responsibility": "Define reusable infrastructure-as-code building blocks, interfaces and validation for consumer-controlled environments. Filament owns reusable IaC implementation contracts; consumers retain intent, credentials, budgets, production state and deployment authority."
+    },
+    {
+      "evidence": [
+        "source-069",
+        "source-070",
+        "source-072",
+        "source-073"
+      ],
+      "id": "component-flow",
+      "name": "egohygiene/flow",
+      "owner": "egohygiene/flow",
+      "responsibility": "Compose independent Aniflow, Optiflow and Renderflow capabilities through explicit plans, execution/provenance/authority and recovery interfaces. Flow owns cross-holon orchestration, not specialized engines; the inspected Cargo manifest has no direct sibling package dependency, and the selected Optiflow adapter uses a pinned public CLI protocol."
+    },
+    {
+      "evidence": [
+        "source-075",
+        "source-076",
+        "source-077",
+        "source-079"
+      ],
+      "id": "component-holon",
+      "name": "egohygiene/holon",
+      "owner": "egohygiene/holon",
+      "responsibility": "Holon owns deterministic local repository materialization and visual projection of owner models; collection, canonical policy, publication and fleet reconciliation remain outside its engine."
+    },
+    {
+      "evidence": [
+        "source-080",
+        "source-084",
+        "source-085"
+      ],
+      "id": "component-hygiene",
+      "name": "egohygiene/hygiene",
+      "owner": "egohygiene/hygiene",
+      "responsibility": "Hygiene owns ecosystem architecture, the repository catalog and organization policy; proposed composition profiles preserve repository-local source and do not ratify themselves or absorb sibling implementations."
+    },
+    {
+      "evidence": [
+        "source-087",
+        "source-088"
+      ],
+      "id": "component-identity",
+      "name": "egohygiene/identity",
+      "owner": "egohygiene/identity",
+      "responsibility": "Canonical reviewed identity intent and Brand Kit projections; consumer-owned creative approvals, immutable release publication, current Intelligence evidence and recovery remain separate."
+    },
+    {
+      "evidence": [
+        "source-093",
+        "source-094",
+        "source-095",
+        "source-097"
+      ],
+      "id": "component-mantle",
+      "name": "egohygiene/mantle",
+      "owner": "egohygiene/mantle",
+      "responsibility": "Mantle owns shell runtime behavior and reusable command/installation primitives; Realm owns environment construction, services, mounts and workspace lifecycle."
+    },
+    {
+      "evidence": [
+        "source-098",
+        "source-099",
+        "source-100",
+        "source-102",
+        "source-103"
+      ],
+      "id": "component-mindcap",
+      "name": "egohygiene/mindcap",
+      "owner": "egohygiene/mindcap",
+      "responsibility": "Capture provider source material, preserve versioned archives and prepare canonical knowledge inputs through a Python CLI/library. Mindcap owns capture and normalization; semantic knowledge extraction/Gardenization remains outside the inspected bootstrap. Provider browser behavior stays behind replaceable strategies."
+    },
+    {
+      "evidence": [
+        "source-105",
+        "source-106"
+      ],
+      "id": "component-mindgarden",
+      "name": "egohygiene/mindgarden",
+      "owner": "egohygiene/mindgarden",
+      "responsibility": "Portable committed knowledge contract and native adapters; sites, indexes and AI integrations are derived projections, while real private-consumer and publication acceptance remain separately gated."
+    },
+    {
+      "evidence": [
+        "source-110",
+        "source-112",
+        "source-113",
+        "source-114"
+      ],
+      "id": "component-observatory",
+      "name": "egohygiene/observatory",
+      "owner": "egohygiene/observatory",
+      "responsibility": "Observatory owns deterministic evidence-derived public read models and queries; roadmap intent, human decisions, validation policy, provider collection and publication remain independently owned."
+    },
+    {
+      "evidence": [
+        "source-117",
+        "source-118"
+      ],
+      "id": "component-optiflow",
+      "name": "egohygiene/optiflow",
+      "owner": "egohygiene/optiflow",
+      "responsibility": "Media product and deterministic site compositor with independently owned producers; publishing the product site does not grant source-media execution or mutation authority."
+    },
+    {
+      "evidence": [
+        "source-122",
+        "source-123",
+        "source-125"
+      ],
+      "id": "component-pace",
+      "name": "egohygiene/pace",
+      "owner": "egohygiene/pace",
+      "responsibility": "Pace owns reviewed desired-state convergence and adoption projection; its source-only ledger does not collect evidence or establish delivery, and bounded proposals do not merge default branches."
+    },
+    {
+      "evidence": [
+        "source-126",
+        "source-130",
+        "source-131"
+      ],
+      "id": "component-realm",
+      "name": "egohygiene/realm",
+      "owner": "egohygiene/realm",
+      "responsibility": "Realm owns canonical capability-based environment intent and derived environment projections; source inventory, local runtime proof, host support and registry publication remain separate."
+    },
+    {
+      "evidence": [
+        "source-132",
+        "source-135",
+        "source-136"
+      ],
+      "id": "component-reflector",
+      "name": "egohygiene/reflector",
+      "owner": "egohygiene/reflector",
+      "responsibility": "Reflector owns bounded campaign selection, capture transport and run metadata while Aether owns audit methodology, Hygiene owns public roster/governance, Observatory owns models and Relay owns publication."
+    },
+    {
+      "evidence": [
+        "source-140",
+        "source-142",
+        "source-143"
+      ],
+      "id": "component-relay",
+      "name": "egohygiene/relay",
+      "owner": "egohygiene/relay",
+      "responsibility": "Relay owns reusable execution and typed evidence transport; owner policy and normalization semantics are pinned inputs, while each consumer retains its publication/deployment authority."
+    },
+    {
+      "evidence": [
+        "source-144",
+        "source-145",
+        "source-147",
+        "source-148",
+        "source-149"
+      ],
+      "id": "component-renderflow",
+      "name": "egohygiene/renderflow",
+      "owner": "egohygiene/renderflow",
+      "responsibility": "Plan and execute spec-driven static artifact transformations through a reusable Rust engine and thin CLI/SDK surfaces. Renderflow owns generic artifact planning/rendering/evidence; consumer projects own content/rights/publication and Flow owns cross-tool orchestration through released interfaces."
+    },
+    {
+      "evidence": [
+        "source-151",
+        "source-152",
+        "source-154",
+        "source-155"
+      ],
+      "id": "component-sanctuary",
+      "name": "egohygiene/sanctuary",
+      "owner": "egohygiene/sanctuary",
+      "responsibility": "Incubate unfinished/imported/ownerless work with explicit provenance, ownership questions and exit evidence. Sanctuary is provisional incubation, not a stable production dependency or permanent specialist owner; Hygiene retains organization policy and durable owners receive reviewed graduations."
+    },
+    {
+      "evidence": [
+        "source-157",
+        "source-158",
+        "source-161"
+      ],
+      "id": "component-store",
+      "name": "egohygiene/store",
+      "owner": "egohygiene/store",
+      "responsibility": "Preserve a provider-neutral React/Vite commerce reference and research source while the website owns the selected V1 customer-facing storefront. The reusable commerce port separates mock/Fourthwall responses; current decision text preserves Store source/history but assigns one V1 storefront build to the website, with provider-hosted checkout and qualification still separate."
+    }
+  ],
+  "concerns": [
+    {
+      "alternative_ids": [
+        "alternative-source-docs"
+      ],
+      "category": "wrong",
+      "confidence": "high",
+      "detail": "ARCHITECTURE describes dist and build tooling as absent/future; SYSTEM says no automated build exists. README presents the existing distribution/catalog commands and generated artifact locations. The inspected root CLI and actual generated catalog exist. This is an observed source-navigation contradiction; no build or release was executed. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+      "evidence": [
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-011",
+        "source-012"
+      ],
+      "id": "concern-01",
+      "importance": "advisory",
+      "summary": "Current Aether build descriptions disagree"
+    },
+    {
+      "alternative_ids": [
+        "alternative-source-docs"
+      ],
+      "category": "wrong",
+      "confidence": "high",
+      "detail": "README reports 32 specifications and 36 skills. The captured catalog contains 34 specification entries and 37 skill entries, 71 total. Agent/instruction counts were not verified and no lifecycle promotion is inferred. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+      "evidence": [
+        "source-009",
+        "source-012"
+      ],
+      "id": "concern-02",
+      "importance": "advisory",
+      "summary": "Aether current inventory counts disagree with its catalog"
+    },
+    {
+      "alternative_ids": [
+        "alternative-renderer-boundary"
+      ],
+      "category": "unverified",
+      "confidence": "medium",
+      "detail": "DECISIONS ADR-0002 says rendering stays delegated to Renderflow, while current README makes Renderflow optional and ARCHITECTURE gives initialized profiles their own renderer/checker kits. The relationship is not explained as an amendment in these inspected sources. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation. Project-local renderer adapters may be intentionally distinct from optional generic Renderflow transforms. If so, this is clarification rather than a demonstrated runtime ownership violation. Historical dispositions were not independently authenticated.",
+      "evidence": [
+        "source-035",
+        "source-037",
+        "source-038"
+      ],
+      "id": "concern-03",
+      "importance": "consequential",
+      "summary": "Beacon renderer ownership descriptions need alignment"
+    },
+    {
+      "alternative_ids": [
+        "alternative-source-docs"
+      ],
+      "category": "unverified",
+      "confidence": "medium",
+      "detail": "README installation still instructs unzipping into the Ego Hygiene product checkout under tools/mindcap and running from that nested path, while pyproject publishes an independent package/entrypoint and the facade is explicitly for Python consumers. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation. The nested path may remain a deliberate bootstrap/compatibility recipe and need not mean a runtime dependency on product source. Standalone install and relocation behavior were not executed.",
+      "evidence": [
+        "source-100",
+        "source-102",
+        "source-103"
+      ],
+      "id": "concern-04",
+      "importance": "advisory",
+      "summary": "Mindcap standalone installation guidance remains coupled to a nested recipe"
+    },
+    {
+      "alternative_ids": [
+        "alternative-source-docs"
+      ],
+      "category": "wrong",
+      "confidence": "high",
+      "detail": "README still describes paired draft PRs for review, while the same HEAD DECISIONS ADR-0005 records maintainer acceptance, merged website76/store34 and a November9 reconciliation. This makes the initial entry point stale relative to its own selected source. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation. The README may intend to describe the original review phase; if retained, it needs an explicit historical qualifier. The sweep does not independently ratify the accepted-status claim.",
+      "evidence": [
+        "source-157",
+        "source-158"
+      ],
+      "id": "concern-05",
+      "importance": "advisory",
+      "summary": "Store entry-point review phase is stale against its decision record"
+    },
+    {
+      "alternative_ids": [
+        "alternative-publisher-privilege"
+      ],
+      "category": "unverified",
+      "confidence": "medium",
+      "detail": "The source build job declares pages:write and executes pinned Relay feed/build/provenance actions; final deployment is separately defined. A source-level permission review could determine whether Configure Pages can use a narrower scope or move behind a dedicated privileged boundary. No Pages API misuse or successful mutation was assessed. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+      "evidence": [
+        "source-041"
+      ],
+      "id": "concern-06",
+      "importance": "consequential",
+      "summary": "Civics build job carries Pages write permission"
+    },
+    {
+      "alternative_ids": [
+        "alternative-publisher-privilege"
+      ],
+      "category": "unverified",
+      "confidence": "medium",
+      "detail": "The source build job declares pages:write and executes pinned Relay feed/build/provenance actions; final deployment is separately defined. A source-level permission review could determine whether Configure Pages can use a narrower scope or move behind a dedicated privileged boundary. No Pages API misuse or successful mutation was assessed. No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+      "evidence": [
+        "source-086",
+        "source-087"
+      ],
+      "id": "concern-07",
+      "importance": "consequential",
+      "summary": "Identity build job carries Pages write permission"
+    },
+    {
+      "alternative_ids": [
+        "alternative-capture-priority"
+      ],
+      "category": "risky",
+      "confidence": "high",
+      "detail": "Actual offline discovery processed all 28 selected heads. At the Empathy source, the 16 MiB source budget captured 2,239 files before canonical AGENTS, ARCHITECTURE, SYSTEM and roadmap entries; its signals correctly say not-captured. Independent bounded canonical-document reads found those sources present. The first manifest remains partial rather than treating missing capture as absent or successful audit coverage. The local-command adapter and arbitrary consumer programs were not executed. Partial source capture is an intentional safety bound; this is a usability/coverage risk, not evidence that the source files are absent.",
+      "evidence": [
+        "source-137"
+      ],
+      "id": "concern-08",
+      "importance": "consequential",
+      "summary": "Bounded source discovery can omit canonical context after preserved intake"
+    }
+  ],
+  "contract_version": "1.0.0-alpha.1",
+  "dimensions": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141"
+      ],
+      "id": "purpose",
+      "status": "coherent",
+      "summary": "Every admitted repository has an observed, bounded purpose in its selected canonical sources; this is not evidence that every declared feature is implemented."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-035",
+        "source-036",
+        "source-037",
+        "source-038"
+      ],
+      "id": "responsibility-boundaries",
+      "status": "concern",
+      "summary": "The core owner pipeline is explicit, but Beacon current profile ownership and its Renderflow delegation record need alignment."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141"
+      ],
+      "id": "source-of-truth",
+      "status": "coherent",
+      "summary": "Hygiene remains the catalog/policy owner; Aether methodology, Observatory models and source-owned artifacts remain independently identified."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-068",
+        "source-069",
+        "source-070",
+        "source-071",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141"
+      ],
+      "id": "dependency-direction",
+      "status": "coherent",
+      "summary": "The inspected core uses pinned specialist contracts, and Flow sources explicitly preserve independent engines. Full dependency closure was not executed."
+    },
+    {
+      "confidence": "unknown",
+      "evidence": [],
+      "id": "cohesion",
+      "status": "unknown",
+      "summary": "Selected source boundaries are understandable; runtime cohesion and cross-tool integration across the whole organization were not qualified."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-035",
+        "source-036",
+        "source-037",
+        "source-038"
+      ],
+      "id": "duplicate-ownership",
+      "status": "concern",
+      "summary": "Beacon renderer descriptions could mean layered adapters or an unresolved ownership overlap; source evidence alone does not settle intent."
+    },
+    {
+      "confidence": "unknown",
+      "evidence": [],
+      "id": "speculative-abstractions",
+      "status": "not-assessed",
+      "summary": "This bounded source review did not measure real usage, maintenance cost or the necessity of every abstraction."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-121",
+        "source-122",
+        "source-123",
+        "source-124"
+      ],
+      "id": "missing-ownership",
+      "status": "unknown",
+      "summary": "Declared purposes are available, but applicability, lifecycle/gate freshness and real refresh responsibility remain separate incomplete evidence."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-041",
+        "source-042",
+        "source-043",
+        "source-044",
+        "source-086",
+        "source-087",
+        "source-088",
+        "source-089",
+        "source-098",
+        "source-099",
+        "source-100",
+        "source-101"
+      ],
+      "id": "coupling",
+      "status": "concern",
+      "summary": "Pages-capable build jobs and a product-nested installation recipe deserve narrower interface/privilege review; neither proves an unauthorized write or runtime dependency."
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-156",
+        "source-157",
+        "source-158",
+        "source-159"
+      ],
+      "id": "documentation-divergence",
+      "status": "concern",
+      "summary": "Aether build/inventory descriptions and Store current review wording conflict with their same-revision sources."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-035",
+        "source-036",
+        "source-037",
+        "source-038"
+      ],
+      "id": "decision-consistency",
+      "status": "concern",
+      "summary": "Beacon requires an explicit explanation of how its retained rendering decision relates to current profile-local adapters. Human decision authenticity was not assessed."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-068",
+        "source-069",
+        "source-070",
+        "source-071",
+        "source-092",
+        "source-093",
+        "source-094",
+        "source-095",
+        "source-126",
+        "source-127",
+        "source-128",
+        "source-129"
+      ],
+      "id": "replaceability",
+      "status": "coherent",
+      "summary": "Selected sources separate environment/shell, suite/engine and methodology/execution interfaces rather than requiring one provider. Portability scenarios remain unrun."
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "source-132",
+        "source-133",
+        "source-134",
+        "source-135",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141"
+      ],
+      "id": "operational-plausibility",
+      "status": "concern",
+      "summary": "Native bounded discovery ran, but lexical intake traversal can omit canonical context; organization-report transport and full per-repository indexing remain distinct seams."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-041",
+        "source-042",
+        "source-043",
+        "source-044",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-086",
+        "source-087",
+        "source-088",
+        "source-089",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141"
+      ],
+      "id": "security-privacy-trust",
+      "status": "concern",
+      "summary": "Public admission and read-only boundaries are explicit; two publisher build jobs retain Pages write permission and full hostile-input/runtime qualification was not rerun."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-132",
+        "source-133",
+        "source-134",
+        "source-135",
+        "source-156",
+        "source-157",
+        "source-158",
+        "source-159"
+      ],
+      "id": "maintainability",
+      "status": "concern",
+      "summary": "Current-source navigation and catalog counts drift in a few entry documents; preserved intake can dominate bounded audit context."
+    },
+    {
+      "confidence": "unknown",
+      "evidence": [],
+      "id": "justified-complexity",
+      "status": "unknown",
+      "summary": "The owner separation has plausible reasons, but this review did not collect operational cost/usage evidence sufficient to justify every repository or abstraction."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-001",
+        "source-002",
+        "source-003",
+        "source-004",
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112",
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141"
+      ],
+      "id": "simplest-credible-alternative",
+      "status": "concern",
+      "summary": "Complete one admitted end-to-end evidence path and reconcile existing source seams before adding new registries, assemblers or broad mandatory gates."
+    }
+  ],
+  "execution": {
+    "completed_at": null,
+    "limitations": [
+      "All 28 admitted public heads were selected; semantic inspection was limited to 3–6 key source blobs per repository and explicit bounded sections, not every captured file.",
+      "No consumer programs, tests, application builds, CI jobs, browser checks, live deployments or paid model/provider adapters ran for this sweep.",
+      "The first native source pass retained 18 partial captures. The supplemental canonical-document pass does not convert that earlier result to complete.",
+      "Source heads are immutable observations from 2026-11-13T02:31Z; later parallel merges and provider state are outside this assessment.",
+      "Applicability, human ratification, full dependency/runtime compatibility, publication and refresh ownership remain separately evidenced; no protected repository scope is inferred.",
+      "Organization scope is supported by owner contracts. Current Reflector repository-local report indexing and Relay singleton feed receipts are not relabeled as full cross-repository transport."
+    ],
+    "status": "partial"
+  },
+  "explanation": {
+    "boundaries": "Hygiene owns canonical admission/policy; Aether methodology; Reflector campaign transport; Observatory read models; Relay reusable execution/rendering; Pace adoption; repositories their own source and publication.",
+    "flows": "Explicit source revisions and public admission feed typed evidence, owner-normalized models and repository/organization review surfaces. Media engines remain independently composed through Flow; environment intent and shell behavior remain separated.",
+    "rationale": "Keeping authored intent, execution, observation, rendering and human governance separate supports replaceability and prevents a green check or source merge becoming architecture approval.",
+    "summary": "The declared architecture is intelligible and largely consistent at its core ownership seams. Eight bounded concerns remain: current-source documentation drift, one ambiguous rendering boundary, installation guidance, publisher privileges and source-capture prioritization. Full operational coherence and human alignment remain unverified.",
+    "system": "The organization combines public knowledge/products with separately owned policy, reusable AI methodology, local environment/tooling, evidence collection, normalization and publication."
+  },
+  "generated_at": "2026-11-13T03:09:39Z",
+  "governance": null,
+  "id": "organization-source-sanity-20261113t022735z",
+  "questions": [
+    {
+      "evidence": [
+        "source-008",
+        "source-009",
+        "source-010",
+        "source-011",
+        "source-012"
+      ],
+      "id": "question-01",
+      "owner": "egohygiene/aether",
+      "question": "Reconcile the existing architecture/system descriptions with the current source interface; retain stable-release and consumer-installation qualification as separate unknowns."
+    },
+    {
+      "evidence": [
+        "source-009",
+        "source-012"
+      ],
+      "id": "question-02",
+      "owner": "egohygiene/aether",
+      "question": "Refresh the existing README snapshot through the canonical catalog/documentation path, or label it explicitly historical."
+    },
+    {
+      "evidence": [
+        "source-035",
+        "source-037",
+        "source-038"
+      ],
+      "id": "question-03",
+      "owner": "egohygiene/beacon",
+      "question": "Clarify the canonical boundary and date/link the decision transition; preserve original decision history and do not infer new ratification."
+    },
+    {
+      "evidence": [
+        "source-100",
+        "source-102",
+        "source-103"
+      ],
+      "id": "question-04",
+      "owner": "egohygiene/mindcap",
+      "question": "Add a current own-checkout/package installation example with explicit artifact root; label the preserved product-nested recipe as historical/optional rather than changing capture semantics."
+    },
+    {
+      "evidence": [
+        "source-157",
+        "source-158"
+      ],
+      "id": "question-05",
+      "owner": "egohygiene/store",
+      "question": "Reconcile the current README wording with the dated owner record, preserving historical discussion and all live-checkout/hosting limits."
+    },
+    {
+      "evidence": [
+        "source-041"
+      ],
+      "id": "question-06",
+      "owner": "egohygiene/civics",
+      "question": "Review whether Pages configuration can be isolated from source normalization/building while preserving the existing publisher and explicit provider requirements."
+    },
+    {
+      "evidence": [
+        "source-086",
+        "source-087"
+      ],
+      "id": "question-07",
+      "owner": "egohygiene/identity",
+      "question": "Review whether Pages configuration can be isolated from source normalization/building while preserving the existing publisher and explicit provider requirements."
+    },
+    {
+      "evidence": [
+        "source-137"
+      ],
+      "id": "question-08",
+      "owner": "egohygiene/reflector",
+      "question": "Consider prioritizing explicit canonical entry documents or adding reviewed path-selection to the existing Reflector source pass while preserving byte/time limits, intake history and explicit partial states. The supplemental approved Aether path-scoped pass read the root documents; no replacement collector is proposed."
+    }
+  ],
+  "recommendation": {
+    "disposition": "defer",
+    "reason": "Review the bounded source concerns and the uninspected operational evidence before a human architecture disposition. This source sweep does not ratify the organization or require remediation beyond the already authorized owner work."
+  },
+  "relationships": [
+    {
+      "evidence": [
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083"
+      ],
+      "from": "component-relay",
+      "id": "relationship-01",
+      "kind": "trust",
+      "summary": "Relay consumes the public catalog and owner-defined policy boundaries.",
+      "to": "component-hygiene"
+    },
+    {
+      "evidence": [
+        "source-138",
+        "source-139",
+        "source-140",
+        "source-141",
+        "source-109",
+        "source-110",
+        "source-111",
+        "source-112"
+      ],
+      "from": "component-relay",
+      "id": "relationship-02",
+      "kind": "dependency",
+      "summary": "Relay renders and transports pinned normalized owner models.",
+      "to": "component-observatory"
+    },
+    {
+      "evidence": [
+        "source-132",
+        "source-133",
+        "source-134",
+        "source-135",
+        "source-007",
+        "source-008",
+        "source-009",
+        "source-010"
+      ],
+      "from": "component-reflector",
+      "id": "relationship-03",
+      "kind": "dependency",
+      "summary": "Reflector composes exact Aether methodology and typed report contracts.",
+      "to": "component-aether"
+    },
+    {
+      "evidence": [
+        "source-132",
+        "source-133",
+        "source-134",
+        "source-135",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083"
+      ],
+      "from": "component-reflector",
+      "id": "relationship-04",
+      "kind": "trust",
+      "summary": "Reflector authenticates public scope through the reviewed Hygiene projection.",
+      "to": "component-hygiene"
+    },
+    {
+      "evidence": [
+        "source-121",
+        "source-122",
+        "source-123",
+        "source-124",
+        "source-080",
+        "source-081",
+        "source-082",
+        "source-083"
+      ],
+      "from": "component-pace",
+      "id": "relationship-05",
+      "kind": "data",
+      "summary": "Pace projects admitted catalog/source observations without becoming a second registry.",
+      "to": "component-hygiene"
+    },
+    {
+      "evidence": [
+        "source-126",
+        "source-127",
+        "source-128",
+        "source-129",
+        "source-092",
+        "source-093",
+        "source-094",
+        "source-095"
+      ],
+      "from": "component-realm",
+      "id": "relationship-06",
+      "kind": "dependency",
+      "summary": "Environment construction and shell runtime remain separate specialist responsibilities.",
+      "to": "component-mantle"
+    },
+    {
+      "evidence": [
+        "source-068",
+        "source-069",
+        "source-070",
+        "source-071",
+        "source-019",
+        "source-020",
+        "source-021",
+        "source-022"
+      ],
+      "from": "component-flow",
+      "id": "relationship-07",
+      "kind": "control",
+      "summary": "Flow owns suite-level composition while Aniflow retains temporal processing.",
+      "to": "component-aniflow"
+    },
+    {
+      "evidence": [
+        "source-068",
+        "source-069",
+        "source-070",
+        "source-071",
+        "source-144",
+        "source-145",
+        "source-146",
+        "source-147"
+      ],
+      "from": "component-flow",
+      "id": "relationship-08",
+      "kind": "control",
+      "summary": "Flow owns cross-tool orchestration while Renderflow retains transformations.",
+      "to": "component-renderflow"
+    },
+    {
+      "evidence": [
+        "source-045",
+        "source-046",
+        "source-047",
+        "source-048",
+        "source-001",
+        "source-002",
+        "source-003",
+        "source-004"
+      ],
+      "from": "component-egohygiene-io",
+      "id": "relationship-09",
+      "kind": "data",
+      "summary": "The website source compositor exports sealed review bytes for the organization-owned intake.",
+      "to": "component-github"
+    },
+    {
+      "evidence": [
+        "source-156",
+        "source-157",
+        "source-158",
+        "source-159",
+        "source-045",
+        "source-046",
+        "source-047",
+        "source-048"
+      ],
+      "from": "component-store",
+      "id": "relationship-10",
+      "kind": "deployment",
+      "summary": "Store sources distinguish reusable commerce research from the selected website storefront owner.",
+      "to": "component-egohygiene-io"
+    }
+  ],
+  "represented_revisions": [
+    {
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207"
+    },
+    {
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375"
+    },
+    {
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753"
+    },
+    {
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3"
+    },
+    {
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33"
+    },
+    {
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de"
+    },
+    {
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507"
+    },
+    {
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2"
+    },
+    {
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9"
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59"
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc"
+    },
+    {
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f"
+    },
+    {
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a"
+    },
+    {
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691"
+    },
+    {
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f"
+    },
+    {
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719"
+    },
+    {
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a"
+    },
+    {
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22"
+    },
+    {
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756"
+    },
+    {
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636"
+    },
+    {
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9"
+    },
+    {
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993"
+    },
+    {
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a"
+    },
+    {
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02"
+    },
+    {
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2"
+    },
+    {
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9"
+    },
+    {
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627"
+    },
+    {
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158"
+    }
+  ],
+  "reviewer": {
+    "independent_challenge": "not-performed",
+    "kind": "ai",
+    "method": "Pinned Aether audit/coherence procedures, exact public Git source reads, three bounded independent repository-group reviewers and actual native deterministic discovery. No local model adapter or new provider was configured.",
+    "model": null,
+    "provider": "OpenAI"
+  },
+  "schema": "egohygiene.architecture-coherence-review/v1",
+  "scope": {
+    "key": "egohygiene",
+    "kind": "organization",
+    "repositories": [
+      "egohygiene/.github",
+      "egohygiene/aether",
+      "egohygiene/akashic",
+      "egohygiene/aniflow",
+      "egohygiene/antidote",
+      "egohygiene/athena",
+      "egohygiene/beacon",
+      "egohygiene/civics",
+      "egohygiene/egohygiene.io",
+      "egohygiene/egolint",
+      "egohygiene/empathy",
+      "egohygiene/filament",
+      "egohygiene/flow",
+      "egohygiene/holon",
+      "egohygiene/hygiene",
+      "egohygiene/identity",
+      "egohygiene/mantle",
+      "egohygiene/mindcap",
+      "egohygiene/mindgarden",
+      "egohygiene/observatory",
+      "egohygiene/optiflow",
+      "egohygiene/pace",
+      "egohygiene/realm",
+      "egohygiene/reflector",
+      "egohygiene/relay",
+      "egohygiene/renderflow",
+      "egohygiene/sanctuary",
+      "egohygiene/store"
+    ]
+  },
+  "sources": [
+    {
+      "id": "source-001",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/organization-intelligence-review.yml",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/.github/workflows/organization-intelligence-review.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-002",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/repository-intelligence-canary.yml",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/.github/workflows/repository-intelligence-canary.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-003",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-004",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-005",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "docs/decisions/ADR-0006-organization-intelligence-entrypoint.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/docs/decisions/ADR-0006-organization-intelligence-entrypoint.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-006",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/intelligence/organization-home.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/docs/intelligence/organization-home.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-007",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-008",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-009",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-010",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-011",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "aether",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/aether",
+      "visibility": "public"
+    },
+    {
+      "id": "source-012",
+      "kind": "catalog",
+      "origin": "canonical",
+      "path": "catalog/first-party/catalog.v1.json",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/catalog/first-party/catalog.v1.json",
+      "visibility": "public"
+    },
+    {
+      "id": "source-013",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/.github/workflows/pages.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-014",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-015",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-016",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/ROADMAP.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-017",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/repository-intelligence-publication.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/docs/repository-intelligence-publication.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-018",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/repository-intelligence-sources.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/docs/repository-intelligence-sources.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-019",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-020",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-021",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/Cargo.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-022",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-023",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/ROADMAP.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-024",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/architecture/foundation/ARCHITECTURE.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/docs/architecture/foundation/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-025",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/.github/workflows/pages.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-026",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/repository-intelligence.yml",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/.github/workflows/repository-intelligence.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-027",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-028",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-029",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "docs/decisions/ADR-0002-standalone-publication-and-pages.md",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/docs/decisions/ADR-0002-standalone-publication-and-pages.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-030",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-031",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/DECISIONS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-032",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-033",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/ROADMAP.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-034",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-035",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-036",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/Cargo.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-037",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/DECISIONS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-038",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-039",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-040",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "src/main.rs",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/src/main.rs",
+      "visibility": "public"
+    },
+    {
+      "id": "source-041",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/.github/workflows/pages.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-042",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-043",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-044",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/repository-intelligence.md",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/docs/repository-intelligence.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-045",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/deploy.yml",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/.github/workflows/deploy.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-046",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/intelligence-model-artifacts-export.yml",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/.github/workflows/intelligence-model-artifacts-export.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-047",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-048",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-049",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/development/intelligence-model-artifact-selection.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/docs/development/intelligence-model-artifact-selection.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-050",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/development/intelligence-real-audit-canary.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/docs/development/intelligence-real-audit-canary.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-051",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-052",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-053",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/Cargo.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-054",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-055",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-056",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "action.yml",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/action.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-057",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/mindgarden-pages.yml",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/.github/workflows/mindgarden-pages.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-058",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/repository-intelligence.yml",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/.github/workflows/repository-intelligence.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-059",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-060",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-061",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/integrations/REPOSITORY_INTELLIGENCE.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/docs/integrations/REPOSITORY_INTELLIGENCE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-062",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/integrations/REPOSITORY_INTELLIGENCE_REVIEWS.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/docs/integrations/REPOSITORY_INTELLIGENCE_REVIEWS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-063",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-064",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/DECISIONS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-065",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-066",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/ROADMAP.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-067",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-068",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-069",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/Cargo.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-070",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-071",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/ROADMAP.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-072",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/architecture/foundation/ARCHITECTURE.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/docs/architecture/foundation/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-073",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "src/optiflow.rs",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/src/optiflow.rs",
+      "visibility": "public"
+    },
+    {
+      "id": "source-074",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-075",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-076",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-077",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-078",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "package.json",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/package.json",
+      "visibility": "public"
+    },
+    {
+      "id": "source-079",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "packages/repository-intelligence/src/model.js",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/packages/repository-intelligence/src/model.js",
+      "visibility": "public"
+    },
+    {
+      "id": "source-080",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-081",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-082",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-083",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-084",
+      "kind": "catalog",
+      "origin": "canonical",
+      "path": "catalog/repository-documentation-profile.json",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/catalog/repository-documentation-profile.json",
+      "visibility": "public"
+    },
+    {
+      "id": "source-085",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/ecosystem/ARCHITECTURE.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/docs/ecosystem/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-086",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/publish-brand-kit.yml",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/.github/workflows/publish-brand-kit.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-087",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-088",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-089",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "docs/decisions/ADR-0022-decisions-publication-composition.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/docs/decisions/ADR-0022-decisions-publication-composition.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-090",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/publication/IDENTITY_PAGES.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/docs/publication/IDENTITY_PAGES.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-091",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/publication/REVIEW_FEEDS.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/docs/publication/REVIEW_FEEDS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-092",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-093",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-094",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "INSTALLER_ASSURANCE.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/INSTALLER_ASSURANCE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-095",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-096",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-097",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "bin/mantle",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/bin/mantle",
+      "visibility": "public"
+    },
+    {
+      "id": "source-098",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-099",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/DECISIONS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-100",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-101",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-102",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "pyproject.toml",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/pyproject.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-103",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "src/mindcap/application/facade.py",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/src/mindcap/application/facade.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-104",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/decisions-preview.yml",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/.github/workflows/decisions-preview.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-105",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-106",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-107",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/memory-hygiene-publication-draft.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/docs/memory-hygiene-publication-draft.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-108",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/publication-conformance.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/docs/publication-conformance.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-109",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-110",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-111",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-112",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "pyproject.toml",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/pyproject.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-113",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "src/observatory/audits.py",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/src/observatory/audits.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-114",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "src/observatory/sanity.py",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/src/observatory/sanity.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-115",
+      "kind": "code",
+      "origin": "implementation",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/.github/workflows/pages.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-116",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-117",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-118",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "docs/decisions/ADR-0001-publication-stack.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/docs/decisions/ADR-0001-publication-stack.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-119",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/repository-intelligence-source-feeds.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/docs/repository-intelligence-source-feeds.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-120",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/site-publication.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/docs/site-publication.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-121",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-122",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "LOCK_POLICY.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/LOCK_POLICY.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-123",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-124",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-125",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "scripts/project_intelligence_adoption.py",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/scripts/project_intelligence_adoption.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-126",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-127",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-128",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-129",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-130",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "docs/devcontainer-projection.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/docs/devcontainer-projection.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-131",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "profiles/base.profile.json",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/profiles/base.profile.json",
+      "visibility": "public"
+    },
+    {
+      "id": "source-132",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-133",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-134",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-135",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "pyproject.toml",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/pyproject.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-136",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "reflector/orchestration/audit_campaign.py",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/reflector/orchestration/audit_campaign.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-137",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "reflector/orchestration/audit_executor.py",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/reflector/orchestration/audit_executor.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-138",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-139",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-140",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-141",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-142",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "actions/repository-intelligence-review-feed/action.yml",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/actions/repository-intelligence-review-feed/action.yml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-143",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "actions/repository-intelligence-review-feed/scripts/review_feed.py",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/actions/repository-intelligence-review-feed/scripts/review_feed.py",
+      "visibility": "public"
+    },
+    {
+      "id": "source-144",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-145",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/Cargo.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-146",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/DECISIONS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-147",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-148",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-149",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "crates/renderflow-core/Cargo.toml",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/crates/renderflow-core/Cargo.toml",
+      "visibility": "public"
+    },
+    {
+      "id": "source-150",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/AGENTS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-151",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-152",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-153",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/ROADMAP.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-154",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "docs/decisions/ADR-0001-sanctuary-incubation-boundary.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/docs/decisions/ADR-0001-sanctuary-incubation-boundary.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-155",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "schemas/incubation-manifest.v1.schema.json",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/schemas/incubation-manifest.v1.schema.json",
+      "visibility": "public"
+    },
+    {
+      "id": "source-156",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/ARCHITECTURE.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-157",
+      "kind": "adr",
+      "origin": "canonical",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/DECISIONS.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-158",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "README.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/README.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-159",
+      "kind": "architecture",
+      "origin": "canonical",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/SYSTEM.md",
+      "visibility": "public"
+    },
+    {
+      "id": "source-160",
+      "kind": "dependency",
+      "origin": "canonical",
+      "path": "package.json",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/package.json",
+      "visibility": "public"
+    },
+    {
+      "id": "source-161",
+      "kind": "code",
+      "origin": "implementation",
+      "path": "packages/commerce/src/types.ts",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/packages/commerce/src/types.ts",
+      "visibility": "public"
+    }
+  ],
+  "strengths": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-003",
+        "source-004"
+      ],
+      "id": "strength-component-github",
+      "summary": "Organization-facing source home, defaults, intake and review surface; Hygiene retains policy/catalog ownership, website retains composition and repositories retain their publishers."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-007",
+        "source-012"
+      ],
+      "id": "strength-component-aether",
+      "summary": "Aether owns canonical provider-neutral AI specifications, skills and agent guidance; reusable execution, applicability, conformance and consumer credentials stay with their declared owners."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-014",
+        "source-015",
+        "source-017"
+      ],
+      "id": "strength-component-akashic",
+      "summary": "Curated public-knowledge collections and discovery site, with a repository-owned Pages publisher and a pinned Relay Intelligence subtree."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-021",
+        "source-022",
+        "source-024"
+      ],
+      "id": "strength-component-aniflow",
+      "summary": "Reproducible Rust temporal/video-processing orchestration with explicit frame/audio stages and run evidence. Aniflow owns temporal orchestration; specialized processors retain operations, and Flow owns suite-level selection/orchestration without a required sibling dependency."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-027",
+        "source-028"
+      ],
+      "id": "strength-component-antidote",
+      "summary": "Repository-owned adaptive-audio research manuscript and local synthetic research instrument; product publication remains native while Beacon is optional and personal/runtime research data requires separate approval."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-030",
+        "source-031",
+        "source-032"
+      ],
+      "id": "strength-component-athena",
+      "summary": "Preserve useful assets, references, resources and collections as a shared source library. Athena preserves source provenance/licensing; consumer-specific transformations belong outside the source collection."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-035",
+        "source-037",
+        "source-038",
+        "source-040"
+      ],
+      "id": "strength-component-beacon",
+      "summary": "Discover, initialize, validate, build and package publication-profile projects with project-owned content and build kits. Beacon owns profile discovery/contracts and orchestration; projects own authored content and local adapters, and host/Relay owners retain deployment. The historical Renderflow delegation language needs alignment."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-043",
+        "source-044"
+      ],
+      "id": "strength-component-civics",
+      "summary": "Experimental public static civic-evidence graph and ballot-support portal; candidate coverage is not a voting score, private preferences remain local and repository review evidence is separate from civic facts."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-047",
+        "source-049"
+      ],
+      "id": "strength-component-egohygiene-io",
+      "summary": "Public website and organization Intelligence source compositor; it owns selected retained-model export while organization intake and each consumer publisher retain separate authority."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-053",
+        "source-054",
+        "source-056"
+      ],
+      "id": "strength-component-egolint",
+      "summary": "EgoLint owns policy-driven lint orchestration and native validation; its alpha CLI, caller-selected engine image and published runtime availability are distinct source interfaces."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-059",
+        "source-060"
+      ],
+      "id": "strength-component-empathy",
+      "summary": "Golden repository baseline and integration consumer with transitional specialist/staging source; durable reusable policy/implementations retain their specialist owners."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-063",
+        "source-064",
+        "source-065",
+        "source-067"
+      ],
+      "id": "strength-component-filament",
+      "summary": "Define reusable infrastructure-as-code building blocks, interfaces and validation for consumer-controlled environments. Filament owns reusable IaC implementation contracts; consumers retain intent, credentials, budgets, production state and deployment authority."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-069",
+        "source-070",
+        "source-072",
+        "source-073"
+      ],
+      "id": "strength-component-flow",
+      "summary": "Compose independent Aniflow, Optiflow and Renderflow capabilities through explicit plans, execution/provenance/authority and recovery interfaces. Flow owns cross-holon orchestration, not specialized engines; the inspected Cargo manifest has no direct sibling package dependency, and the selected Optiflow adapter uses a pinned public CLI protocol."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-075",
+        "source-076",
+        "source-077",
+        "source-079"
+      ],
+      "id": "strength-component-holon",
+      "summary": "Holon owns deterministic local repository materialization and visual projection of owner models; collection, canonical policy, publication and fleet reconciliation remain outside its engine."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-080",
+        "source-084",
+        "source-085"
+      ],
+      "id": "strength-component-hygiene",
+      "summary": "Hygiene owns ecosystem architecture, the repository catalog and organization policy; proposed composition profiles preserve repository-local source and do not ratify themselves or absorb sibling implementations."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-087",
+        "source-088"
+      ],
+      "id": "strength-component-identity",
+      "summary": "Canonical reviewed identity intent and Brand Kit projections; consumer-owned creative approvals, immutable release publication, current Intelligence evidence and recovery remain separate."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-093",
+        "source-094",
+        "source-095",
+        "source-097"
+      ],
+      "id": "strength-component-mantle",
+      "summary": "Mantle owns shell runtime behavior and reusable command/installation primitives; Realm owns environment construction, services, mounts and workspace lifecycle."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-098",
+        "source-099",
+        "source-100",
+        "source-102",
+        "source-103"
+      ],
+      "id": "strength-component-mindcap",
+      "summary": "Capture provider source material, preserve versioned archives and prepare canonical knowledge inputs through a Python CLI/library. Mindcap owns capture and normalization; semantic knowledge extraction/Gardenization remains outside the inspected bootstrap. Provider browser behavior stays behind replaceable strategies."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-105",
+        "source-106"
+      ],
+      "id": "strength-component-mindgarden",
+      "summary": "Portable committed knowledge contract and native adapters; sites, indexes and AI integrations are derived projections, while real private-consumer and publication acceptance remain separately gated."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-110",
+        "source-112",
+        "source-113",
+        "source-114"
+      ],
+      "id": "strength-component-observatory",
+      "summary": "Observatory owns deterministic evidence-derived public read models and queries; roadmap intent, human decisions, validation policy, provider collection and publication remain independently owned."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-117",
+        "source-118"
+      ],
+      "id": "strength-component-optiflow",
+      "summary": "Media product and deterministic site compositor with independently owned producers; publishing the product site does not grant source-media execution or mutation authority."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-122",
+        "source-123",
+        "source-125"
+      ],
+      "id": "strength-component-pace",
+      "summary": "Pace owns reviewed desired-state convergence and adoption projection; its source-only ledger does not collect evidence or establish delivery, and bounded proposals do not merge default branches."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-126",
+        "source-130",
+        "source-131"
+      ],
+      "id": "strength-component-realm",
+      "summary": "Realm owns canonical capability-based environment intent and derived environment projections; source inventory, local runtime proof, host support and registry publication remain separate."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-132",
+        "source-135",
+        "source-136"
+      ],
+      "id": "strength-component-reflector",
+      "summary": "Reflector owns bounded campaign selection, capture transport and run metadata while Aether owns audit methodology, Hygiene owns public roster/governance, Observatory owns models and Relay owns publication."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-140",
+        "source-142",
+        "source-143"
+      ],
+      "id": "strength-component-relay",
+      "summary": "Relay owns reusable execution and typed evidence transport; owner policy and normalization semantics are pinned inputs, while each consumer retains its publication/deployment authority."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-144",
+        "source-145",
+        "source-147",
+        "source-148",
+        "source-149"
+      ],
+      "id": "strength-component-renderflow",
+      "summary": "Plan and execute spec-driven static artifact transformations through a reusable Rust engine and thin CLI/SDK surfaces. Renderflow owns generic artifact planning/rendering/evidence; consumer projects own content/rights/publication and Flow owns cross-tool orchestration through released interfaces."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-151",
+        "source-152",
+        "source-154",
+        "source-155"
+      ],
+      "id": "strength-component-sanctuary",
+      "summary": "Incubate unfinished/imported/ownerless work with explicit provenance, ownership questions and exit evidence. Sanctuary is provisional incubation, not a stable production dependency or permanent specialist owner; Hygiene retains organization policy and durable owners receive reviewed graduations."
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "source-157",
+        "source-158",
+        "source-161"
+      ],
+      "id": "strength-component-store",
+      "summary": "Preserve a provider-neutral React/Vite commerce reference and research source while the website owns the selected V1 customer-facing storefront. The reusable commerce port separates mock/Fourthwall responses; current decision text preserves Store source/history but assigns one V1 storefront build to the website, with provider-hosted checkout and qualification still separate."
+    }
+  ],
+  "visibility": "public"
+}

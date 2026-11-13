@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-11-13T02:31:45Z",
+  "catalog_observed_at": "2026-11-09T14:06:57Z",
+  "catalog_public_sha256": "af9c7186ded0bb57b18741eaa5905314b96d6adb03736946c868e0fc4aa50b26",
+  "changed_public": [],
+  "discovery_observed_at": "2026-11-13T02:30:59Z",
+  "discovery_public_sha256": "c6f1dc3c55f7c000a316b54d3ee95a498ec4ee91689cf3d7e72a486d3c4a4257",
+  "extra_public": [],
+  "maximum_age_seconds": 604800,
+  "missing_public": [],
+  "organization": "egohygiene",
+  "publication": "not-authorized",
+  "renamed_public": [],
+  "role_admission": "independent",
+  "schema": "egohygiene.repository-public-drift/v1",
+  "status": "current"
+}

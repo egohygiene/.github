@@ -1,0 +1,1621 @@
+{
+  "captured_bytes": 1405540,
+  "completed_at": "2026-11-13T02:52:05Z",
+  "governance": "none",
+  "method": "existing-Reflector-immutable-blob-source-pass",
+  "repositories": [
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "c7898ba9b189d368ed0e2b331ff33ea8274e04678aebb97e310b227455366d9a",
+          "size_bytes": 2459,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "98fd45507bb0429c527ba75ff8876c4b68b563c2525eb103c6a813502aa4611e",
+          "size_bytes": 3856,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "4b426c89b6d138f457dcaec13847e5aac8c290f2f9ca7f9ca571fc24b000d9cb",
+          "size_bytes": 3703,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "87b0132fd00aecc7dca099604d051c9ad7c28bb332cdb9eddbe480bcfe017eb2",
+          "size_bytes": 7361,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "77aac0ed7516779b91c004fe85b61650d39d71688ffdf8d401f8d7bc457eb01d",
+          "size_bytes": 1418,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "9b7e7a612ea2eedaf9231eba73292379d118ff03abd3f1d4313f0e3d0bf3fc30",
+          "size_bytes": 14910,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/organization-intelligence-review.yml",
+          "sha256": "e55527ed925f93f70d749df3198eb62f008c9c65ae9522ccac3f716b52176b5b",
+          "size_bytes": 12466,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/.github/workflows/organization-intelligence-review.yml"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence-canary.yml",
+          "sha256": "78207d239b3cf96aefe7b6196ff60a80b77da97b4e72052f99fa12fcde40da28",
+          "size_bytes": 4940,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/.github/workflows/repository-intelligence-canary.yml"
+        }
+      ],
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/organization-intelligence-review.yml",
+        ".github/workflows/repository-intelligence-canary.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "f5c50bb6599c80860ed4846633ec7a1d53aa4d22c417611d54ff64557c58ed61",
+          "size_bytes": 10856,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "5b6ac10fdadd2773d3c9214e32ee06dbf0d94167ae36c17182b62d7e72499d3a",
+          "size_bytes": 8115,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "ee4a8634fd8da7f080ee1e9356981cf61b6ae1071a1db666f3e8559cf9cdb994",
+          "size_bytes": 5605,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "12ff41eee5c56958334a31ea0eddb94b98f2370a145ba07b3ec681ebb90fec28",
+          "size_bytes": 17452,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "91c0baebaccbbdd9042949708b7626d507f2f62c6a9024fe5e7c2343cd7eed54",
+          "size_bytes": 2366,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "2f5c3963ab4a76728177b3abeeac2eb36730cb4d3e587c9e0815c24f754d3f8b",
+          "size_bytes": 10057,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "4ed3a731da2a94bb663179c7c62b53cbdf830dbeedde6d855e94a8393d4237e9",
+          "size_bytes": 12013,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "0cd8e9fc833e7e3419e410c7e7c4100c6db682d0c48581f060b267dea9237e0c",
+          "size_bytes": 3972,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "18ab65ee6da25ba3f02da54a35e3bdfb2235fbeb5ec1c772f865b8d1772c4b4e",
+          "size_bytes": 3693,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "aa5e691f6a899eb0a6808e08b1306e3202f7df1e1fb0059c3980d74d2de530b5",
+          "size_bytes": 4474,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "a5b5d539a40ed50c88556ad45e8f3b924787699afdba9a6853b8ff5008448605",
+          "size_bytes": 25816,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "a24345e615cb650e5b096fc0c7cabed1a0b4038cfab38c59cec2b5d3ec564597",
+          "size_bytes": 9607,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence-failure-evidence.yml",
+          "sha256": "c037976c3b7556a55036e5052c4514d9a399ab4f6612f9d29f48a507bd5746f4",
+          "size_bytes": 533,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/.github/workflows/repository-intelligence-failure-evidence.yml"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence-gates.yml",
+          "sha256": "6cd69218f0ad9d3cd76e98301f69ff25608351a20a651fb6f8144123bb831f59",
+          "size_bytes": 5396,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/.github/workflows/repository-intelligence-gates.yml"
+        }
+      ],
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/repository-intelligence-failure-evidence.yml",
+        ".github/workflows/repository-intelligence-gates.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "1290e2f3883c09a382a42050f35801e6d7ed5bc2f3a4748a56228a0799711f68",
+          "size_bytes": 42612,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "291eaaa39aae4b3390b94616aaec9ceceb23e8033b59cae5a03dae4b3501702d",
+          "size_bytes": 778,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/ARCHITECTURE.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "7dadc6513f7c67cf84aa62e157d48f11fdf2cbb3d406e071475a2ecccfcc8d52",
+          "size_bytes": 1240,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "fffa94e87dac2e27f3a68e5ca9d4e0d1d166106e34d745ae393e70f542432098",
+          "size_bytes": 11487,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "cd820685e035c0dc46ed84de3019d281fe05a2874f0db67552f702777f0d6cce",
+          "size_bytes": 9265,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "8c259040a870d8b8f1736f4f9e8cbed7d0a26afc87d545a435e619a72e029ee8",
+          "size_bytes": 17951,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "f4b521e4071b6ec5c9dac398451f3c2660fe80a24ae07a58ad367be40c114b21",
+          "size_bytes": 6339,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "9961554872001d5729f44fe01ffbc8991724e44e561100138cf2b0ffccde31b3",
+          "size_bytes": 3758,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "cd8ef87e3a3986265fed37469008f32122d4b20b4e74dfa1838c89b9e4711639",
+          "size_bytes": 3971,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "c94b8d498cd724368151ff7ec92091c04e1d1710c48110707917debe3b85c59d",
+          "size_bytes": 8441,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence.yml",
+          "sha256": "ca6ce77536b46b28a032abb7730b02d87793fe7766278abe4f3b529f365da67a",
+          "size_bytes": 600,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/.github/workflows/repository-intelligence.yml"
+        },
+        {
+          "path": ".github/workflows/pages.yml",
+          "sha256": "0bf820a77e9f68832ad8378805c5930ada2dabccca37070f8c28939671f7b6f3",
+          "size_bytes": 7133,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/.github/workflows/pages.yml"
+        }
+      ],
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/repository-intelligence.yml",
+        ".github/workflows/pages.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ba60a48752863ff46614c3cb7097f8258dbad5a1b6c9df56cc9c160e00b825c2",
+          "size_bytes": 116,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "7a4e2c3ee527be6fceab6e42f4ed06dce181a18b8e84815789a27fe245763b2f",
+          "size_bytes": 3435,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "2d16ac3f6442057496381eca95f373a264ca27c03cbe1085d7ab32f0fe902fa5",
+          "size_bytes": 3655,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "bb59fc104e078fc8f2070ba4531d3062a394c4284cf4f3da8c576696737aa137",
+          "size_bytes": 4648,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/DECISIONS.md"
+        }
+      ],
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "d341e3b7009d906b0fd0d34a52e660bd787d7b8e8606f622c88daa40c7dcc2c8",
+          "size_bytes": 3922,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "b1627336538ea70d0605767a91ac53057cadea42c1b682d26cbbdc3a73bb5f81",
+          "size_bytes": 4502,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "b71524946e10760d8c6bf1469d2f895733aa9637ea443bd15d7bc57bb4b5a6d0",
+          "size_bytes": 4095,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "dbf55e340aa81d7b78ddb8b191426eb9db9b9e9e2ed5787c58f06b23b51ba3ec",
+          "size_bytes": 4565,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/DECISIONS.md"
+        }
+      ],
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "0486556c570c74f2546e4e0f860d8aeb38df027d602458ebb591d8c01207bd04",
+          "size_bytes": 5447,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "bf597d3ed87231fa1df13fb6a7b7858967e925745e26d55891e3d60d9d439926",
+          "size_bytes": 2193,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/ARCHITECTURE.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "448e5fe160889083de473bfd4e34134c2e4374e3a0e58d9979438216edc8a21a",
+          "size_bytes": 2346,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "8cb5e7e26a92c807ef29fb5550502d232bab5cdff8785eff734bfe52a735f55c",
+          "size_bytes": 10697,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/pages.yml",
+          "sha256": "772a02fdd44fc14ccfea30b602ffb1858a8cd904063aa955eb1c620db650be81",
+          "size_bytes": 6476,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/.github/workflows/pages.yml"
+        }
+      ],
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/pages.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "c1e469a7491f9a9dd9f897073dde5e0f84cae4797b33053e351d532002c3db1d",
+          "size_bytes": 5377,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "dd62bbddf013ab9b57f34e6f1f44ddbd0997705b9ff2877ba1c3dd5cd7c4372b",
+          "size_bytes": 4067,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "f1474b0b9fb060e4caa647a290f8ce7daaf5ad57bfe1d6a7cf39668637dfddaa",
+          "size_bytes": 3818,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "a705c33710fec304fc47690b4b3ab258ae212ba8ffbcde5258d778037b2fe88a",
+          "size_bytes": 8225,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d4600309d84a65dea8ca39f5dda562dc53a31665cb8078c627c456da5257ca77",
+          "size_bytes": 43334,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "c746755c457eb5b40315f00f07ed23d77e58fe0dc866f6efc31b0a9f0ef5fa51",
+          "size_bytes": 14141,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/intelligence-fleet-refresh.yml",
+          "sha256": "c7e64d9e40856089a67662057c6f76f0d67942a354798323731f41cb97efd3de",
+          "size_bytes": 6557,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/.github/workflows/intelligence-fleet-refresh.yml"
+        },
+        {
+          "path": ".github/workflows/intelligence-model-artifacts-export.yml",
+          "sha256": "5cad1b27531fe17392b9c240873d222030c8a58f328c2a634e9575c5ed5df904",
+          "size_bytes": 8690,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/.github/workflows/intelligence-model-artifacts-export.yml"
+        }
+      ],
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/intelligence-fleet-refresh.yml",
+        ".github/workflows/intelligence-model-artifacts-export.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "3d22ea93a3f786cebd58ac1c483f3153abb4cf5708aa4397c21f8bfc6723fcb4",
+          "size_bytes": 8574,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "dc53a6aa0b5c244d3ffdae2527825f64498c164118c3f8a56d081d918f1bf811",
+          "size_bytes": 3447,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "535dd1bac871a8ed1450fe6317d292f3314391601bb8f1fb10fb115e3d1ef0ce",
+          "size_bytes": 4082,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "bab1a95c71c54dc81ccb2171e8241108a75cfeb6a2357aa26bd227bf39ec7bd3",
+          "size_bytes": 8469,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "f6effa12fea43595031dfc07ab06e02179e535d0ca0b250014e981e80b3c8aa7",
+          "size_bytes": 2082,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "a159620c14f703912ab39aa87119ea04ce6bf0b1558cc1aee5a94e1868496358",
+          "size_bytes": 9269,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "a5cc619a659008bd13f24262d17b1f9074576dc25e05ed6040f7c14235f061c6",
+          "size_bytes": 6198,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "0bbeb1fde536400eb7a36e4850c09dd28ba171213d70041969cdc62ed929b705",
+          "size_bytes": 10729,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "fc219ade7b6f06ba185d6b30c600ae2d90c30600694574579516c587d9e283e0",
+          "size_bytes": 12228,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "5d1a0b99d2aa868606f907422499eeaeb68f507ab12286d2d4f47007e269005a",
+          "size_bytes": 16900,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "5dda9965cebb4e91506a40b32076cdff505ef69eba95b89b34ed6335598b6120",
+          "size_bytes": 3581,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "fe58f44a7fb04b7b51789422bcb1cbc507529bc2d145ddada490188696f8df4f",
+          "size_bytes": 10273,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence-checks.yml",
+          "sha256": "10dd6f2e6723cebd8dc00fb08c4adfcff40094ad170ab0f79d1ec2e2177e8313",
+          "size_bytes": 6621,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/.github/workflows/repository-intelligence-checks.yml"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence-failure.yml",
+          "sha256": "ee80d7ca9c3c603338cef419aacc72a74224e23b3bfadb9ebc53d866cc4c2666",
+          "size_bytes": 577,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/.github/workflows/repository-intelligence-failure.yml"
+        }
+      ],
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/repository-intelligence-checks.yml",
+        ".github/workflows/repository-intelligence-failure.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "694b214be9e05ee62c8c8eb6679cfc0d8f22b5e0120fbe03bff4bcf76596faab",
+          "size_bytes": 2333,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "8f26266ba1aa2063c3d0e86af06de0a1da173e1178cbf124e59a51ce222e1f03",
+          "size_bytes": 2606,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "18eaac224f0648b819a636c180d718ade494509b500c4db80c99d6caa090cde8",
+          "size_bytes": 1085,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "9a4b0048293c4d040d8646c9d75b3628e2bc0b6ec95d292602f08ee1180c63b0",
+          "size_bytes": 2122,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/DECISIONS.md"
+        }
+      ],
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "b2346479b797916570063f334306c6e237d0a7aa9538f947d92911c285210bf3",
+          "size_bytes": 13655,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/README.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d9485277dca0de7b9c32d59e214d1b719ba5e8daca258fbf18974fbeaaf636df",
+          "size_bytes": 2078,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/AGENTS.md"
+        }
+      ],
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "root_documents": [
+        "README.md",
+        "AGENTS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "5f75af7d3a89b1803cc2232edf8970783d40a8c64ee344146acf2c6847b99dcd",
+          "size_bytes": 13536,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "198029545b569e0181586b01673bd1a120e269d615175a1a3e135a9555380cd3",
+          "size_bytes": 10651,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "0ebd093a2e6027a22c73cf875331db1f78528174d66de7f70600a28e6dc438e4",
+          "size_bytes": 12836,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "8003effbfb2c951a087d4d4a6429a8c794178658f4651522083279db35494402",
+          "size_bytes": 25644,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "094230e1097cbf3cd01a5b04a784b04b964f306a4fd659bc0269e40fa45358aa",
+          "size_bytes": 1697,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "1909e0a088f5f26c2c0966ee4b65b4d3519bfe9e35859f2a72d71c16509a7269",
+          "size_bytes": 8185,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ee685571b6a09b3cd7085a91769f4cdb5f58786a071d27e5f2bd2eb7c4d4271d",
+          "size_bytes": 10029,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "958fdb12ff67bf6f8223723ed27a39ba6679063eb9c58c559cb69bff5ae0b9c6",
+          "size_bytes": 4719,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "5a95587ebdf46a00672d4a86da5288d28bccc4f4eae4baa90bf3b17ce55f322f",
+          "size_bytes": 4348,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "a9bb39a67c6a0c8b0ebe57fd2677bb6f62a3af85ec31f045ae1917eb41465a22",
+          "size_bytes": 3243,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "cd40d8bda70984b4455270e78c7fd8f23b1bc911b5fadef9e6f69010db605bba",
+          "size_bytes": 7802,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "03545c7d9c7c80044711ba1be994047654a0d250bdc3554e929212c87e02641f",
+          "size_bytes": 10525,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/publish-pages.yml",
+          "sha256": "20971ea0fc7ab460edc5f32df50d01b1f3d7983163da2c35d93e16affb728951",
+          "size_bytes": 10122,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/.github/workflows/publish-pages.yml"
+        }
+      ],
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/publish-pages.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "3d8f3d290a15621af7016f57d77d6582afbc8280beaf4a6a95abf32d03a89e62",
+          "size_bytes": 4771,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "08cf7a2777f5964c3e8a0f216103ae998a06fda483040787d69681f653517e80",
+          "size_bytes": 18600,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "872afbcc129961a8bc1dc09bcc3235fd4c3423d21dd6151b6ea63d74297fefeb",
+          "size_bytes": 11867,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "cbcf75a9528c63f1727dfa9a7194f29422a7f05d8e1d4e26545d04ab2634bd93",
+          "size_bytes": 2940,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "32cad26d1c3598a3c3fceab4f6f8db11da17426604a3d57d57244b5ab7633b7c",
+          "size_bytes": 4548,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "28801567f012078be21042d118754b44774ed14b1518b0bbc9e0876443a261dd",
+          "size_bytes": 10830,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/publish-brand-kit.yml",
+          "sha256": "27b0fe6c52252449cbde21d2ba8ca0575fdb0ce26a1a9716cf41ec7786d97827",
+          "size_bytes": 35185,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/.github/workflows/publish-brand-kit.yml"
+        }
+      ],
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/publish-brand-kit.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2a56538b36da0c45a801e48fb29dc85efdfb68b22f3d4b5a148b184f7860312b",
+          "size_bytes": 40867,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "03c0112d79276f26519404fc2015f1dc3a463c75c35862667f8c96e2c76a31f0",
+          "size_bytes": 11161,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "d0caefe67ea7a85051a2f57cfa98c76267e42312cb5ff1194dbafe084a8b042b",
+          "size_bytes": 4092,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "6dca0e0be4ff153feee1abcd0a0f1cbf42712f854c567493ee2f03098ed51f8e",
+          "size_bytes": 4522,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "c3f2ee569a26cecd20248beabadf867f6f2d83dfc543faa77e6790ffadf42a99",
+          "size_bytes": 420,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "b95175acb5bbece0ca60f9bfb09fb04c824e73addbe4ba3114bd4122fda31f96",
+          "size_bytes": 6660,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "6e90a1d5ccb635b9f2e73abee8e8d7510f4a041c60a51992e31f9f4ccd105ad5",
+          "size_bytes": 16514,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "c675bd09958dac6207a4e95d4ac14e28c101e974ba127bd986e5a8f9db6d7b74",
+          "size_bytes": 3450,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "5b2b54fb3174e97c3099b778f92e3869d25d33acbb098b49b552f1e59f23c8fe",
+          "size_bytes": 4182,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "39a9cf29237ce620eb2f435d6c6e1b047e9f132aaa59fe59f9d212906833558d",
+          "size_bytes": 4626,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "295a18c36240ae7c40131f0d3479d4581da40712a33caf62d6a0f1eec5873469",
+          "size_bytes": 1553,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/AGENTS.md"
+        }
+      ],
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "f39f5d7c1738b9c3fe0610b50f2eac04b6927ce8695120dba5104b1b9b3c4625",
+          "size_bytes": 12809,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "91519531f3b69038389684e10da9757d335764b79a066ec771e5d9f56ea8cd7d",
+          "size_bytes": 14435,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "cc5b214c4e4b7e7a47f416b6a39a94dea665457108341b9b39f79477d2a6ceb2",
+          "size_bytes": 14564,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "2049cd8ed70543f348f6c38bbd81c2be76aaf11ed004ee8ff73671a9d47f9536",
+          "size_bytes": 7796,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "3aba1b8ff69910a0c90a5976a0bf544ae6ef61f7cdfd2c6ac9f3519870023305",
+          "size_bytes": 890,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "0deaaae7cee383fe87820424a8f54cecaf5a4c60e2888d99a61dd2e814d6968d",
+          "size_bytes": 11198,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "559c55e5ba75c37ce73fa9b87fcab7fd9bc467d4098608e10db330bd62fcf66f",
+          "size_bytes": 5543,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "3031e13ffd5aca39972d045f92bb12c0963c0ade59941107ee0e39fd60eb6f37",
+          "size_bytes": 5095,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "9ecd081c6df0124d3810ad59237a1ec4aa740329ea5cf38f4566c29aa45b5b3a",
+          "size_bytes": 4280,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "afb68487087f1e7213e68ef48234b301bd045560361f3e6506d5acb1ad6f0380",
+          "size_bytes": 9356,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/DECISIONS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "51c21063740dc05d37b6b47e9bb3b3fd95a50c60156f16d7f88c17106b556f0b",
+          "size_bytes": 9850,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ea7c5a14ae4930a78a181387a439fb4b52f2a1e701ba47a5db99330c6d6172f4",
+          "size_bytes": 21568,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "4dfd26b4832dd3794b28793955bb98744759a6e7248fc8dc80e3221002cfd4de",
+          "size_bytes": 22163,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "77f2d17137bf28cff4d94c9e290cd3c7cc31506c4fb0838baf733916799fabb1",
+          "size_bytes": 10526,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "cdf3050a9df95f0d78e7beb7660bacf253fd98672f1ba6c994a2b558d521cfb5",
+          "size_bytes": 22656,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/DECISIONS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "1e681b273ed3fa0f0dc69e24007d5d29a5ae006df6f1a75bf2070969c3a5e7b1",
+          "size_bytes": 9453,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/pages.yml",
+          "sha256": "092c1c06487a4b867c69e0c2af7e0d0acde1d2af7cb40a50b8620779627efe9a",
+          "size_bytes": 5179,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/.github/workflows/pages.yml"
+        }
+      ],
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/pages.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "a343fe983728d2909ac204e2230f172c3093a3718d9448bf8673717d78b0a072",
+          "size_bytes": 4125,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "930d041859b292b8cce4ac16622c9e5a40b21be70003408d99e744e443eb45d2",
+          "size_bytes": 7362,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "866fd9e27520af0f942de9048856425ecd7759e0f6c9761300d747ce525f6802",
+          "size_bytes": 3886,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "816233d9151ae3e045a845454c45b86512dadf3f239a42d1cad5f9cbc6b3cfbc",
+          "size_bytes": 6039,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/DECISIONS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "bf125aa5e5c9079ed625923338f893c138433f1036a26951a11ddbb7e6ff1079",
+          "size_bytes": 11402,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "02bd2ed21e5f895af851b9aa9c4eee709244c151531ec03e466d89cb343a50d5",
+          "size_bytes": 5546,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "584e5ab3e9624c6c7d99543ffb74ea8b5734b418cbf44b617b960068b5bc24a2",
+          "size_bytes": 4785,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "a2ce23d6705a23f26eecfe38ea4c256a4db3e042d43d5c4f66ecb4a5893b8201",
+          "size_bytes": 3839,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "fa5531c12aea571d1668e4a754d19d0737d1218edfe81982d3145cd08071e4b6",
+          "size_bytes": 8179,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "7a6beabd08db80d30893814343b64df0ba99067bc2eee26e16763ff14e608216",
+          "size_bytes": 1070,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "8d2e11a33ab932ea46b70895c14a40f2c506d1281482508c382f11b925af4116",
+          "size_bytes": 7563,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/CONTINUITY.md"
+        }
+      ],
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "e134a1c5f85f6e6824e6cb38b7f186eb1dd9eaa140f89d168c85e81a9ba167eb",
+          "size_bytes": 11024,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "d6bc04ff01e441dccfa323192361bbc628f15f2f5301faad82bd6d6c58f78dba",
+          "size_bytes": 5283,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "ba5a465d392102546a9cbf2814c322a15ae41550adac3566eed81d993aaf1998",
+          "size_bytes": 3730,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "b507f8aa7106a394db94171e8ec6535c6b184e9a8bda9b8fd0f47b279725df11",
+          "size_bytes": 6290,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/DECISIONS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "bd572176d756e7ddfadddb2492cbe1c513f60e7770fcbea834cb03f071e143e0",
+          "size_bytes": 11192,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/pages.yml",
+          "sha256": "3ff96f579cab09b441d1e748017c263fe43412f74eb2d7e4ade89bfab78d25fa",
+          "size_bytes": 27824,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/.github/workflows/pages.yml"
+        }
+      ],
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/pages.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "f8d1ddcaa35b67ae31bdc211c4c895c72e734af15cd2798274e4c7aa94b62167",
+          "size_bytes": 22129,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "2c194d413788c22cb9d5f0be73b9422ff66b30d7888276d53174a2da7bcc4ac8",
+          "size_bytes": 20789,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "2ee7a7890e52d2b08a5c644b74741ef242363ac9012a454c71eb0382361ce5ee",
+          "size_bytes": 4847,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "b1da4f950152ed3b03ec75fb78366ce784020124f6c9f40376c62b357ad25373",
+          "size_bytes": 13765,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "4ff962c96247c62258fa13fa4298186fa0aa7d07fde17adce0df7c713df635ed",
+          "size_bytes": 3969,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/AGENTS.md"
+        },
+        {
+          "path": "CONTINUITY.md",
+          "sha256": "aa5dfd1ca1fa4fdd99e2b91cb0c9c69bcbe9c0cbb5c1f87d959826db2b2eda22",
+          "size_bytes": 11592,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/CONTINUITY.md"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence-captures.yml",
+          "sha256": "527ad186143d5b35e046b25da2f90779bcc917148e5a947c620389ca26bb7125",
+          "size_bytes": 28385,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/.github/workflows/repository-intelligence-captures.yml"
+        },
+        {
+          "path": ".github/workflows/repository-intelligence.yml",
+          "sha256": "4bb37c581694f7396232d3eba42a8b55bf73d463b2b49acc382542d47d2c7b35",
+          "size_bytes": 24250,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/.github/workflows/repository-intelligence.yml"
+        }
+      ],
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "selected_workflows": [
+        ".github/workflows/repository-intelligence-captures.yml",
+        ".github/workflows/repository-intelligence.yml"
+      ]
+    },
+    {
+      "absent_root_documents": [
+        "AGENTS.md",
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "d45ed9882e943e5ba75a6eeea277c34957497bfa158030195e636dc84441a60d",
+          "size_bytes": 30449,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "f2f6dbe04e3e7f6ead80dea0b9255f75ba5fd235cda0e2f6b24fad15ac487e96",
+          "size_bytes": 11884,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "cb72ba6ad77926b266534e1a0b524bd61a1e13bdd965f00f5763da0022f2b76f",
+          "size_bytes": 5886,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "943dbd19e2b391e9e6cff8b9ded108974ff3170bb0d2712d79d5c4ac8fa70dc0",
+          "size_bytes": 4675,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/DECISIONS.md"
+        }
+      ],
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "3f1baf766b2a5f70dd46f3888ea36178ab61efd4887a3ec6b3f646aafa336f3b",
+          "size_bytes": 3251,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "5113810f37899525ec55a201b5009737c01130667e1053b029e300ea7580f76c",
+          "size_bytes": 4897,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/ARCHITECTURE.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "1b8238a49b2cd86a6f958c5fe30265cf6177bc1e1010e7da0d21466bd09fa26b",
+          "size_bytes": 1082,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/AGENTS.md"
+        }
+      ],
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "AGENTS.md"
+      ],
+      "selected_workflows": []
+    },
+    {
+      "absent_root_documents": [
+        "CONTINUITY.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "e6d6e1d60fba29461b5dce5bede1f11cc1667ccaf6e387b6fba35ea7a0cc99aa",
+          "size_bytes": 3565,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/README.md"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "ee228d29b63c26e93d98d3aaa983773c5f1b54b0f47de85b63301d632eedf24b",
+          "size_bytes": 3452,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/ARCHITECTURE.md"
+        },
+        {
+          "path": "SYSTEM.md",
+          "sha256": "21d7f337229a1b20ccd513b9a4571c58de72d19665884b899615334e3bd6ff9d",
+          "size_bytes": 3772,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/SYSTEM.md"
+        },
+        {
+          "path": "DECISIONS.md",
+          "sha256": "6e631b102f2532dddf232375da2ac0f164e47ca7e8ae8aec66a0a9f77d33cc04",
+          "size_bytes": 11653,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/DECISIONS.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "46e422de6dd0ac1ee7c6cb85fd38695ce717a95ee0f7a21490c70fcbf17a0988",
+          "size_bytes": 2765,
+          "state": "captured",
+          "url": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/AGENTS.md"
+        }
+      ],
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "root_documents": [
+        "README.md",
+        "ARCHITECTURE.md",
+        "SYSTEM.md",
+        "DECISIONS.md",
+        "AGENTS.md"
+      ],
+      "selected_workflows": []
+    }
+  ],
+  "request_sha256": "ed76cf82486ee2051ed6615fde5b2adc9fb548a26f13a117e6bf49bc9021e64f",
+  "semantic_review_coverage": "separate reviews/*.json",
+  "source_execution": "none"
+}

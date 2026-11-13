@@ -1,0 +1,3766 @@
+{
+  "audit_id": "organization-source-sanity-20261113t022735z",
+  "candidate_issues": [],
+  "canonical_report": {
+    "path": "audits/organization-source-sanity-20261113T022735Z.md",
+    "sha256": "e911b2150806f338edb6c8038a67168d067e79753262e061cfcb359dcda23008",
+    "uri": null
+  },
+  "completed_at": "2026-11-13T03:09:39Z",
+  "completion": {
+    "continuation": [
+      "Review the bounded source findings in their existing owners; preserve scope and evidence before selecting follow-up work."
+    ],
+    "profiles": [
+      {
+        "profile": {
+          "id": "contract-drift",
+          "version": "1.0.0"
+        },
+        "reason": "Source sections only; full repository/runtime and human-governed conclusions remain unknown.",
+        "state": "partial"
+      }
+    ],
+    "reason": "Bounded source review is complete as recorded; broader implementation, operational evidence and human alignment remain uninspected.",
+    "state": "partial"
+  },
+  "contract_version": "1.0.0",
+  "evidence": [
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-1",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/organization-intelligence-review.yml",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "sha256": "e55527ed925f93f70d749df3198eb62f008c9c65ae9522ccac3f716b52176b5b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/.github/workflows/organization-intelligence-review.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-2",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/repository-intelligence-canary.yml",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "sha256": "78207d239b3cf96aefe7b6196ff60a80b77da97b4e72052f99fa12fcde40da28",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/.github/workflows/repository-intelligence-canary.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-3",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "sha256": "98fd45507bb0429c527ba75ff8876c4b68b563c2525eb103c6a813502aa4611e",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-4",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "sha256": "c7898ba9b189d368ed0e2b331ff33ea8274e04678aebb97e310b227455366d9a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-5",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/decisions/ADR-0006-organization-intelligence-entrypoint.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "sha256": "910237c7a897acb6e4f165da8bdc0db6bf4c273d9c433c1ed2e77c269ecb0400",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/docs/decisions/ADR-0006-organization-intelligence-entrypoint.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-6",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/intelligence/organization-home.md",
+      "repository": "egohygiene/.github",
+      "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+      "sha256": "9481100a7d6fbf305f42c484b462d55c4b1ebbb7d3b0797ece02ace07365abd2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/.github/blob/58e1e6b336c3350bb31ceb4286d660860c992207/docs/intelligence/organization-home.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-7",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "sha256": "91c0baebaccbbdd9042949708b7626d507f2f62c6a9024fe5e7c2343cd7eed54",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-8",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "sha256": "5b6ac10fdadd2773d3c9214e32ee06dbf0d94167ae36c17182b62d7e72499d3a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-9",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "sha256": "f5c50bb6599c80860ed4846633ec7a1d53aa4d22c417611d54ff64557c58ed61",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-10",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "sha256": "ee4a8634fd8da7f080ee1e9356981cf61b6ae1071a1db666f3e8559cf9cdb994",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-11",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "aether",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "sha256": "5165c0964b251aaa7ae5bc1c7661f34339cc0c8359e228f2f2badfee88009f41",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/aether"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-12",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "catalog/first-party/catalog.v1.json",
+      "repository": "egohygiene/aether",
+      "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+      "sha256": "07d8c1974436e18ffebb0c804a19e7446b12c2070eb42b0a25d61e52eb4917ca",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aether/blob/7ad20f3c73497ccc3aa9ee3b92d181b2436ef375/catalog/first-party/catalog.v1.json"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-13",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "sha256": "c98a3298b09030350eba9823d699aced95b5da9bfc13d777bc8f0e8d82190fc0",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/.github/workflows/pages.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-14",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "sha256": "0cd8e9fc833e7e3419e410c7e7c4100c6db682d0c48581f060b267dea9237e0c",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-15",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "sha256": "4ed3a731da2a94bb663179c7c62b53cbdf830dbeedde6d855e94a8393d4237e9",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-16",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "sha256": "85b3c26bb40d3fc7f11ffe3394c6b3b23bbc560f02c3d5c830a2e3110754d745",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/ROADMAP.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-17",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/repository-intelligence-publication.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "sha256": "c90e6b9618f676adfaf5ade7a93e2398b86b7ff957b7575b507474efe31147a9",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/docs/repository-intelligence-publication.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-18",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/repository-intelligence-sources.md",
+      "repository": "egohygiene/akashic",
+      "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+      "sha256": "31e4ce51dab364e9a25b8bcae9e55669266a23dc0ad349321b58671f58a53128",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/akashic/blob/dc21c6a24506d748deb45f29ce54fc7e7bf69753/docs/repository-intelligence-sources.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-19",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "sha256": "7dadc6513f7c67cf84aa62e157d48f11fdf2cbb3d406e071475a2ecccfcc8d52",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-20",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "sha256": "291eaaa39aae4b3390b94616aaec9ceceb23e8033b59cae5a03dae4b3501702d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-21",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "sha256": "09ddf60eb1743886205a789fafabe334f419b9c68a6efda3f27899fef49aeca3",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/Cargo.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-22",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "sha256": "1290e2f3883c09a382a42050f35801e6d7ed5bc2f3a4748a56228a0799711f68",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-23",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "sha256": "d1d6ce99a8c1b1eeba5d799842ea2cbe81cb77e80af2ac7f91d211b68335f9c1",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/ROADMAP.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-24",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/architecture/foundation/ARCHITECTURE.md",
+      "repository": "egohygiene/aniflow",
+      "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+      "sha256": "2b305f3f80a92fb2a1e40a2b6aa860808270b09fb6ff1c8e470b17add485efce",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/aniflow/blob/751675dc99b6b08d8bacb6cdc6293dd32084aaa3/docs/architecture/foundation/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-25",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "sha256": "0bf820a77e9f68832ad8378805c5930ada2dabccca37070f8c28939671f7b6f3",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/.github/workflows/pages.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-26",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/repository-intelligence.yml",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "sha256": "ca6ce77536b46b28a032abb7730b02d87793fe7766278abe4f3b529f365da67a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/.github/workflows/repository-intelligence.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-27",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "sha256": "8c259040a870d8b8f1736f4f9e8cbed7d0a26afc87d545a435e619a72e029ee8",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-28",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "sha256": "cd820685e035c0dc46ed84de3019d281fe05a2874f0db67552f702777f0d6cce",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-29",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/decisions/ADR-0002-standalone-publication-and-pages.md",
+      "repository": "egohygiene/antidote",
+      "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+      "sha256": "c556bb87676c9d038d2ec8090f814344d7c45bf6f4253ef0f76f36a4abbfbead",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/antidote/blob/34f7653469002c8f19c9adc87d4bfdcecc0eda33/docs/decisions/ADR-0002-standalone-publication-and-pages.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-30",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "sha256": "7a4e2c3ee527be6fceab6e42f4ed06dce181a18b8e84815789a27fe245763b2f",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-31",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "sha256": "bb59fc104e078fc8f2070ba4531d3062a394c4284cf4f3da8c576696737aa137",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/DECISIONS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-32",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "sha256": "ba60a48752863ff46614c3cb7097f8258dbad5a1b6c9df56cc9c160e00b825c2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-33",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "sha256": "b748f874a55ab5487da3663077bc600e476a2001453074d98fce2b7b823fe32d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/ROADMAP.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-34",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/athena",
+      "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+      "sha256": "2d16ac3f6442057496381eca95f373a264ca27c03cbe1085d7ab32f0fe902fa5",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/athena/blob/5c0221deab24a17b007c9aba8217b64fed2f04de/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-35",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "sha256": "b1627336538ea70d0605767a91ac53057cadea42c1b682d26cbbdc3a73bb5f81",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-36",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "sha256": "2a640dc66611bc4ebaf0ede0e5ff88d33895eae9a2892fea12dfd6639f779a24",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/Cargo.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-37",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "sha256": "dbf55e340aa81d7b78ddb8b191426eb9db9b9e9e2ed5787c58f06b23b51ba3ec",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/DECISIONS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-38",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "sha256": "d341e3b7009d906b0fd0d34a52e660bd787d7b8e8606f622c88daa40c7dcc2c8",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-39",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "sha256": "b71524946e10760d8c6bf1469d2f895733aa9637ea443bd15d7bc57bb4b5a6d0",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-40",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "src/main.rs",
+      "repository": "egohygiene/beacon",
+      "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+      "sha256": "e8f108cc2c0cc23759df5fc60adda4b207d63e5869cdced80a20874f764e6ffa",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/beacon/blob/1d53983ee1ed760d59802dcb472be4481710d507/src/main.rs"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-41",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "sha256": "772a02fdd44fc14ccfea30b602ffb1858a8cd904063aa955eb1c620db650be81",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/.github/workflows/pages.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-42",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "sha256": "bf597d3ed87231fa1df13fb6a7b7858967e925745e26d55891e3d60d9d439926",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-43",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "sha256": "0486556c570c74f2546e4e0f860d8aeb38df027d602458ebb591d8c01207bd04",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-44",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/repository-intelligence.md",
+      "repository": "egohygiene/civics",
+      "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+      "sha256": "4cc402e3e9b98a5f7126a518b1e171ce429b7912551cbe3f406ca2c0639de670",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/civics/blob/bcd391f97b83eb24686ef888b83677932c152cf2/docs/repository-intelligence.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-45",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/deploy.yml",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "sha256": "9deb4695388e75bdde156f956fdd060c1b339a0ac31e0e0f6ab8ec7f7f13f5eb",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/.github/workflows/deploy.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-46",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/intelligence-model-artifacts-export.yml",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "sha256": "5cad1b27531fe17392b9c240873d222030c8a58f328c2a634e9575c5ed5df904",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/.github/workflows/intelligence-model-artifacts-export.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-47",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "sha256": "dd62bbddf013ab9b57f34e6f1f44ddbd0997705b9ff2877ba1c3dd5cd7c4372b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-48",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "sha256": "c1e469a7491f9a9dd9f897073dde5e0f84cae4797b33053e351d532002c3db1d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-49",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/development/intelligence-model-artifact-selection.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "sha256": "b6db6a513b1674ce3d5b6f4bb6bc284f629ae3030c541f03fbec6478766be927",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/docs/development/intelligence-model-artifact-selection.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-50",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/development/intelligence-real-audit-canary.md",
+      "repository": "egohygiene/egohygiene.io",
+      "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+      "sha256": "e0e5a7230c4f00ff100b5e8f8fc1724818dff9090f67031e47552d404acd3052",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/docs/development/intelligence-real-audit-canary.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-51",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "sha256": "f6effa12fea43595031dfc07ab06e02179e535d0ca0b250014e981e80b3c8aa7",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-52",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "sha256": "dc53a6aa0b5c244d3ffdae2527825f64498c164118c3f8a56d081d918f1bf811",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-53",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "sha256": "d3c5a3ff5852a88fc7e344b754e8dabe0e64f04c6f55e51a926e0144081839e9",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/Cargo.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-54",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "sha256": "3d22ea93a3f786cebd58ac1c483f3153abb4cf5708aa4397c21f8bfc6723fcb4",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-55",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "sha256": "535dd1bac871a8ed1450fe6317d292f3314391601bb8f1fb10fb115e3d1ef0ce",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-56",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "action.yml",
+      "repository": "egohygiene/egolint",
+      "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+      "sha256": "51a0cf2de1749bb39bb5cd0ac9bb96cb8d6fd7f2ddfeacbb14160e9425f774d8",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/egolint/blob/f14f7fd3ab0ce9e87c367352fcb3af11a32eda59/action.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-57",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/mindgarden-pages.yml",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "sha256": "532a920b3f7441e706e4805804046b48c0011dee6074ef4ba82fc8a4a262ae34",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/.github/workflows/mindgarden-pages.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-58",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/repository-intelligence.yml",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "sha256": "0c5512c14a2d239cb183fbe9be78ab5ae4a0e6db0f91187c5b60109d51602b99",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/.github/workflows/repository-intelligence.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-59",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "sha256": "0bbeb1fde536400eb7a36e4850c09dd28ba171213d70041969cdc62ed929b705",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-60",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "sha256": "a5cc619a659008bd13f24262d17b1f9074576dc25e05ed6040f7c14235f061c6",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-61",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/integrations/REPOSITORY_INTELLIGENCE.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "sha256": "71659ed838cc72b43c489e4abe6680cc675fa793adedee1a14a6898ed0d75a0a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/docs/integrations/REPOSITORY_INTELLIGENCE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-62",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/integrations/REPOSITORY_INTELLIGENCE_REVIEWS.md",
+      "repository": "egohygiene/empathy",
+      "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+      "sha256": "3d329a3704f929cc22498116e30cbc3371a66a46898c4b8a56bf2f9705522781",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/empathy/blob/4853a1e55808bc5104dc509199c411e798d104dc/docs/integrations/REPOSITORY_INTELLIGENCE_REVIEWS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-63",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "sha256": "8f26266ba1aa2063c3d0e86af06de0a1da173e1178cbf124e59a51ce222e1f03",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-64",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "sha256": "9a4b0048293c4d040d8646c9d75b3628e2bc0b6ec95d292602f08ee1180c63b0",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/DECISIONS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-65",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "sha256": "694b214be9e05ee62c8c8eb6679cfc0d8f22b5e0120fbe03bff4bcf76596faab",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-66",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "sha256": "16cdd3f3ad3f17e5fa754ccd529c91fc0ca75c372940716e555cf81ed77c717f",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/ROADMAP.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-67",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/filament",
+      "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+      "sha256": "18eaac224f0648b819a636c180d718ade494509b500c4db80c99d6caa090cde8",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/filament/blob/c3eb64b8087face7504e7571dc8396c19525649f/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-68",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "sha256": "d9485277dca0de7b9c32d59e214d1b719ba5e8daca258fbf18974fbeaaf636df",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-69",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "sha256": "00376575f931a72b0e180a6953d9b41fbb8f5dbca83a82777a46034da277e125",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/Cargo.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-70",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "sha256": "b2346479b797916570063f334306c6e237d0a7aa9538f947d92911c285210bf3",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-71",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "sha256": "f789107de76f18b422b4b69aeebc5a40213c29ecf36e8526d7826038b6c83b7d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/ROADMAP.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-72",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/architecture/foundation/ARCHITECTURE.md",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "sha256": "95c306fa9a5b04b75e4b380181447e03b48f24cc52f5621e579707fdcfcaeaa0",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/docs/architecture/foundation/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-73",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "src/optiflow.rs",
+      "repository": "egohygiene/flow",
+      "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+      "sha256": "f6571474fc9d5f66cc75a88ea0e63274fb603ab13356fc188f588a870dee9269",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/flow/blob/f356b842d13911fde7c598368a9668c870bc9c1a/src/optiflow.rs"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-74",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "sha256": "094230e1097cbf3cd01a5b04a784b04b964f306a4fd659bc0269e40fa45358aa",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-75",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "sha256": "198029545b569e0181586b01673bd1a120e269d615175a1a3e135a9555380cd3",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-76",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "sha256": "5f75af7d3a89b1803cc2232edf8970783d40a8c64ee344146acf2c6847b99dcd",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-77",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "sha256": "0ebd093a2e6027a22c73cf875331db1f78528174d66de7f70600a28e6dc438e4",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-78",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "package.json",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "sha256": "75b01cacfb277abbec0a52cae3069c476d227e914fdcab57504bc78b01a0bce5",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/package.json"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-79",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "packages/repository-intelligence/src/model.js",
+      "repository": "egohygiene/holon",
+      "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+      "sha256": "088d0f4bbf70512f6d78752ef9af799b4de2152cf92f24dbed65a26ff6add99c",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/holon/blob/1d8129a1651c477500d51fd3e5b77cbfe7943691/packages/repository-intelligence/src/model.js"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-80",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "sha256": "cd40d8bda70984b4455270e78c7fd8f23b1bc911b5fadef9e6f69010db605bba",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-81",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "sha256": "958fdb12ff67bf6f8223723ed27a39ba6679063eb9c58c559cb69bff5ae0b9c6",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-82",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "sha256": "ee685571b6a09b3cd7085a91769f4cdb5f58786a071d27e5f2bd2eb7c4d4271d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-83",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "sha256": "5a95587ebdf46a00672d4a86da5288d28bccc4f4eae4baa90bf3b17ce55f322f",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-84",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "catalog/repository-documentation-profile.json",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "sha256": "c5bf0246f039b1780ba03900f894dadf099fd190ea22131d7d1728230efab0d2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/catalog/repository-documentation-profile.json"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-85",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/ecosystem/ARCHITECTURE.md",
+      "repository": "egohygiene/hygiene",
+      "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+      "sha256": "55593232426e5a78c71c82761f8bf29e5b9c6f683f10e2502aa6d1ab8298ddf6",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/hygiene/blob/0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f/docs/ecosystem/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-86",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/publish-brand-kit.yml",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "sha256": "27b0fe6c52252449cbde21d2ba8ca0575fdb0ce26a1a9716cf41ec7786d97827",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/.github/workflows/publish-brand-kit.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-87",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "sha256": "08cf7a2777f5964c3e8a0f216103ae998a06fda483040787d69681f653517e80",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-88",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "sha256": "3d8f3d290a15621af7016f57d77d6582afbc8280beaf4a6a95abf32d03a89e62",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-89",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/decisions/ADR-0022-decisions-publication-composition.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "sha256": "e5a98261e5afe140d116a205ffa18d7762ec8db5c794e36e7578f427d196978f",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/docs/decisions/ADR-0022-decisions-publication-composition.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-90",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/publication/IDENTITY_PAGES.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "sha256": "c915fa87e42476333f8a3c069702773f4c4d697a97152fbb69ee77c998ae1333",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/docs/publication/IDENTITY_PAGES.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-91",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/publication/REVIEW_FEEDS.md",
+      "repository": "egohygiene/identity",
+      "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+      "sha256": "fbd5677d49680d0a513d2cc8d1c005291a2a211807eabc1b5727a9f4dd7dccd2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/identity/blob/cfb6c29bd02589a47fc48050ab02e7e0da359719/docs/publication/REVIEW_FEEDS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-92",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "sha256": "c3f2ee569a26cecd20248beabadf867f6f2d83dfc543faa77e6790ffadf42a99",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-93",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "sha256": "03c0112d79276f26519404fc2015f1dc3a463c75c35862667f8c96e2c76a31f0",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-94",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "INSTALLER_ASSURANCE.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "sha256": "7052346d1e17f3b6d423ee56588eb6d902a1f1d01d4f88e0c1b18618cdfaadba",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/INSTALLER_ASSURANCE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-95",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "sha256": "2a56538b36da0c45a801e48fb29dc85efdfb68b22f3d4b5a148b184f7860312b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-96",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "sha256": "d0caefe67ea7a85051a2f57cfa98c76267e42312cb5ff1194dbafe084a8b042b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-97",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "bin/mantle",
+      "repository": "egohygiene/mantle",
+      "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+      "sha256": "32e81781b43cf84ee24c9650a498f13e413d0d6df1e1ff488bb0c594959320c8",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mantle/blob/0f54fa6e100c5b86af64aa383e41eed8c64e363a/bin/mantle"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-98",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "sha256": "c675bd09958dac6207a4e95d4ac14e28c101e974ba127bd986e5a8f9db6d7b74",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-99",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "sha256": "39a9cf29237ce620eb2f435d6c6e1b047e9f132aaa59fe59f9d212906833558d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/DECISIONS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-100",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "sha256": "6e90a1d5ccb635b9f2e73abee8e8d7510f4a041c60a51992e31f9f4ccd105ad5",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-101",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "sha256": "5b2b54fb3174e97c3099b778f92e3869d25d33acbb098b49b552f1e59f23c8fe",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-102",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "pyproject.toml",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "sha256": "7e2af38569a00bc7322371725301bb31fd8bc6e2ae925d3052df33b2928a5461",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/pyproject.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-103",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "src/mindcap/application/facade.py",
+      "repository": "egohygiene/mindcap",
+      "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+      "sha256": "2693d6810a6d80a25e09a7cafa79c2699fed5839e4188cac7e4727d33e78ddbf",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindcap/blob/02d30d6eb19037b3f770aad3a12c598778b5ae22/src/mindcap/application/facade.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-104",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/decisions-preview.yml",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "sha256": "bad0481ba36d4afab65fc0053b621981762f569516ecfc24c2f6bf2986354024",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/.github/workflows/decisions-preview.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-105",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "sha256": "91519531f3b69038389684e10da9757d335764b79a066ec771e5d9f56ea8cd7d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-106",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "sha256": "f39f5d7c1738b9c3fe0610b50f2eac04b6927ce8695120dba5104b1b9b3c4625",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-107",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/memory-hygiene-publication-draft.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "sha256": "037b8cb0b020225175ca942d283a32b34b2b1eccafd181b4d47feee6527191de",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/docs/memory-hygiene-publication-draft.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-108",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/publication-conformance.md",
+      "repository": "egohygiene/mindgarden",
+      "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+      "sha256": "139259080687fa84359ba57696167430acb17affa50f42bf90888ab5fa033e4d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/mindgarden/blob/9c94245e0838da74a760cbc43e63b0faf6a3d756/docs/publication-conformance.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-109",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "sha256": "3031e13ffd5aca39972d045f92bb12c0963c0ade59941107ee0e39fd60eb6f37",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-110",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "sha256": "559c55e5ba75c37ce73fa9b87fcab7fd9bc467d4098608e10db330bd62fcf66f",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-111",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "sha256": "9ecd081c6df0124d3810ad59237a1ec4aa740329ea5cf38f4566c29aa45b5b3a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-112",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "pyproject.toml",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "sha256": "38090addd1fa6410addb136d02796732b8d3abd78a79083e143f0c3f0ba39957",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/pyproject.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-113",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "src/observatory/audits.py",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "sha256": "273418d3eff6b95d01b29a7f3b3a7fa649177d7f7da0366f9021d229f4a5193d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/src/observatory/audits.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-114",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "src/observatory/sanity.py",
+      "repository": "egohygiene/observatory",
+      "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+      "sha256": "da8404662f92828c9f7ee6b192a5a5d6ed674f042fff7e0d7ee9661325021a46",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/observatory/blob/7f399a0b32a1abdd1283ef8bf06b8c3cda703636/src/observatory/sanity.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-115",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": ".github/workflows/pages.yml",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "sha256": "092c1c06487a4b867c69e0c2af7e0d0acde1d2af7cb40a50b8620779627efe9a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/.github/workflows/pages.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-116",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "sha256": "4dfd26b4832dd3794b28793955bb98744759a6e7248fc8dc80e3221002cfd4de",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-117",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "sha256": "ea7c5a14ae4930a78a181387a439fb4b52f2a1e701ba47a5db99330c6d6172f4",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-118",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/decisions/ADR-0001-publication-stack.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "sha256": "fe5bb10c673eae87bcde358af4855f6d683766219a908c6f6ef68bc08b6f40d9",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/docs/decisions/ADR-0001-publication-stack.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-119",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/repository-intelligence-source-feeds.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "sha256": "5bc0b54974ed2624822a0ec81312fc7feeae400e2be77ae52ca13f47e24c31e6",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/docs/repository-intelligence-source-feeds.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-120",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/site-publication.md",
+      "repository": "egohygiene/optiflow",
+      "revision": "23df7486643db9541a004b60a360e43f721566f9",
+      "sha256": "86087925f9cb87496ce9b6f871252c06665feba80c63ffbc34f04a499b523323",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/optiflow/blob/23df7486643db9541a004b60a360e43f721566f9/docs/site-publication.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-121",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "sha256": "930d041859b292b8cce4ac16622c9e5a40b21be70003408d99e744e443eb45d2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-122",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "LOCK_POLICY.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "sha256": "d5d4cd88f3c899bd1d74e617f90720ad6934abfe6c46c4ed9b78a3a7c75d7579",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/LOCK_POLICY.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-123",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "sha256": "a343fe983728d2909ac204e2230f172c3093a3718d9448bf8673717d78b0a072",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-124",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "sha256": "866fd9e27520af0f942de9048856425ecd7759e0f6c9761300d747ce525f6802",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-125",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "scripts/project_intelligence_adoption.py",
+      "repository": "egohygiene/pace",
+      "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+      "sha256": "ace5cf44f7be26eff5c38e43803d078421e3327f4a0a3005c1b00e36e62dd440",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/pace/blob/a224545490848162a5f8a9d89d2664a3a3f46993/scripts/project_intelligence_adoption.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-126",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "sha256": "7a6beabd08db80d30893814343b64df0ba99067bc2eee26e16763ff14e608216",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-127",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "sha256": "584e5ab3e9624c6c7d99543ffb74ea8b5734b418cbf44b617b960068b5bc24a2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-128",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "sha256": "02bd2ed21e5f895af851b9aa9c4eee709244c151531ec03e466d89cb343a50d5",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-129",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "sha256": "a2ce23d6705a23f26eecfe38ea4c256a4db3e042d43d5c4f66ecb4a5893b8201",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-130",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/devcontainer-projection.md",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "sha256": "a041c04b712677e409a9bf14b1930010211e564fc18d198a63b705c28cef575a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/docs/devcontainer-projection.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-131",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "profiles/base.profile.json",
+      "repository": "egohygiene/realm",
+      "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+      "sha256": "77a6ad9b5f13aaeece62c89bdfe9750637d1b15dd8682bd4d25a000dd34d77bf",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/realm/blob/0a3bbdc379b54db07dc5103887af0dfe05f97a0a/profiles/base.profile.json"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-132",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "sha256": "d6bc04ff01e441dccfa323192361bbc628f15f2f5301faad82bd6d6c58f78dba",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-133",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "sha256": "e134a1c5f85f6e6824e6cb38b7f186eb1dd9eaa140f89d168c85e81a9ba167eb",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-134",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "sha256": "ba5a465d392102546a9cbf2814c322a15ae41550adac3566eed81d993aaf1998",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-135",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "pyproject.toml",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "sha256": "698c8c48128a865a228390a260f586504aab9d7f2cd8641017603d34b50a450a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/pyproject.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-136",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "reflector/orchestration/audit_campaign.py",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "sha256": "cfee67032489621d4dfb54a52291e562251e90fa8c1c982f2e39c6f793ba2b52",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/reflector/orchestration/audit_campaign.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-137",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "reflector/orchestration/audit_executor.py",
+      "repository": "egohygiene/reflector",
+      "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+      "sha256": "7af9176cc18b3028624e5c803fcbb858653dbd417bf756fc6783fcde9edefabb",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/reflector/blob/dfca10718f4cca20cc126d689d1fd70d29c27a02/reflector/orchestration/audit_executor.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-138",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "sha256": "4ff962c96247c62258fa13fa4298186fa0aa7d07fde17adce0df7c713df635ed",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-139",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "sha256": "2c194d413788c22cb9d5f0be73b9422ff66b30d7888276d53174a2da7bcc4ac8",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-140",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "sha256": "f8d1ddcaa35b67ae31bdc211c4c895c72e734af15cd2798274e4c7aa94b62167",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-141",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "sha256": "2ee7a7890e52d2b08a5c644b74741ef242363ac9012a454c71eb0382361ce5ee",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-142",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "actions/repository-intelligence-review-feed/action.yml",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "sha256": "cc69edbc5fe8742c1925628828e42ffd85a8160a3664f5091960bbc4bc202440",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/actions/repository-intelligence-review-feed/action.yml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-143",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "actions/repository-intelligence-review-feed/scripts/review_feed.py",
+      "repository": "egohygiene/relay",
+      "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+      "sha256": "59421468227abf0093df1a57c66456ee6ebea477ce7998cc33d20e40dfdbabe4",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/relay/blob/12d3a0823c8c8f885dea4acf482160fd726325e2/actions/repository-intelligence-review-feed/scripts/review_feed.py"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-144",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "sha256": "f2f6dbe04e3e7f6ead80dea0b9255f75ba5fd235cda0e2f6b24fad15ac487e96",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-145",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "Cargo.toml",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "sha256": "5b74bde9af11d17b7e4f6d742b055483158874e07d2e1759ca671e0d0b16808a",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/Cargo.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-146",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "sha256": "943dbd19e2b391e9e6cff8b9ded108974ff3170bb0d2712d79d5c4ac8fa70dc0",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/DECISIONS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-147",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "sha256": "d45ed9882e943e5ba75a6eeea277c34957497bfa158030195e636dc84441a60d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-148",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "sha256": "cb72ba6ad77926b266534e1a0b524bd61a1e13bdd965f00f5763da0022f2b76f",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-149",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "crates/renderflow-core/Cargo.toml",
+      "repository": "egohygiene/renderflow",
+      "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+      "sha256": "646586e1069dd281f2527f7a1bf1726812147acf2dd9b15ce14925e026ee9d2b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/renderflow/blob/d999522faf201caa3d250fce420097cc8f4834a9/crates/renderflow-core/Cargo.toml"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-150",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "AGENTS.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "sha256": "1b8238a49b2cd86a6f958c5fe30265cf6177bc1e1010e7da0d21466bd09fa26b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/AGENTS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-151",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "sha256": "5113810f37899525ec55a201b5009737c01130667e1053b029e300ea7580f76c",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-152",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "sha256": "3f1baf766b2a5f70dd46f3888ea36178ab61efd4887a3ec6b3f646aafa336f3b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-153",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ROADMAP.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "sha256": "8d2eb63e8677ebdc08f67b45a20d8efaace71bf91351e6d9e9b594be3aa0dd2c",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/ROADMAP.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-154",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "docs/decisions/ADR-0001-sanctuary-incubation-boundary.md",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "sha256": "3abbf85450366959f65f4dd648d33a3ee3c262b9ad04f66446666c3e665a2712",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/docs/decisions/ADR-0001-sanctuary-incubation-boundary.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-155",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "schemas/incubation-manifest.v1.schema.json",
+      "repository": "egohygiene/sanctuary",
+      "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+      "sha256": "820e798225ad3e475c7f5d9aab9ac2301fb7e4cfc6f98551f79c47cf89c803fc",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/sanctuary/blob/0db2d923e110e49dec823c486ec4084d266f3627/schemas/incubation-manifest.v1.schema.json"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-156",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "ARCHITECTURE.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "sha256": "ee228d29b63c26e93d98d3aaa983773c5f1b54b0f47de85b63301d632eedf24b",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/ARCHITECTURE.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-157",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "DECISIONS.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "sha256": "6e631b102f2532dddf232375da2ac0f164e47ca7e8ae8aec66a0a9f77d33cc04",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/DECISIONS.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-158",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "README.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "sha256": "e6d6e1d60fba29461b5dce5bede1f11cc1667ccaf6e387b6fba35ea7a0cc99aa",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/README.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-159",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "SYSTEM.md",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "sha256": "21d7f337229a1b20ccd513b9a4571c58de72d19665884b899615334e3bd6ff9d",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/SYSTEM.md"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-160",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "package.json",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "sha256": "3ce3da3683177b676c11dc64300ba349403b738bf008ef49b13fbf75b7840ae2",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/package.json"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-161",
+      "kind": "source",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "packages/commerce/src/types.ts",
+      "repository": "egohygiene/store",
+      "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+      "sha256": "aedf8c3b9ad461725e95106b187982b06f319b89c086e0e08d632284abdb0d83",
+      "summary": "Exact immutable public source bytes re-read and verified; semantic inspection is bounded to the selected ownership/coherence sections.",
+      "uri": "https://github.com/egohygiene/store/blob/e97ee727e6c2300e804579cf2122d34d4c162158/packages/commerce/src/types.ts"
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-162",
+      "kind": "artifact",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "audits/source-sweep/20261113T022735Z/public-drift-receipt.json",
+      "repository": null,
+      "revision": null,
+      "sha256": "64426ac25a26be1af6883ab180e26bfac6fe4eff61d3d42039cfa82dfb56c441",
+      "summary": "Actual Hygiene public inventory parity/freshness check; independent of roles and conformance.",
+      "uri": null
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-163",
+      "kind": "artifact",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "audits/runs/organization-source-sanity-20261113/manifest.json",
+      "repository": null,
+      "revision": null,
+      "sha256": "b625a98ff1e6674388ccf0a81a4ed27614783230ea0507d29237c2002d5f615b",
+      "summary": "Actual offline Reflector bounded source discovery retained a partial manifest, not an executed model audit.",
+      "uri": null
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-164",
+      "kind": "artifact",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "audits/source-sweep/20261113T022735Z/doc-coherence-source-receipt.json",
+      "repository": null,
+      "revision": null,
+      "sha256": "f577eeefb140259aeef1cecb3c8b5b110304fe08820bd3c99867f555ff8379c7",
+      "summary": "Actual explicit root-document and workflow source pass using the existing immutable blob API.",
+      "uri": null
+    },
+    {
+      "classification": "observed",
+      "id": "EVIDENCE-165",
+      "kind": "artifact",
+      "observed_at": "2026-11-13T03:09:39Z",
+      "path": "audits/runs/organization-source-sanity-20261113-plan/manifest.json",
+      "repository": null,
+      "revision": null,
+      "sha256": "37a9d8877addac6e131daa020a5f96a8c678216852c73a073dba80363268017e",
+      "summary": "Actual existing Reflector public campaign plan; no analysis or mutation inferred.",
+      "uri": null
+    }
+  ],
+  "findings": [
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "documentation-gap",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "small",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-10",
+        "EVIDENCE-11",
+        "EVIDENCE-12",
+        "EVIDENCE-8",
+        "EVIDENCE-9"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-001",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation."
+      ],
+      "nature": "defect",
+      "observation": "ARCHITECTURE describes dist and build tooling as absent/future; SYSTEM says no automated build exists. README presents the existing distribution/catalog commands and generated artifact locations. The inspected root CLI and actual generated catalog exist. This is an observed source-navigation contradiction; no build or release was executed.",
+      "recommendation": "Reconcile the existing architecture/system descriptions with the current source interface; retain stable-release and consumer-installation qualification as separate unknowns.",
+      "repository": "egohygiene/aether",
+      "severity": "low",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Current Aether build descriptions disagree",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "documentation-gap",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "small",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-12",
+        "EVIDENCE-9"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-002",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation."
+      ],
+      "nature": "defect",
+      "observation": "README reports 32 specifications and 36 skills. The captured catalog contains 34 specification entries and 37 skill entries, 71 total. Agent/instruction counts were not verified and no lifecycle promotion is inferred.",
+      "recommendation": "Refresh the existing README snapshot through the canonical catalog/documentation path, or label it explicitly historical.",
+      "repository": "egohygiene/aether",
+      "severity": "low",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Aether current inventory counts disagree with its catalog",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "architectural-concern",
+      "confidence": "medium",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-35",
+        "EVIDENCE-37",
+        "EVIDENCE-38"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-003",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+        "Project-local renderer adapters may be intentionally distinct from optional generic Renderflow transforms. If so, this is clarification rather than a demonstrated runtime ownership violation. Historical dispositions were not independently authenticated."
+      ],
+      "nature": "clarification",
+      "observation": "DECISIONS ADR-0002 says rendering stays delegated to Renderflow, while current README makes Renderflow optional and ARCHITECTURE gives initialized profiles their own renderer/checker kits. The relationship is not explained as an amendment in these inspected sources.",
+      "recommendation": "Clarify the canonical boundary and date/link the decision transition; preserve original decision history and do not infer new ratification.",
+      "repository": "egohygiene/beacon",
+      "severity": "medium",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "needs-clarification",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Beacon renderer ownership descriptions need alignment",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "optimization-opportunity",
+      "confidence": "medium",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-100",
+        "EVIDENCE-102",
+        "EVIDENCE-103"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-004",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+        "The nested path may remain a deliberate bootstrap/compatibility recipe and need not mean a runtime dependency on product source. Standalone install and relocation behavior were not executed."
+      ],
+      "nature": "opportunity",
+      "observation": "README installation still instructs unzipping into the Ego Hygiene product checkout under tools/mindcap and running from that nested path, while pyproject publishes an independent package/entrypoint and the facade is explicitly for Python consumers.",
+      "recommendation": "Add a current own-checkout/package installation example with explicit artifact root; label the preserved product-nested recipe as historical/optional rather than changing capture semantics.",
+      "repository": "egohygiene/mindcap",
+      "severity": "low",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "needs-validation",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Mindcap standalone installation guidance remains coupled to a nested recipe",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "documentation-gap",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "small",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-157",
+        "EVIDENCE-158"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-005",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation.",
+        "The README may intend to describe the original review phase; if retained, it needs an explicit historical qualifier. The sweep does not independently ratify the accepted-status claim."
+      ],
+      "nature": "defect",
+      "observation": "README still describes paired draft PRs for review, while the same HEAD DECISIONS ADR-0005 records maintainer acceptance, merged website76/store34 and a November9 reconciliation. This makes the initial entry point stale relative to its own selected source.",
+      "recommendation": "Reconcile the current README wording with the dated owner record, preserving historical discussion and all live-checkout/hosting limits.",
+      "repository": "egohygiene/store",
+      "severity": "low",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Store entry-point review phase is stale against its decision record",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "architectural-concern",
+      "confidence": "medium",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-41"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-006",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation."
+      ],
+      "nature": "risk",
+      "observation": "The source build job declares pages:write and executes pinned Relay feed/build/provenance actions; final deployment is separately defined. A source-level permission review could determine whether Configure Pages can use a narrower scope or move behind a dedicated privileged boundary. No Pages API misuse or successful mutation was assessed.",
+      "recommendation": "Review whether Pages configuration can be isolated from source normalization/building while preserving the existing publisher and explicit provider requirements.",
+      "repository": "egohygiene/civics",
+      "severity": "low",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "needs-validation",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Civics build job carries Pages write permission",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "architectural-concern",
+      "confidence": "medium",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-86",
+        "EVIDENCE-87"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-007",
+      "impact": "medium",
+      "missing_evidence": [
+        "No consumer test, build, live behavior, exploitability or authenticated human decision was established by this source observation."
+      ],
+      "nature": "risk",
+      "observation": "The source build job declares pages:write and executes pinned Relay feed/build/provenance actions; final deployment is separately defined. A source-level permission review could determine whether Configure Pages can use a narrower scope or move behind a dedicated privileged boundary. No Pages API misuse or successful mutation was assessed.",
+      "recommendation": "Review whether Pages configuration can be isolated from source normalization/building while preserving the existing publisher and explicit provider requirements.",
+      "repository": "egohygiene/identity",
+      "severity": "low",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "needs-validation",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Identity build job carries Pages write permission",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "maintainability-risk",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-137"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-008",
+      "impact": "medium",
+      "missing_evidence": [
+        "The local-command adapter and arbitrary consumer programs were not executed. Partial source capture is an intentional safety bound; this is a usability/coverage risk, not evidence that the source files are absent."
+      ],
+      "nature": "risk",
+      "observation": "Actual offline discovery processed all 28 selected heads. At the Empathy source, the 16 MiB source budget captured 2,239 files before canonical AGENTS, ARCHITECTURE, SYSTEM and roadmap entries; its signals correctly say not-captured. Independent bounded canonical-document reads found those sources present. The first manifest remains partial rather than treating missing capture as absent or successful audit coverage.",
+      "recommendation": "Consider prioritizing explicit canonical entry documents or adding reviewed path-selection to the existing Reflector source pass while preserving byte/time limits, intake history and explicit partial states. The supplemental approved Aether path-scoped pass read the root documents; no replacement collector is proposed.",
+      "repository": "egohygiene/reflector",
+      "severity": "medium",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Bounded source discovery can omit canonical context after preserved intake",
+      "visibility": "public",
+      "why_it_matters": "Current source explanations and evidence boundaries guide maintainers and downstream consumers; the observation is limited to its cited source or actual bounded discovery."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-1",
+        "EVIDENCE-2",
+        "EVIDENCE-5"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-009",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The source review workflow is manual/main-only with contents/actions-read permissions and pinned Relay static intake; the separate real-report canary has contents-read only, distinct model/site artifacts and one source/as-of frame. ADR-0006 remains proposed with approval:null.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/.github",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Review artifact and proposed hosting remain separate",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-12",
+        "EVIDENCE-7"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-010",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "AGENTS assigns provider-neutral AI contracts to Aether and execution/policy/conformance to their owners. The machine index explicitly gives overlapping metadata authority to canonical library source, defines lifecycle transitions and restricts releasability to stable.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/aether",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Canonical source and releasability stay separate",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-13",
+        "EVIDENCE-17",
+        "EVIDENCE-18"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-011",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "pages.yml selects current Relay981ddf for source capture/generation and separate fixed55587de recovery source; the source guide explicitly keeps Roadmap/ADR collection off and retains Akashic197 AKA-Q03/AKA-Q02 reconciliation. Its publication guide distinguishes implementation from acceptance proof.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/akashic",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Current source captures preserve a separate frozen recovery and roadmap hold",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-22",
+        "EVIDENCE-24"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-012",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README assigns temporal orchestration to Aniflow; canonical architecture explicitly retains Flow suite selection and introduces no Flow/sibling dependency.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/aniflow",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-25",
+        "EVIDENCE-26",
+        "EVIDENCE-28"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-013",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The product Pages workflow gates deployment on non-PR main plus PAGES_ENABLED=true; the separate Intelligence workflow is manual with a pinned Relay reusable builder and contents-read permissions. README explicitly distinguishes hypothesis/preprint from clinical efficacy and formal study data.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/antidote",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Research publication and Intelligence preview use distinct paths",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-31",
+        "EVIDENCE-32"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-014",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The declared decisions require provenance/licensing metadata, stage unclassified material and keep consumer transformations outside the source collection.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/athena",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-35",
+        "EVIDENCE-38"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-015",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README and architecture say initialized profiles carry project-owned Make/Task/build kits and a host-neutral static tree; external submission is a separate human-approved action.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/beacon",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-41",
+        "EVIDENCE-44"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-016",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The workflow uses a single pinned5d27 review-feed/builder/provenance family and one source/as-of frame; documentation specifies initially empty Audits/Sanity selections as unavailable, explicitly independent of ballot facts, and composes only dist/intelligence beneath the existing portal.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/civics",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Typed repository review evidence is separate from civic data",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-45",
+        "EVIDENCE-46",
+        "EVIDENCE-49"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-017",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The retained-model export workflow is manual, public-repository/main-only and read-permission-scoped. It binds explicit selection and model/companion data; the ordinary deploy workflow is a disabled-until-configured manual stub. The selection guide separates original module clocks, expiry, owner admission and publication.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/egohygiene.io",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Retained-model export does not activate the website publisher",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-53",
+        "EVIDENCE-54",
+        "EVIDENCE-56"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-018",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README explicitly says no Cargo package, GitHub release or GHCR image is claimed published. Cargo identifies an alpha source package; the action requires a caller-selected digest-qualified image, defaults network to none and keeps mutable-image selection an explicit local-smoke opt-in.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/egolint",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Alpha source interfaces do not claim an existing published runtime",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-57",
+        "EVIDENCE-61",
+        "EVIDENCE-62"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-019",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "Current read/feed/build/provenance references use the immutable d7c6047 successor while historical rollback remains b71b090. Current push/manual feed uses the same represented commit/as-of as its public capture; the publisher guards workflow_run ancestry/event origin, and the deploy job owns Pages/OIDC writes separately from the read-permission build.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/empathy",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Current Intelligence and historical recovery remain distinct source frames",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-63",
+        "EVIDENCE-65"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-020",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README and architecture explicitly separate reusable modules/plans from consumer deployment/state and deny replacement of Hygiene/Realm/Mantle/Relay/Holon/Pace/Observatory.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/filament",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-69",
+        "EVIDENCE-70"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-021",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README requires public library/versioned CLI composition without sibling-holon dependencies; the manifest lists ordinary external crates rather than sibling source packages.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/flow",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-75",
+        "EVIDENCE-76",
+        "EVIDENCE-77",
+        "EVIDENCE-79"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-022",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README exposes separate plan/render/verify/rollback and receipt-bound continuity commands. Its Intelligence package consumes the versioned Observatory repository/compare schemas and exactly nine required domain views. SYSTEM assigns policy, Aether inputs, execution and fleet reconciliation to their owners and leaves organization compiler work as target.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/holon",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Materialization and visual projection retain different owner boundaries",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-80",
+        "EVIDENCE-84",
+        "EVIDENCE-85"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-023",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The captured profile is proposed, observe-only and approval null. It pins existing presentation, continuity, ADR and Aether inputs independently, supports legacy-root/repository exceptions, preserves literal paths and declares no automatic relocation. The ecosystem authority table separately preserves the original ADR-0001 approval gap.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/hygiene",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Proposed documentation composition preserves policy and repository authority",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-86",
+        "EVIDENCE-89",
+        "EVIDENCE-90",
+        "EVIDENCE-91"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-024",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The publisher binds optional5d27 review-feed source/as-of to current Intelligence, while Brand Kit release selection and explicit Compare remain separate. The review-feed guide states it cannot approve creative work, and ADR-0022 remains proposed with approval:null; publication documentation distinguishes historical corpus evidence from later composition and exercised rollback.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/identity",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Creative approval and current review-feed evidence retain separate identities",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-93",
+        "EVIDENCE-94",
+        "EVIDENCE-95",
+        "EVIDENCE-97"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-025",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "ARCHITECTURE separates Mantle shell/installation primitives from Realm construction, mounts and services. The actual dispatcher validates its resolved root against MANTLE_ROOT. The assurance document distinguishes exact-source defaults and explicit unverified installer choices; README separates partial platform support and unreleased status.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/mantle",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Shell/runtime behavior remains separate from environment provisioning and installer assurance",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-100",
+        "EVIDENCE-103"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-026",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README excludes knowledge extraction, synapse derivation and Gardenization, while the application facade provides capture/import/verify operations for Python consumers.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/mindcap",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-104",
+        "EVIDENCE-107",
+        "EVIDENCE-108"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-027",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The inspected decisions workflow runs only on pull_request with contents/actions-read and a full pinned Relay reusable source; it produces a seven-day preview. The memory publication outline is explicitly unpublished and forbids real memories/screenshots/private sources; publication conformance distinguishes package checks from real-consumer acceptance.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/mindgarden",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "ADR preview and private-memory publication remain bounded",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-110",
+        "EVIDENCE-112",
+        "EVIDENCE-113",
+        "EVIDENCE-114"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-028",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "Audits and Sanity builders call shared public admission and owner validation before normalization; report referenced owners are checked before finding counts. Sanity retains source governance separately from evaluated governance and retains matched/different represented revisions. Package runtime dependencies are empty and CLI projections are explicit.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/observatory",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Public owner metadata is admitted before normalized review identifiers and counts",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-115",
+        "EVIDENCE-118",
+        "EVIDENCE-119"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-029",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "Current Pages source pins the981ddf public producer and native builder, passes capture as-of on push/manual paths, and leaves ADR/Roadmap/Compare admission disabled. Product docs describe one composed dist tree and a main-only deployment job; original normalized scanner identities and uncollected deployment/install evidence remain explicit.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/optiflow",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Public capture frame and single product publisher remain separate from media authority",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-122",
+        "EVIDENCE-123",
+        "EVIDENCE-125"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-030",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "The actual projector authenticates exact roster/inventory bytes before identities/joining and states that a new as_of does not refresh observations. Ledger validation compares canonical JSON bytes, preserving bool/int distinctions. README limits this adoption path to no-write projection and general convergence to reviewed bounded proposals, never default-branch merges.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/pace",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Adoption ledger authenticates a dated public snapshot without upgrading delivery claims",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-126",
+        "EVIDENCE-130",
+        "EVIDENCE-131"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-031",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "Base profile forbids privileges/services/secrets and selects only realm-base/common-cli. The Dev Container guide states that only base Linux AMD64/ARM64 projections are supported, source inventory identity is not an OCI/signature/release claim, and other host/distribution adapters are not completed. AGENTS explicitly makes publish a read-only review handoff rather than registry publication.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/realm",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Minimal environment intent and emitted Dev Container limitations are explicit",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-132",
+        "EVIDENCE-135",
+        "EVIDENCE-136"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-032",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "ARCHITECTURE assigns profiles to Aether, roster/governance to Hygiene, models to Observatory and publication to Relay. The actual campaign verifies exact Aether tree/file hashes before loading owner modules; request public admission precedes repository intake, output is refused inside protected source roots, and a new output is required. Optional auditor execution and host qualification remain explicitly separate.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/reflector",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Campaign transport reuses exact owner audit semantics instead of recreating policy",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-140",
+        "EVIDENCE-142",
+        "EVIDENCE-143"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-033",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "Action description says normalization only, not auditor/model/provider execution. The script reads immutable represented Git objects and bounds as_of by commit and actual invocation time; public identity is admitted before source paths/hashes/counts, and missing selected captures are retained as missing. README preserves one consumer Pages owner and separates run receipts from site bytes.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/relay",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "Typed review feed reads immutable sidecars without becoming an auditor or publisher",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-144"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-034",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "Architecture assigns content/rights/approval to projects and cross-tool orchestration to Flow; Flow adapter work is explicitly gated on a qualified immutable release.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/renderflow",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-151",
+        "EVIDENCE-152"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-035",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README says the local contract remains provisional until Hygiene adoption; architecture prohibits mutable Sanctuary production dependencies and requires durable-owner graduation.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/sanctuary",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    },
+    {
+      "area": "Source ownership, architecture and integration evidence",
+      "classification": "positive-observation",
+      "confidence": "high",
+      "dependencies": [],
+      "effort": "unknown",
+      "evidence_classification": "observed",
+      "evidence_refs": [
+        "EVIDENCE-158",
+        "EVIDENCE-161"
+      ],
+      "history": {
+        "delta": "not-compared",
+        "evidence_classification": "unverified",
+        "evidence_refs": [],
+        "prior_audit_id": null,
+        "prior_finding_id": null
+      },
+      "id": "AUDIT-036",
+      "impact": "low",
+      "missing_evidence": [
+        "Source declaration only; implementation completeness, runtime compatibility and publication were not inferred."
+      ],
+      "nature": "positive-observation",
+      "observation": "README defaults to mock mode and a provider-neutral commerce port; inspected TypeScript exposes generic Product/Cart/CommerceClient types rather than Fourthwall response objects.",
+      "recommendation": "Preserve the cited owner/evidence boundary and keep runtime, source freshness, publication and human acceptance separately evidenced.",
+      "repository": "egohygiene/store",
+      "severity": "informational",
+      "source_profile": {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      },
+      "status": "confirmed",
+      "suggested_validation": [
+        "Review the exact cited source expectation and retain original evidence; qualify changed behavior only within a separately authorized owning checkpoint."
+      ],
+      "title": "The selected source declares a bounded specialist responsibility",
+      "visibility": "public",
+      "why_it_matters": "An explicit ownership/evidence boundary makes independent maintenance and review possible without inferring runtime or human acceptance."
+    }
+  ],
+  "positive_observations": {
+    "absence_reason": null,
+    "finding_ids": [
+      "AUDIT-009",
+      "AUDIT-010",
+      "AUDIT-011",
+      "AUDIT-012",
+      "AUDIT-013",
+      "AUDIT-014",
+      "AUDIT-015",
+      "AUDIT-016",
+      "AUDIT-017",
+      "AUDIT-018",
+      "AUDIT-019",
+      "AUDIT-020",
+      "AUDIT-021",
+      "AUDIT-022",
+      "AUDIT-023",
+      "AUDIT-024",
+      "AUDIT-025",
+      "AUDIT-026",
+      "AUDIT-027",
+      "AUDIT-028",
+      "AUDIT-029",
+      "AUDIT-030",
+      "AUDIT-031",
+      "AUDIT-032",
+      "AUDIT-033",
+      "AUDIT-034",
+      "AUDIT-035",
+      "AUDIT-036"
+    ]
+  },
+  "prior_audits": [],
+  "profiles": {
+    "registry_sha256": "58fd660134444c480d16c48c106b1572974fd2243beedfe665962c96fccfe525",
+    "registry_version": "1.0.0",
+    "requested": [
+      {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      }
+    ],
+    "resolved": [
+      {
+        "id": "contract-drift",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "provenance": {
+    "commands": [
+      {
+        "command": "python3 -I tools/public_inventory.py check (explicit public discovery and evaluation boundary; local paths normalized)",
+        "evidence_refs": [
+          "EVIDENCE-162"
+        ],
+        "exit_code": 0,
+        "reason": null,
+        "state": "success"
+      },
+      {
+        "command": "python3 -I reflector/orchestration/audit_campaign.py plan (exact admitted request and trusted owner roots; local paths normalized)",
+        "evidence_refs": [
+          "EVIDENCE-165"
+        ],
+        "exit_code": 0,
+        "reason": null,
+        "state": "success"
+      },
+      {
+        "command": "python3 -I reflector/orchestration/audit_campaign.py discover (offline, 28 exact source roots; local paths normalized)",
+        "evidence_refs": [
+          "EVIDENCE-163"
+        ],
+        "exit_code": 2,
+        "reason": "The command completed and retained its manifest with explicit partial source capture; exit 2 is recorded honestly, not reclassified as complete or conformance failure.",
+        "state": "failure"
+      },
+      {
+        "command": "Existing Reflector immutable blob API for the explicit supplemental Aether canonical-document scope (task-local invocation; local paths normalized)",
+        "evidence_refs": [
+          "EVIDENCE-164"
+        ],
+        "exit_code": 0,
+        "reason": null,
+        "state": "success"
+      }
+    ],
+    "execution": "read-only",
+    "limitations": [
+      "All 28 admitted public heads were selected; semantic inspection was limited to 3–6 key source blobs per repository and explicit bounded sections, not every captured file.",
+      "No consumer programs, tests, application builds, CI jobs, browser checks, live deployments or paid model/provider adapters ran for this sweep.",
+      "The first native source pass retained 18 partial captures. The supplemental canonical-document pass does not convert that earlier result to complete.",
+      "Source heads are immutable observations from 2026-11-13T02:31Z; later parallel merges and provider state are outside this assessment.",
+      "Applicability, human ratification, full dependency/runtime compatibility, publication and refresh ownership remain separately evidenced; no protected repository scope is inferred.",
+      "Organization scope is supported by owner contracts. Current Reflector repository-local report indexing and Relay singleton feed receipts are not relabeled as full cross-repository transport.",
+      "Native command arguments normalize local paths; actual execution receipts and source capture metadata are retained as separate artifacts.",
+      "No compatible prior organization audit was selected for finding-history comparison; not-compared does not imply new or resolved."
+    ],
+    "privacy": {
+      "contains_sensitive_data": false,
+      "redactions": []
+    },
+    "producer": {
+      "name": "Codex bounded organization source assessment",
+      "uri": null,
+      "version": "2026-11-13"
+    },
+    "tools": [
+      {
+        "name": "Reflector immutable source-discovery implementation",
+        "version": "8c5069dfa8b9a8537ea2cdfbae923730785ae87e"
+      },
+      {
+        "name": "Aether owner contracts",
+        "version": "74490907bf3979ac45594d97fb1bb5fa7071346d"
+      }
+    ]
+  },
+  "schema": "aether.repository-audit-report/v1",
+  "scope": {
+    "exclude": [
+      "Protected or unadmitted repository scope; no organization-total assertion.",
+      "Consumer execution, tests, builds, CI, live publication and issue/provider mutation."
+    ],
+    "include": [
+      "Canonical source ownership, architecture, declared integrations/dependencies and source freshness across the exact admitted public roster; detailed inspected paths in the source coverage artifact."
+    ],
+    "inspected": [
+      "152 bounded semantic source blobs/sections across all 28 exact heads.",
+      "Actual owner public-inventory check and offline Reflector source discovery.",
+      "Supplemental 160-file canonical-document/workflow immutable source pass."
+    ],
+    "kind": "organization",
+    "repositories": [
+      {
+        "full_name": "egohygiene/.github",
+        "revision": "58e1e6b336c3350bb31ceb4286d660860c992207",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/aether",
+        "revision": "7ad20f3c73497ccc3aa9ee3b92d181b2436ef375",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/akashic",
+        "revision": "dc21c6a24506d748deb45f29ce54fc7e7bf69753",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/aniflow",
+        "revision": "751675dc99b6b08d8bacb6cdc6293dd32084aaa3",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/antidote",
+        "revision": "34f7653469002c8f19c9adc87d4bfdcecc0eda33",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/athena",
+        "revision": "5c0221deab24a17b007c9aba8217b64fed2f04de",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/beacon",
+        "revision": "1d53983ee1ed760d59802dcb472be4481710d507",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/civics",
+        "revision": "bcd391f97b83eb24686ef888b83677932c152cf2",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/egohygiene.io",
+        "revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/egolint",
+        "revision": "f14f7fd3ab0ce9e87c367352fcb3af11a32eda59",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/empathy",
+        "revision": "4853a1e55808bc5104dc509199c411e798d104dc",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/filament",
+        "revision": "c3eb64b8087face7504e7571dc8396c19525649f",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/flow",
+        "revision": "f356b842d13911fde7c598368a9668c870bc9c1a",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/holon",
+        "revision": "1d8129a1651c477500d51fd3e5b77cbfe7943691",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/hygiene",
+        "revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/identity",
+        "revision": "cfb6c29bd02589a47fc48050ab02e7e0da359719",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/mantle",
+        "revision": "0f54fa6e100c5b86af64aa383e41eed8c64e363a",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/mindcap",
+        "revision": "02d30d6eb19037b3f770aad3a12c598778b5ae22",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/mindgarden",
+        "revision": "9c94245e0838da74a760cbc43e63b0faf6a3d756",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/observatory",
+        "revision": "7f399a0b32a1abdd1283ef8bf06b8c3cda703636",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/optiflow",
+        "revision": "23df7486643db9541a004b60a360e43f721566f9",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/pace",
+        "revision": "a224545490848162a5f8a9d89d2664a3a3f46993",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/realm",
+        "revision": "0a3bbdc379b54db07dc5103887af0dfe05f97a0a",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/reflector",
+        "revision": "dfca10718f4cca20cc126d689d1fd70d29c27a02",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/relay",
+        "revision": "12d3a0823c8c8f885dea4acf482160fd726325e2",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/renderflow",
+        "revision": "d999522faf201caa3d250fce420097cc8f4834a9",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/sanctuary",
+        "revision": "0db2d923e110e49dec823c486ec4084d266f3627",
+        "visibility": "public"
+      },
+      {
+        "full_name": "egohygiene/store",
+        "revision": "e97ee727e6c2300e804579cf2122d34d4c162158",
+        "visibility": "public"
+      }
+    ],
+    "uninspected": [
+      "All 28 admitted public heads were selected; semantic inspection was limited to 3–6 key source blobs per repository and explicit bounded sections, not every captured file.",
+      "No consumer programs, tests, application builds, CI jobs, browser checks, live deployments or paid model/provider adapters ran for this sweep.",
+      "The first native source pass retained 18 partial captures. The supplemental canonical-document pass does not convert that earlier result to complete.",
+      "Source heads are immutable observations from 2026-11-13T02:31Z; later parallel merges and provider state are outside this assessment.",
+      "Applicability, human ratification, full dependency/runtime compatibility, publication and refresh ownership remain separately evidenced; no protected repository scope is inferred.",
+      "Organization scope is supported by owner contracts. Current Reflector repository-local report indexing and Relay singleton feed receipts are not relabeled as full cross-repository transport."
+    ]
+  },
+  "started_at": "2026-11-13T02:27:35Z",
+  "visibility": "public"
+}

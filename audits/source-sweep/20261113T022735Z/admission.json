@@ -1,0 +1,10 @@
+{
+  "artifact": "catalog/public-repositories.json",
+  "artifact_sha256": "af9c7186ded0bb57b18741eaa5905314b96d6adb03736946c868e0fc4aa50b26",
+  "catalog_observed_at": "2026-11-09T14:06:57Z",
+  "current_source_bytes_unchanged": true,
+  "current_source_revision": "0b5fb2817e9a367cd5a7815635ce0e9fa5b2d06f",
+  "repository": "egohygiene/hygiene",
+  "revision": "49639c1845cdfd08fbd5a768261a8b3cf515f80f",
+  "scope": "exact reviewed public projection"
+}

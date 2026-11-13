@@ -1,5 +1,11 @@
 # One real report through Organization Intelligence
 
+Current source selection: the [2026-11-13 organization source sweep](organization-source-sweep.md)
+now selects one partial organization Audit and one partial Sanity review. The
+initial one-report run and unavailable-Sanity observations below are historical
+evidence; its source records and provider proof remain unchanged. New hosted
+artifacts for the organization records require their own actual run.
+
 This bounded checkpoint implements the next step of organization
 [#41](https://github.com/egohygiene/.github/issues/41). It uses the existing
 Aether report contract, Observatory models, Relay builder, website export and
