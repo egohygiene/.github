@@ -1,0 +1,50 @@
+{
+  "schema": "egohygiene.github.organization-intelligence-pages-selection/v1",
+  "target": {
+    "origin": "https://egohygiene.github.io",
+    "base_path": "/.github/"
+  },
+  "review": {
+    "run_id": 43339209486,
+    "run_attempt": 1,
+    "consumer_revision": "b1539be1ab718de2db3da4b1eaa6827e36d4753f",
+    "artifact_id": 13998892236,
+    "archive_sha256": "d23cb76f235f473a5955e0aaade6c7e6afd493d80eb873ea241e4ba1f9caeb96",
+    "manifest_sha256": "55016315151ff9cc47889c0729abbf6966cedbe917fa1b698ddcf2e5ee0020cf",
+    "producer_revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+    "intake_receipt_sha256": "db7e8f7072224b2c1370db05adadb9047636d370f03eba49eb6d4190dd5db00c",
+    "selection_receipt_sha256": "8c990b8e93610fb12872c58b1f0d8f6d3de5bbc310d80c5eff6fa548f8b88f81"
+  },
+  "owners": {
+    "relay": {
+      "revision": "d15cacd987ef1f98a6b94b051a42925eb91f8cc7",
+      "files": {
+        "actions/repository-intelligence-static-intake/scripts/static_intake.py": "eaf0910f11be2ec212570adc8a4c9047d3582abdfdcd55de5f4e6ed2bff1f0e8",
+        "actions/repository-intelligence-static-intake/contracts/export-owner.v1.lock.json": "77b0086a0a67bad2cfbe3827b38f233daab6b6ff2e429e43a669ee44e44b4827",
+        "actions/repository-intelligence-static-intake/contracts/organization-intelligence-export.v1.schema.json": "1e1214aa0d16c50397eb9dbb3ddf5c507a4ade1ec7a1787dfd7b7979f684fc36",
+        "actions/repository-intelligence-static-intake/contracts/organization-routes.v1.json": "ee34306a5124dad52a0dfb01ac4a6f3edef6989856afe239e8680c23ab4c4391",
+        "actions/repository-intelligence-static-intake/contracts/static-intake-receipt.v1.schema.json": "a2e55c8a0ba4e4b5a546a0bc1ac75c8d4b705c517adca60e11fbf2fb99cca405",
+        "actions/repository-intelligence/scripts/public_catalog_admission.py": "032f943f567caf6dee0b56e1bc17e3f3f1b44719af2097ba4d5000e92a98f5a2",
+        "actions/repository-intelligence/contracts/public-catalog-admission.v1.lock.json": "c7ed36734d8474bb11e866286e159c5af13fae0d69d64884db9d9973f786fe32",
+        "actions/repository-intelligence/contracts/public-repositories.hygiene-49639c1.json": "af9c7186ded0bb57b18741eaa5905314b96d6adb03736946c868e0fc4aa50b26"
+      }
+    },
+    "hygiene": {
+      "revision": "6aa97ae2bf44abacb83e698281c1fffdba8eaf49",
+      "files": {
+        "tools/organization_hosting.py": "d7f6e48f93d7fb21710a04a80622f00116cd2b4b2c9bf582f0e7b0d4e642e468",
+        "tools/site_surfaces.py": "0ee06373b04695a6dd15d39488338a3ec69c63719f14ed36d1a35f13f6d76edd",
+        "tools/https_locations.py": "9852c736b40447b235816160a8252a44fce0785385149faa585645157fbc9438",
+        "schemas/public-site-surface-declaration.v1.schema.json": "d0da4a3ea0295e9daff7818596826eec98bf5489a1c2b07e83fc794bf72f5b95",
+        "schemas/public-site-surface-declaration.v2.schema.json": "b6bd7ab91958b85e11bb4b87874251c20e3ec4070d4028bbde2ebaac38d29f52",
+        "schemas/public-site-surface-registry.v1.schema.json": "cfe6e038bbb4ffca2c5daac8a2baab6e34a57bf632ac1b6a2d9cee623d30f96a",
+        "catalog/public-site-surface-registry.json": "dab3aead7a07d0f78e038369301768353937c5c0e2be7100201d8d9ae1b988a5"
+      }
+    }
+  },
+  "declaration": {
+    "path": "publication/organization-site-surfaces.json",
+    "sha256": "5a0dda1f0fc5bf52855782ef9be6bc74a9b93066589ccd397fe36ef51e66f096"
+  },
+  "assessment_at": "2026-11-13T02:50:36Z"
+}

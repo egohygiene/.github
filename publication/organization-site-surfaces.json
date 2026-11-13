@@ -1,0 +1,1506 @@
+{
+  "schema": "egohygiene.public-site-surface-declaration/v2",
+  "contract_version": "2.0.0-alpha.1",
+  "hosting_profile": "organization-intelligence-static-export/v1",
+  "synthetic": false,
+  "registry": {
+    "schema": "egohygiene.public-site-surface-registry/v1",
+    "version": "1.0.0-alpha.1",
+    "source_path": "catalog/public-site-surface-registry.json",
+    "revision": "6aa97ae2bf44abacb83e698281c1fffdba8eaf49",
+    "sha256": "ad4acd7ca35e5fc9352a718dd2e61c37a73d5b929dcbe47386e8ce16a7537a16"
+  },
+  "site": {
+    "id": "egohygiene/.github",
+    "publication_repository": "egohygiene/.github",
+    "origin": "https://egohygiene.github.io",
+    "base_path": "/.github/",
+    "route_profile": "organization",
+    "site_class": "application",
+    "visibility": "public",
+    "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+  },
+  "surfaces": [
+    {
+      "id": "accessibility",
+      "canonical_route": "/accessibility/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "audits",
+      "canonical_route": "/audits/",
+      "aliases": [
+        "/intelligence/audits/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "blog",
+      "canonical_route": "/blog/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "community",
+      "canonical_route": "/community/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "compare",
+      "canonical_route": "/intelligence/compare/",
+      "aliases": [
+        "/compare/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "dashboard",
+      "canonical_route": "/intelligence/dashboard/",
+      "aliases": [
+        "/dashboard/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "decisions",
+      "canonical_route": "/decisions/",
+      "aliases": [
+        "/adr/",
+        "/intelligence/decisions/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "dependencies",
+      "canonical_route": "/dependencies/",
+      "aliases": [
+        "/intelligence/dependencies/"
+      ],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "diagnostics",
+      "canonical_route": "/intelligence/diagnostics/",
+      "aliases": [
+        "/diagnostics/"
+      ],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "distribution",
+      "canonical_route": "/distribution/",
+      "aliases": [
+        "/intelligence/distribution/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "releases"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "documentation",
+      "canonical_route": "/docs/",
+      "aliases": [
+        "/documentation/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "donate",
+      "canonical_route": "/donate/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "feed",
+      "canonical_route": "/feed.xml",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "garden",
+      "canonical_route": "/garden/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "health",
+      "canonical_route": "/health/",
+      "aliases": [
+        "/intelligence/health/"
+      ],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "help",
+      "canonical_route": "/help/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "hygiene",
+      "canonical_route": "/hygiene/",
+      "aliases": [
+        "/intelligence/hygiene/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "identity",
+      "canonical_route": "/identity/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "identity_intelligence",
+      "canonical_route": "/intelligence/identity/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "identity-artifact",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "intelligence",
+      "canonical_route": "/intelligence/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "journey",
+      "canonical_route": "/intelligence/journey/",
+      "aliases": [
+        "/activity/",
+        "/intelligence/activity/",
+        "/journey/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "landing",
+      "canonical_route": "/",
+      "aliases": [],
+      "requirement": "required",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-content",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "legal",
+      "canonical_route": "/legal/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "magazine",
+      "canonical_route": "/magazine/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "now",
+      "canonical_route": "/intelligence/now/",
+      "aliases": [
+        "/now/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "presentation",
+      "canonical_route": "/presentation/",
+      "aliases": [
+        "/slideshow/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "privacy",
+      "canonical_route": "/privacy/",
+      "aliases": [],
+      "requirement": "required",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "privacy_choices",
+      "canonical_route": "/privacy/choices/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [
+        "privacy"
+      ],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "releases",
+      "canonical_route": "/releases/",
+      "aliases": [
+        "/intelligence/releases/"
+      ],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "roadmap",
+      "canonical_route": "/roadmap/",
+      "aliases": [
+        "/intelligence/roadmap/"
+      ],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "sanity",
+      "canonical_route": "/sanity/",
+      "aliases": [
+        "/intelligence/sanity/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "search",
+      "canonical_route": "/search/",
+      "aliases": [
+        "/intelligence/search/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "generated-index",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "status",
+      "canonical_route": "/status/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "operational-evidence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "support",
+      "canonical_route": "/support/",
+      "aliases": [],
+      "requirement": "recommended",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "trust",
+      "canonical_route": "/trust/",
+      "aliases": [],
+      "requirement": "optional",
+      "applicability": {
+        "state": "unknown",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": "The selected Intelligence-only sealed export does not assess applicability of this surface; no not-applicable decision is inferred."
+      },
+      "disposition": "omitted",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": null,
+      "renderer": null,
+      "dependencies": [],
+      "publication": {
+        "implementation_state": "unknown",
+        "publication_state": "unknown",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "unknown",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "No delivery state is claimed for an unresolved applicability assessment.",
+        "blocked_by": []
+      }
+    },
+    {
+      "id": "work",
+      "canonical_route": "/intelligence/work/",
+      "aliases": [
+        "/work/"
+      ],
+      "requirement": "optional",
+      "applicability": {
+        "state": "applicable",
+        "freshness": "current",
+        "assertion": "authoritative",
+        "evidence_url": "https://github.com/egohygiene/.github/blob/4405659a419fd32df48da95b9a1b08cd5938f523/publication/organization-intelligence-source.json",
+        "represented_revision": "4405659a419fd32df48da95b9a1b08cd5938f523",
+        "observed_at": "2026-11-13T02:50:36Z",
+        "reason": null
+      },
+      "disposition": "owned",
+      "owner": "egohygiene/.github",
+      "publication_owner": "egohygiene/.github",
+      "source_artifact": {
+        "owner": "egohygiene/.github",
+        "kind": "repository-intelligence",
+        "location": "publication/organization-intelligence-source.json",
+        "revision": "4405659a419fd32df48da95b9a1b08cd5938f523"
+      },
+      "renderer": {
+        "owner": "egohygiene/egohygiene.io",
+        "contract": "organization-intelligence-static-export",
+        "implementation": "https://github.com/egohygiene/egohygiene.io/blob/3672c05323b348edba8720998e735668c5d4a3a9/scripts/build-intelligence-export.mts",
+        "version": "3672c05323b348edba8720998e735668c5d4a3a9"
+      },
+      "dependencies": [
+        "intelligence"
+      ],
+      "publication": {
+        "implementation_state": "implemented",
+        "publication_state": "unpublished",
+        "visibility": "public",
+        "freshness": "unknown",
+        "assertion": "authoritative",
+        "canonical_url": null,
+        "evidence_url": null,
+        "represented_revision": null,
+        "observed_at": null,
+        "reason": "The UI exists in the exact selected review artifact; live Pages has not yet been activated or verified. Module evidence availability remains independent.",
+        "blocked_by": []
+      }
+    }
+  ]
+}

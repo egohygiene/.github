@@ -12,6 +12,7 @@ repository's own dashboard and canonical evidence.
 - [Repository dashboards and source inventory](docs/intelligence/repositories.md)
 - [Completion roadmap and next work](docs/intelligence/DELIVERY_ROADMAP.md)
 - [Organization export and review path](docs/intelligence/organization-home.md)
+- [Prepared organization Pages publisher and recovery](docs/intelligence/organization-pages.md)
 - [One real report canary](docs/intelligence/real-report-canary.md)
 - [Verified report-to-organization review artifact](docs/reviews/2026-11-13-real-report-proof.md)
 - [Merged implementation review](https://github.com/egohygiene/relay/blob/73f750ef9dd1782b20d280b4c555aacd92ee5f4e/docs/repository-intelligence-audits-sanity-review.md)

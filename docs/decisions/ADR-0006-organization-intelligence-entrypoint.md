@@ -103,6 +103,15 @@ The future cutover needs reviewed route aliases and declared publication evidenc
 
 ## Implementation and evidence links
 
+Source checkpoint, 2026-11-13: the real report-to-review-artifact canary passed,
+and the maintainer explicitly requested work toward live project Pages. The
+[publisher preparation](../intelligence/organization-pages.md) selects the
+actual retained review artifact and Hygiene's explicit organization-export
+declaration profile. The website remains source compositor; `.github` owns the
+selected publisher/recovery boundary. Existing review receipts and this
+proposal's null approval remain unchanged. Publication authorization does not
+ratify this ADR; actual provider/live evidence is recorded separately.
+
 Source checkpoint, 2026-11-12: the narrow `/.github/` compatibility correction
 described in the original context was merged in
 [Hygiene #101](https://github.com/egohygiene/hygiene/pull/101). Consumers must

@@ -79,6 +79,16 @@ The diagram is conceptual. [SYSTEM.md](SYSTEM.md) remains authoritative for resp
 
 ## Deployment and portability
 
+The organization Intelligence publisher consumes the website owner's sealed
+static export through an authenticated retained review artifact. Hygiene owns
+the complete surface declaration and explicit hosting compatibility; Relay
+owns native export/public-scope validation. This repository owns the selected
+artifact reference, final project Pages publication, live-byte verification
+and recovery. The website keeps the UI compositor and company publisher; other
+repositories keep their dashboards and publishers. No model or application is
+copied into this repository. See the
+[publisher boundary](docs/intelligence/organization-pages.md).
+
 The architecture favors independently usable local and self-hosted operation. Optional managed services may add availability, collaboration, support, and hosted infrastructure without becoming the canonical holder of portable state.
 
 ## Evidence and uncertainty
