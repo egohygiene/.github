@@ -40,12 +40,11 @@ It names the actual website renderer and exact producer commit. Its semantic
 source is this repository's immutable
 [composition reference](../../publication/sources/organization-theme-2026-11-13.json),
 which points to upstream evidence without claiming ownership of its models.
-Twenty UI surfaces are implemented in the selected theme candidate but not yet
-deployed; the prior version is live under the separate proof below. The other
-sixteen retain
+The declaration preserves its dated predeployment assessment: twenty UI
+surfaces were implemented/unpublished candidates, while the other sixteen retain
 evidence-backed unknown applicability and delivery state. Unavailable model
 inputs do not imply that a rendered UI is unimplemented or that an audit passed.
-This is an assessment of the selected candidate; live evidence is separate.
+Actual live evidence is separate and recorded below.
 
 ## Manual preparation and publication
 
@@ -213,19 +212,45 @@ composition pointer was committed at `82e4ba749daebc05377e456a87833ea03cb19c54`;
 the declaration and selection above reference that candidate without rewriting
 the historical sweep pointer or promoting review-only receipts.
 
-After this candidate is reviewed and integrated, the existing manually
-authorized publisher can replace the current site. It must capture and verify
-the actual prior publication `63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322`
-and all 44 previous public files before deployment. The new public inventory
-will be 44 producer files plus separate consumer provenance. Replacement live
-bytes and actual appearance behavior remain the next checkpoint; this candidate
-does not claim them. The company publisher and repository-specific publishers
-retain their ownership, and neither hosting ADR is ratified by publication.
+Organization [PR #64](https://github.com/egohygiene/.github/pull/64) integrated
+that selection at `c6ea728ebc68eef1c22418319e34fbe54d82caa9`. The existing
+manually authorized publisher then replaced the site through actual
+[run 43372599165/1](https://github.com/egohygiene/.github/actions/runs/43372599165).
+Before deployment it captured and verified the actual prior publication
+`63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322`
+and all 44 previous public files. Recovery artifact `14013046878` retains those
+bytes until `2027-02-11T05:31:42Z`; no automatic rollback or restore exercise is
+claimed. The company publisher and repository-specific publishers retain their
+ownership, and neither hosting ADR is ratified by publication.
 
 
 At functional source `6dfee8a91add38f47aecc050e6ddd7183013345f`, the unchanged
 publisher revalidated that actual 47-member review archive through both pinned
 native owners. Every producer byte stayed exact in the 45-file public output.
 This offline preparation is explicitly `local-unverified`; the deployable
-boundary correctly rejected it. Final root source review and actual hosted
-replacement follow integration.
+boundary correctly rejected it. The later hosted preparation authenticated
+GitHub acquisition and retained artifact `14013745222`: 49 members, including
+44 unchanged producer files plus separate consumer provenance in the 45-file
+public site.
+
+
+The actual hosted receipt verified every canonical producer byte at
+`2026-11-13T05:32:30Z`, binding source `c6ea728`, the selected native review and
+publication SHA-256 `4814dfa96229f172cff1b2a5e2b101e6891ecceada6769130eb41dc5933b4fd1`.
+Evidence artifact `14013361170` retains the receipt and prior-site recovery.
+Configured CLI authentication briefly returned HTTP 401 before dispatch;
+ordinary access recovered without a local credential change, and the reviewed
+main/selection were re-read before the accepted dispatch. This interruption
+caused no failed deployment or source/trigger bypass.
+
+Real canonical Chromium checks then passed all five focused groups: fresh System
+mode follows the OS, Light survives navigation/reload/OS changes, Dark changes
+computed foreground/background, all 39 routes and aliases retain the choice,
+and System follows live OS changes. The browser used verified HTTPS without
+request interception or certificate bypass. No page exception occurred; the
+automatic origin-root favicon request retains its separate 404 finding. A first
+automation wait used a string expression blocked by the correct self-only CSP;
+only the task-local harness was corrected before the successful complete rerun.
+Independent peer checks also confirmed exact canonical boot/CSS/JS/hub/Sanity/
+provenance bytes and mode/graph/clock behavior. All original partial model,
+unreviewed human and unavailable Core states remain unchanged.
