@@ -1,0 +1,65 @@
+{
+  "schema": "egohygiene.github.organization-intelligence-source/v1",
+  "target": {
+    "origin": "https://egohygiene.github.io",
+    "base_path": "/.github/"
+  },
+  "semantic_owner": "egohygiene/.github",
+  "source_compositor": "egohygiene/egohygiene.io",
+  "publication_repository": "egohygiene/.github",
+  "producer_revision": "342673b110915f4a29ada01625a77416a1e105d7",
+  "review": {
+    "run_id": 43362027530,
+    "run_attempt": 1,
+    "consumer_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+    "artifact_id": 14008223697,
+    "archive_sha256": "45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7",
+    "export_manifest_sha256": "6fe95bb157d5c419d1db59b37ab27bc994b62441d4906e6c971f2ec71557ee97",
+    "selection_receipt_sha256": "486cbaad1bccbcd0e19e323eb5df11fc2f495ddd027d4d57fb795a4ac86cb04c",
+    "intake_receipt_sha256": "208320a354d30a30791c09fe6ab2f531ffdb820dfe97eea6a7d73ae91df09777"
+  },
+  "producer_export": {
+    "run_id": 43361706555,
+    "run_attempt": 1,
+    "static_artifact_id": 14008422802,
+    "static_archive_sha256": "d28f9df0989dfa04bebd2f531cab9b44341879f487362348475e1f36ca292799",
+    "selection_artifact_id": 14008148910,
+    "selection_archive_sha256": "2145697bd38f317089b0291f0c77c9197bbea90650b845b263f39db9e25bbb97"
+  },
+  "assessment": {
+    "implemented": "The selected export provides landing navigation and the nineteen Intelligence UI surfaces. UI availability is independent of module evidence availability.",
+    "other_surfaces": "Applicability is unresolved for every other registry surface; the focused export does not assess them.",
+    "observed_model_scope": [
+      "egohygiene/.github"
+    ],
+    "available_models": [
+      "audits",
+      "sanity"
+    ],
+    "unavailable_models": [
+      "core"
+    ],
+    "report_completion": "partial",
+    "governance": "not-reviewed",
+    "human_evidence": "unavailable",
+    "model_source_as_of": "2026-11-13T03:23:31Z",
+    "export_evaluated_at": "2026-11-13T03:36:14Z",
+    "sanity_components": 28,
+    "sanity_concerns": 8,
+    "sanity_strengths": 28,
+    "sanity_dimensions": 17,
+    "canonical_audit_findings": 36,
+    "projected_audit_target_findings": 1,
+    "source_boundary": "One .github fleet target contains the organization review; component records are not separate captured fleet rows. Canonical per-repository source heads and assessment clocks stay historical.",
+    "publication_at_assessment": "unpublished"
+  },
+  "canonical_reports": {
+    "source_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+    "audit": "https://github.com/egohygiene/.github/blob/281c3827378ae08bb44cde810ad6467fdb0c8adc/audits/organization-source-sanity-20261113T022735Z.md",
+    "sanity": "https://github.com/egohygiene/.github/blob/281c3827378ae08bb44cde810ad6467fdb0c8adc/audits/organization-source-sanity-20261113T022735Z.sanity.json"
+  },
+  "authority": {
+    "publication": "Explicit repository-owner request, followed by a manual publish dispatch after reviewed source and qualification. This artifact reference alone grants no deployment authority.",
+    "adr": "ADR-0006 remains proposed with null approval; source implementation and publication do not ratify it."
+  }
+}

@@ -7,35 +7,39 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-13T03:21:23Z'
+  updated_at: '2026-11-13T04:04:28Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Integrate the actual bounded public organization Audit and Sanity source sweep and the selected
-    20-issue foundation batch, preserving publication and human decision boundaries.
+  purpose: Select the verified actual organization Audit and Sanity export for read-only Pages preparation,
+    preserving unpublished states, original report clocks and explicit administrator deployment boundaries.
   includes:
-  - Functional source 1e3f31bade2ecb036e3b668e5231cd7024584751 records one canonical organization Audit and
-    Sanity review over 28 exact public heads observed at 02:31Z. Both remain partial; the source assessment
-    does not execute consumer programs or authenticate human alignment.
-  - Coverage separates 152 semantically reviewed blobs from 161 supporting source captures, 165 total Audit
-    evidence entries, 160 supplemental document captures and the earlier 16,152 native copied blobs. The native
-    pass retains 18 partial repositories; omissions are not missing-source findings.
-  - The exact existing Relay 5d feed and native dashboard/site renderers accepted both reports locally at03:13:43Z/source
-    1e3f. Sanity retains 28 components, 8 concerns, 28 strengths and 17 dimensions; the singleton .github Audits
-    projection shows its own one positive observation. The full 36-finding canonical Audit stays linked, not
-    duplicated into 28 repositories.
-  - The checked-in source plan selects both new sidecars; historical canary reports and publisher selection/artifact
-    bytes remain unchanged. The separate 20-issue roadmap lists 6 Empathy, 8 Holon and 6 Hygiene tasks without
-    marking all accepted.
-  - 'Hygiene #108 hosting ownership and organization #60 publisher are merged. Actual prepare-only run 43356501268
-    at 8e7c passed, with all 43 producer file bytes exact and no private public-site captures. Direct Pages
-    activation returned 403 for this integration; user administrator setup was requested. No live deployment
-    is claimed.'
+  - Actual public model run 43358630670/1 at 281c3827378ae08bb44cde810ad6467fdb0c8adc retained both actual
+    review domains. Graph-fixed website export 43361706555/1 at 342673b110915f4a29ada01625a77416a1e105d7 succeeded;
+    all three source observers were clean with the exact HEAD. Downloaded static14008422802 and companion14008148910
+    match provider hashes, all39 routes/43 files and original module frame03:23:31Z.
+  - Actual organization review 43362027530/1 at 281c3827378ae08bb44cde810ad6467fdb0c8adc succeeded and retained14008223697.
+    Its downloaded46-member archive preserves every producer site/manifest and companion byte; the native intake
+    receipt remains ZIP/review-only/deployment_authorized=false.
+  - The new immutable composition pointer was committed first at7550df88a67d62de1704105b27556cb6fb723236. Functional8ce7d4501e0fa599b31096974582f72a04e61805
+    selects that exact source blob, actual review and actual website renderer. The complete36-row declaration
+    keeps20 implemented/unpublished surfaces and16 unresolved applicability assessments. Old pointer/receipts,
+    owner sources/pins, schemas, workflows and producer bytes remain unchanged.
+  - Both native inputs and presentations are available; Core remains unavailable. The one.github fleet target
+    contains28 Sanity components/8concerns/28strengths/17dimensions, partial execution, not-reviewed governance
+    and unavailable human evidence. All8concerns render; canonical Audit36 findings and target projection1positivefinding
+    remain distinct. No report/source-head clock is refreshed.
+  - At clean8ce7 the unchanged native publisher revalidates the actual review through pinned Relay/Hygiene
+    and v2 schema. All43 public producer files remain exact, plus only separate consumer metadata; local replay
+    is local-unverified and correctly denied at the deployable boundary. Independent Chromium replay of exact
+    hostedbytes passes12 focused checks; detail-page402px overflow at390px remains.
   excludes:
-  - Whole-repository runtime conformance, protected repository inference, human ratification, live Pages deployment
-    and unsupported multi-target transport claims.
+  - Any helper/schema/owner/pin/workflow/application change, new model assembly, report retiming, private source
+    inference or human decision promotion.
+  - Pages setting mutation, publish:true/deployment, live or recovery success, company/repository publisher
+    changes, issue acceptance closure and broad qualification.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -45,87 +49,97 @@ scope:
   canonical_sources:
   - AGENTS.md
   - ARCHITECTURE.md
-  - .config/repository-intelligence/review-plan.json
-  - .github/workflows/repository-intelligence-canary.yml
-  - docs/intelligence/organization-source-sweep.md
+  - docs/issue-routing.md
+  - publication/organization-intelligence-selection.json
+  - publication/organization-site-surfaces.json
+  - publication/sources/organization-sweep-2026-11-13.json
+  - scripts/organization_intelligence_pages.py
+  - .github/workflows/organization-intelligence-pages.yml
   - docs/intelligence/organization-pages.md
-  - docs/reviews/2026-11-13-foundation-batch-20.md
-  - docs/reviews/2026-11-13-organization-source-sweep.local-proof.json
+  - docs/reviews/2026-11-13-organization-export-intake.json
+  - docs/intelligence/organization-source-sweep.md
+  - docs/decisions/ADR-0006-organization-intelligence-entrypoint.md
   - https://github.com/egohygiene/.github/issues/41
 work:
-  objective: Integrate the actual bounded public organization Audit and Sanity source sweep and the selected
-    20-issue foundation batch, preserving publication and human decision boundaries.
+  objective: Select the verified actual organization Audit and Sanity export for read-only Pages preparation,
+    preserving unpublished states, original report clocks and explicit administrator deployment boundaries.
   success_conditions:
-  - Keep source scope, evaluation clocks, partial coverage, historical receipts and human dispositions distinct.
-  - Use the existing pinned report/feed/rendering contracts without inventing 28 local runs or another model
-    assembler.
-  - Verify exact provider source/artifacts before advancing a new organization export or publication selection.
+  - Bind only exact successful provider runs, actual downloaded artifacts, immutable source pointer and truthful
+    renderer/declaration states.
+  - Preserve original partial and human-unreviewed scope without expanding one fleet target into28 captures
+    or projecting all36 canonical findings.
+  - After reviewed source integration, run actual main publish:false and inspect its content before administrator-coordinated
+    Pages deployment.
   active_issue:
     provider: github
     id: egohygiene/.github#41
     url: https://github.com/egohygiene/.github/issues/41
   next:
     kind: action
-    id: review-merge-and-run-organization-report-canary
-    description: 'Review and ordinary-merge this exact source, then dispatch the existing main canary and verify
-      actual Audit/Sanity model bundles and rendered content. Export the new retained models through the existing
-      website owner after its graph repair lands. Await administrator Pages Actions enablement before any publish:
-      true dispatch; preserve existing native producer and source-owner gates.'
+    id: prepare-reviewed-organization-sweep-on-main
+    description: Finish final exact-head source review and ordinary merge, then dispatch organization-intelligence-pages.yml
+      on actual main with publish:false and selection SHA37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9.
+      Inspect the actual retained prepared artifact and public metadata, preserving43 producer files and no
+      private captures. Pages Actions administrator setup is still pending after the integration403; no publish:true
+      dispatch is permitted while absent. Root separately coordinates settings, controlled deployment, live-byte
+      verification, recovery and later canonical navigation cutover.
     readiness: ready
     references:
     - https://github.com/egohygiene/.github/issues/41
     depends_on: []
 state:
   base:
-    revision: 8e7c769331af6563eec9fe0c6f8d3721e0c561e5
+    revision: 281c3827378ae08bb44cde810ad6467fdb0c8adc
     ref: refs/heads/main
-    verified_at: '2026-11-13T03:21:23Z'
+    verified_at: '2026-11-13T04:04:28Z'
   candidate:
-    branch: codex/org-source-sanity-sweep-20261113
+    branch: codex/organization-sweep-publication
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-13T03:21:23Z'
-    default_branch_revision: 8e7c769331af6563eec9fe0c6f8d3721e0c561e5
+    observed_at: '2026-11-13T04:04:28Z'
+    default_branch_revision: 281c3827378ae08bb44cde810ad6467fdb0c8adc
     issue_state: open
     pull_request_state: not-applicable
-    notes: Actual organization main 8e7c769331af6563eec9fe0c6f8d3721e0c561e5 was inspected. This candidate's
-      reports/selection are committed at1e3f with docs-only 52d0dd7 successor; the containing handoff commit
-      and eventual PR/merge remain provider facts. Hosting owner 8068090 and publisher 8e7c are merged; actual
-      prepare-only run 43356501268 passed. Direct provider activation returned 403 and no Pages deployment
-      occurred.
+    notes: Observed actual organization main281c3827378ae08bb44cde810ad6467fdb0c8adc is both the successful
+      model producer and new review consumer. Website145 is merged342673b110915f4a29ada01625a77416a1e105d7
+      and its actual export succeeded. Root and Fleet cleared functional8ce7; final metadata containing revision/PR
+      remain separate provider facts. No new actual Pages preparation, settings change or deployment is claimed.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-13T03:21:23Z'
+  reviewed_at: '2026-11-13T04:04:28Z'
   reviewed_by: Codex
   evidence:
-  - command: Pinned Aether 744 Audit/Sanity helpers and Draft202012 schemas; public admission/hash checks;
-      exactRelay 5d feed and native dashboard/site rendering atsource 1e3f/asof03:13:43Z; root scope/head/report/artifact
-      digest and historical-byte review; continuity schema/budgets and whitespace
+  - command: Actual hosted model/export/intake required-step conclusions; provider/archive SHA-256 equality,
+      exact receipt/manifest/source binding,39 routes/43 file hashes/sizes, both admitted domains and8 rendered
+      concerns; native pinned publisher/Relay/Hygiene replay and v2 schema; local replay deployment denial;
+      independent12-check exact-hosted-byte Chromium replay; functional root/Fleet source peers; bounded continuity
+      schema/formats, JSON/local links and whitespace
     outcome: limited
-    observed_at: '2026-11-13T03:21:23Z'
-    notes: Bounded owner and local rendering checks actually executed; they do not establish all-repository
-      runtime, live hosting or full 28-row transport.
-  - command: Hosted main organization report canary, new website retained-model export/intake, actual Pages
-      publication, live HTTPS/browser verification and recovery
+    observed_at: '2026-11-13T04:04:28Z'
+    notes: Actual export/intake and downloaded content checks passed. Local preparation is independently nondeployable
+      and cannot mint a provider receipt. Browser observations apply to exact hosted bytes served locally,
+      not live Pages. No additional qualification is required for this metadata handoff.
+  - command: New actual main publish:false preparation and artifact inspection; administrator Pages Actions
+      enablement, controlled publication, canonical live-byte/recovery and navigation-cutover verification
     outcome: not-run
-    observed_at: '2026-11-13T03:21:23Z'
-    notes: These follow integration and exact artifact review. Pages activation specifically requires administrator
-      setup because the current integration returned 403; the user was asked while independent work continued.
+    observed_at: '2026-11-13T04:04:28Z'
+    notes: Only new preparation follows this source integration. Pages is still pending the administrator setting;
+      no live claim or failed-permission bypass. Initial prepare43356501268 remains historical proof for the
+      old selection.
   environment_limitations:
-  - Scope is 28 admitted public repositories, not the organization total; semantic review is bounded and all
-    reports stay partial.
-  - 'Relay #153 and Reflector #258 own the remaining central-report multi-target transport; current singleton
-    fleet outputs are not 28 independent captures.'
-  - Pages remains unconfigured after an integration 403. No deploy, live-byte, canonical navigation cutover
-    or recovery execution is claimed.
-  - ADR-0006 and Hygiene ADR-0020 remain proposed/null; source merge and explicit task authority do not ratify
-    human decisions.
-  - Parallel 20-issue and browser repairs are separately sliced; broader Hygiene context validation failure
-    is under a reserved correction, not called green.
+  - One .github target carries the organization review;28 components are not28 fleet captures. Canonical Audit36
+    findings and projected1 positivefinding remain independent; original source/model clocks and partial/human
+    states survive.
+  - The reviewed artifact14008223697 expires2026-11-20T03:54:44Z. Refresh before expiry through exact retained
+    source/run/artifact selection; never retime the report.
+  - Pages remains unconfigured after the integration403; administrator action is pending. No deploy, live-byte,
+    canonical navigation cutover or recovery execution is claimed. ADR0006 and HygieneADR0020 remain proposed/null.
+  - Local browser replay passes12 focused checks but Audit/Sanity detail pages retain402px width at390px. Full
+    accessibility, physical-device and whole-repository CI/runtime acceptance remain separate.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -152,39 +166,39 @@ Read scoped instructions, canonical sources above and this checkpoint. Verify mu
 
 ## Current objective and success conditions
 
-Integrate the actual bounded public organization Audit and Sanity source sweep and the selected 20-issue foundation batch, preserving publication and human decision boundaries. Keep source scope, evaluation clocks, partial coverage, historical receipts and human dispositions distinct. Use the existing pinned report/feed/rendering contracts without inventing 28 local runs or another model assembler. Verify exact provider source/artifacts before advancing a new organization export or publication selection.
+Select the verified actual organization Audit and Sanity export for read-only Pages preparation, preserving unpublished states, original report clocks and explicit administrator deployment boundaries. Bind only exact successful provider runs, actual downloaded artifacts, immutable source pointer and truthful renderer/declaration states. Preserve original partial and human-unreviewed scope without expanding one fleet target into28 captures or projecting all36 canonical findings. After reviewed source integration, run actual main publish:false and inspect its content before administrator-coordinated Pages deployment.
 
 ## State snapshot
 
-Candidate `codex/org-source-sanity-sweep-20261113` is based on observed main `8e7c769331af6563eec9fe0c6f8d3721e0c561e5`. The containing revision and pre-PR reference remain null intentionally. Actual organization main 8e7c769331af6563eec9fe0c6f8d3721e0c561e5 was inspected. This candidate's reports/selection are committed at1e3f with docs-only 52d0dd7 successor; the containing handoff commit and eventual PR/merge remain provider facts. Hosting owner 8068090 and publisher 8e7c are merged; actual prepare-only run 43356501268 passed. Direct provider activation returned 403 and no Pages deployment occurred.
+Candidate `codex/organization-sweep-publication` is based on observed main `281c3827378ae08bb44cde810ad6467fdb0c8adc`. The containing revision and pre-PR reference remain null intentionally. Observed actual organization main281c3827378ae08bb44cde810ad6467fdb0c8adc is both the successful model producer and new review consumer. Website145 is merged342673b110915f4a29ada01625a77416a1e105d7 and its actual export succeeded. Root and Fleet cleared functional8ce7; final metadata containing revision/PR remain separate provider facts. No new actual Pages preparation, settings change or deployment is claimed.
 
 ## Completed and material changes
 
-Functional source 1e3f31bade2ecb036e3b668e5231cd7024584751 records one canonical organization Audit and Sanity review over 28 exact public heads observed at 02:31Z. Both remain partial; the source assessment does not execute consumer programs or authenticate human alignment.
+Actual public model run 43358630670/1 at 281c3827378ae08bb44cde810ad6467fdb0c8adc retained both actual review domains. Graph-fixed website export 43361706555/1 at 342673b110915f4a29ada01625a77416a1e105d7 succeeded; all three source observers were clean with the exact HEAD. Downloaded static14008422802 and companion14008148910 match provider hashes, all39 routes/43 files and original module frame03:23:31Z.
 
-Coverage separates 152 semantically reviewed blobs from 161 supporting source captures, 165 total Audit evidence entries, 160 supplemental document captures and the earlier 16,152 native copied blobs. The native pass retains 18 partial repositories; omissions are not missing-source findings.
+Actual organization review 43362027530/1 at 281c3827378ae08bb44cde810ad6467fdb0c8adc succeeded and retained14008223697. Its downloaded46-member archive preserves every producer site/manifest and companion byte; the native intake receipt remains ZIP/review-only/deployment_authorized=false.
 
-The exact existing Relay 5d feed and native dashboard/site renderers accepted both reports locally at03:13:43Z/source 1e3f. Sanity retains 28 components, 8 concerns, 28 strengths and 17 dimensions; the singleton .github Audits projection shows its own one positive observation. The full 36-finding canonical Audit stays linked, not duplicated into 28 repositories.
+The new immutable composition pointer was committed first at7550df88a67d62de1704105b27556cb6fb723236. Functional8ce7d4501e0fa599b31096974582f72a04e61805 selects that exact source blob, actual review and actual website renderer. The complete36-row declaration keeps20 implemented/unpublished surfaces and16 unresolved applicability assessments. Old pointer/receipts, owner sources/pins, schemas, workflows and producer bytes remain unchanged.
 
-The checked-in source plan selects both new sidecars; historical canary reports and publisher selection/artifact bytes remain unchanged. The separate 20-issue roadmap lists 6 Empathy, 8 Holon and 6 Hygiene tasks without marking all accepted.
+Both native inputs and presentations are available; Core remains unavailable. The one.github fleet target contains28 Sanity components/8concerns/28strengths/17dimensions, partial execution, not-reviewed governance and unavailable human evidence. All8concerns render; canonical Audit36 findings and target projection1positivefinding remain distinct. No report/source-head clock is refreshed.
 
-Hygiene #108 hosting ownership and organization #60 publisher are merged. Actual prepare-only run 43356501268 at 8e7c passed, with all 43 producer file bytes exact and no private public-site captures. Direct Pages activation returned 403 for this integration; user administrator setup was requested. No live deployment is claimed.
+At clean8ce7 the unchanged native publisher revalidates the actual review through pinned Relay/Hygiene and v2 schema. All43 public producer files remain exact, plus only separate consumer metadata; local replay is local-unverified and correctly denied at the deployable boundary. Independent Chromium replay of exact hostedbytes passes12 focused checks; detail-page402px overflow at390px remains.
 
 ## Validation and review evidence
 
-Pinned Aether 744 Audit/Sanity helpers and Draft202012 schemas; public admission/hash checks; exactRelay 5d feed and native dashboard/site rendering atsource 1e3f/asof03:13:43Z; root scope/head/report/artifact digest and historical-byte review; continuity schema/budgets and whitespace. Executed local owner/feed/rendering qualification is distinct from the pending hosted main canary and fresh website export. Root static review clears functional 1e3f and docs 52d; existing source-only, historical and current clocks remain separate.
+Actual hosted model/export/intake required-step conclusions; provider/archive SHA-256 equality, exact receipt/manifest/source binding,39 routes/43 file hashes/sizes, both admitted domains and8 rendered concerns; native pinned publisher/Relay/Hygiene replay and v2 schema; local replay deployment denial; independent12-check exact-hosted-byte Chromium replay; functional root/Fleet source peers; bounded continuity schema/formats, JSON/local links and whitespace. Focused actual provider, native owner and local-browser checks passed at the recorded boundaries. Broad CI/full-repository runtime, live HTTPS/publication/recovery, full accessibility and human ratification remain separate.
 
 ## Blockers, risks, unknowns, and deferred work
 
-Scope is 28 admitted public repositories, not the organization total; semantic review is bounded and all reports stay partial. Relay #153 and Reflector #258 own the remaining central-report multi-target transport; current singleton fleet outputs are not 28 independent captures. Pages remains unconfigured after an integration 403. No deploy, live-byte, canonical navigation cutover or recovery execution is claimed. ADR-0006 and Hygiene ADR-0020 remain proposed/null; source merge and explicit task authority do not ratify human decisions. Parallel 20-issue and browser repairs are separately sliced; broader Hygiene context validation failure is under a reserved correction, not called green.
+One .github target carries the organization review;28 components are not28 fleet captures. Canonical Audit36 findings and projected1 positivefinding remain independent; original source/model clocks and partial/human states survive. The reviewed artifact14008223697 expires2026-11-20T03:54:44Z. Refresh before expiry through exact retained source/run/artifact selection; never retime the report. Pages remains unconfigured after the integration403; administrator action is pending. No deploy, live-byte, canonical navigation cutover or recovery execution is claimed. ADR0006 and HygieneADR0020 remain proposed/null. Local browser replay passes12 focused checks but Audit/Sanity detail pages retain402px width at390px. Full accessibility, physical-device and whole-repository CI/runtime acceptance remain separate.
 
 ## Next dependency-ready work
 
-Review and ordinary-merge this exact source, then dispatch the existing main canary and verify actual Audit/Sanity model bundles and rendered content. Export the new retained models through the existing website owner after its graph repair lands. Await administrator Pages Actions enablement before any publish: true dispatch; preserve existing native producer and source-owner gates.
+Finish final exact-head source review and ordinary merge, then dispatch organization-intelligence-pages.yml on actual main with publish:false and selection SHA37c6de9b070199dc893403d1deeeede50e2a5e71be60e530ff5cacbf3c0f46d9. Inspect the actual retained prepared artifact and public metadata, preserving43 producer files and no private captures. Pages Actions administrator setup is still pending after the integration403; no publish:true dispatch is permitted while absent. Root separately coordinates settings, controlled deployment, live-byte verification, recovery and later canonical navigation cutover.
 
 ## Parallel changes and reconciliation
 
-Fleet owns this source assessment; root coordinates source integration and exact hosted proof. Website graph first-pointer/mobile repair and Hygiene context-source mappings are separately reviewed. Preserve canonical model/export ownership, immutable old receipts and each repository publisher.
+Root owns ordinary merges, current provider Pages coordination and the final activation decision. Fleet closeout/20-issue morning packet follows this selector integration to avoid shared continuity conflicts. Keep canonical source-sweep reports, prior review evidence, company publisher and each repository dashboard untouched. New declaration/selector only changes exact source locator/revision, renderer revision, review bindings and assessment time; applicability and publication state are unchanged.
 
 ## Privacy and redaction
 
