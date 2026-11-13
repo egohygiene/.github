@@ -1,0 +1,38 @@
+{
+  "schema": "egohygiene.github.organization-intelligence-source/v1",
+  "target": {
+    "origin": "https://egohygiene.github.io",
+    "base_path": "/.github/"
+  },
+  "semantic_owner": "egohygiene/.github",
+  "source_compositor": "egohygiene/egohygiene.io",
+  "publication_repository": "egohygiene/.github",
+  "producer_revision": "3672c05323b348edba8720998e735668c5d4a3a9",
+  "review": {
+    "run_id": 43339209486,
+    "run_attempt": 1,
+    "consumer_revision": "b1539be1ab718de2db3da4b1eaa6827e36d4753f",
+    "artifact_id": 13998892236,
+    "archive_sha256": "d23cb76f235f473a5955e0aaade6c7e6afd493d80eb873ea241e4ba1f9caeb96",
+    "export_manifest_sha256": "55016315151ff9cc47889c0729abbf6966cedbe917fa1b698ddcf2e5ee0020cf",
+    "selection_receipt_sha256": "8c990b8e93610fb12872c58b1f0d8f6d3de5bbc310d80c5eff6fa548f8b88f81",
+    "intake_receipt_sha256": "db7e8f7072224b2c1370db05adadb9047636d370f03eba49eb6d4190dd5db00c"
+  },
+  "assessment": {
+    "implemented": "The selected export provides landing navigation and the nineteen Intelligence UI surfaces. UI availability is independent of module evidence availability.",
+    "other_surfaces": "Applicability is unresolved for every other registry surface; the focused export does not assess them.",
+    "observed_model_scope": [
+      "egohygiene/.github"
+    ],
+    "available_model": "audits",
+    "other_models": "unavailable",
+    "report_completion": "partial",
+    "report_subject_revision": "8aef67662f3cf832cc1457ac24ed88f9bf9d2ae7",
+    "model_source_as_of": "2026-11-12T23:58:44Z",
+    "publication_at_assessment": "unpublished"
+  },
+  "authority": {
+    "publication": "Explicit repository-owner request, followed by a manual publish dispatch after reviewed source and qualification. This artifact reference alone grants no deployment authority.",
+    "adr": "ADR-0006 remains proposed with null approval; source implementation and publication do not ratify it."
+  }
+}
