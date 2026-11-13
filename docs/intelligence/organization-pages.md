@@ -221,3 +221,11 @@ will be 44 producer files plus separate consumer provenance. Replacement live
 bytes and actual appearance behavior remain the next checkpoint; this candidate
 does not claim them. The company publisher and repository-specific publishers
 retain their ownership, and neither hosting ADR is ratified by publication.
+
+
+At functional source `6dfee8a91add38f47aecc050e6ddd7183013345f`, the unchanged
+publisher revalidated that actual 47-member review archive through both pinned
+native owners. Every producer byte stayed exact in the 45-file public output.
+This offline preparation is explicitly `local-unverified`; the deployable
+boundary correctly rejected it. Final root source review and actual hosted
+replacement follow integration.

@@ -203,6 +203,25 @@
     "selection_sha256": "0f83a0fc255bb505df7472740e38f3611f28310adb65b48d10672f10875aaae5",
     "publication_state": "candidate-not-deployed",
     "expected_public_files": 45,
-    "recovery_requirement": "Before replacement, capture and verify the actual previous live publication 63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322 and every prior public file through the unchanged publisher."
+    "recovery_requirement": "Before replacement, capture and verify the actual previous live publication 63e3f2e57cd261ceea4dbb3bf6cb0b92a4df88d91cfa4a0ebd93ccfb14c89322 and every prior public file through the unchanged publisher.",
+    "publication_preparation_local": {
+      "functional_revision": "6dfee8a91add38f47aecc050e6ddd7183013345f",
+      "selection_sha256": "0f83a0fc255bb505df7472740e38f3611f28310adb65b48d10672f10875aaae5",
+      "declaration_sha256": "57e41c12b1cc85ecd947d7693f9eadc923598515e3d6faecf7fd6789827e8017",
+      "actual_review_artifact": 14011999855,
+      "native_relay_sealed_export": "passed",
+      "native_hygiene_declaration": "passed",
+      "producer_files": 44,
+      "public_files": 45,
+      "routes": 39,
+      "all_producer_bytes": "exact",
+      "local_acquisition": "local-unverified",
+      "deployable_check": "denied-as-required",
+      "private_capture_or_cli_state_in_public_site": false,
+      "publication_sha256": "e54223a517a9c53a9a971012d91e7e6bd57cbdcb278d8cb2aca24c25d1d3b234",
+      "limits": [
+        "Offline replay of actual retained artifacts; no fresh GitHub acquisition or deployment claimed."
+      ]
+    }
   }
 }
