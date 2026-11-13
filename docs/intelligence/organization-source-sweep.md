@@ -134,6 +134,44 @@ It does not establish a fresh website export, intake, Pages deployment or
 28-row fleet transport. Those follow-on outcomes require their own receipts;
 this source change updates no publisher selection, source or declaration.
 
+## Actual website export and organization review
+
+The separate hosted [website export 43361706555/1](https://github.com/egohygiene/egohygiene.io/actions/runs/43361706555)
+then succeeded at source `342673b110915f4a29ada01625a77416a1e105d7`.
+Its static artifact `14008422802` and companion `14008148910` bind the existing
+39-route, 43-file export. Both native input and presentation states are
+available for Audits and Sanity; Core remains unavailable. All eight Sanity
+concern summaries, partial/unreviewed states and original model boundary
+`2026-11-13T03:23:31Z` remain present. The later selection evaluation at
+`03:36:14Z` does not refresh the source assessment.
+
+The existing [organization intake 43362027530/1](https://github.com/egohygiene/.github/actions/runs/43362027530)
+also succeeded at consumer source `281c3827378ae08bb44cde810ad6467fdb0c8adc`.
+The retained review artifact `14008223697` has raw archive SHA-256
+`45a128195fe10c53b518c903fc800d69c786595b9a329897ba364d9255fcaea7`.
+Producer site/manifest bytes were preserved exactly. The
+[combined export/intake proof](../reviews/2026-11-13-organization-export-intake.json)
+records all exact run, artifact, manifest, companion and receipt bindings.
+
+That intake remains review-only with `deployment_authorized: false`. The
+publisher's explicit source selection/declaration and a separately controlled
+publish operation retain their own authority. No live Pages deployment or
+human ratification follows from these artifacts.
+
+## Actual publication preparation
+
+Publisher refresh PR #62 is merged at
+`f3e90df69710492fe55d0d5fb0f5f203a5804bc9`. Actual
+[prepare-only run 43363401173/1](https://github.com/egohygiene/.github/actions/runs/43363401173)
+succeeded with `publish: false`; deployment was skipped. The
+[preparation proof](../reviews/2026-11-13-organization-publication-prepare.json)
+binds the actual retained artifact `14008693427` and its raw archive/publication
+hashes. All 43 producer files and the manifest stay exact, with only separate
+consumer provenance added to the 44-file public site. No private acquisition
+capture or CLI state enters that site. Original model clocks and partial/human
+states remain unchanged. Canonical live HTTPS, deployment and recovery still
+require separate actual execution after administrator Pages configuration.
+
 ## Refresh through the existing path
 
 The existing `.config/repository-intelligence/review-plan.json` now selects the

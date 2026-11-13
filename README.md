@@ -42,6 +42,9 @@ publication evidence remain separate.
 - [Discussions setup and canary evidence](docs/repository-setup/discussions.md) —
   distinguish configured settings, draft content and verified provider outcomes.
 
+- [20-issue foundation review packet](docs/reviews/2026-11-13-foundation-batch-20.md) —
+  selected scopes, actual source outcomes and remaining acceptance.
+
 - [Ten-issue foundation review packet](docs/reviews/2026-11-12-foundation-batch.md) —
   original source slices, review pins, integration order and remaining acceptance.
 
