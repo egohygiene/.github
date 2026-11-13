@@ -5,6 +5,12 @@ This bounded checkpoint implements the next step of organization
 Aether report contract, Observatory models, Relay builder, website export and
 organization intake. Repository publishers retain their owners.
 
+The first full hosted trace is now
+[verified](../reviews/2026-11-13-real-report-proof.md), including the real finding
+in the retained organization review site. The instructions below describe its
+repeatable path; source merge, actual artifact proof and live publication remain
+distinct.
+
 ## Actual source assessment
 
 The [canonical report](../../audits/ri-review-boundary-20261112T234641Z.md) and
@@ -76,9 +82,14 @@ one finding; the report revision is `different`, while Sanity is unavailable.
 These checks establish local normalization of this report, not provider
 transport, application execution or publication.
 
-Record subsequent real run/attempts, artifact IDs, archive/manifests and inspected
-step conclusions in a separate dated review receipt after they exist. Do not
-invent these identities inside the producer source or infer success from an
-unexecuted workflow definition. This narrow canary execution is now authorized;
-broad CI, browser qualification, live Pages activation and a full organization
-sanity sweep remain separate work.
+The [dated proof](../reviews/2026-11-13-real-report-proof.md) now records actual
+producer/export/intake runs, exact artifacts and original clocks. Required
+steps executed, the audit input and presentation are available, all declared
+export bytes were verified, and the final retained site preserves the real
+finding and its partial label. A green preparation step alone is insufficient:
+it can intentionally return unavailable module inputs.
+
+Subsequent refreshes need their own exact run/attempt, artifact IDs, hashes and
+inspected content. Broad CI, browser qualification, live Pages activation and
+a full organization sanity sweep remain separate work. The original partial
+report and source observations must not be retimed to manufacture freshness.

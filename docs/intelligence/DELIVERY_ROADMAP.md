@@ -6,13 +6,18 @@ Relay #181, Pace #37, Identity #144, Civics #9 and website #140. The
 heads and outcomes. Organization #53 and Empathy #125 were merged in the
 [preceding source integration](../reviews/2026-11-12-open-pr-integration.md).
 
-The active next step is [one real report canary](real-report-canary.md): actual
-supported report → repository model/dashboard → retained organization export →
-organization review artifact. Local normalization has executed; hosted producer,
-export/intake, publication and fleet acceptance remain independent evidence.
-Finish this path before expanding the feature or adoption queue. The wave
-states and follow-on proposal below retain their dated November 11 context;
-source merges do not complete fleet adoption or final acceptance.
+The [one real report canary](real-report-canary.md) has now executed through
+repository model/dashboard → retained organization export → organization review
+artifact. The [verified proof](../reviews/2026-11-13-real-report-proof.md) records
+actual runs, artifacts, hashes, rendered finding and original clocks. This is
+one explicitly partial audit; Core and Sanity remain unavailable.
+
+The next checkpoint is the single canonical hosting/declaration cutover proposal
+and its publication/recovery qualification. Keep current-report capture,
+multi-capture review aggregation and the broader fleet rollout with their
+existing owners. The wave states and follow-on proposal below retain their
+dated November 11 context; this canary does not close final organization
+acceptance or authorize a publisher.
 
 Observed 2026-11-11. This is the execution queue for
 [organization #30](https://github.com/egohygiene/.github/issues/30) and
