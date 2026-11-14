@@ -74,7 +74,10 @@ organization-owned `egohygiene.io` subdomains or `egohygiene.github.io` for
 dashboard destinations. Reject credentials, ports, queries, fragments, control
 characters, encoded aliases and parent-path traversal. Render labels as text.
 The structural schema is supplemented by the native semantic validator;
-structural validity alone does not authenticate publication evidence.
+structural validity alone does not authenticate publication evidence. The native
+validator binds the complete admitted roster, source observations, declared
+destinations and named publication records to the pinned original inputs. A
+plausible new link or syntactically valid replacement receipt is rejected.
 
 ## Review and update
 

@@ -153,6 +153,13 @@ def declared_dashboard(row):
     return None
 
 
+def recorded_publication(name, record):
+    return {"state": "recorded", "observed_at": record["observed_at"],
+        "source_revision": record["source_revision"],
+        "run_url": f"https://github.com/{name}/actions/runs/{record['run_id']}",
+        "run_attempt": record["run_attempt"], "evidence": record["evidence"]}
+
+
 def build():
     inventory = read(INVENTORY_PATH, INVENTORY_SHA256)
     require(inventory["schema"] == "egohygiene.organization-home-repository-source-inventory/v1"
@@ -169,10 +176,7 @@ def build():
         url = declared
         if recorded:
             url = recorded["url"]
-            publication = {"state": "recorded", "observed_at": recorded["observed_at"],
-                "source_revision": recorded["source_revision"],
-                "run_url": f"https://github.com/{name}/actions/runs/{recorded['run_id']}",
-                "run_attempt": recorded["run_attempt"], "evidence": recorded["evidence"]}
+            publication = recorded_publication(name, recorded)
         entries.append({"repository": name, "repository_id": row["repository_id"],
             "repository_url": row["source_urls"]["repository"],
             "source_observation": {"revision": row["source_commit"],
@@ -202,13 +206,24 @@ def validate(value):
         require(source["path"] in {"catalog/public-repositories.json", INVENTORY_PATH})
         instant(source["observed_at"])
     require(type(value["entries"]) is list and 0 < len(value["entries"]) <= 1000)
+    inventory = read(INVENTORY_PATH, INVENTORY_SHA256)
+    scope = inventory["scope"]
+    require(value["catalog"] == {"repository": scope["source_repository"],
+        "revision": scope["source_revision"], "path": scope["source_path"],
+        "sha256": scope["source_sha256"], "observed_at": scope["catalog_observed_at"]})
+    require(value["source_inventory"] == source_reference(
+        INVENTORY_PATH, INVENTORY_SHA256, inventory["observed_at"]))
+    admitted = {row["repo"]: row for row in inventory["repositories"] if row["visibility"] == "public"}
+    records = publication_records()
     names, ids = set(), set()
     for row in value["entries"]:
         closed(row, ("repository", "repository_id", "repository_url", "source_observation", "dashboard"))
         name = row["repository"]
         require(type(name) is str and NAME.fullmatch(name) and name not in names)
+        require(name in admitted)
+        source_row = admitted[name]
         require(type(row["repository_id"]) is int and row["repository_id"] > 0
-                and row["repository_id"] not in ids)
+                and row["repository_id"] not in ids and row["repository_id"] == source_row["repository_id"])
         names.add(name)
         ids.add(row["repository_id"])
         require(safe_url(row["repository_url"], github=True) == f"https://github.com/{name}")
@@ -218,9 +233,16 @@ def validate(value):
         instant(source["observed_at"])
         require(source["state"] in {"pages-composition-source-declared", "artifact-or-preview-source-declared",
                                      "not-declared-in-inspected-source"})
+        require(source == {"revision": source_row["source_commit"], "observed_at": source_row["observed_at"],
+                           "state": source_row["repository_intelligence"]["state"]})
         dashboard = row["dashboard"]
         closed(dashboard, ("url", "link_state", "publication"))
         require(dashboard["link_state"] in {"publication-recorded", "source-declared", "unknown"})
+        record = records.get(name)
+        declared = declared_dashboard(source_row)
+        require(dashboard["link_state"] == ("publication-recorded" if record else
+                "source-declared" if declared else "unknown"))
+        require(dashboard["url"] == (record["url"] if record else declared))
         if dashboard["link_state"] == "unknown":
             require(dashboard["url"] is None)
         else:
@@ -231,6 +253,7 @@ def validate(value):
             require(publication == {"state": "unknown", "observed_at": None, "source_revision": None,
                 "run_url": None, "run_attempt": None, "evidence": None})
         else:
+            require(record is not None and publication == recorded_publication(name, record))
             require(publication["state"] == "recorded" and REVISION.fullmatch(publication["source_revision"]))
             instant(publication["observed_at"])
             require(type(publication["run_attempt"]) is int and publication["run_attempt"] > 0)
@@ -245,6 +268,7 @@ def validate(value):
             instant(evidence["observed_at"])
             require(evidence["observed_at"] == publication["observed_at"])
     require([row["repository"] for row in value["entries"]] == sorted(names))
+    require(names == set(admitted))
 
 
 def encoded(value):

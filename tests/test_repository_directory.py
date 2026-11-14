@@ -101,6 +101,45 @@ class RepositoryDirectory(unittest.TestCase):
         with self.assertRaises(ValueError):
             DIRECTORY.document(b'{"score":NaN}')
 
+    def test_plausible_unadmitted_links_and_source_rewrites_fail(self):
+        row = self.row("aether")
+        row["dashboard"].update(link_state="source-declared",
+                                url="https://aether.egohygiene.io/intelligence/")
+        with self.assertRaises(ValueError):
+            DIRECTORY.validate(self.value)
+        row["source_observation"]["state"] = "pages-composition-source-declared"
+        with self.assertRaises(ValueError):
+            DIRECTORY.validate(self.value)
+        self.value = DIRECTORY.build()
+        self.row("hygiene")["dashboard"]["url"] = "https://identity.egohygiene.io/intelligence/"
+        with self.assertRaises(ValueError):
+            DIRECTORY.validate(self.value)
+        for key, field, replacement in [("catalog", "sha256", "0" * 64),
+                                         ("source_inventory", "revision", "0" * 40)]:
+            self.value = DIRECTORY.build()
+            self.value[key][field] = replacement
+            with self.subTest(source=key), self.assertRaises(ValueError):
+                DIRECTORY.validate(self.value)
+
+    def test_plausible_receipt_replacements_and_third_publication_fail(self):
+        publication = self.row("empathy")["dashboard"]["publication"]
+        for field, replacement in [("sha256", "0" * 64), ("revision", "0" * 40),
+                                    ("path", DIRECTORY.EVIDENCE["organization"][0])]:
+            original = publication["evidence"][field]
+            publication["evidence"][field] = replacement
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                DIRECTORY.validate(self.value)
+            publication["evidence"][field] = original
+        publication["run_url"] = "https://github.com/egohygiene/empathy/actions/runs/1"
+        with self.assertRaises(ValueError):
+            DIRECTORY.validate(self.value)
+        dashboard = copy.deepcopy(self.row(".github")["dashboard"])
+        dashboard["url"] = "https://aether.egohygiene.io/intelligence/"
+        dashboard["publication"]["run_url"] = "https://github.com/egohygiene/aether/actions/runs/43372599165"
+        self.row("aether")["dashboard"] = dashboard
+        with self.assertRaises(ValueError):
+            DIRECTORY.validate(self.value)
+
     def test_failed_or_changed_publication_record_is_rejected(self):
         read = DIRECTORY.read
         for mutate in (
