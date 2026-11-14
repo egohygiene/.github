@@ -1,0 +1,28 @@
+{
+  "consumer_revision": "5f02bfd6353b764513ef57a41bcf79db0f3c2e72",
+  "file_count": 44,
+  "publication_sha256": "0fcf249a88e1b34fd111eed9155c8051ea6476a0f30cd980ba53b61734d58d15",
+  "recovery": {
+    "prior_publication_sha256": "4814dfa96229f172cff1b2a5e2b101e6891ecceada6769130eb41dc5933b4fd1",
+    "state": "retained-prior-site"
+  },
+  "review": {
+    "archive_sha256": "007ea08eec1ca2c6164c56d2bbf9c7d944b6f433c47d2df44b3bc6fafa2fa0ac",
+    "artifact_id": 14130741714,
+    "consumer_revision": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+    "intake_receipt_sha256": "c20de9ad4bd48dbda15085aeebee5e0c0baa648b77c5f049c1d08c44e58300b0",
+    "manifest_sha256": "d0add7206a867171f95732831899d7e858f8671b6dd967294797af07c01e344d",
+    "producer_revision": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "run_attempt": 1,
+    "run_id": 43637764378,
+    "selection_receipt_sha256": "5dd47912af65aeb4eaaed053ffd3b7a574ec2f67b053720c1f0ae0ca428c1df3"
+  },
+  "run_attempt": "1",
+  "run_id": "43639599345",
+  "schema": "egohygiene.github.organization-intelligence-pages-verification/v1",
+  "target": {
+    "base_path": "/.github/",
+    "origin": "https://egohygiene.github.io"
+  },
+  "verified_at": "2026-11-14T20:50:59Z"
+}

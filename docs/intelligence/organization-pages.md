@@ -14,13 +14,17 @@ publish dispatch are separate from those human decision records.
 ## Reviewed selection and owner sources
 
 The checked-in [selection](../../publication/organization-intelligence-selection.json)
-binds actual successful organization review run `43371630627`, attempt `1`,
-source `460bd07960a1dfa85614874e2daa0c29fc2eab48`, artifact `14011999855` and
-raw archive SHA-256
-`818b8ded0abb5ede0f36c967f6235e06c29be488b691ed6c4dda4046de6cd316`.
-It also binds the original producer, sealed manifest, intake receipt and model
-selection receipt. The original review receipt stays `review-only`, with
-`deployment_authorized: false`; it is not edited into publication permission.
+binds successful review run `43637764378`, attempt `1`, source
+`834d7fd51c48860b2cc4f1a6a262ce466f2004db`, artifact `14130741714` and
+archive SHA256 `007ea08eec1ca2c6164c56d2bbf9c7d944b6f433c47d2df44b3bc6fafa2fa0ac`.
+It also binds accepted producer `d5730066cf8645a927efcd6ff4f2170627bf4443`,
+sealed manifest and both actual native receipts. Review receipts retain their
+original review-only/deployment-unauthorized state. The separate authorized
+publisher completed at `5f02bfd6353b764513ef57a41bcf79db0f3c2e72` through
+[43639599345/1](https://github.com/egohygiene/.github/actions/runs/43639599345).
+The [current live closeout](../reviews/2026-11-14-organization-navigation-live.md)
+records exact bytes, canonical browser review and complete previous4814 recovery.
+Older qualification/publication sections below remain historical checkpoints.
 
 The exact selected owner sources are:
 
@@ -38,7 +42,7 @@ The [complete declaration](../../publication/organization-site-surfaces.json)
 uses the narrowly scoped v2 hosting profile and the same 36-surface registry.
 It names the actual website renderer and exact producer commit. Its semantic
 source is this repository's immutable
-[composition reference](../../publication/sources/organization-theme-2026-11-13.json),
+[composition reference](../../publication/sources/organization-navigation-2026-11-14.json),
 which points to upstream evidence without claiming ownership of its models.
 The declaration preserves its dated predeployment assessment: twenty UI
 surfaces were implemented/unpublished candidates, while the other sixteen retain
@@ -49,11 +53,16 @@ Actual live evidence is separate and recorded below.
 ## Manual preparation and publication
 
 Use `.github/workflows/organization-intelligence-pages.yml` on canonical main.
-Supply the raw selection SHA-256:
+Compute the raw hash from the exact reviewed main selection; do not reuse a
+hash from an older historical checkpoint:
 
-```text
-0f83a0fc255bb505df7472740e38f3611f28310adb65b48d10672f10875aaae5
+```sh
+sha256sum publication/organization-intelligence-selection.json
 ```
+
+Pass that value as `selection_sha256`. At the November14 navigation delivery
+it was `1a1d18a87a7ac2b5dc586426c8d9255ec41d11a01c7185ae30f7d5c833f8e385`.
+The completed delivery above should not be redispatched merely to update docs.
 
 `publish: false` is the default. The read-only preparation authenticates the
 public repository, exact successful manual review run/attempt/source, artifact
