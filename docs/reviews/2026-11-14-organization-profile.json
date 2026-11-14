@@ -123,5 +123,12 @@
   "limits": [
     "No General setting, DNS/domain, funding account, license, publication workflow or portfolio intent was changed.",
     "Final GitHub organization-profile rendering must be read back after source merge; this premerge check does not claim it."
-  ]
+  ],
+  "declared_general_blog_probe": {
+    "status": 404,
+    "outcome": "probe did not qualify the destination; no general availability claim",
+    "observed_at": "2026-11-14T23:30:38.234764+00:00",
+    "url": "https://egohygiene.io/",
+    "linked_in_profile_readme": false
+  }
 }

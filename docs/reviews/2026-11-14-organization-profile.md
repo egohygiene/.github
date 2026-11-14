@@ -21,3 +21,5 @@ funding4/5 and broader Intelligence acceptance retain their own scopes.
 
 ADR not required: this completes an existing public entry point using verified
 owner facts and links without changing architecture or strategic intent.
+
+The declared General blog URL was probed separately and did not qualify in this environment; the exact observed result is retained in the receipt. It is not one of the12 README destinations and is not linked or presented as a working company site. Domain/company publication remains the separate issue2 owner scope.
