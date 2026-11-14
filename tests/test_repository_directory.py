@@ -36,6 +36,14 @@ class RepositoryDirectory(unittest.TestCase):
         self.assertIsNone(self.row("optiflow")["dashboard"]["url"])
         self.assertIsNone(self.row("antidote")["dashboard"]["url"])
 
+    def test_mutating_returned_scope_cannot_rewrite_the_contract(self):
+        expected = DIRECTORY.SCOPE.copy()
+        self.value["scope"]["model_evidence"] = True
+        with self.assertRaises(ValueError):
+            DIRECTORY.validate(self.value)
+        self.assertEqual(DIRECTORY.SCOPE, expected)
+        self.assertFalse(DIRECTORY.build()["scope"]["model_evidence"])
+
     def test_recorded_receipts_are_distinct_from_historical_source(self):
         row = self.row(".github")
         self.assertEqual(row["source_observation"]["state"], "not-declared-in-inspected-source")

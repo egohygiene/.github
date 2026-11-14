@@ -184,7 +184,7 @@ def build():
             "dashboard": {"url": url, "link_state": "publication-recorded" if recorded else
                 "source-declared" if declared else "unknown", "publication": publication}})
     scope = inventory["scope"]
-    result = {"schema": SCHEMA, "scope": SCOPE,
+    result = {"schema": SCHEMA, "scope": SCOPE.copy(),
         "catalog": {"repository": scope["source_repository"], "revision": scope["source_revision"],
             "path": scope["source_path"], "sha256": scope["source_sha256"],
             "observed_at": scope["catalog_observed_at"]},

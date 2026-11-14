@@ -7,7 +7,7 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-14T19:53:34Z'
+  updated_at: '2026-11-14T19:56:08Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
@@ -89,12 +89,12 @@ state:
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-14T19:53:34Z'
+  reviewed_at: '2026-11-14T19:56:08Z'
   reviewed_by: Codex
   evidence:
-  - command: Offline exact projection, ten focused navigation/admission controls and JSON Schema with formats
+  - command: Offline exact projection, eleven focused navigation/admission controls and JSON Schema with formats
     outcome: passed
-    observed_at: '2026-11-14T19:53:34Z'
+    observed_at: '2026-11-14T19:56:08Z'
     notes: Two dated publication records, three source-declared links and 23 unknown destinations; no new live probe.
   - command: Root provider readback, exact owner/consumer merge ancestry and source-bound independent peers
     outcome: passed
@@ -162,7 +162,7 @@ This directory candidate is based on verified main ed2fd5d200cbb1b0e35b0efec2dcb
 
 ## Completed and material changes
 
-Added a versioned directory projection, structural schema, offline projector/semantic validator, ten focused controls and a consumer/update contract. No website renderer, model, publisher selection, provider state or original source inventory changed.
+Added a versioned directory projection, structural schema, offline projector/semantic validator, eleven focused controls and a consumer/update contract. No website renderer, model, publisher selection, provider state or original source inventory changed.
 
 Holon owns path/manifest qualification, literal rendering/hydration and navigation. Empathy owns baseline, staging, inherited gitignore and final Intelligence qualification. Hygiene owns repaired gates and declared membership; Relay owns compatible source/report/rendering seams and native SVG repair. The prior selected-ten packet aggregates that reviewed evidence independently of this directory input.
 
@@ -170,7 +170,7 @@ The original S3 current publication succeeded but dashboard explorer initializat
 
 ## Validation and review evidence
 
-Exact projection and ten focused admission/URL/state/receipt controls pass. JSON Schema with formats passes. Source pins and per-record clocks remain literal. These local checks do not establish new current availability or hosted delivery.
+Exact projection and eleven focused admission/URL/state/receipt controls pass. JSON Schema with formats passes. Source pins and per-record clocks remain literal. These local checks do not establish new current availability or hosted delivery.
 
 Actual S4 carriers, strict intake, standalone and current build/deploy/receipt/live, complete native/fixed-input two-checkout proof and canonical HTTPS browser checks support the bounded acceptance. Actual SVG focus/pointer/Enter and shared initialization pass. Original S2 failure/rollback controls remain source-bound and are reused only after explicit workflow/helper compatibility proof. Structural checks do not establish organization conformance.
 
