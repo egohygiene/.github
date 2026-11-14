@@ -1,0 +1,134 @@
+{
+  "schema_version": "egohygiene.github-profile-qualification/v1",
+  "observed_at": "2026-11-14T23:26:05.172887+00:00",
+  "profile_source_sha256": "b12f89ab415ab0777d21ae652f1e4ab99926f79cad145b3c42474f529bf0fe92",
+  "organization_public_metadata": {
+    "blog": "https://egohygiene.io/",
+    "description": "\ud83c\udfdb\ufe0f Building open-source tools, knowledge systems, automation, and AI-powered workflows for human flourishing.",
+    "name": "Ego Hygiene"
+  },
+  "public_repository_checks": {
+    "egohygiene/.github": {
+      "private": false,
+      "archived": false,
+      "html_url": "https://github.com/egohygiene/.github",
+      "default_branch": "main"
+    },
+    "egohygiene/aether": {
+      "private": false,
+      "archived": false,
+      "html_url": "https://github.com/egohygiene/aether",
+      "default_branch": "main"
+    },
+    "egohygiene/hygiene": {
+      "private": false,
+      "archived": false,
+      "html_url": "https://github.com/egohygiene/hygiene",
+      "default_branch": "main"
+    },
+    "egohygiene/holon": {
+      "private": false,
+      "archived": false,
+      "html_url": "https://github.com/egohygiene/holon",
+      "default_branch": "main"
+    },
+    "egohygiene/empathy": {
+      "private": false,
+      "archived": false,
+      "html_url": "https://github.com/egohygiene/empathy",
+      "default_branch": "main"
+    }
+  },
+  "links": [
+    {
+      "url": "https://egohygiene.github.io/.github/audits/",
+      "status": 200,
+      "final_url": "https://egohygiene.github.io/.github/audits/",
+      "bytes": 14297
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/",
+      "status": 200,
+      "final_url": "https://egohygiene.github.io/.github/intelligence/",
+      "bytes": 335925
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/sanity/",
+      "status": 200,
+      "final_url": "https://egohygiene.github.io/.github/sanity/",
+      "bytes": 405114
+    },
+    {
+      "url": "https://github.com/egohygiene/.github",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/.github",
+      "bytes": 310996
+    },
+    {
+      "url": "https://github.com/egohygiene/.github/blob/main/docs/intelligence/DELIVERY_ROADMAP.md",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/.github/blob/main/docs/intelligence/DELIVERY_ROADMAP.md",
+      "bytes": 295579
+    },
+    {
+      "url": "https://github.com/egohygiene/.github/blob/main/docs/intelligence/repositories.md",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/.github/blob/main/docs/intelligence/repositories.md",
+      "bytes": 228886
+    },
+    {
+      "url": "https://github.com/egohygiene/.github/issues",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/.github/issues",
+      "bytes": 282761
+    },
+    {
+      "url": "https://github.com/egohygiene/aether",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/aether",
+      "bytes": 389611
+    },
+    {
+      "url": "https://github.com/egohygiene/empathy",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/empathy",
+      "bytes": 423590
+    },
+    {
+      "url": "https://github.com/egohygiene/holon",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/holon",
+      "bytes": 375810
+    },
+    {
+      "url": "https://github.com/egohygiene/hygiene",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/hygiene",
+      "bytes": 334008
+    },
+    {
+      "url": "https://github.com/egohygiene/hygiene/blob/main/organization/ROADMAP.md",
+      "status": 200,
+      "final_url": "https://github.com/egohygiene/hygiene/blob/main/organization/ROADMAP.md",
+      "bytes": 227406
+    }
+  ],
+  "source_checks": {
+    "one_h1": true,
+    "descriptive_links": true,
+    "current_and_proposed_distinguished": true,
+    "funding_links": [],
+    "root_readme_separate": true
+  },
+  "limits": [
+    "No General setting, DNS/domain, funding account, license, publication workflow or portfolio intent was changed.",
+    "Final GitHub organization-profile rendering must be read back after source merge; this premerge check does not claim it."
+  ],
+  "declared_general_blog_probe": {
+    "status": 404,
+    "outcome": "probe did not qualify the destination; no general availability claim",
+    "observed_at": "2026-11-14T23:30:38.234764+00:00",
+    "url": "https://egohygiene.io/",
+    "linked_in_profile_readme": false
+  }
+}
