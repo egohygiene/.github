@@ -1,0 +1,242 @@
+{
+  "node": "v24.21.0",
+  "configured_environment_proxy": true,
+  "status": "passed",
+  "mode": "actual canonical HTTPS",
+  "expected_consumer": "5f02bfd6353b764513ef57a41bcf79db0f3c2e72",
+  "expected_publication_sha256": "0fcf249a88e1b34fd111eed9155c8051ea6476a0f30cd980ba53b61734d58d15",
+  "expected_producer": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+  "expected_export_manifest_sha256": "d0add7206a867171f95732831899d7e858f8671b6dd967294797af07c01e344d",
+  "certificate_errors_ignored": false,
+  "request_interception": false,
+  "global_custom_headers": false,
+  "started_at": "2026-11-14T20:56:39.758Z",
+  "browser": "151.0.7922.173",
+  "checks": [
+    "All 19 canonical HTML views returned HTTP200 and their exact retained producer body SHA/length; each hydrated without page exceptions.",
+    "The real project root resolves to the canonical organization overview.",
+    "All28 independently reviewed roster rows retain2 dated links,3 literal declared custom-domain destinations/GitHub fallback,23 unknown dashboards, exact source/payload pins and original observation clocks.",
+    "Real URL-backed roster search/filter/reload works; the selected Empathy publication destination returns HTTP200, without refreshing any retained publication observation.",
+    "Native group disclosures toggle with Enter and retain visible keyboard focus; graph starts optional and closed.",
+    "Actual overview remains bounded at320/390/768/1440 with map closed/open, plus390 RTL/200% root text; captures retained. This is emulation, not full zoom/device certification.",
+    "Actual graph selection is URL-backed and reload reopens the optional map.",
+    "Grouped view navigation, direct refresh and Back retain shared query/entity context on real canonical routes.",
+    "Shared appearance mode still changes actual palettes and survives reload, then returns to System.",
+    "Canonical JavaScript-disabled HTML retains all28 roster rows,18 endpoint links and usable native disclosures/map text equivalents.",
+    "Publication identity remained exact/stable before and after; zero page exceptions/application console errors and no failed project requests. Any origin-root favicon404 is retained separately."
+  ],
+  "observations": [
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/",
+      "status": 200,
+      "sha256": "ba40249dfc5b6c2549404effc119d322332be5c3a85dd5a4ee59228e1f45679e",
+      "expected_sha256": "ba40249dfc5b6c2549404effc119d322332be5c3a85dd5a4ee59228e1f45679e",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/journey/",
+      "status": 200,
+      "sha256": "b0eadc5823f8f3e4494b90812b6e6118953d66c3f7d7f393b414ac29540a128c",
+      "expected_sha256": "b0eadc5823f8f3e4494b90812b6e6118953d66c3f7d7f393b414ac29540a128c",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/decisions/",
+      "status": 200,
+      "sha256": "e5e08a29f5a1422c346e67a23f39a4a12be469721843608ae64722c274c19652",
+      "expected_sha256": "e5e08a29f5a1422c346e67a23f39a4a12be469721843608ae64722c274c19652",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/audits/",
+      "status": 200,
+      "sha256": "61d16cf2f62e2d69ff7d8a81e0eeac78835bee9360c1a273433b802770a5f0ec",
+      "expected_sha256": "61d16cf2f62e2d69ff7d8a81e0eeac78835bee9360c1a273433b802770a5f0ec",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/compare/",
+      "status": 200,
+      "sha256": "c04c7c574cd9617aa1efcb76ca9af1182913939c8ebbb2ffdb7d1c341a6c2395",
+      "expected_sha256": "c04c7c574cd9617aa1efcb76ca9af1182913939c8ebbb2ffdb7d1c341a6c2395",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/dashboard/",
+      "status": 200,
+      "sha256": "630faca167717e45f99376ff8e48bb5b4aca0e429d49c8937e1cbedc00090928",
+      "expected_sha256": "630faca167717e45f99376ff8e48bb5b4aca0e429d49c8937e1cbedc00090928",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/dependencies/",
+      "status": 200,
+      "sha256": "234b00aeadc2e69ca2f84e0dbdfc730e49d433bdad7ec209867371a3796e5d06",
+      "expected_sha256": "234b00aeadc2e69ca2f84e0dbdfc730e49d433bdad7ec209867371a3796e5d06",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/diagnostics/",
+      "status": 200,
+      "sha256": "0b3420f5b91a639c41c80e3332cde4ed0ff947acc61682f3305c4d32f6643ae2",
+      "expected_sha256": "0b3420f5b91a639c41c80e3332cde4ed0ff947acc61682f3305c4d32f6643ae2",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/distribution/",
+      "status": 200,
+      "sha256": "660dd97110d1db03a97441e4b951d0cf697b97e9874a0f6efe66d9cb21f4eda6",
+      "expected_sha256": "660dd97110d1db03a97441e4b951d0cf697b97e9874a0f6efe66d9cb21f4eda6",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/health/",
+      "status": 200,
+      "sha256": "5d4a44846d3b0f999e37b09d2a34b1ca936c8796ba22d34803aea8bee310a15d",
+      "expected_sha256": "5d4a44846d3b0f999e37b09d2a34b1ca936c8796ba22d34803aea8bee310a15d",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/hygiene/",
+      "status": 200,
+      "sha256": "992ed74876e28cf237eeb73c52a52926900d7dd8740edd13a28fed66a5428f1e",
+      "expected_sha256": "992ed74876e28cf237eeb73c52a52926900d7dd8740edd13a28fed66a5428f1e",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/identity/",
+      "status": 200,
+      "sha256": "5c0c72891b005f877f7d38ccaf46aba43858155ca2461c09f6a30de44453df00",
+      "expected_sha256": "5c0c72891b005f877f7d38ccaf46aba43858155ca2461c09f6a30de44453df00",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/now/",
+      "status": 200,
+      "sha256": "d0eff33842920f67aaa7a36680a59a6e83deb4829e3538c6f4ac3c5bee5f8a13",
+      "expected_sha256": "d0eff33842920f67aaa7a36680a59a6e83deb4829e3538c6f4ac3c5bee5f8a13",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/releases/",
+      "status": 200,
+      "sha256": "6e38da8066a41c859c75c7509318cd1fba8ebe8dc48baef794ac1b65bf906e4f",
+      "expected_sha256": "6e38da8066a41c859c75c7509318cd1fba8ebe8dc48baef794ac1b65bf906e4f",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/roadmap/",
+      "status": 200,
+      "sha256": "c9c10ac9a2d60df55c9f1205d701a4822b55b36af7b554e2624f756fbd5a7bb3",
+      "expected_sha256": "c9c10ac9a2d60df55c9f1205d701a4822b55b36af7b554e2624f756fbd5a7bb3",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/sanity/",
+      "status": 200,
+      "sha256": "14611762aee151e7e6948463dcf9b5f1888911b005c0783f4b6200e8095646bd",
+      "expected_sha256": "14611762aee151e7e6948463dcf9b5f1888911b005c0783f4b6200e8095646bd",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/search/",
+      "status": 200,
+      "sha256": "c0ec826a7d30fe7c889af988668e46ba6b70866ba78cd95a50bf6d41436a9bd1",
+      "expected_sha256": "c0ec826a7d30fe7c889af988668e46ba6b70866ba78cd95a50bf6d41436a9bd1",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/intelligence/work/",
+      "status": 200,
+      "sha256": "0c230d7c5aa3da8f869c9c2833ef0b22b6d2b8195df1a6a3914d1e8f81331e5e",
+      "expected_sha256": "0c230d7c5aa3da8f869c9c2833ef0b22b6d2b8195df1a6a3914d1e8f81331e5e",
+      "byte_match": true
+    },
+    {
+      "url": "https://egohygiene.github.io/.github/status/",
+      "status": 200,
+      "sha256": "3b2465cb30bf0324104f05f510c2aada97be9d84ae4931bcdde4756b2d822776",
+      "expected_sha256": "3b2465cb30bf0324104f05f510c2aada97be9d84ae4931bcdde4756b2d822776",
+      "byte_match": true
+    },
+    {
+      "kind": "one recorded consumer destination",
+      "url": "https://egohygiene.github.io/empathy/intelligence/",
+      "status": 200,
+      "qualification": "Point-in-time navigation only; this does not rewrite the retained directory record or qualify its latest source."
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": 320,
+      "document": 320,
+      "graph_open": false
+    },
+    {
+      "viewport": 320,
+      "document": 320,
+      "graph_open": true
+    },
+    {
+      "viewport": 390,
+      "document": 390,
+      "graph_open": false
+    },
+    {
+      "viewport": 390,
+      "document": 390,
+      "graph_open": true
+    },
+    {
+      "viewport": 768,
+      "document": 768,
+      "graph_open": false
+    },
+    {
+      "viewport": 768,
+      "document": 768,
+      "graph_open": true
+    },
+    {
+      "viewport": 1440,
+      "document": 1440,
+      "graph_open": false
+    },
+    {
+      "viewport": 1440,
+      "document": 1440,
+      "graph_open": true
+    },
+    {
+      "viewport": 390,
+      "document": 390,
+      "direction": "rtl",
+      "root_text_size": "200%"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "url": "https://egohygiene.github.io/favicon.ico"
+    }
+  ],
+  "failed_requests": [],
+  "identity_before": {
+    "status": 200,
+    "url": "https://egohygiene.github.io/.github/organization-intelligence-publication.json",
+    "sha256": "0fcf249a88e1b34fd111eed9155c8051ea6476a0f30cd980ba53b61734d58d15",
+    "consumer_revision": "5f02bfd6353b764513ef57a41bcf79db0f3c2e72",
+    "producer_revision": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "export_as_of": "2026-11-13T03:36:14Z"
+  },
+  "identity_after": {
+    "status": 200,
+    "url": "https://egohygiene.github.io/.github/organization-intelligence-publication.json",
+    "sha256": "0fcf249a88e1b34fd111eed9155c8051ea6476a0f30cd980ba53b61734d58d15",
+    "consumer_revision": "5f02bfd6353b764513ef57a41bcf79db0f3c2e72",
+    "producer_revision": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "export_as_of": "2026-11-13T03:36:14Z"
+  },
+  "finished_at": "2026-11-14T20:56:50.099Z"
+}

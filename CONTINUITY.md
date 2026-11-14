@@ -7,26 +7,26 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-14T20:54:59Z'
+  updated_at: '2026-11-14T20:56:50.099Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Integrate the reviewed organization community defaults with current main without reverting
-    the public repository directory or its dated evidence.
+  purpose: Record actual combined compact UI/directory publication, canonical verification and previous-site
+    recovery without refreshing model clocks.
   includes:
-  - Supported contribution, support, security, PR and issue-intake defaults, with byte-identical funding-path
-    correction.
-  - Current main repository directory, reviewed navigation export selection, and their original dated
-    publication/source evidence retained.
-  - Canonical issue title/body/label declarations shared by all seven forms and API examples.
+  - Accepted website152/153, directory68 and selector69 source chain; actual native export/review/publish
+    and canonical browser evidence.
+  - Current community-default66 source retained alongside unchanged publication/owner contracts.
   excludes: &id001
-  - Required receiving-repository primary type labels and actual hosted fallback discovery remain unverified;
-    issue24 remains open.
-  - The existing repository directory and historical organization publication evidence are preserved;
-    no new deployment, DNS, funding service, license, reporting mailbox, policy ratification or provider
-    setting is claimed.
+  - Original one-target Audit/Sanity models,28 Sanity components,03:23:31Z model frame/03:36:14Z evaluation
+    on November13, partial execution, unreviewed governance and human-unavailable evidence remain unchanged;
+    Core unavailable.
+  - Navigation28 is a fixed reviewed public roster, not org total or captured fleet. Two dated records stay
+    dated;3 custom-domain declarations remain text/unknownpublication;23 dashboards unknown.
+  - No restore exercise, full accessibility/performance/device/fleet/privacy acceptance or human ADR ratification;
+    broad27/41/42 remain open. Community24 receiving labels/fallback discovery remains open.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -37,71 +37,72 @@ scope:
   - AGENTS.md
   - ARCHITECTURE.md
   - docs/issue-routing.md
-  - docs/community-health.md
-  - docs/issue-authoring.md
-  - .github/issues/title-contract.v1.json
-  - .github/issues/authoring.v1.json
+  - docs/intelligence/organization-pages.md
+  - docs/reviews/2026-11-14-organization-navigation-live.md
   - docs/intelligence/repository-directory.json
   - publication/organization-intelligence-selection.json
-  - docs/reviews/2026-11-14-organization-navigation-selection.md
 work:
-  objective: Integrate the reviewed organization community defaults with current main without reverting
-    the public repository directory or its dated evidence.
+  objective: Record actual combined compact UI/directory publication, canonical verification and previous-site
+    recovery without refreshing model clocks.
   success_conditions:
-  - All existing and new default-file/form/directory contracts pass together.
-  - Current handoff preserves enrollment/discovery and publication limitations.
+  - Actual hosted publisher authenticates review, retains complete4814 recovery and verifies canonical bytes
+    at acceptedsource.
+  - Canonical browser confirms compact UI/navigation/appearance and original evidence boundaries; handoff
+    points to completed delivery.
   active_issue:
     provider: github
-    id: egohygiene/.github#24
-    url: https://github.com/egohygiene/.github/issues/24
+    id: egohygiene/.github#41
+    url: https://github.com/egohygiene/.github/issues/41
   next:
     kind: action
-    id: verify-community-default-enrollment
-    description: Use the Relay-owned enrollment path to reconcile required receiving labels, then verify
-      GitHub fallback and local override discovery before completing24.
+    id: advance-current-coverage-and-parent-acceptance
+    description: Use actual live packet to assess remaining27/41/42 source coverage and bounded usability
+      work; do not rerun completed delivery. Independently verify24 receiving labels/fallback discovery.
     readiness: ready
     references:
+    - https://github.com/egohygiene/.github/issues/41
+    - https://github.com/egohygiene/.github/issues/42
     - https://github.com/egohygiene/.github/issues/24
-    - https://github.com/egohygiene/.github/pull/66
     depends_on: []
 state:
   base:
-    revision: 5f02bfd6353b764513ef57a41bcf79db0f3c2e72
+    revision: fba96b1115b36e7fd5c197a558520360ed008821
     ref: refs/heads/main
-    verified_at: '2026-11-14T20:54:59Z'
+    verified_at: '2026-11-14T20:56:50.099Z'
   candidate:
-    branch: fix/24-community-defaults
+    branch: codex/organization-navigation-live
     revision: null
-    pull_request:
-      provider: github
-      id: egohygiene/.github#66
-      url: https://github.com/egohygiene/.github/pull/66
+    pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-14T20:54:59Z'
-    default_branch_revision: 5f02bfd6353b764513ef57a41bcf79db0f3c2e72
+    observed_at: '2026-11-14T20:56:50.099Z'
+    default_branch_revision: fba96b1115b36e7fd5c197a558520360ed008821
     issue_state: open
-    pull_request_state: open
-    notes: PR66 is open with a continuity-only merge conflict after the independently merged navigation
-      selection69. This candidate integrates current main and the original defaults; no merge or hosted
-      discovery is inferred.
-  parallel_changes: []
+    pull_request_state: not-applicable
+    notes: Accepted publisher5f02/run43639599345 succeeded; native live20:50:59Z and canonical browser20:56:39–50Z
+      verified publication0fcf249a. Base includes merged community66. Docs-only candidate does not change
+      published source.
+  parallel_changes:
+  - provider: github
+    id: egohygiene/.github#24
+    url: https://github.com/egohygiene/.github/issues/24
 review:
   status: partial
-  reviewed_at: '2026-11-14T20:54:59Z'
+  reviewed_at: '2026-11-14T20:56:50.099Z'
   reviewed_by: Codex
   evidence:
-  - command: python -m unittest discover -s tests -v
+  - command: Actual export43637285216/1; native review43637764378/1; publisher43639599345/1.
     outcome: passed
-    observed_at: '2026-11-14T20:54:59Z'
-    notes: 44 tests pass on the integrated default-file/form and current repository-directory source.
-  - command: python scripts/validate_labels.py; deterministic label projection comparison; continuity
-      schema and format checks; git diff --check
+    observed_at: '2026-11-14T20:56:50.099Z'
+    notes: All44 producer bytes unchanged; actual github-read-only acquisition, complete prior45-file4814
+      recovery and verified HTTPS success receipt. Local .nojekyll control distinguished from43 remote producer
+      files.
+  - command: Canonical Chromium151/Node24.21,11 groups,19 distinct HTML bytes, nine layout observations.
     outcome: passed
-    observed_at: '2026-11-14T20:54:59Z'
-    notes: Recorded after running these controls on the final candidate; hosted consumer behavior remains
-      separate.
+    observed_at: '2026-11-14T20:56:50.099Z'
+    notes: NormalTLS/configured environment proxy, no interception/global headers; exact stable identity
+      before/after; zero app/page/request errors, separate origin-rootfavicon404.390/1440 captures viewed.
   environment_limitations: *id001
 privacy:
   classification: public-repository
@@ -121,50 +122,50 @@ privacy:
 
 ## Purpose and precedence
 
-User/runtime and scoped instructions, live state and canonical contracts outrank this handoff.
+User/runtime and scoped instructions, live state and canonical contracts outrank this checkpoint.
 
 ## Resume protocol
 
-Read AGENTS, the architecture/routing guides and live24/PR66. Verify receiving label enrollment and actual GitHub fallback rather than inferring activation from files.
+Read AGENTS, architecture/routing and the actual November14 live packet. Verify mutable main/issues/PRs. Do not redispatch the completed UI delivery from older prepublication guides.
 
 ## Current objective and success conditions
 
-Integrate the reviewed organization community defaults with current main without reverting the public repository directory or its dated evidence.
+The compact organization overview and independent repository directory are actually published, with exact producer bytes, canonical navigation review and complete previous4814 recovery.
 
 ## State snapshot
 
-Candidate integration retains current main `5f02bfd6353b764513ef57a41bcf79db0f3c2e72` and PR66 original source `d0ae7343bf243f35d3c15aa3ac301294abcc88c6`. Containing revision remains null.
+Published website source `d5730066cf8645a927efcd6ff4f2170627bf4443`; publisher `5f02bfd6353b764513ef57a41bcf79db0f3c2e72`, run43639599345/1. Publication `0fcf249a88e1b34fd111eed9155c8051ea6476a0f30cd980ba53b61734d58d15`. This docs candidate starts at merged community66 main `fba96b1115b36e7fd5c197a558520360ed008821`; containing revision stays null.
 
 ## Completed and material changes
 
-All supported defaults and explicit adopt/defer decisions are in docs/community-health.md. Existing funding bytes are moved to the supported path. Current directory, producer clocks and publication receipts remain intact.
+Website152/153 compact unavailable rows, group views, disclose map/provenance and consume accepted directory68 independently of Core. Selector69 is merged. Actual export/native review/publish and canonical verification are complete. Community66 defaults remain intact; receiving-label/discovery acceptance stays24.
 
 ## Validation and review evidence
 
-44 integrated tests, label contracts, deterministic projection, JSON Schema/format and whitespace checks pass. Original independent source review is linked on PR66. ADR not required: this reconciles implementation of the existing fallback/intake design without accepting new policy.
+See [actual live packet](docs/reviews/2026-11-14-organization-navigation-live.md) and strict JSON. Actual hosted review and publisher retained all44 producer bytes. Native HTTPS receipt20:50:59Z and canonical browser20:56:39–50Z agree. Eleven browser groups cover19 exact HTML views, real navigation, keyboard/disclosures, shared appearance, no-JS and nine narrow/RTL/enlarged-text observations.390/1440 captures visually reviewed.
 
 ## Blockers, risks, unknowns, and deferred work
 
-Required receiving-repository primary type labels and actual hosted fallback discovery remain unverified; issue24 remains open.
+Original model frame03:23:31Z/evaluation03:36:14Z on November13 remain unchanged. Audit/Sanity each have one target,28 Sanity components, partial execution, not-reviewed governance and unavailable human evidence. Core unavailable. Navigation28 is not a current org total/capturedfleet:2 dated records,3 declared text destinations/unknownpublication,23 unknown dashboards.
 
-The existing repository directory and historical organization publication evidence are preserved; no new deployment, DNS, funding service, license, reporting mailbox, policy ratification or provider setting is claimed.
+Complete previous4814 recovery is retained until2027-02-12; no restore exercised. Full accessibility/performance/device/fleet/privacy and human ADR acceptance remain separate. Origin-rootfavicon404 retained separately. Initial direct-network browser identity request failed before page visits; task-local standard proxy correction passed without source/TLS/assertion changes.
 
 ## Next dependency-ready work
 
-Use the Relay-owned enrollment path to reconcile required receiving labels, then verify GitHub fallback and local override discovery before completing24.
+Assess remaining27/41/42 acceptance and current source coverage using the actual live packet. Advance independently owned24 label/fallback-discovery checks. Do not recreate Core, refresh historical clocks or republish unchanged docs.
 
 ## Parallel changes and reconciliation
 
-Current-main directory work is retained; the original community continuity checkpoint is replaced semantically, not copied over the later source handoff.
+Base includes merged community66, directory68 and selector69. This docs-only closeout preserves their source/policy and all prior dated proof. Empathy's independent repository UI/publication remains its own lane.
 
 ## Privacy and redaction
 
-Public-safe repository facts only; no credentials, private context or personal reporting contacts.
+Public-safe source/artifact identities, receipts and captures only; no signed URLs, credentials, local transport files, private paths or unrelated context.
 
 ## Handoff update protocol
 
-After verified integration/enrollment/discovery, refresh the time-qualified checkpoint and append exact evidence to24 before changing acceptance state.
+Refresh this checkpoint with exact observed source, actual checks and remaining scope after the next authorized change. Keep published renderer/publisher identities separate from later documentation commits.
 
 ## Compaction and supersession
 
-Git and PR66 retain chronology; this file keeps the current integration objective and remaining acceptance.
+Git and dated packets preserve prior source/prepublication/live chronology. This checkpoint supersedes pending-delivery language without altering those historical records.
