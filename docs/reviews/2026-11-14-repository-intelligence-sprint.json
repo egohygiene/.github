@@ -1,0 +1,535 @@
+{
+  "schema": "egohygiene.repository-intelligence-sprint-review/v1",
+  "observed_at": "2026-11-14T22:07:53.006720+00:00",
+  "status": "complete-bounded-sprint",
+  "source_pr_count": 27,
+  "repository_count": 7,
+  "pull_requests": [
+    {
+      "repository": "egohygiene/holon",
+      "pull_request": 104,
+      "url": "https://github.com/egohygiene/holon/pull/104",
+      "reviewed_source": "5735341b0343a260eb66a5e05ea63aa3c4c26d91",
+      "merge_commit": "f6b7807c1e49c0fa0a3ca10cb620bab21f3d2492",
+      "issue": "https://github.com/egohygiene/holon/issues/62",
+      "scope": "Deterministic materialization repair; issue62 complete."
+    },
+    {
+      "repository": "egohygiene/holon",
+      "pull_request": 105,
+      "url": "https://github.com/egohygiene/holon/pull/105",
+      "reviewed_source": "9890ab56a6ae5a5abe398f80f11f21d9777526b1",
+      "merge_commit": "a54af6c314d3c785d944f9aef8ba088b02a914e0",
+      "issue": "https://github.com/egohygiene/holon/issues/39",
+      "scope": "Lifecycle repair; issue39 complete."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 112,
+      "url": "https://github.com/egohygiene/egolint/pull/112",
+      "reviewed_source": "ef636747632131ccd68d93c7e5e0abf4ad9f0cee",
+      "merge_commit": "d7091a6e4fe1d634dda7bf53e15172c3ea4a5267",
+      "issues": [
+        "https://github.com/egohygiene/egolint/issues/35",
+        "https://github.com/egohygiene/egolint/issues/36",
+        "https://github.com/egohygiene/egolint/issues/37"
+      ],
+      "scope": "Adaptive rule registry/configuration; issues35/36/37 complete."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 113,
+      "url": "https://github.com/egohygiene/egolint/pull/113",
+      "reviewed_source": "9c123f82e8918b5064202d5c42a139e4ab3c1781",
+      "merge_commit": "a5fb6de01e2f679fcd59d2d4d1a01cbf4af3e122",
+      "issues": ["https://github.com/egohygiene/egolint/issues/101"],
+      "scope": "Release dependency handoff; issue101 complete; product release remains separately gated."
+    },
+    {
+      "repository": "egohygiene/relay",
+      "pull_request": 192,
+      "url": "https://github.com/egohygiene/relay/pull/192",
+      "reviewed_source": "567d0122dd2c2fd6f4046c37e6cc077ab9174ccf",
+      "merge_commit": "5de708368b42601e140c58f4ab8f305fe2dc5c82",
+      "scope": "Shared compact repository UI and narrow-screen/graph repairs; broad repository Intelligence acceptance remains open."
+    },
+    {
+      "repository": "egohygiene/holon",
+      "pull_request": 106,
+      "url": "https://github.com/egohygiene/holon/pull/106",
+      "reviewed_source": "b911067da741933aa327e25776ff76ac54c04506",
+      "merge_commit": "7106d5209f323b8dc8c325f365521580b5598252",
+      "scope": "Explicit standalone site-only delegation; full-foundation Aether admission remains unchanged."
+    },
+    {
+      "repository": "egohygiene/hygiene",
+      "pull_request": 120,
+      "url": "https://github.com/egohygiene/hygiene/pull/120",
+      "reviewed_source": "ae2381c20542a42960c12a99338d98e3174223e6",
+      "merge_commit": "905eac04deaa084c471a5eb628700711afda0bd4",
+      "issue": "https://github.com/egohygiene/hygiene/issues/41",
+      "scope": "Diagnosis repair; issue41 complete."
+    },
+    {
+      "repository": "egohygiene/egohygiene.io",
+      "pull_request": 152,
+      "url": "https://github.com/egohygiene/egohygiene.io/pull/152",
+      "reviewed_source": "51a7e54eaa38064bf80116ad9b92d86bbdc621fa",
+      "merge_commit": "7a77ba77fa52c3a7b2686cc1a9722c592188d630",
+      "scope": "Compact organization overview UI, subsequently included in actual rendererd573 publication."
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "pull_request": 150,
+      "url": "https://github.com/egohygiene/empathy/pull/150",
+      "reviewed_source": "2bc69b983dc0b49658563a073c8b1ff5649b1432",
+      "merge_commit": "8f88b45b6c4fb1b7e9b57aa07be9a0088b13e1c7",
+      "issue": "https://github.com/egohygiene/empathy/issues/100",
+      "scope": "Mailmap repair; issue100 complete."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 115,
+      "url": "https://github.com/egohygiene/egolint/pull/115",
+      "reviewed_source": "ea1d68c9ac448b4187a2659e8f5e87f5b9a0af70",
+      "merge_commit": "9399feda6b78cef529c450801fa3034d199b6c7c",
+      "issue": "https://github.com/egohygiene/egolint/issues/98",
+      "scope": "JSONSkooma selector validation and deterministic report routing; issue98 complete."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 116,
+      "url": "https://github.com/egohygiene/egolint/pull/116",
+      "reviewed_source": "33f8101cee78a5645766c40307c19d6136ae0350",
+      "merge_commit": "6658ba6e2f3c6db4410b6e8a9dc9f60695bc743c",
+      "issue": "https://github.com/egohygiene/egolint/issues/100",
+      "scope": "Native input classification; issue100 complete."
+    },
+    {
+      "repository": "egohygiene/.github",
+      "pull_request": 68,
+      "url": "https://github.com/egohygiene/.github/pull/68",
+      "reviewed_source": "bde3ae740e22fc51b37d8002d9c85a9aa36fcbbf",
+      "merge_commit": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+      "scope": "Independent historical public repository directory; broad42 remains open."
+    },
+    {
+      "repository": "egohygiene/hygiene",
+      "pull_request": 121,
+      "url": "https://github.com/egohygiene/hygiene/pull/121",
+      "reviewed_source": "d6a7fad038d87ac224b940c3de3ed845983f173d",
+      "merge_commit": "f09b44a7996d47d37d4e6c2b774aca9cbc342ec8",
+      "issue": "https://github.com/egohygiene/hygiene/issues/30",
+      "scope": "Claims repair; issue30 complete."
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "pull_request": 151,
+      "url": "https://github.com/egohygiene/empathy/pull/151",
+      "reviewed_source": "78c0891f6160892d2661f9dc013418e4534d9d7d",
+      "merge_commit": "8366ac00fd322d1a4f8d07a047c2825165ae45cb",
+      "scope": "Adopt immutable Relay5de compact generator; helper/reportwriter/historicalrollback pins preserved."
+    },
+    {
+      "repository": "egohygiene/hygiene",
+      "pull_request": 122,
+      "url": "https://github.com/egohygiene/hygiene/pull/122",
+      "reviewed_source": "83c9467abf5692f37483eaea9a7df13caa3c52e8",
+      "merge_commit": "ea2768d49a5953d7f710374fbf13bff880f44f91",
+      "scope": "Actual change-history qualification; issue37 private/downstream/human acceptance remains open."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 117,
+      "url": "https://github.com/egohygiene/egolint/pull/117",
+      "reviewed_source": "106f5506cf2b85fcc1c290922eee1ed2d113cd1a",
+      "merge_commit": "e3eaabac3f4f2289d5a6fdbc4b88dc266dda0f2b",
+      "issue": "https://github.com/egohygiene/egolint/issues/95",
+      "scope": "ASCII topology prefix-collision repair; issue95 complete."
+    },
+    {
+      "repository": "egohygiene/egohygiene.io",
+      "pull_request": 153,
+      "url": "https://github.com/egohygiene/egohygiene.io/pull/153",
+      "reviewed_source": "1d8c3bb9ced2bfc8a3b07735577d7f0224b995f1",
+      "merge_commit": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+      "scope": "Independent directory consumer; actual organization rendererd573."
+    },
+    {
+      "repository": "egohygiene/holon",
+      "pull_request": 107,
+      "url": "https://github.com/egohygiene/holon/pull/107",
+      "reviewed_source": "f90c0208259bc9ba2c8fe9c0b1e2b45553a78807",
+      "merge_commit": "ffbe5f8527a5b79457ef886a6489aed1a69eceea",
+      "scope": "Minimal documentation accessibility repair with native optional-search disable, shared palette and static source link."
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "pull_request": 152,
+      "url": "https://github.com/egohygiene/empathy/pull/152",
+      "reviewed_source": "e6ad328958aedcc0b084d3349396b920142c3f65",
+      "merge_commit": "c864ae656d0f96987492397440670524963f337c",
+      "scope": "External knowledge owner, deterministic corpus/index and exchange prototypes; canonical/staging preimages preserved."
+    },
+    {
+      "repository": "egohygiene/.github",
+      "pull_request": 69,
+      "url": "https://github.com/egohygiene/.github/pull/69",
+      "reviewed_source": "04b4b4779c92bff6d6f93afab86e8424022eb698",
+      "merge_commit": "5f02bfd6353b764513ef57a41bcf79db0f3c2e72",
+      "scope": "Authenticated retained-artifact navigation publication selection; actual publication completed."
+    },
+    {
+      "repository": "egohygiene/holon",
+      "pull_request": 108,
+      "url": "https://github.com/egohygiene/holon/pull/108",
+      "reviewed_source": "462edccb04a8886418f86cdee0116e91f2383e9a",
+      "merge_commit": "fc3c20ce7ec9dbdfae7828f82bc6102c639e43e0",
+      "scope": "Finite unreleased source-distribution candidate and public clean-room reproduction; issue82 complete within explicit scope."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 118,
+      "url": "https://github.com/egohygiene/egolint/pull/118",
+      "reviewed_source": "28ac1cba5595babe4e85c200643a20078dcf062c",
+      "merge_commit": "2df716bd77edfdcf187a13f121130ab024daafe4",
+      "scope": "Bounded static workflow matrices and truthful advisory positions; issue96 complete.",
+      "issue": "https://github.com/egohygiene/egolint/issues/96"
+    },
+    {
+      "repository": "egohygiene/.github",
+      "pull_request": 70,
+      "url": "https://github.com/egohygiene/.github/pull/70",
+      "reviewed_source": "2a74e557dac51100c4387dd50ae58a2fa69cd7b6",
+      "merge_commit": "83d0a3ba7bbd3761ab4a1d0729839159057a5c50",
+      "scope": "Documentation/capture closeout of actual live organization publication."
+    },
+    {
+      "repository": "egohygiene/egohygiene.io",
+      "pull_request": 154,
+      "url": "https://github.com/egohygiene/egohygiene.io/pull/154",
+      "reviewed_source": "3bd17c4d9c5febf1c8f62885097d8f0ff23abd7b",
+      "merge_commit": "04d816395a6041739895d016b91faa879a42c3af",
+      "scope": "Documentation-only actual delivery handoff; actual renderer remainsd573."
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "pull_request": 154,
+      "url": "https://github.com/egohygiene/empathy/pull/154",
+      "reviewed_source": "1b408926f79148469fae60f2d3755606afdac882",
+      "merge_commit": "eda146318f101306e3fc65025a247de6de9350cb",
+      "scope": "Current-only native standalone garden Pages owner; issue65 complete after actual final-main deployment/public-projection live proof. Selected report dashboard finishing remains separate."
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "pull_request": 153,
+      "url": "https://github.com/egohygiene/empathy/pull/153",
+      "reviewed_source": "e5babf6705013ef887ef3155e780c2b49cfbcf64",
+      "merge_commit": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+      "scope": "Optional generic/LaunchKit website consumers; issue64 complete with native/72browser/lifecycle proof."
+    },
+    {
+      "repository": "egohygiene/egolint",
+      "pull_request": 119,
+      "url": "https://github.com/egohygiene/egolint/pull/119",
+      "reviewed_source": "c3c03a1386100056c678eee752bb2d989dd90121",
+      "merge_commit": "dcd4fc2e91c72e7bdafc002f2e5e55ab7e58478e",
+      "scope": "Closed package-quality grammar; issue97 complete with135Node/40schema-runtime/10peerCLI controls.",
+      "issue": "https://github.com/egohygiene/egolint/issues/97"
+    }
+  ],
+  "parallel_work_preserved": {
+    "repository": "egohygiene/.github",
+    "pull_request": 66,
+    "merge_commit": "fba96b1115b36e7fd5c197a558520360ed008821",
+    "included_in_sprint_count": false
+  },
+  "organization_publication": {
+    "url": "https://egohygiene.github.io/.github/intelligence/",
+    "sha256": "0fcf249a88e1b34fd111eed9155c8051ea6476a0f30cd980ba53b61734d58d15",
+    "publisher_source": "5f02bfd6353b764513ef57a41bcf79db0f3c2e72",
+    "renderer_source": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "export_run": 43637285216,
+    "retained_native_review_run": 43637764378,
+    "publication_run": 43639599345,
+    "canonical_native_verified_at": "2026-11-14T20:50:59Z",
+    "canonical_browser_completed_at": "2026-11-14T20:56:50.099Z",
+    "canonical_browser": {
+      "groups": 11,
+      "exact_html_bodies": 19,
+      "layout_observations": 9,
+      "normal_tls": true,
+      "request_interception": false,
+      "application_errors": 0,
+      "separate_origin_root_favicon_404": true
+    },
+    "previous_publication": "4814dfa96229f172cff1b2a5e2b101e6891ecceada6769130eb41dc5933b4fd1",
+    "previous_complete_public_files": 45,
+    "recovery_expires_at": "2027-02-12T20:50:20Z",
+    "restore_exercised": false,
+    "public_evidence": "2026-11-14-organization-navigation-live.md"
+  },
+  "empathy_publication": {
+    "url": "https://egohygiene.github.io/empathy/intelligence/",
+    "source": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+    "status": "published-and-canonical-live-verified",
+    "artifact_only_producers": {
+      "canonical_lint": 43643655687,
+      "osv": 43643659905,
+      "scorecard": 43643663854
+    },
+    "report_snapshots_written": false,
+    "writer_pin": "1eada5142f7fc7da7862f335589e3b8f5884ffaf",
+    "historical_rollback_consumer": "254185272ab27b6858b8b0393af6549c205c9a8d",
+    "historical_rollback_relay": "b71b090406a3a9e4cd9f107e9d14a623bbecb127",
+    "selected_report_artifacts": [
+      {
+        "producer": "osv",
+        "run_id": 43643659905,
+        "run_attempt": 1,
+        "artifact_id": 14133371576,
+        "archive_sha256": "8240b07197f01a65c0f8cd7c9650b4d19b9016eb17a73f448dac84fc140dae85",
+        "summary_sha256": "aa71f79cfdc551cc5d604d6321bd26f58ac1042e134f8b2020fdf17498cdba82"
+      },
+      {
+        "producer": "megalinter",
+        "run_id": 43643655687,
+        "run_attempt": 1,
+        "artifact_id": 14132654266,
+        "archive_sha256": "1ff471d12188f7bd4dadbf1fb64aae9818f726e6c5aa8de44857f04c1905ab56",
+        "summary_sha256": "632b6366e64744890e73d1bca0d7441a1bdf82adc346f0e4826b53efae07adbf"
+      },
+      {
+        "producer": "scorecard",
+        "run_id": 43643663854,
+        "run_attempt": 1,
+        "artifact_id": 14132204601,
+        "archive_sha256": "e60a963e8345d275746a0eb8cb826343d62e3fe8d663536053a169d7375bf6ad",
+        "summary_sha256": "675f58973da747a52a54436af8c6033490a39a05f2c141cae3ea95056a096696"
+      }
+    ],
+    "final_canonical_scan": {
+      "run": 43643655687,
+      "url": "https://github.com/egohygiene/empathy/actions/runs/43643655687",
+      "source": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+      "conclusion": "failure",
+      "completed_at": "2026-11-14T21:44:26Z",
+      "native_tools": {
+        "descriptors": 50,
+        "passing": 21,
+        "gating_failure_tools": 21,
+        "nonblocking_diagnostic_tools": 8,
+        "reported_errors": 74553,
+        "reported_warnings": 17
+      },
+      "no_introduced_blocking_observed": true,
+      "reviewed_diff_scope": "22 changed paths in standalone Pages154 and website64 union against c864; earlier accepted UI/mailmap/knowledge evidence remains separately attributed.",
+      "new_advisories": "Four Pylint and four prose diagnostics plus readable manifest/task/fixture duplication and alternative table alignment retained and reviewed; no suppression.",
+      "report_snapshot_writer": "skipped",
+      "whole_repository_ci_green": false
+    },
+    "native_owner_publication": {
+      "run": 43643745065,
+      "attempt": 1,
+      "source": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+      "relay": "5de708368b42601e140c58f4ab8f305fe2dc5c82",
+      "manifest_sha256": "7415d3fee4126bbfb281b76f6c8a30aac54f85c66e0aec558e0b9b971d0531f7",
+      "bundle_digest": "sha256:87e42376b8f09d2e04ea5b7ae5a1664ca953c89fbad006d7fa9e40470d8b5f98",
+      "site_digest": "sha256:7ed38fb6406f0c3969774e8f8463202209aae93d7379c2719417f94e531aa545",
+      "inputs_sha256": "d24bfe5b20e9ded20b989d23e491ac2dc18424abbcc8788b5abe890eb4c02a4f",
+      "owner_receipt_sha256": "1c0ed562c6c16591191c1131cfeb0f20883862c0e09eb91110bbb9429cd80c6f",
+      "owner_projection_hashes_equal": 6,
+      "preserved_consumer_files": 63,
+      "composed_files": 93,
+      "pinned_native_bundle_validator": "pass",
+      "pinned_native_composition_verification": "exact retained record regenerated",
+      "deployment_recorded_at": "2026-11-14T21:44:52Z",
+      "live_verified_at": "2026-11-14T21:45:14.948350Z",
+      "live_route_200_bytes_rehashed": 17,
+      "selected_artifacts": false,
+      "report_boundary": "Trusted refresh uses historical committed reports: OSV/Megalinter explicitly invalid source; Scorecard unavailable. Final selected three-report dashboard is separately in progress."
+    },
+    "verified_at": "2026-11-14T22:06:04.315Z",
+    "selected_preview_run": 43644599129,
+    "selected_current": {
+      "run": 43645080495,
+      "attempt": 1,
+      "source": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+      "relay": "5de708368b42601e140c58f4ab8f305fe2dc5c82",
+      "manifest_sha256": "6bcfdf02ccca599c71799745d1a84a37c78ed2a542cafabc71d386c59f8330a2",
+      "bundle_digest": "sha256:19a8ab400c4a8d8fae696083fc62ce648fda30f3f0dc353f7ba1f0b1288f957f",
+      "site_digest": "sha256:8b815fe49e9d9187822cdfebe24cca94260a0bb7e00d4e82942a69877375b977",
+      "inputs_sha256": "0496d1d190f323dcd1e007c84068ab15274ebb11ad6552f394f9fbe125f8a7dd",
+      "selection_receipt_sha256": "c38c2a15b40cb1bf9d32e0c21d28095daacfe08df84968dbecdfd727756a28ea",
+      "owner_receipt_sha256": "a91ffca7226fc59195e66137780464ddb031fd90b8a39bcf5764f2b9a395d3b0",
+      "owner_projection_hashes_equal": 6,
+      "preserved_consumer_files": 63,
+      "composed_files": 93,
+      "pinned_native_bundle_validator": "pass",
+      "pinned_native_composition_verification": "exact retained record regenerated",
+      "deployment_recorded_at": "2026-11-14T22:00:25Z",
+      "live_verified_at": "2026-11-14T22:00:50.784145Z",
+      "live_route_200_bytes_rehashed": 17,
+      "selected_artifacts": true,
+      "producers": {
+        "megalinter": {
+          "availability": "available",
+          "commit": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+          "execution": {
+            "message": "Code quality evidence reported an execution failure.",
+            "state": "failure"
+          },
+          "findings": {
+            "advisory": 8,
+            "blocking": 21,
+            "by_severity": {},
+            "state": "blocked",
+            "total": 29
+          },
+          "generated_at": "2026-11-14T21:44:17Z"
+        },
+        "osv": {
+          "availability": "available",
+          "commit": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+          "execution": {
+            "message": "Dependency risk evidence was normalized successfully.",
+            "state": "success"
+          },
+          "findings": {
+            "advisory": 345,
+            "blocking": 322,
+            "by_severity": {
+              "critical": 34,
+              "high": 288,
+              "low": 61,
+              "medium": 282,
+              "unknown": 2
+            },
+            "state": "blocked",
+            "total": 667
+          },
+          "generated_at": "2026-11-14T21:36:26Z"
+        },
+        "scorecard": {
+          "availability": "available",
+          "commit": "f19fe1b072d3690b30b4314a92b41f8b5803459a",
+          "execution": {
+            "message": "Supply-chain posture evidence was normalized successfully.",
+            "state": "success"
+          },
+          "findings": {
+            "advisory": 8,
+            "blocking": 0,
+            "by_severity": {
+              "critical": 0,
+              "high": 4,
+              "low": 1,
+              "medium": 3,
+              "unknown": 0
+            },
+            "state": "attention",
+            "total": 8
+          },
+          "generated_at": "2026-11-14T21:37:48Z"
+        }
+      }
+    },
+    "canonical_browser": {
+      "started_at": "2026-11-14T22:05:11.589Z",
+      "finished_at": "2026-11-14T22:06:04.315Z",
+      "status": "passed",
+      "browser": "151.0.7922.173",
+      "groups": 6,
+      "exact_html_observations": 54,
+      "distinct_routes": 18,
+      "bounded_layout_observations": 65,
+      "normal_tls": true,
+      "request_interception": false,
+      "global_custom_headers": false,
+      "synthetic_responses": false,
+      "stable_manifest_before_after": true,
+      "page_errors": 0,
+      "console_errors": 0,
+      "failed_requests": 0,
+      "bad_http_responses": 0,
+      "receipt_sha256": "55aca218a603c2268b47327a49ee9bc982cc8760cc1b8f5879e2327b843a3786",
+      "overview_captures_visually_reviewed_widths": [390, 1440]
+    },
+    "selected_current_receipt_sha256": "e0491d5d734a768302afda638f356224ae700d13ad1c3da5261a715fdeb68c6d"
+  },
+  "review_boundaries": {
+    "organization_model_as_of": "2026-11-13T03:23:31Z",
+    "organization_evaluated_at": "2026-11-13T03:36:14Z",
+    "core": "unavailable",
+    "targets_per_audit_sanity_review_model": 1,
+    "sanity_components": 28,
+    "governance": "not-reviewed",
+    "directory": {
+      "scope": "fixed reviewed historical public roster, not current organization census",
+      "rows": 28,
+      "dated_publication_records": 2,
+      "source_declared_custom_domains_rendered_as_literal_text": 3,
+      "unknown_dashboard_destinations": 23
+    },
+    "full_fleet_transport": false,
+    "whole_org_conformance": false,
+    "human_adr_ratification": false,
+    "stable_product_release": false,
+    "all_ci_green": false
+  },
+  "remaining": [
+    {
+      "owner": "egohygiene/.github",
+      "issues": [27, 30, 41, 42],
+      "work": "Original organization integration, larger/mixed/privacy canaries, full accessibility/performance and stable release acceptance."
+    },
+    {
+      "owner": "egohygiene/relay",
+      "issues": [101],
+      "work": "Remaining original repository Intelligence polish/acceptance; bounded UI work is merged."
+    },
+    {
+      "owner": "egohygiene/hygiene",
+      "issues": [37, 76],
+      "work": "Private product-map/human and broader native/source/enforcement acceptance remain open."
+    },
+    {
+      "owner": "egohygiene/empathy",
+      "issues": [79],
+      "work": "Staging preimages retained; no semantic ratification or cleanup inferred."
+    }
+  ],
+  "privacy": {
+    "public_safe": true,
+    "private_paths_or_raw_logs": false,
+    "credentials_or_signed_urls": false,
+    "conversation_archive": false
+  },
+  "issue_disposition": {
+    "completed_count": 17,
+    "completed": [
+      "https://github.com/egohygiene/holon/issues/39",
+      "https://github.com/egohygiene/holon/issues/62",
+      "https://github.com/egohygiene/holon/issues/82",
+      "https://github.com/egohygiene/egolint/issues/35",
+      "https://github.com/egohygiene/egolint/issues/36",
+      "https://github.com/egohygiene/egolint/issues/37",
+      "https://github.com/egohygiene/egolint/issues/95",
+      "https://github.com/egohygiene/egolint/issues/96",
+      "https://github.com/egohygiene/egolint/issues/97",
+      "https://github.com/egohygiene/egolint/issues/98",
+      "https://github.com/egohygiene/egolint/issues/100",
+      "https://github.com/egohygiene/egolint/issues/101",
+      "https://github.com/egohygiene/hygiene/issues/30",
+      "https://github.com/egohygiene/hygiene/issues/41",
+      "https://github.com/egohygiene/empathy/issues/64",
+      "https://github.com/egohygiene/empathy/issues/100",
+      "https://github.com/egohygiene/empathy/issues/65"
+    ],
+    "followup": "https://github.com/egohygiene/holon/issues/109",
+    "followup_scope": "Generated Zensical cache enters repeated check formatting; preserved actual failure, no repair claimed.",
+    "knowledge_acceptance_publication_run": 43643745065,
+    "knowledge_accepted_at": "2026-11-14T21:50:29Z"
+  },
+  "review_packet_boundary": "27 selected owner PRs; the containing documentation-only review-packet PR is additional and excluded from this source register."
+}
