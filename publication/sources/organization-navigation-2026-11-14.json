@@ -1,0 +1,101 @@
+{
+  "schema": "egohygiene.github.organization-intelligence-source/v1",
+  "target": {
+    "origin": "https://egohygiene.github.io",
+    "base_path": "/.github/"
+  },
+  "semantic_owner": "egohygiene/.github",
+  "source_compositor": "egohygiene/egohygiene.io",
+  "publication_repository": "egohygiene/.github",
+  "producer_revision": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+  "review": {
+    "run_id": 43637764378,
+    "run_attempt": 1,
+    "consumer_revision": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+    "artifact_id": 14130741714,
+    "archive_sha256": "007ea08eec1ca2c6164c56d2bbf9c7d944b6f433c47d2df44b3bc6fafa2fa0ac",
+    "selection_receipt_sha256": "5dd47912af65aeb4eaaed053ffd3b7a574ec2f67b053720c1f0ae0ca428c1df3",
+    "intake_receipt_sha256": "c20de9ad4bd48dbda15085aeebee5e0c0baa648b77c5f049c1d08c44e58300b0",
+    "export_manifest_sha256": "d0add7206a867171f95732831899d7e858f8671b6dd967294797af07c01e344d"
+  },
+  "producer_export": {
+    "run_id": 43637285216,
+    "run_attempt": 1,
+    "static_artifact_id": 14131035478,
+    "static_archive_sha256": "5bf06348ed9f0006cae96a8ae89c350a97b11d0f329d536e97361b9c2263879d",
+    "selection_artifact_id": 14130825846,
+    "selection_archive_sha256": "f6f66a9735361d7ab937b6d146ecfcf3645554aa157cc70f73f17bcf707db551"
+  },
+  "assessment": {
+    "implemented": "The selected export provides landing navigation and the nineteen Intelligence UI surfaces. UI availability is independent of module evidence availability.",
+    "other_surfaces": "Applicability is unresolved for every other registry surface; the focused export does not assess them.",
+    "observed_model_scope": [
+      "egohygiene/.github"
+    ],
+    "available_models": [
+      "audits",
+      "sanity"
+    ],
+    "unavailable_models": [
+      "core"
+    ],
+    "report_completion": "partial",
+    "governance": "not-reviewed",
+    "human_evidence": "unavailable",
+    "model_source_as_of": "2026-11-13T03:23:31Z",
+    "export_evaluated_at": "2026-11-13T03:36:14Z",
+    "sanity_components": 28,
+    "sanity_concerns": 8,
+    "sanity_strengths": 28,
+    "sanity_dimensions": 17,
+    "canonical_audit_findings": 36,
+    "projected_audit_target_findings": 1,
+    "source_boundary": "One .github fleet target contains the organization review; component records are not separate captured fleet rows. Canonical per-repository source heads and assessment clocks stay historical.",
+    "publication_at_assessment": "selected-navigation-candidate-unpublished",
+    "presentation_change": "Compact overview, grouped view links and optional graph/details; independently reviewed public directory navigation. The original three model identities and source/evaluation clocks are unchanged.",
+    "navigation": {
+      "source_repository": "egohygiene/.github",
+      "source_revision": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+      "path": "docs/intelligence/repository-directory.json",
+      "sha256": "d29435982560531d31e7698c31fb40e55cfc0849615f4d094be6cb4342ee04fd",
+      "reviewed_public_rows": 28,
+      "dated_publication_records": 2,
+      "source_declared_custom_domain_text": 3,
+      "unknown_dashboard_destinations": 23,
+      "organization_total_claim": false,
+      "Core_model_rows_created": 0,
+      "current_availability_checked": false,
+      "link_support": "Two dated GitHub Pages records are clickable. Three custom-domain declarations are literal text with GitHub source links and unknown publication under the unchanged native intake profile."
+    },
+    "operator_assessed_at": "2026-11-14T20:33:39Z"
+  },
+  "canonical_reports": {
+    "source_revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+    "audit": "https://github.com/egohygiene/.github/blob/281c3827378ae08bb44cde810ad6467fdb0c8adc/audits/organization-source-sanity-20261113T022735Z.md",
+    "sanity": "https://github.com/egohygiene/.github/blob/281c3827378ae08bb44cde810ad6467fdb0c8adc/audits/organization-source-sanity-20261113T022735Z.sanity.json"
+  },
+  "authority": {
+    "publication": "Explicit repository-owner request, followed by a manual publish dispatch after reviewed source and qualification. This artifact reference alone grants no deployment authority.",
+    "adr": "ADR-0006 remains proposed with null approval; source implementation and publication do not ratify it."
+  },
+  "prior_live_publication": {
+    "run_id": 43372599165,
+    "run_attempt": 1,
+    "publication_sha256": "4814dfa96229f172cff1b2a5e2b101e6891ecceada6769130eb41dc5933b4fd1",
+    "consumer_revision": "c6ea728ebc68eef1c22418319e34fbe54d82caa9",
+    "producer_files": 44,
+    "public_files": 45,
+    "evidence": "docs/reviews/2026-11-13-organization-live-publication.json",
+    "status": "previous canonical HTTPS proof; fresh full recovery remains the publisher boundary",
+    "read_only_baseline_observed_at": "2026-11-14T20:21:41.554005+00:00",
+    "baseline_http_status": 200
+  },
+  "source_review": {
+    "website_UI_pull_request": 152,
+    "website_directory_pull_request": 153,
+    "organization_directory_pull_request": 68,
+    "producer_files_equal_local_functional_review": 44,
+    "producer_files_unchanged_through_hosted_review": 44,
+    "new_publication_performed": false
+  }
+}
