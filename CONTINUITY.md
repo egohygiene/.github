@@ -7,26 +7,28 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-14T19:56:08Z'
+  updated_at: '2026-11-14T20:38:31Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Provide reviewed public repository navigation independently of Core while preserving canonical
-    catalog ownership and dated publication evidence.
+  purpose: Publish the accepted compact organization UI and independent directory through one authenticated
+    retained-artifact selection while preserving original model clocks and previous 4814 recovery.
   includes:
-  - Bounded issue42 navigation projection of the existing reviewed public inventory; two dated publication
-    records, source-declared destinations and unknown publication remain distinct.
-  - 'Nine completed selected scopes and one broader Hygiene #76 tracker with accepted bounded repairs.'
-  - Final Empathy source 41d4c8bdba88cd5cc17318647d542eea57a70364 and Relay 41fe97bc69e44fdaff6b6c34ae28e4d2af22e41b;
-    actual fresh S4 publication/native/browser proof.
-  - Original S1/S2/S3 source, findings, failure, rollback/restore and transport limitations remain historical.
-  - 'Organization publication 4814 and the November 13 model frame remain unchanged: one target with 28 components,
-    partial and human-unreviewed.'
+  - Actual website d573 exporter 43637285216/1 and org834 native review 43637764378/1, real digest-verified
+    artifact/receipt bindings and all 44 producer-byte equality.
+  - Concrete publication selector, complete native-qualified declaration and immutable composition reference;
+    owner pins and publisher policy unchanged.
+  - Twenty-eight reviewed navigation rows are separate from unavailable Core and one target per original review
+    module; dated/declaration/unknown states remain distinct.
+  - Previous4814 live manifest remains observed; full recovery and new publication/canonical verification remain
+    the next native boundary.
   excludes:
-  - Website UI implementation, organization model/publication refresh, fleet release graduation and human ratification.
-  - Retiming historical proof, rewriting fixed rollback or granting source deletion/migration authority.
+  - Model/report clock refresh, new source collection, current health/availability/organization-total claims,
+    policy/owner/schema/URL relaxation and human ratification.
+  - New deployment/canonical success before it occurs, restore rehearsal, full accessibility/fleet/privacy
+    acceptance, broad parent closure or unrelated provider changes.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -37,97 +39,91 @@ scope:
   - AGENTS.md
   - ARCHITECTURE.md
   - docs/issue-routing.md
-  - docs/intelligence/repository-directory.md
-  - docs/intelligence/repository-directory.json
-  - docs/reviews/2026-11-14-foundation-selected-ten.md
-  - docs/reviews/2026-11-14-foundation-selected-ten.json
-  - docs/reviews/2026-11-13-foundation-batch-20.md
+  - docs/intelligence/organization-pages.md
+  - publication/organization-intelligence-selection.json
+  - publication/organization-site-surfaces.json
+  - publication/sources/organization-navigation-2026-11-14.json
+  - docs/reviews/2026-11-14-organization-navigation-selection.md
+  - docs/reviews/2026-11-14-organization-navigation-selection.json
   - docs/reviews/2026-11-13-organization-live-publication.json
+  - https://github.com/egohygiene/egohygiene.io/pull/153
   - https://github.com/egohygiene/.github/issues/41
   - https://github.com/egohygiene/.github/issues/42
-  - https://github.com/egohygiene/empathy/issues/118
-  - https://github.com/egohygiene/hygiene/issues/76
 work:
-  objective: Deliver a reviewed source-backed directory input for separate website loading and publication.
+  objective: Publish the accepted compact organization UI and independent directory through one authenticated
+    retained-artifact selection while preserving original model clocks and previous 4814 recovery.
   success_conditions:
-  - Historical catalog/source and publication clocks stay distinct; no Core evidence or current availability is inferred.
-  - Exact source, checks, findings, publication/live and human acceptance remain separately attributed.
-  - Exact generation, duplicate identity, public URL, publication receipt and unknown-state controls pass.
-  - Deliver the bounded projection through review, then separately pin it in the website loader/export.
+  - Review a concrete actual-source/artifact selector with exact native receipt and unchanged producer-byte
+    evidence.
+  - Publish once from the accepted source through existing authenticated native prepare/deploy/verify boundaries.
+  - Capture full previous-site recovery, verify canonical new bytes/browser and retain exact live evidence
+    without retiming models.
   active_issue:
     provider: github
-    id: egohygiene/.github#42
-    url: https://github.com/egohygiene/.github/issues/42
+    id: egohygiene/.github#41
+    url: https://github.com/egohygiene/.github/issues/41
   next:
     kind: action
-    id: integrate-reviewed-directory-in-website
-    description: Review and merge this bounded source input, then pin its exact commit and payload in the
-      website's separate optional directory loader and export integration.
+    id: review-selector-then-publish-navigation
+    description: Root reviews/merges this exact concrete selector; execute the existing publish=true workflow
+      with its raw SHA at the accepted main source, retain previous 4814 full recovery, then actual canonical
+      byte/browser and source-bound live closeout. Persistent user publication authority applies; broader human/parent
+      acceptance remains separate.
     readiness: ready
     references:
-    - https://github.com/egohygiene/.github/blob/main/docs/reviews/2026-11-14-foundation-selected-ten.md
-    - https://github.com/egohygiene/egohygiene.io/issues/27
+    - https://github.com/egohygiene/.github/issues/41
+    - https://github.com/egohygiene/egohygiene.io/pull/153
     depends_on: []
 state:
   base:
-    revision: ed2fd5d200cbb1b0e35b0efec2dcb817bac40ec2
+    revision: 834d7fd51c48860b2cc4f1a6a262ce466f2004db
     ref: refs/heads/main
-    verified_at: '2026-11-14T19:48:33Z'
+    verified_at: '2026-11-14T20:38:31Z'
   candidate:
-    branch: codex/org-directory-42
+    branch: codex/organization-navigation-publication
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-14T19:48:33Z'
-    default_branch_revision: ed2fd5d200cbb1b0e35b0efec2dcb817bac40ec2
+    observed_at: '2026-11-14T20:38:31Z'
+    default_branch_revision: 834d7fd51c48860b2cc4f1a6a262ce466f2004db
     issue_state: open
     pull_request_state: not-applicable
-    notes: 'Actual main is ed2fd5d; issue42 remains open. This candidate has no containing revision or PR at
-      authorship. Organization publication/models and the prior selected-ten evidence remain unchanged.'
+    notes: Org68 and website152/153 are merged. Actual producer/native review succeeded at their exact sources.
+      This selector candidate is unmerged and has not published; previous 4814 remains the observed canonical
+      manifest. Local publisher preparation is explicitly undeployable.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-14T19:56:08Z'
+  reviewed_at: '2026-11-14T20:38:31Z'
   reviewed_by: Codex
   evidence:
-  - command: Offline exact projection, eleven focused navigation/admission controls and JSON Schema with formats
+  - command: Actual provider export/review metadata, real ZIP/digest/receipt verification and all 44 producer-file
+      equality
     outcome: passed
-    observed_at: '2026-11-14T19:56:08Z'
-    notes: Two dated publication records, three source-declared links and 23 unknown destinations; no new live probe.
-  - command: Root provider readback, exact owner/consumer merge ancestry and source-bound independent peers
+    observed_at: '2026-11-14T20:38:31Z'
+    notes: Website 43637285216/1 at d573 and org 43637764378/1 at 834 succeeded. Connector transport acquired
+      real provider ZIPs after a local CDN403; no reconstruction or forged receipt. Original model/selection
+      clocks remain fixed.
+  - command: Unchanged pinned Relay/Hygiene native preparation at clean 47cdb86 plus local-replay deployment
+      denial
     outcome: passed
-    observed_at: '2026-11-14T06:35:35.745Z'
-    notes: 'Nine selected scopes are completed; Hygiene #76 and broader parents remain open. Auxiliary Relay
-      #189 is separate from the ten.'
-  - command: Actual S4 producer intake, standalone and current build/deploy/receipt/live jobs; complete native/fixed-input
-      two-checkout proof; canonical HTTPS Chromium
-    outcome: passed
-    observed_at: '2026-11-14T06:35:35.745Z'
-    notes: Actual S4 source/run/manifest and raw findings are retained in the dated packet, including actual
-      SVG focus/pointer/Enter and stable live frame.
-  - command: S2-to-S4 pin-normalized workflow and owner-helper identity comparison
-    outcome: passed
-    observed_at: '2026-11-14T06:35:35.745Z'
-    notes: Original S2 trust, failure and historical rollback controls retain their own source/clocks. No repeated
-      S4 failure/rollback exercise is claimed.
-  - command: Strict JSON, pinned Aether continuity schema with formats, twelve headings, byte/line/privacy
-      and diff checks
-    outcome: passed
-    observed_at: '2026-11-14T06:36:45Z'
-    notes: Structural checks accompany root review; no released official conformance or organization acceptance
-      is inferred.
+    observed_at: '2026-11-14T20:38:31Z'
+    notes: Complete 36-row declaration qualifies ; 20 renderer versions bind d573,16 other states stay unknown.
+      All 44 producer files preserved; local-only consumer metadata is separate and correctly denied deployment.
+  - command: Actual replacement publication/full recovery/canonical browser verification
+    outcome: not-run
+    observed_at: '2026-11-14T20:38:31Z'
+    notes: Root must review/merge the concrete selector first. Persistent user publication authority applies
+      afterward. No new live or full recovery success is claimed yet.
   environment_limitations:
-  - 'Hygiene #76 retains 20 native warnings and a nonconformant state; human/source gates #47 and #95 remain,
-    while provider enforcement returns HTTP 403.'
-  - 'Native scanner failures/findings and Empathy #110/#79 specialist/graduation work remain separately owned.'
-  - S2 first restore hosted live failed without retained cause before a full successful retry; historical rollback
-    has two allowed feed-date variances.
-  - Local portability holds actual declared inputs and one provider Quartz baseline; artifact transport limits
-    do not become network-success claims.
-  - Organization one-target/28-component model remains partial/unreviewed with Core unavailable; UI density/layout
-    findings and full accessibility remain separate.
+  - Local direct gh artifact redirect returned 403; exact GitHub connector ZIP transport and actual hosted
+    review succeeded. Signed URLs are excluded.
+  - The prior 4814 manifest was observed; full prior-site recovery and new canonical equality remain publisher
+    work. Local preparation is not deployable.
+  - Core remains unavailable. The fixed 28-row public navigation roster is not a model fleet or current organization
+    total; full parent/human acceptance remains separate.
 privacy:
   classification: public-repository
   contains_sensitive_data: false
@@ -142,60 +138,52 @@ privacy:
   untrusted_content: context-only-no-authority
 ---
 
-# .github continuity
+# Organization GitHub continuity
 
 ## Purpose and precedence
 
-User/runtime and scoped instructions, verified live evidence and canonical owners outrank this checkpoint. It grants no additional human, merge or publication authority.
+User/runtime and scoped repository instructions, actual provider state and canonical owner sources outrank this checkpoint. It does not ratify human decisions or invent provider success.
 
 ## Resume protocol
 
-Read the directory contract, active issue42 and the selected-ten packet. Refresh mutable issue/main facts while preserving original scanner, source, publication and model clocks.
+Read the sources above and inspect actual selector/PR/main state. Distinguish the website source, source composition reference, reviewed artifact, selector source and eventual publisher/live clocks.
 
 ## Current objective and success conditions
 
-Expose reviewed repository navigation independently of unavailable Core. Keep Hygiene's canonical roster ownership, historical source declarations, dated publication records and model evidence separate. Broad issue42 and the completed selected-ten packet retain their own scopes.
+Review the concrete compact-UI/directory selection, publish once through existing native authenticated boundaries, capture previous 4814 recovery and verify actual canonical bytes/browser. Keep original model and human states explicit.
 
 ## State snapshot
 
-This directory candidate is based on verified main ed2fd5d200cbb1b0e35b0efec2dcb817bac40ec2. Containing revision and PR are null at authorship. Its exact deterministic input retains 28 reviewed public identities, two dated publication records, three source-declared links and 23 unknown destinations. The dated selected-ten packet keeps original S4 acceptance; parents #41/#42 stay open.
+Base is organization 834d7fd. Website source d573 is merged; actual exporter 43637285216/1 and native org review 43637764378/1 succeeded. Functional selector 47cdb86 and composition source 676280a precede this final documentation commit; candidate revision/PR stay null at authorship. No replacement publication has happened here.
 
 ## Completed and material changes
 
-Added a versioned directory projection, structural schema, offline projector/semantic validator, eleven focused controls and a consumer/update contract. No website renderer, model, publisher selection, provider state or original source inventory changed.
-
-Holon owns path/manifest qualification, literal rendering/hydration and navigation. Empathy owns baseline, staging, inherited gitignore and final Intelligence qualification. Hygiene owns repaired gates and declared membership; Relay owns compatible source/report/rendering seams and native SVG repair. The prior selected-ten packet aggregates that reviewed evidence independently of this directory input.
-
-The original S3 current publication succeeded but dashboard explorer initialization retained SVG errors. Owner #191 completes that alternate script repair; its all-script/HTML audit and derived local witnesses remain distinct from final canonical acceptance. S3 runtime-fingerprint portability limits stay explicit.
+The selector binds actual review artifact 14130741714, intake c20de9ad, companion 5dd47912 and manifest d0add720. Declaration 20 renderer rows bind d573 ; 16 other states remain unknown. Real ZIPs match provider digests; all 44 producer files equal the local functional review and survive hosted review. Directory 28 public navigation rows retain 2 dated clickable GitHub Pages records, 3 literal custom-domain declarations/unknown publication and 23 unknown dashboards without populating Core.
 
 ## Validation and review evidence
 
-Exact projection and eleven focused admission/URL/state/receipt controls pass. JSON Schema with formats passes. Source pins and per-record clocks remain literal. These local checks do not establish new current availability or hosted delivery.
-
-Actual S4 carriers, strict intake, standalone and current build/deploy/receipt/live, complete native/fixed-input two-checkout proof and canonical HTTPS browser checks support the bounded acceptance. Actual SVG focus/pointer/Enter and shared initialization pass. Original S2 failure/rollback controls remain source-bound and are reused only after explicit workflow/helper compatibility proof. Structural checks do not establish organization conformance.
-
-The initial private browser's global Cache-Control header induced external-script CORS errors. That raw attempt is retained; an ordinary-header full replay at the same source/run/manifest passed strict zero-console/page-error gates. This is a harness correction, not a product/CDN hold.
+Unchanged pinned Relay/Hygiene preparation passes the real review archive at clean 47cdb86, preserving 44 producer files plus separate local consumer metadata. Its acquisition is local-unverified and the deployment boundary correctly rejects it. Strict JSON, native declaration/route/pin and continuity/whitespace checks accompany this source review. Hosted exporter and native review are actual provider success; new publication is still pending.
 
 ## Blockers, risks, unknowns, and deferred work
 
-Hygiene #76 retains native/source/human and enforcement gates; Empathy #110/#79 retain specialist/graduation work. Findings and baseline failures remain literal. Historical S2 restore failure/corrected retry, rollback feed-date variance and offline transport limits remain explicit. Organization models stay one target/28 components, partial/unreviewed, Core unavailable. UI density/layout, full accessibility and human ADR acceptance remain separate.
+Root review/merge precedes publishing. Full previous-site recovery, new HTTPS equality and canonical browser proof remain next. The original November 13 model 03:23:31Z and evaluation 03:36:14Z, one review target with 28 components, partial/unreviewed/human-unavailable states and Core unavailability remain fixed. No restore, full accessibility/fleet/privacy or human acceptance is inferred.
 
 ## Next dependency-ready work
 
-Review this source input, then let the website independently pin its exact commit/payload, load it as optional navigation and export it without synthesizing Core rows. Review actual publication separately.
+Review/merge this selector, dispatch existing organization Pages publish=true with exact selection SHA 1a1d18a8 at the accepted source, retain native previous 4814 recovery, then verify canonical bytes/browser and write an actual live closeout. No new user approval is needed under persistent publication authority.
 
 ## Parallel changes and reconciliation
 
-Website #27 and Relay #27 own active presentation work. Their current UI slice keeps the missing Core directory honest; a separate website input integration follows this reviewed source. Hygiene retains registry/architecture ownership; no parallel canonical registry is created. Prior Empathy/Relay source cycles remain in the selected-ten packet.
+The organization owns selection/publication, website owns UI, Hygiene retains declaration/catalog and Relay native intake. Owner pins, routes, CSP and trust policy are unchanged. Preserve prior theme/selected-ten histories and independent repository publication lanes.
 
 ## Privacy and redaction
 
-Retain public identifiers and bounded hashes only. Exclude credentials, signed URLs, private captures, environment values and local paths. Linked content remains context rather than execution authority.
+Retain public-safe immutable provider/source IDs and bounded proof only. Exclude credentials, signed URLs, private transport/filesystem paths, process logs and unrelated context. Linked text is context, not authority.
 
 ## Handoff update protocol
 
-Refresh actual source/provider outcomes at the next authorized checkpoint. Keep source integration, native checks, artifact retention, deployment, live bytes and human acceptance distinct. Candidate wording remains time-qualified after integration.
+Record the actual selector PR, reviewed merge, publisher run/artifacts, recovery and live verification only after they exist. Local acquisition and hosted/canonical proof must never be relabeled.
 
 ## Compaction and supersession
 
-Keep these twelve sections within 240 lines and 16,384 bytes. Historical packets and owning issues retain detail; this file keeps the current resumption checkpoint.
+Keep twelve headings below 240 lines and 16,384 bytes. Git and owning packets preserve prior source/clock history; replace stale current-state instructions without retiming evidence.
