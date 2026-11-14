@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "contract": "egohygiene.issue-authoring/v1",
+  "examples": [
+    {
+      "kind": "feature",
+      "title": "✨ [feature] Add synthetic offline import",
+      "labels": [
+        "type:feature"
+      ],
+      "fields": {
+        "outcome": "A deterministic synthetic import result",
+        "owner": "egohygiene/.github",
+        "routing_state": "ready",
+        "scope": "Synthetic fixtures only",
+        "dependencies": "None",
+        "acceptance": "Run local fixture checks and record failures",
+        "security": "No credentials, provider writes or publication"
+      }
+    },
+    {
+      "kind": "checkpoint",
+      "title": "🧹 [maintenance] [Checkpoint 2] Validate synthetic import",
+      "labels": [
+        "type:maintenance"
+      ],
+      "fields": {
+        "outcome": "A deterministic synthetic import result",
+        "owner": "egohygiene/.github",
+        "routing_state": "ready",
+        "scope": "Synthetic fixtures only",
+        "dependencies": "None",
+        "acceptance": "Run local fixture checks and record failures",
+        "security": "No credentials, provider writes or publication",
+        "parent": "https://github.com/egohygiene/.github/issues/24",
+        "checkpoint_identity": "intake-demo-2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "name": "Organization checkpoint",
+  "description": "Link one bounded maintenance checkpoint to an explicit parent.",
+  "title": "🧹 [maintenance] [Checkpoint ID] ",
+  "labels": [
+    "type:maintenance"
+  ],
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Use this template when work is genuinely organization-level, crosses repository boundaries, or does not yet have a durable owner. If one repository clearly owns the implementation, open the issue there instead.\n Read https://github.com/egohygiene/.github/blob/main/docs/issue-authoring.md. Replace the title subject; the selected primary label must exist in the receiving repository."
+      }
+    },
+    {
+      "type": "input",
+      "id": "parent",
+      "attributes": {
+        "label": "Parent issue URL or native identifier",
+        "description": "Use an explicit stable relationship; the title is not a parent identifier."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "checkpoint_identity",
+      "attributes": {
+        "label": "Stable checkpoint identity",
+        "description": "Keep the same ID when the title or owner changes."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "outcome",
+      "attributes": {
+        "label": "Outcome",
+        "description": "What observable result should exist when this work is complete?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "owner",
+      "attributes": {
+        "label": "Owning repository or routing state",
+        "description": "Name the durable owner, or write \"needs-routing\" when ownership is genuinely unresolved.",
+        "placeholder": "egohygiene/hygiene"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "routing_state",
+      "attributes": {
+        "label": "Routing state",
+        "description": "Choose the current organization coordination state.",
+        "options": [
+          "needs-routing",
+          "routed",
+          "cross-repo",
+          "blocked",
+          "ready"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "scope",
+      "attributes": {
+        "label": "Scope",
+        "description": "Describe the bounded work. Keep implementation details in the owning repository when this is an umbrella issue."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "dependencies",
+      "attributes": {
+        "label": "Dependencies",
+        "description": "Link prerequisite issues, repositories, contracts, or decisions. Write \"None\" when independent."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "acceptance",
+      "attributes": {
+        "label": "Acceptance criteria",
+        "description": "Provide reviewable completion criteria.",
+        "placeholder": "- [ ] ...\n- [ ] ...\n"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "security",
+      "attributes": {
+        "label": "Security, privacy, and destructive-action considerations",
+        "description": "Identify secrets, personal/private data, signing, infrastructure, billing, destructive migrations, publication, or other trust boundaries. Write \"None identified\" when appropriate."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "implementation",
+      "attributes": {
+        "label": "Linked implementation issues",
+        "description": "For cross-repository work, link bounded implementation issues instead of duplicating their checklists here."
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "routing_confirmation",
+      "attributes": {
+        "label": "Routing confirmation",
+        "options": [
+          {
+            "label": "I checked whether an existing repository already owns this capability.",
+            "required": true
+          },
+          {
+            "label": "This issue does not contain credentials, tokens, private keys, or other secrets.",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}

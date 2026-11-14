@@ -51,3 +51,10 @@ remains proposed; deployment does not ratify human decisions.
 
 - [Current source integration checkpoint](docs/reviews/2026-11-12-open-pr-integration.md) —
   observed merges, combined owner selections and pending qualification.
+## Community defaults
+
+See the [supported fallback decisions](docs/community-health.md) and
+[shared issue-authoring convention](docs/issue-authoring.md). Repository-local
+policies and issue-template directories retain precedence. Candidate forms
+require receiving-repository label enrollment; this repository does not install
+agent instructions or enforcement automatically.

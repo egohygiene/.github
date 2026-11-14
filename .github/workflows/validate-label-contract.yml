@@ -9,6 +9,17 @@ on:
       - "scripts/project_labels.py"
       - "scripts/validate_labels.py"
       - "tests/test_labels.py"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/issues/**"
+      - ".github/FUNDING.yml"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+      - "fixtures/issue-authoring/**"
+      - "tests/test_community_health.py"
+      - "CONTRIBUTING.md"
+      - "SECURITY.md"
+      - "SUPPORT.md"
+      - "docs/community-health.md"
+      - "docs/issue-authoring.md"
   push:
     branches:
       - main
@@ -19,6 +30,17 @@ on:
       - "scripts/project_labels.py"
       - "scripts/validate_labels.py"
       - "tests/test_labels.py"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/issues/**"
+      - ".github/FUNDING.yml"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+      - "fixtures/issue-authoring/**"
+      - "tests/test_community_health.py"
+      - "CONTRIBUTING.md"
+      - "SECURITY.md"
+      - "SUPPORT.md"
+      - "docs/community-health.md"
+      - "docs/issue-authoring.md"
   workflow_dispatch:
 
 permissions:
