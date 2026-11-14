@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "contract_id": "egohygiene.issue-authoring/v1",
+  "status": "draft",
+  "title_contract": "title-contract.v1.json",
+  "required_fields": ["outcome", "owner", "routing_state", "scope", "dependencies", "acceptance", "security"],
+  "checkpoint_required_fields": ["parent", "checkpoint_identity"],
+  "relationships": "explicit-urls-or-native-identifiers-never-title-parsing",
+  "local_extensions": "additive-without-redefining-universal-fields-or-labels",
+  "historical_migration": "separate-reviewed-preview-apply-recovery-no-side-effects-from-template-edits"
+}
