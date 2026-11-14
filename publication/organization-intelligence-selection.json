@@ -5,15 +5,15 @@
     "base_path": "/.github/"
   },
   "review": {
-    "run_id": 43371630627,
+    "run_id": 43637764378,
     "run_attempt": 1,
-    "consumer_revision": "460bd07960a1dfa85614874e2daa0c29fc2eab48",
-    "artifact_id": 14011999855,
-    "archive_sha256": "818b8ded0abb5ede0f36c967f6235e06c29be488b691ed6c4dda4046de6cd316",
-    "intake_receipt_sha256": "c1424052a6f9dc39322d187641945d854c494cb0b6af3ade3fb3e1460d7f9a9c",
-    "selection_receipt_sha256": "a1147de4bdc78da5b53ac2dfefb13fc29f9ec075a7a7041c0fb2eac1a5028e03",
-    "manifest_sha256": "6574c9c10e91fd9150439f4c2c0a0b934bb42ecc2f2bc9ccd307607f85989623",
-    "producer_revision": "d8f9a7c706ef4cc477b0cf7201dd6c9f128d985a"
+    "consumer_revision": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+    "artifact_id": 14130741714,
+    "archive_sha256": "007ea08eec1ca2c6164c56d2bbf9c7d944b6f433c47d2df44b3bc6fafa2fa0ac",
+    "intake_receipt_sha256": "c20de9ad4bd48dbda15085aeebee5e0c0baa648b77c5f049c1d08c44e58300b0",
+    "selection_receipt_sha256": "5dd47912af65aeb4eaaed053ffd3b7a574ec2f67b053720c1f0ae0ca428c1df3",
+    "manifest_sha256": "d0add7206a867171f95732831899d7e858f8671b6dd967294797af07c01e344d",
+    "producer_revision": "d5730066cf8645a927efcd6ff4f2170627bf4443"
   },
   "owners": {
     "relay": {
@@ -44,7 +44,7 @@
   },
   "declaration": {
     "path": "publication/organization-site-surfaces.json",
-    "sha256": "57e41c12b1cc85ecd947d7693f9eadc923598515e3d6faecf7fd6789827e8017"
+    "sha256": "d6cd8c32353efda3393b6a6f5a5abc0ff541bfc72096ad48d40f9b02f7138f55"
   },
-  "assessment_at": "2026-11-13T05:24:10Z"
+  "assessment_at": "2026-11-14T20:33:39Z"
 }
