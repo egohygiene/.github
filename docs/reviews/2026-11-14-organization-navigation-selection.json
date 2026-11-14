@@ -1,0 +1,166 @@
+{
+  "schema": "egohygiene.github.organization-navigation-selection-review/v1alpha1",
+  "observed_at": "2026-11-14T20:38:31Z",
+  "status": "ready-for-reviewed-publication",
+  "new_publication_performed": false,
+  "functional_selector_source": "47cdb86af28e12192c18cccb16598181d8e413fe",
+  "composition_source": "676280a6629b2925aa89928fb24521582b5ba040",
+  "selection_sha256": "1a1d18a87a7ac2b5dc586426c8d9255ec41d11a01c7185ae30f7d5c833f8e385",
+  "declaration_sha256": "d6cd8c32353efda3393b6a6f5a5abc0ff541bfc72096ad48d40f9b02f7138f55",
+  "producer": {
+    "observed_at": "2026-11-14T20:28:37.466032+00:00",
+    "producer_source": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "run_id": 43637285216,
+    "run_attempt": 1,
+    "conclusion": "success",
+    "actual_provider_artifacts": {
+      "export": {
+        "artifact_id": 14131035478,
+        "name": "organization-intelligence-static-v1-43637285216-1",
+        "archive_sha256": "5bf06348ed9f0006cae96a8ae89c350a97b11d0f329d536e97361b9c2263879d",
+        "size_bytes": 307239,
+        "created_at": "2026-11-14T20:24:54Z",
+        "expires_at": "2026-12-14T20:24:54Z",
+        "manifest_sha256": "d0add7206a867171f95732831899d7e858f8671b6dd967294797af07c01e344d"
+      },
+      "selection": {
+        "artifact_id": 14130825846,
+        "name": "organization-intelligence-model-selection-v1-43637285216-1",
+        "archive_sha256": "f6f66a9735361d7ab937b6d146ecfcf3645554aa157cc70f73f17bcf707db551",
+        "size_bytes": 835,
+        "created_at": "2026-11-14T20:24:55Z",
+        "expires_at": "2026-12-14T20:24:55Z",
+        "receipt_sha256": "5dd47912af65aeb4eaaed053ffd3b7a574ec2f67b053720c1f0ae0ca428c1df3"
+      }
+    },
+    "native_archive_intake": "passed locally; review-only, not a hosted review receipt",
+    "companion_verifier": "passed locally with actual provider metadata",
+    "model_clock": "2026-11-13T03:23:31Z",
+    "evaluation_clock": "2026-11-13T03:36:14Z",
+    "model_bindings_equal_local_review": true,
+    "navigation_scope_rows": 28,
+    "producer_files": 44,
+    "routes": 39,
+    "all44provider_files_equal_local_functional_review": true
+  },
+  "authenticated_hosted_review": {
+    "observed_at": "2026-11-14T20:32:05.000354+00:00",
+    "run_id": 43637764378,
+    "run_attempt": 1,
+    "consumer_revision": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+    "artifact_id": 14130741714,
+    "archive_sha256": "007ea08eec1ca2c6164c56d2bbf9c7d944b6f433c47d2df44b3bc6fafa2fa0ac",
+    "intake_receipt_sha256": "c20de9ad4bd48dbda15085aeebee5e0c0baa648b77c5f049c1d08c44e58300b0",
+    "selection_receipt_sha256": "5dd47912af65aeb4eaaed053ffd3b7a574ec2f67b053720c1f0ae0ca428c1df3",
+    "manifest_sha256": "d0add7206a867171f95732831899d7e858f8671b6dd967294797af07c01e344d",
+    "producer_revision": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "actual_authenticated_hosted_review": "success",
+    "local_archive_replay": "passed unchanged native verification",
+    "producer_files_unchanged_through_hosted_review": 44,
+    "files": 47,
+    "routes": 39,
+    "scope_rows": 28,
+    "actual_artifact_created_at": "2026-11-14T20:29:50Z",
+    "actual_artifact_expires_at": "2026-11-21T20:29:49Z"
+  },
+  "selected_models": {
+    "audits": {
+      "code": "NONE",
+      "presentation_sha256": "480c4f0fee01dc68ff215b6a52f5d7e5b7c2a71954d732d0285518ef5a80e240",
+      "presentation_state": "available",
+      "source": {
+        "repository": "egohygiene/.github",
+        "revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+        "run_attempt": 1,
+        "run_id": 43358630670,
+        "workflow_path": ".github/workflows/repository-intelligence-canary.yml"
+      },
+      "source_as_of": "2026-11-13T03:23:31Z",
+      "state": "available"
+    },
+    "core": {
+      "code": "NOT_CONFIGURED",
+      "presentation_sha256": null,
+      "presentation_state": "unavailable",
+      "source": null,
+      "source_as_of": null,
+      "state": "unavailable"
+    },
+    "sanity": {
+      "code": "NONE",
+      "presentation_sha256": "ce1d3241f9e3a0eb923cf970ed6a7bd487407d481672ed42dcd2e29279eac5f7",
+      "presentation_state": "available",
+      "source": {
+        "repository": "egohygiene/.github",
+        "revision": "281c3827378ae08bb44cde810ad6467fdb0c8adc",
+        "run_attempt": 1,
+        "run_id": 43358630670,
+        "workflow_path": ".github/workflows/repository-intelligence-canary.yml"
+      },
+      "source_as_of": "2026-11-13T03:23:31Z",
+      "state": "available"
+    }
+  },
+  "local_preparation": {
+    "observed_at": "2026-11-14T20:36:01.689753+00:00",
+    "functional_selector_source": "47cdb86af28e12192c18cccb16598181d8e413fe",
+    "native_Relay_static_intake": "passed",
+    "native_Hygiene_full_declaration": "passed",
+    "producer_files_unchanged": 44,
+    "public_files_with_separate_local_consumer_metadata": 45,
+    "local_replay_acquisition": "local-unverified",
+    "deploy_boundary_denies_local_replay": true,
+    "actual_hosted_publish_performed": false,
+    "selection_sha256": "1a1d18a87a7ac2b5dc586426c8d9255ec41d11a01c7185ae30f7d5c833f8e385",
+    "declaration_sha256": "d6cd8c32353efda3393b6a6f5a5abc0ff541bfc72096ad48d40f9b02f7138f55"
+  },
+  "directory": {
+    "source_revision": "834d7fd51c48860b2cc4f1a6a262ce466f2004db",
+    "payload_sha256": "d29435982560531d31e7698c31fb40e55cfc0849615f4d094be6cb4342ee04fd",
+    "reviewed_public_navigation_rows": 28,
+    "model_targets_per_review_module": 1,
+    "Core": "unavailable",
+    "dated_publication_links": 2,
+    "custom_domain_declarations_as_text": 3,
+    "unknown_dashboard_destinations": 23,
+    "organization_total_claim": false,
+    "current_availability_checked": false
+  },
+  "declaration": {
+    "surface_count": 36,
+    "implemented_renderer_rows": 20,
+    "unassessed_rows": 16,
+    "renderer_version": "d5730066cf8645a927efcd6ff4f2170627bf4443",
+    "owner_pins": {
+      "relay": "d15cacd987ef1f98a6b94b051a42925eb91f8cc7",
+      "hygiene": "6aa97ae2bf44abacb83e698281c1fffdba8eaf49"
+    },
+    "schema_and_publication_policy_changed": false,
+    "original_semantic_states_unchanged": true,
+    "owner_pin_bindings_unchanged": true
+  },
+  "previous_live": {
+    "observed_at": "2026-11-14T20:21:41.554005+00:00",
+    "url": "https://egohygiene.github.io/.github/organization-intelligence-publication.json",
+    "status": 200,
+    "final_url": "https://egohygiene.github.io/.github/organization-intelligence-publication.json",
+    "sha256": "4814dfa96229f172cff1b2a5e2b101e6891ecceada6769130eb41dc5933b4fd1",
+    "record_kind": "read-only live baseline; full recovery is the native publisher boundary",
+    "consumer_revision": "c6ea728ebc68eef1c22418319e34fbe54d82caa9",
+    "export_as_of": "2026-11-13T03:36:14Z"
+  },
+  "next": [
+    "Root reviews and merges this exact selector candidate.",
+    "Run the existing organization publisher with this selector SHA and publish=true at the accepted source.",
+    "The publisher must reauthenticate actual review transport, preserve all producer bytes, capture/verify previous 4814 recovery, then deploy and verify canonical HTTPS bytes.",
+    "Run actual canonical browser checks for compact UI, directory/source distinctions, keyboard/navigation and original model limits."
+  ],
+  "limits": [
+    "Local publisher preparation is explicitly local-unverified and is rejected at the deployment boundary; it is not a deployable provider handoff.",
+    "The original model frame03:23:31Z and evaluation 03:36:14Z on November 13 remain unchanged; UI publication cannot ratify partial/unreviewed/human-unavailable evidence.",
+    "Only the prior publication manifest was freshly observed here. Complete previous-site recovery and actual new canonical equality remain native publisher requirements, not completed claims.",
+    "Two dated GitHub Pages destinations are clickable. Three custom-domain declarations remain text with GitHub source links and unknown publication; no custom-domain click acceptance.",
+    "A local gh redirect returned 403; the GitHub artifact-download connector supplied exact real ZIPs matching provider digests. The hosted review used its own actual transport; no archive, receipt or provider metadata was reconstructed.",
+    "Full accessibility/performance/fleet/privacy/restore/human acceptance and broader parent issues remain open."
+  ]
+}

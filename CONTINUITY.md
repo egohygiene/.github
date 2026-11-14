@@ -7,7 +7,7 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-14T20:50:07Z'
+  updated_at: '2026-11-14T20:54:59Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
@@ -18,7 +18,8 @@ scope:
   includes:
   - Supported contribution, support, security, PR and issue-intake defaults, with byte-identical funding-path
     correction.
-  - Current main repository directory and its original dated publication/source evidence retained.
+  - Current main repository directory, reviewed navigation export selection, and their original dated
+    publication/source evidence retained.
   - Canonical issue title/body/label declarations shared by all seven forms and API examples.
   excludes: &id001
   - Required receiving-repository primary type labels and actual hosted fallback discovery remain unverified;
@@ -41,6 +42,8 @@ scope:
   - .github/issues/title-contract.v1.json
   - .github/issues/authoring.v1.json
   - docs/intelligence/repository-directory.json
+  - publication/organization-intelligence-selection.json
+  - docs/reviews/2026-11-14-organization-navigation-selection.md
 work:
   objective: Integrate the reviewed organization community defaults with current main without reverting
     the public repository directory or its dated evidence.
@@ -63,9 +66,9 @@ work:
     depends_on: []
 state:
   base:
-    revision: 834d7fd51c48860b2cc4f1a6a262ce466f2004db
+    revision: 5f02bfd6353b764513ef57a41bcf79db0f3c2e72
     ref: refs/heads/main
-    verified_at: '2026-11-14T20:50:07Z'
+    verified_at: '2026-11-14T20:54:59Z'
   candidate:
     branch: fix/24-community-defaults
     revision: null
@@ -76,26 +79,27 @@ state:
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-14T20:50:07Z'
-    default_branch_revision: 834d7fd51c48860b2cc4f1a6a262ce466f2004db
+    observed_at: '2026-11-14T20:54:59Z'
+    default_branch_revision: 5f02bfd6353b764513ef57a41bcf79db0f3c2e72
     issue_state: open
     pull_request_state: open
-    notes: PR66 is a draft with a continuity-only merge conflict against current main. This candidate
-      integrates current main and the original defaults; no merge or hosted discovery is inferred.
+    notes: PR66 is open with a continuity-only merge conflict after the independently merged navigation
+      selection69. This candidate integrates current main and the original defaults; no merge or hosted
+      discovery is inferred.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-14T20:50:07Z'
+  reviewed_at: '2026-11-14T20:54:59Z'
   reviewed_by: Codex
   evidence:
   - command: python -m unittest discover -s tests -v
     outcome: passed
-    observed_at: '2026-11-14T20:50:07Z'
+    observed_at: '2026-11-14T20:54:59Z'
     notes: 44 tests pass on the integrated default-file/form and current repository-directory source.
   - command: python scripts/validate_labels.py; deterministic label projection comparison; continuity
       schema and format checks; git diff --check
     outcome: passed
-    observed_at: '2026-11-14T20:50:07Z'
+    observed_at: '2026-11-14T20:54:59Z'
     notes: Recorded after running these controls on the final candidate; hosted consumer behavior remains
       separate.
   environment_limitations: *id001
@@ -129,7 +133,7 @@ Integrate the reviewed organization community defaults with current main without
 
 ## State snapshot
 
-Candidate integration retains current main `834d7fd51c48860b2cc4f1a6a262ce466f2004db` and PR66 original source `d0ae7343bf243f35d3c15aa3ac301294abcc88c6`. Containing revision remains null.
+Candidate integration retains current main `5f02bfd6353b764513ef57a41bcf79db0f3c2e72` and PR66 original source `d0ae7343bf243f35d3c15aa3ac301294abcc88c6`. Containing revision remains null.
 
 ## Completed and material changes
 
