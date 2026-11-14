@@ -38,6 +38,11 @@ remains proposed; deployment does not ratify human decisions.
 - [Canonical issue titles](docs/issue-titles.md) — versioned emoji/type
   format, agent entry point, and staged adoption.
 
+## Foundation execution
+
+- [Five-repository execution plan and complete issue dispositions](docs/coordination/README.md)
+- [Canonical organization strategy](https://github.com/egohygiene/hygiene/blob/d51043f1e4d2ddc22ef4534bd0d65c0053afcbda/organization/ROADMAP.md) — proposed, composed from repository-owned roadmap IDs.
+
 ## Repository setup
 
 - [Discussions setup and canary evidence](docs/repository-setup/discussions.md) —

@@ -1,5 +1,7 @@
 # Foundation readiness coordination checkpoint
 
+Current five-repository execution is recorded in the [2026-11-14 plan](coordination/README.md). Hygiene [PR123](https://github.com/egohygiene/hygiene/pull/123) now supplies the proposed organization roadmap and composition contract. The September scope/authorization below remains historical; the current maintainer instruction authorizes the new bounded project push. Neither record ratifies policy or authorizes an unrelated publication.
+
 Observed: 2026-09-25. This is a planning checkpoint, not a new
 organization roadmap, contract, registry, or completion claim. Recheck mutable
 GitHub evidence before resuming work.

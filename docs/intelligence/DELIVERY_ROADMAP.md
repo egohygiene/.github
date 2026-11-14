@@ -1,5 +1,7 @@
 # Repository Intelligence completion roadmap
 
+Organization strategy now has a [canonical proposed source in Hygiene](https://github.com/egohygiene/hygiene/blob/d51043f1e4d2ddc22ef4534bd0d65c0053afcbda/organization/ROADMAP.md). The [five-repository execution plan](../coordination/README.md) includes all captured issue dispositions; this document retains the specific Intelligence delivery program and its dated evidence.
+
 Current checkpoint, 2026-11-12: the five remaining source slices are merged:
 Relay #181, Pace #37, Identity #144, Civics #9 and website #140. The
 [convergence record](../reviews/2026-11-12-ri-convergence.md) pins their exact
