@@ -1,5 +1,9 @@
 # Repository dashboard directory
 
+The [reviewed navigation input](repository-directory.md) now exposes these
+admitted identities independently of Core and adds two separate dated publication
+records. The source-only inventory and original observations below are preserved.
+
 Source observations completed **2026-11-10T23:49:35Z**. Scope is the **28 entries** in the exact Hygiene public roster observed 2026-11-09T14:06:57Z; this is not an organization-total or all-repository applicability claim.
 
 Inspected source declares 9 site origins, 7 repositories with Intelligence builder references, and 5 with Pages composition references. These are source observations; live hosting, successful builds, runtime configuration and actual evidence artifacts remain unverified.
