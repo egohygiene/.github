@@ -36,11 +36,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-14T04:37:17Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
       "decision": "needs-live-proof",
       "wave": "W1",
-      "next_checkpoint": "Inspect the retained not-ready consumer receipt and failed release scheduling; complete one actual consumer scenario without weakening qualification.",
-      "prerequisites": []
+      "next_checkpoint": "Source scheduling, exact tag/commit, credential mapping, stable-only payload, metadata and changelog repairs are merged in #132. Select an eligible stable artifact and portable dependency closure, then qualify actual consumer/release behavior; retained installation gate stays not-ready.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W1",
+        "next_checkpoint": "Inspect the retained not-ready consumer receipt and failed release scheduling; complete one actual consumer scenario without weakening qualification.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-15T00:14:32Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#40",
@@ -55,7 +67,19 @@
       "decision": "ready-source",
       "wave": "W2",
       "next_checkpoint": "Define separate first-party prompt/instruction kinds and conflict checks; migrate only candidates with explicit source rights and approval.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define separate first-party prompt/instruction kinds and conflict checks; migrate only candidates with explicit source rights and approval.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:27Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#41",
@@ -70,7 +94,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:28Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#51",
@@ -85,7 +121,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Select and validate actual versioned Mindgarden curation/routing contracts before publishing the thin skill and synthetic ChatGPT handoff.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Select and validate actual versioned Mindgarden curation/routing contracts before publishing the thin skill and synthetic ChatGPT handoff.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-18T18:48:53Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#56",
@@ -96,13 +144,27 @@
       "observed_state": "open",
       "source_updated_at": "2026-08-29T10:13:55Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "needs-owner-contract",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "ready-source",
       "wave": "W2",
-      "next_checkpoint": "Compose the people-first authoring skill only after the owned editorial profile is explicit.",
+      "next_checkpoint": "Compose the thin people-first authoring/review skill over the now-qualified proposed Hygiene #23 profile and its exact source references; keep mechanical checks, editorial judgment and human activation separate.",
       "prerequisites": [
         "egohygiene/hygiene#23"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Compose the people-first authoring skill only after the owned editorial profile is explicit.",
+        "prerequisites": [
+          "egohygiene/hygiene#23"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-29T10:13:55Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#63",
@@ -117,7 +179,19 @@
       "decision": "ready-source",
       "wave": "W2",
       "next_checkpoint": "Reconcile distribution targets, package coordinates and publisher bindings with the existing release declaration; preserve manual publication authority.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Reconcile distribution targets, package coordinates and publisher bindings with the existing release declaration; preserve manual publication authority.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-10T09:27:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#64",
@@ -132,7 +206,19 @@
       "decision": "ready-source",
       "wave": "W2",
       "next_checkpoint": "Define a bounded evidence-backed capability manifest and synthetic failure controls without claiming runtime support from metadata.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define a bounded evidence-backed capability manifest and synthetic failure controls without claiming runtime support from metadata.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T06:47:28Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#65",
@@ -147,7 +233,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:02:33Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#66",
@@ -162,7 +260,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:35Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#67",
@@ -179,7 +289,21 @@
       "next_checkpoint": "Retain existing bundle foundations; qualify exact pins, three repository classes, two hosts, upgrade and rollback before claiming default adoption.",
       "prerequisites": [
         "egohygiene/aether#38"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Retain existing bundle foundations; qualify exact pins, three repository classes, two hosts, upgrade and rollback before claiming default adoption.",
+        "prerequisites": [
+          "egohygiene/aether#38"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:36Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#68",
@@ -190,11 +314,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-10-20T01:25:29Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Finish one bounded checkpoint-audit/profile contract and execute fixtures against current first-party audit/evidence foundations; do not duplicate the existing audit store.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Finish one bounded checkpoint-audit/profile contract and execute fixtures against current first-party audit/evidence foundations; do not duplicate the existing audit store.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-15T02:06:44Z",
+      "current_closed_at": "2026-11-15T02:06:44Z",
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/aether/pull/135"
+      ]
     },
     {
       "id": "egohygiene/aether#69",
@@ -209,7 +348,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-03T17:28:43Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#71",
@@ -224,7 +375,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-03T17:28:45Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#72",
@@ -239,7 +402,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-03T17:28:45Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#73",
@@ -254,7 +429,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-03T17:32:30Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#77",
@@ -271,7 +458,21 @@
       "next_checkpoint": "Consume the portable organization-foundation contract and lock before projecting consumer-organization agent context.",
       "prerequisites": [
         "egohygiene/hygiene#42"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Consume the portable organization-foundation contract and lock before projecting consumer-organization agent context.",
+        "prerequisites": [
+          "egohygiene/hygiene#42"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-11T19:42:40Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#78",
@@ -286,7 +487,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Verify Mindgarden candidate/source contracts, then prove authorized deduplicated promotion with a public-safe dogfood capture.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Verify Mindgarden candidate/source contracts, then prove authorized deduplicated promotion with a public-safe dogfood capture.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:33Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#85",
@@ -301,7 +514,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Preserve the historical ADR inventory and proposed records; complete native admission and unresolved human authority evidence without inventing disposition.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Preserve the historical ADR inventory and proposed records; complete native admission and unresolved human authority evidence without inventing disposition.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:32Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#86",
@@ -312,11 +537,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-14T04:37:15Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-live-proof",
       "wave": "W1",
-      "next_checkpoint": "Finish one bounded checkpoint-audit/profile contract and execute fixtures against current first-party audit/evidence foundations; do not duplicate the existing audit store.",
-      "prerequisites": []
+      "next_checkpoint": "Source package drift, profiles and checkpoint report fixtures are qualified through #135. Keep draft skill lifecycle; qualify actual declared-host installation/discovery and maturity independently of deterministic fixtures.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Finish one bounded checkpoint-audit/profile contract and execute fixtures against current first-party audit/evidence foundations; do not duplicate the existing audit store.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-15T02:06:49Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#87",
@@ -327,13 +564,27 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-14T04:37:17Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "needs-owner-contract",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "ready-source",
       "wave": "W2",
-      "next_checkpoint": "Qualify the existing Hygiene coherence semantics/fixtures before composing the full portable review skill.",
+      "next_checkpoint": "Compose the thin architecture-coherence review skill over Hygiene #59 proposed policy/reference cases; preserve trusted-context, material-change and actual human-ratification gates.",
       "prerequisites": [
         "egohygiene/hygiene#59"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Qualify the existing Hygiene coherence semantics/fixtures before composing the full portable review skill.",
+        "prerequisites": [
+          "egohygiene/hygiene#59"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T04:37:17Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#88",
@@ -344,12 +595,29 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-16T01:02:28Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Compose one shared roadmap-impact module through every mutating agent and provider projection; emit reviewable organization signals rather than edit strategy.",
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
       "prerequisites": [
         "egohygiene/hygiene#60"
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Compose one shared roadmap-impact module through every mutating agent and provider projection; emit reviewable organization signals rather than edit strategy.",
+        "prerequisites": [
+          "egohygiene/hygiene#60"
+        ]
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-14T23:22:43Z",
+      "current_closed_at": "2026-11-14T23:22:43Z",
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/aether/pull/130"
       ]
     },
     {
@@ -365,7 +633,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:34Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#90",
@@ -376,11 +656,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-10-20T01:25:37Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-owner-contract",
       "wave": "W2",
-      "next_checkpoint": "Reconcile portable Intelligence contracts with existing Hygiene/Relay owner schemas; avoid a second registry or incompatible graph dialect.",
-      "prerequisites": []
+      "next_checkpoint": "Reconcile existing proposed Hygiene Intelligence contracts and implemented Relay consumer inputs before accepting any portable Aether extension. Do not replace owner authority or add a second registry.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Reconcile portable Intelligence contracts with existing Hygiene/Relay owner schemas; avoid a second registry or incompatible graph dialect.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T01:25:37Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#92",
@@ -391,11 +683,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-10-20T01:25:40Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Complete adaptive checkpoint sizing and interruption/resume examples on existing continuity and issue-authoring foundations.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Complete adaptive checkpoint sizing and interruption/resume examples on existing continuity and issue-authoring foundations.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-15T00:00:50Z",
+      "current_closed_at": "2026-11-15T00:00:50Z",
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/aether/pull/131"
+      ]
     },
     {
       "id": "egohygiene/aether#93",
@@ -410,7 +717,19 @@
       "decision": "tracking",
       "wave": "W2",
       "next_checkpoint": "Coordinate the existing release checkpoints and retain distinct preparation, publication and clean-consumer evidence.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W2",
+        "next_checkpoint": "Coordinate the existing release checkpoints and retain distinct preparation, publication and clean-consumer evidence.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T03:00:44Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#94",
@@ -421,11 +740,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-13T03:00:50Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-owner-contract",
       "wave": "W2",
-      "next_checkpoint": "Propose the release-preparation engine/authority boundary with owner evidence; preserve the separate human architectural disposition.",
-      "prerequisites": []
+      "next_checkpoint": "Prepare the read-only shared release-engine fit/gap recommendation, then obtain the actual reviewed authority decision. Existing release repairs do not select a new engine or authorize publication.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Propose the release-preparation engine/authority boundary with owner evidence; preserve the separate human architectural disposition.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T03:00:50Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#95",
@@ -442,7 +773,21 @@
       "next_checkpoint": "Specify release units, channels and state reconciliation after the preparation boundary is explicit.",
       "prerequisites": [
         "egohygiene/aether#94"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Specify release units, channels and state reconciliation after the preparation boundary is explicit.",
+        "prerequisites": [
+          "egohygiene/aether#94"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T03:00:56Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#97",
@@ -457,7 +802,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the explicitly later planning composition parked; current roadmap/checkpoint authoring does not require it.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the explicitly later planning composition parked; current roadmap/checkpoint authoring does not require it.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-02T16:19:05Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/aether#102",
@@ -468,11 +825,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-10-20T01:25:42Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Add an opt-in bounded conversation checkpoint/evidence extension with idempotent, correction, concurrent and private-source controls.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Add an opt-in bounded conversation checkpoint/evidence extension with idempotent, correction, concurrent and private-source controls.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-15T00:35:20Z",
+      "current_closed_at": "2026-11-15T00:35:19Z",
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/aether/pull/133"
+      ]
     },
     {
       "id": "egohygiene/aether#103",
@@ -483,11 +855,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-10-17T22:34:22Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Define optional exploration-note authoring/template behavior; preserve tentative status, sources and existing notes without a second ingestion engine.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Define optional exploration-note authoring/template behavior; preserve tentative status, sources and existing notes without a second ingestion engine.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-15T00:48:01Z",
+      "current_closed_at": "2026-11-15T00:48:01Z",
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/aether/pull/134"
+      ]
     },
     {
       "id": "egohygiene/aether#105",
@@ -502,7 +889,19 @@
       "decision": "tracking",
       "wave": "W1",
       "next_checkpoint": "Maintain evidence-backed repository progress and bounded child checkpoints; the four audit repairs are now closed.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W1",
+        "next_checkpoint": "Maintain evidence-backed repository progress and bounded child checkpoints; the four audit repairs are now closed.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-15T02:06:54Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:51.766958+00:00"
     },
     {
       "id": "egohygiene/hygiene#7",
@@ -517,7 +916,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-19T14:30:51Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#17",
@@ -532,7 +943,19 @@
       "decision": "ready-source",
       "wave": "W2",
       "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-30T14:33:36Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#23",
@@ -543,11 +966,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-08-29T10:15:58Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W2",
-      "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-15T01:06:30Z",
+      "current_closed_at": "2026-11-15T01:06:29Z",
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/hygiene/pull/125"
+      ]
     },
     {
       "id": "egohygiene/hygiene#26",
@@ -562,7 +1000,19 @@
       "decision": "ready-source",
       "wave": "W2",
       "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-30T14:31:09Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#29",
@@ -573,11 +1023,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-28T21:25:45Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-owner-contract",
       "wave": "W2",
-      "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
-      "prerequisites": []
+      "next_checkpoint": "Compose the owned release-policy #65 and supply-chain #26 meanings before defining channel applicability, package coordinates and native install evidence; preserve actual platform/channel proof.",
+      "prerequisites": [
+        "egohygiene/hygiene#26",
+        "egohygiene/hygiene#65"
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-28T21:25:45Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#31",
@@ -592,7 +1057,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T06:48:12Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#32",
@@ -607,7 +1084,19 @@
       "decision": "ready-source",
       "wave": "W2",
       "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define or qualify one versioned policy profile with synthetic applicability/failure examples and explicit downstream owner handoff; keep human activation separate.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T07:16:42Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#33",
@@ -622,7 +1111,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:07:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#34",
@@ -637,7 +1138,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:07:48Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#35",
@@ -652,7 +1165,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:41:10Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#36",
@@ -669,7 +1194,21 @@
       "next_checkpoint": "Reconcile the authorized live catalog and public allowlist, execute freshness/membership checks, and bind the reusable audit contract.",
       "prerequisites": [
         "egohygiene/aether#68"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Reconcile the authorized live catalog and public allowlist, execute freshness/membership checks, and bind the reusable audit contract.",
+        "prerequisites": [
+          "egohygiene/aether#68"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:40Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#37",
@@ -684,7 +1223,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Retain qualified public change-history source; complete restricted-product mapping and separately owned production consumer/adoption evidence.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Retain qualified public change-history source; complete restricted-product mapping and separately owned production consumer/adoption evidence.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T21:35:01Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#38",
@@ -699,7 +1250,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-11T19:42:38Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#39",
@@ -714,7 +1277,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-03T17:26:24Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#40",
@@ -729,7 +1304,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-03T17:26:25Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#42",
@@ -746,7 +1333,21 @@
       "next_checkpoint": "Compose the portable organization foundation and distribution lock from qualified release/distribution inputs.",
       "prerequisites": [
         "egohygiene/aether#63"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Compose the portable organization foundation and distribution lock from qualified release/distribution inputs.",
+        "prerequisites": [
+          "egohygiene/aether#63"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-06T22:47:21Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#43",
@@ -761,7 +1362,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:44Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#44",
@@ -776,7 +1389,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Verify Realm/Mantle workstation and shell boundaries; record the policy without creating another provisioning implementation.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Verify Realm/Mantle workstation and shell boundaries; record the policy without creating another provisioning implementation.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-07T03:31:29Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#47",
@@ -791,7 +1416,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Preserve proposed/accepted source distinctions and exact pins; complete the actual human/native authority gate without inferring ratification from merge or CI.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Preserve proposed/accepted source distinctions and exact pins; complete the actual human/native authority gate without inferring ratification from merge or CI.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:39Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#49",
@@ -806,7 +1443,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-13T17:40:41Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#58",
@@ -821,7 +1470,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:45Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#59",
@@ -832,11 +1493,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-15T15:39:56Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Execute the existing coherence reference helper with meaningful repository/organization fixtures and adversarial human-evidence/freshness/privacy controls; no duplicate policy source.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Execute the existing coherence reference helper with meaningful repository/organization fixtures and adversarial human-evidence/freshness/privacy controls; no duplicate policy source.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-14T22:57:32Z",
+      "current_closed_at": "2026-11-14T22:57:32Z",
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/hygiene/pull/124"
+      ]
     },
     {
       "id": "egohygiene/hygiene#60",
@@ -847,11 +1523,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-18T18:48:52Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
+      "assessment": "verified closed issue; bounded source/proof outcome",
       "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Closed after the issue snapshot: Hygiene PR123 merged at d51043f1e4d2ddc22ef4534bd0d65c0053afcbda; all source criteria pass, with human priority ratification still separate.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "completed-after-snapshot",
+        "wave": "W1",
+        "next_checkpoint": "Closed after the issue snapshot: Hygiene PR123 merged at d51043f1e4d2ddc22ef4534bd0d65c0053afcbda; all source criteria pass, with human priority ratification still separate.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-14T22:32:05Z",
+      "current_closed_at": "2026-11-14T22:32:05Z",
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/hygiene/pull/123"
+      ]
     },
     {
       "id": "egohygiene/hygiene#61",
@@ -866,7 +1557,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-28T19:34:04Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#62",
@@ -881,7 +1584,19 @@
       "decision": "needs-owner-contract",
       "wave": "W3",
       "next_checkpoint": "Define canonical status/incident semantics and owner feeds before the organization status renderer is treated as complete.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Define canonical status/incident semantics and owner feeds before the organization status renderer is treated as complete.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:18:18Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#64",
@@ -896,7 +1611,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Preserve the delivered proposed location policy; complete the explicitly required Aether reconciliation and Empathy layout pilot without bulk fleet movement.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Preserve the delivered proposed location policy; complete the explicitly required Aether reconciliation and Empathy layout pilot without bulk fleet movement.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#65",
@@ -914,7 +1641,22 @@
       "prerequisites": [
         "egohygiene/aether#94",
         "egohygiene/aether#95"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Review common release policy/migration only after the preparation engine and release-unit contracts are explicit.",
+        "prerequisites": [
+          "egohygiene/aether#94",
+          "egohygiene/aether#95"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:47Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#66",
@@ -929,7 +1671,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Keep the experimental or long-horizon policy/program open and parked; source exploration is not production/compliance/publication proof.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-28T21:51:58Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#69",
@@ -944,7 +1698,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Preserve proposed/accepted source distinctions and exact pins; complete the actual human/native authority gate without inferring ratification from merge or CI.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Preserve proposed/accepted source distinctions and exact pins; complete the actual human/native authority gate without inferring ratification from merge or CI.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T04:23:42Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#76",
@@ -959,7 +1725,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate existing child outcomes and source-backed acceptance; do not close a program from one source slice or duplicate its implementation owners.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-15T02:14:11Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#95",
@@ -974,7 +1752,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Preserve proposed/accepted source distinctions and exact pins; complete the actual human/native authority gate without inferring ratification from merge or CI.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Preserve proposed/accepted source distinctions and exact pins; complete the actual human/native authority gate without inferring ratification from merge or CI.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-07T01:46:41Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/hygiene#117",
@@ -985,11 +1775,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-13T06:00:07Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-owner-contract",
       "wave": "W2",
-      "next_checkpoint": "Read the linked working draft, propose the canonical branch-name schema/profile and fixtures, and hand validator semantics to EgoLint; do not infer human acceptance.",
-      "prerequisites": []
+      "next_checkpoint": "Reconcile the existing working draft, author schema/examples/fixtures, and record a real maintainer draft-to-accepted decision and ADR outcome; implementation cannot ratify syntax.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Read the linked working draft, propose the canonical branch-name schema/profile and fixtures, and hand validator semantics to EgoLint; do not infer human acceptance.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T06:00:07Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:55.413180+00:00"
     },
     {
       "id": "egohygiene/empathy#51",
@@ -1006,7 +1808,21 @@
       "next_checkpoint": "Qualify the enterprise assurance baseline against owned supply-chain/privacy contracts; preserve actual deployment and compliance evidence gaps.",
       "prerequisites": [
         "egohygiene/hygiene#26"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Qualify the enterprise assurance baseline against owned supply-chain/privacy contracts; preserve actual deployment and compliance evidence gaps.",
+        "prerequisites": [
+          "egohygiene/hygiene#26"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:50:24Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#63",
@@ -1021,7 +1837,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Compose versioned editor/agent/MCP producer profiles with explicit capabilities and permission boundaries instead of copying sibling configuration.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Compose versioned editor/agent/MCP producer profiles with explicit capabilities and permission boundaries instead of copying sibling configuration.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:50:26Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#79",
@@ -1036,7 +1864,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:50:32Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#83",
@@ -1051,7 +1891,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:50:34Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#91",
@@ -1066,7 +1918,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Complete the owned gitattributes contract/Filament pilot against exact compatible producer inputs; preserve the existing canonical policy boundary.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Complete the owned gitattributes contract/Filament pilot against exact compatible producer inputs; preserve the existing canonical policy boundary.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:50:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#101",
@@ -1081,7 +1945,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T03:01:07Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#110",
@@ -1092,11 +1968,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-13T22:12:23Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-owner-contract",
       "wave": "W1",
-      "next_checkpoint": "Repair one canonical EgoLint policy/runtime discrepancy and run the actual consumer checks; preserve the large existing lint baseline instead of misattributing it.",
-      "prerequisites": []
+      "next_checkpoint": "Reconcile the held owner-runtime selection: catalog declares v10.0.0 while actual workflow selects v10.2.0, and extracted pre-command shell fails syntax. Require the accepted thin EgoLint/Relay runtime contract before changing copied canonical implementation.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Repair one canonical EgoLint policy/runtime discrepancy and run the actual consumer checks; preserve the large existing lint baseline instead of misattributing it.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T23:19:47Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#111",
@@ -1113,7 +2001,21 @@
       "next_checkpoint": "Align consumer commit/bot configuration only through the reviewed prospective change-history contract and compatible enforcement inputs.",
       "prerequisites": [
         "egohygiene/hygiene#37"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Align consumer commit/bot configuration only through the reviewed prospective change-history contract and compatible enforcement inputs.",
+        "prerequisites": [
+          "egohygiene/hygiene#37"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:51:00Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#114",
@@ -1128,7 +2030,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Complete one bounded golden-consumer/native acceptance checkpoint with immutable producer evidence; retain staging rights, human/source holds and release boundaries.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-19T16:51:03Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#118",
@@ -1143,7 +2057,19 @@
       "decision": "tracking",
       "wave": "W1",
       "next_checkpoint": "Maintain golden-baseline child evidence; website64 and architecture/Mindgarden65 are closed, broader foundation gates remain independent.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W1",
+        "next_checkpoint": "Maintain golden-baseline child evidence; website64 and architecture/Mindgarden65 are closed, broader foundation gates remain independent.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T21:50:36Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00"
     },
     {
       "id": "egohygiene/empathy#140",
@@ -1154,11 +2080,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-14T01:54:56Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Prove the selected .actrc/local-CI path with actual commands and explicit unavailable capabilities; do not substitute a synthetic fixture for native proof.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Prove the selected .actrc/local-CI path with actual commands and explicit unavailable capabilities; do not substitute a synthetic fixture for native proof.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-15T02:15:09Z",
+      "current_closed_at": "2026-11-15T02:15:09Z",
+      "last_verified_at": "2026-11-15T02:15:59.261648+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/empathy/pull/155"
+      ]
     },
     {
       "id": "egohygiene/holon#7",
@@ -1173,7 +2114,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Qualify the existing owned discovery/Markdown blueprint with route, metadata, attribution/privacy and real production-build coverage; preserve incomplete fleet/adapter acceptance.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Qualify the existing owned discovery/Markdown blueprint with route, metadata, attribution/privacy and real production-build coverage; preserve incomplete fleet/adapter acceptance.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-14T02:25:18Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#8",
@@ -1188,7 +2141,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Qualify the existing owned discovery/Markdown blueprint with route, metadata, attribution/privacy and real production-build coverage; preserve incomplete fleet/adapter acceptance.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Qualify the existing owned discovery/Markdown blueprint with route, metadata, attribution/privacy and real production-build coverage; preserve incomplete fleet/adapter acceptance.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T19:28:04Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#9",
@@ -1203,7 +2168,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T19:28:15Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#10",
@@ -1218,7 +2195,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T19:28:30Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#11",
@@ -1235,7 +2224,21 @@
       "next_checkpoint": "Materialize legal/policy/trust surfaces only from the canonical owned profile and consumer facts.",
       "prerequisites": [
         "egohygiene/hygiene#17"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Materialize legal/policy/trust surfaces only from the canonical owned profile and consumer facts.",
+        "prerequisites": [
+          "egohygiene/hygiene#17"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T20:22:44Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#12",
@@ -1250,7 +2253,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T20:26:04Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#16",
@@ -1265,7 +2280,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T21:05:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#17",
@@ -1280,7 +2307,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T21:06:14Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#28",
@@ -1295,7 +2334,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-30T14:32:39Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#29",
@@ -1310,7 +2361,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T13:30:40Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#32",
@@ -1321,11 +2384,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-02T06:47:29Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-live-proof",
       "wave": "W2",
-      "next_checkpoint": "Qualify a concise orientation-card blueprint against a frozen before/after pilot, preserving exact commands, owner facts and authored extensions.",
-      "prerequisites": []
+      "next_checkpoint": "Finish the repository-card contract and run one real converted pilot with a frozen before/after orientation method; a mechanical fresh-process parse does not establish agent orientation performance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Qualify a concise orientation-card blueprint against a frozen before/after pilot, preserving exact commands, owner facts and authored extensions.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T06:47:29Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#33",
@@ -1340,7 +2415,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Resolve the secure environment configuration/secret ownership contract before scaffolding the optional dotenvx integration.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Resolve the secure environment configuration/secret ownership contract before scaffolding the optional dotenvx integration.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:04:04Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#34",
@@ -1355,7 +2442,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:04:06Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#35",
@@ -1370,7 +2469,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:04:07Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#36",
@@ -1385,7 +2496,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:04:08Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#37",
@@ -1400,7 +2523,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:41:11Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#38",
@@ -1415,7 +2550,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:41:12Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#40",
@@ -1430,7 +2577,19 @@
       "decision": "needs-owner-contract",
       "wave": "W2",
       "next_checkpoint": "Consume real released compatible @egohygiene packages and lockfiles; an unpublished package or sibling source copy cannot qualify the blueprint.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Consume real released compatible @egohygiene packages and lockfiles; an unpublished package or sibling source copy cannot qualify the blueprint.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T09:44:56Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#41",
@@ -1447,7 +2606,21 @@
       "next_checkpoint": "Coordinate the portable bootstrapper and second-consumer proof after the foundation lock and qualified producer artifacts exist.",
       "prerequisites": [
         "egohygiene/hygiene#42"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate the portable bootstrapper and second-consumer proof after the foundation lock and qualified producer artifacts exist.",
+        "prerequisites": [
+          "egohygiene/hygiene#42"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-06T22:47:45Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#42",
@@ -1462,7 +2635,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Keep source materialization foundations; qualify released validator inputs, real pilot/visibility cases, native checks and guarded upgrade/rollback evidence.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Keep source materialization foundations; qualify released validator inputs, real pilot/visibility cases, native checks and guarded upgrade/rollback evidence.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T13:30:39Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#52",
@@ -1477,7 +2662,19 @@
       "decision": "needs-owner-contract",
       "wave": "W4",
       "next_checkpoint": "Resolve the canonical tipping policy, applicability and verified recipient facts before generating any payment/support surface.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W4",
+        "next_checkpoint": "Resolve the canonical tipping policy, applicability and verified recipient facts before generating any payment/support surface.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-11T15:39:43Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#53",
@@ -1488,11 +2685,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-11T16:15:52Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-owner-contract",
       "wave": "W2",
-      "next_checkpoint": "Define or qualify search capability profiles on existing site-suite adapters with explicit scope, frozen fixtures and conformance evidence.",
-      "prerequisites": []
+      "next_checkpoint": "Resolve the organization search-architecture owner decision in egohygiene/egohygiene#478 before materializing capability vocabulary/adapters and a fleet inventory; keep provider/public-private and accessible-UI evidence distinct.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Define or qualify search capability profiles on existing site-suite adapters with explicit scope, frozen fixtures and conformance evidence.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-11T16:15:52Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#54",
@@ -1507,7 +2716,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-11T16:37:32Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#55",
@@ -1522,7 +2743,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-11T16:37:33Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#56",
@@ -1537,7 +2770,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Keep source materialization foundations; qualify released validator inputs, real pilot/visibility cases, native checks and guarded upgrade/rollback evidence.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Keep source materialization foundations; qualify released validator inputs, real pilot/visibility cases, native checks and guarded upgrade/rollback evidence.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-12T17:04:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#61",
@@ -1555,7 +2800,22 @@
       "prerequisites": [
         "egohygiene/aether#95",
         "egohygiene/hygiene#65"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Materialize release declarations and safe updates only against compatible explicit release-unit and policy inputs.",
+        "prerequisites": [
+          "egohygiene/aether#95",
+          "egohygiene/hygiene#65"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-20T13:30:41Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#66",
@@ -1570,7 +2830,19 @@
       "decision": "tracking",
       "wave": "W1",
       "next_checkpoint": "Maintain the repair queue and exact release proof; issue82 is closed, newly discovered repeat-check regression109 remains an independent repair.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W1",
+        "next_checkpoint": "Maintain the repair queue and exact release proof; issue82 is closed, newly discovered repeat-check regression109 remains an independent repair.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-15T02:14:16Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#83",
@@ -1585,7 +2857,19 @@
       "decision": "deferred-experiment",
       "wave": "W4",
       "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "deferred-experiment",
+        "wave": "W4",
+        "next_checkpoint": "Skip the optional tool/framework/research evaluation for this foundation push; retain its hypothesis and original issue history for later review.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-01T17:01:27Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00"
     },
     {
       "id": "egohygiene/holon#109",
@@ -1596,11 +2880,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-14T21:36:19Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W1",
-      "next_checkpoint": "Exclude renderer-owned Zensical cache from authored-source formatting; prove two consecutive native checks for generic and LaunchKit consumers plus authored-format failure and identical public artifacts.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W1",
+        "next_checkpoint": "Exclude renderer-owned Zensical cache from authored-source formatting; prove two consecutive native checks for generic and LaunchKit consumers plus authored-format failure and identical public artifacts.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-14T22:57:36Z",
+      "current_closed_at": "2026-11-14T22:57:36Z",
+      "last_verified_at": "2026-11-15T02:16:02.483551+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/holon/pull/110"
+      ]
     },
     {
       "id": "egohygiene/.github#1",
@@ -1615,7 +2914,19 @@
       "decision": "needs-live-proof",
       "wave": "W2",
       "next_checkpoint": "Verify real selected Copilot/shared-instruction behavior and path-specific discovery; source presence does not prove provider inheritance.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W2",
+        "next_checkpoint": "Verify real selected Copilot/shared-instruction behavior and path-specific discovery; source presence does not prove provider inheritance.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-28T19:05:37Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#2",
@@ -1630,7 +2941,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T23:44:02Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#3",
@@ -1645,7 +2968,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-04-03T06:09:07Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#4",
@@ -1660,7 +2995,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-04-03T06:09:29Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#5",
@@ -1675,7 +3022,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-04-03T06:22:56Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#10",
@@ -1686,11 +3045,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-08-19T03:01:48Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
-      "wave": "W2",
-      "next_checkpoint": "Reconcile a public technology landscape from Hygiene-owned facts and actual supported tools, with explicit current/planned distinctions and navigational links.",
-      "prerequisites": []
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "needs-live-proof",
+      "wave": "W3",
+      "next_checkpoint": "Define a repository-catalog-backed landscape projection, then qualify actual searchable/static publication at landscape.egohygiene.io through its owner. Source/schema work alone does not prove domain or publication.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Reconcile a public technology landscape from Hygiene-owned facts and actual supported tools, with explicit current/planned distinctions and navigational links.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-19T03:01:48Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#15",
@@ -1705,7 +3076,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-20T03:22:32Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#17",
@@ -1720,7 +3103,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-08-22T19:25:58Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#19",
@@ -1737,7 +3132,21 @@
       "next_checkpoint": "Keep the starter surface thin and consume the reviewed common release baseline; do not duplicate release implementation.",
       "prerequisites": [
         "egohygiene/hygiene#65"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Keep the starter surface thin and consume the reviewed common release baseline; do not duplicate release implementation.",
+        "prerequisites": [
+          "egohygiene/hygiene#65"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-28T21:26:17Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#20",
@@ -1752,7 +3161,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T03:00:32Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#22",
@@ -1767,7 +3188,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-02T11:26:51Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#23",
@@ -1782,7 +3215,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T22:41:49Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#24",
@@ -1793,11 +3238,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-14T04:37:21Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
       "decision": "needs-live-proof",
       "wave": "W3",
-      "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "next_checkpoint": "Shared defaults #66 and label enrollment #74 are merged; 83 label creates and one metadata correction are applied with zero deletes and five no-op readbacks. Actual signed-in fallback/submission, title authority and rollout/discovery remain unqualified.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T23:27:03Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#25",
@@ -1808,11 +3265,26 @@
       "observed_state": "open",
       "source_updated_at": "2026-09-07T06:17:21Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "needs-live-proof",
+      "assessment": "verified closed issue; bounded source/proof outcome",
+      "decision": "completed-after-snapshot",
       "wave": "W3",
-      "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "next_checkpoint": "Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "closed",
+      "current_state_reason": "completed",
+      "current_updated_at": "2026-11-14T23:43:58Z",
+      "current_closed_at": "2026-11-14T23:43:58Z",
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00",
+      "completion_evidence": [
+        "https://github.com/egohygiene/.github/pull/73"
+      ]
     },
     {
       "id": "egohygiene/.github#26",
@@ -1827,7 +3299,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-12T17:03:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#27",
@@ -1842,7 +3326,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:26:43Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#28",
@@ -1860,7 +3356,22 @@
       "prerequisites": [
         "egohygiene/hygiene#59",
         "egohygiene/aether#87"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Consume actual architecture-coherence assessment/governance feeds before claiming a Sanity view is operational.",
+        "prerequisites": [
+          "egohygiene/hygiene#59",
+          "egohygiene/aether#87"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-15T15:41:20Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#29",
@@ -1877,7 +3388,21 @@
       "next_checkpoint": "Consume Hygiene organization strategy and repository-owned roadmap evidence through Relay/Observatory; generated UI never becomes canonical strategy.",
       "prerequisites": [
         "egohygiene/hygiene#60"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Consume Hygiene organization strategy and repository-owned roadmap evidence through Relay/Observatory; generated UI never becomes canonical strategy.",
+        "prerequisites": [
+          "egohygiene/hygiene#60"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-26T18:09:45Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#30",
@@ -1892,7 +3417,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-10T19:49:12Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#32",
@@ -1907,7 +3444,19 @@
       "decision": "tracking",
       "wave": "W3",
       "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "tracking",
+        "wave": "W3",
+        "next_checkpoint": "Coordinate owned work and acceptance without copying child checklists or closing the broad program from this five-repository batch.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T19:54:12Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#33",
@@ -1924,7 +3473,21 @@
       "next_checkpoint": "Consume the status/incident owner contract and real scoped feeds before final route acceptance.",
       "prerequisites": [
         "egohygiene/hygiene#62"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Consume the status/incident owner contract and real scoped feeds before final route acceptance.",
+        "prerequisites": [
+          "egohygiene/hygiene#62"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:19:04Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#34",
@@ -1939,7 +3502,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#35",
@@ -1954,7 +3529,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:46Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#36",
@@ -1969,7 +3556,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:47Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#37",
@@ -1984,7 +3583,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:48Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#38",
@@ -1999,7 +3610,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:48Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#39",
@@ -2017,7 +3640,22 @@
       "prerequisites": [
         "egohygiene/aether#63",
         "egohygiene/hygiene#65"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W3",
+        "next_checkpoint": "Compose releases/distribution views from qualified producer declarations and actual release evidence.",
+        "prerequisites": [
+          "egohygiene/aether#63",
+          "egohygiene/hygiene#65"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:49Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#40",
@@ -2032,7 +3670,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-09-20T22:20:50Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#41",
@@ -2047,7 +3697,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-14T22:12:33Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#42",
@@ -2062,7 +3724,19 @@
       "decision": "needs-live-proof",
       "wave": "W3",
       "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Complete the existing issue-specific receiving/consumer/live evidence checkpoint; reuse delivered source and preserve human approval, visibility, registry and publication gates.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-13T04:20:21Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#49",
@@ -2079,7 +3753,21 @@
       "next_checkpoint": "Qualify first-party isolated install, both repository/organization discovery, safe external references, accessibility, private filtering and a second consumer; preserve Aether release/install gaps.",
       "prerequisites": [
         "egohygiene/aether#38"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-live-proof",
+        "wave": "W3",
+        "next_checkpoint": "Qualify first-party isolated install, both repository/organization discovery, safe external references, accessibility, private filtering and a second consumer; preserve Aether release/install gaps.",
+        "prerequisites": [
+          "egohygiene/aether#38"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-10-18T14:43:54Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#51",
@@ -2090,11 +3778,23 @@
       "observed_state": "open",
       "source_updated_at": "2026-11-01T16:13:33Z",
       "owner_role": "repository maintainer and canonical capability owner",
-      "assessment": "proposed operational disposition",
-      "decision": "ready-source",
-      "wave": "W2",
-      "next_checkpoint": "Exercise the existing dry-run Project intake with complete declared access scope; dynamically resolve real Project fields and prove idempotent Backlog admission without moving existing work.",
-      "prerequisites": []
+      "assessment": "proposed operational disposition reconciled with actual source/live evidence",
+      "decision": "maintainer-service",
+      "wave": "W3",
+      "next_checkpoint": "Existing read-only preview and 44 contract tests pass. Actual Project 1 query is FORBIDDEN for this integration; obtain real Project access, then qualify the Relay-owned race-safe add/Backlog/readback adapter. No board writes occurred.",
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "ready-source",
+        "wave": "W2",
+        "next_checkpoint": "Exercise the existing dry-run Project intake with complete declared access scope; dynamically resolve real Project fields and prove idempotent Backlog admission without moving existing work.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-15T01:29:44Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#54",
@@ -2109,7 +3809,19 @@
       "decision": "maintainer-service",
       "wave": "W3",
       "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
-      "prerequisites": []
+      "prerequisites": [],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "maintainer-service",
+        "wave": "W3",
+        "next_checkpoint": "Prepare/reconcile the exact provider-settings or account canary, ownership and recovery evidence; do not invent admin access, external account completion, publication or financial setup.",
+        "prerequisites": []
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-11T19:41:09Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     },
     {
       "id": "egohygiene/.github#55",
@@ -2126,7 +3838,79 @@
       "next_checkpoint": "Preview one editable-title canary only after the prospective change-history/required-check compatibility mapping is reviewed; preserve stable machine IDs.",
       "prerequisites": [
         "egohygiene/hygiene#37"
-      ]
+      ],
+      "snapshot_disposition": {
+        "assessment": "proposed operational disposition",
+        "decision": "needs-owner-contract",
+        "wave": "W2",
+        "next_checkpoint": "Preview one editable-title canary only after the prospective change-history/required-check compatibility mapping is reviewed; preserve stable machine IDs.",
+        "prerequisites": [
+          "egohygiene/hygiene#37"
+        ]
+      },
+      "current_state": "open",
+      "current_state_reason": null,
+      "current_updated_at": "2026-11-11T19:41:13Z",
+      "current_closed_at": null,
+      "last_verified_at": "2026-11-15T02:16:04.315601+00:00"
     }
-  ]
+  ],
+  "reconciliation": {
+    "authored_at": "2026-11-15T02:16:29Z",
+    "complete": true,
+    "query": "repos/{repository}/issues?state=all&per_page=100&page={page}",
+    "pagination": "Every repository paginated to an explicit short page; closed issues are verified directly, never inferred from absence.",
+    "visibility": "public five-repository scope only",
+    "repositories": {
+      "egohygiene/aether": {
+        "open_issues": 26,
+        "open_pull_requests": 0,
+        "observed_at": "2026-11-15T02:15:51.766958+00:00"
+      },
+      "egohygiene/hygiene": {
+        "open_issues": 29,
+        "open_pull_requests": 0,
+        "observed_at": "2026-11-15T02:15:55.413180+00:00"
+      },
+      "egohygiene/empathy": {
+        "open_issues": 10,
+        "open_pull_requests": 0,
+        "observed_at": "2026-11-15T02:15:59.261648+00:00"
+      },
+      "egohygiene/holon": {
+        "open_issues": 28,
+        "open_pull_requests": 0,
+        "observed_at": "2026-11-15T02:16:02.483551+00:00"
+      },
+      "egohygiene/.github": {
+        "open_issues": 33,
+        "open_pull_requests": 0,
+        "observed_at": "2026-11-15T02:16:04.315601+00:00"
+      }
+    },
+    "open_issues": 126,
+    "open_pull_requests": 0,
+    "open_dispositions": {
+      "deferred-experiment": 33,
+      "maintainer-service": 8,
+      "needs-live-proof": 32,
+      "needs-owner-contract": 30,
+      "ready-source": 8,
+      "tracking": 15
+    },
+    "closed_snapshot_entries": 11,
+    "original_snapshot_source": "https://github.com/egohygiene/.github/blob/40f3d584d916d748637c380c32828ac14fcff971/docs/coordination/foundation-execution.v1.json",
+    "limitations": [
+      "Original Nov14 snapshot metadata/137 rows and each row observation clock are retained; exact original capture clock remains unknown.",
+      "Current dispositions are an advisory execution proposal, not accepted strategic priority, installed scheduling, private coverage or human ratification.",
+      "Complete enumeration is not issue completion or passing source/consumer/release qualification. Remaining ready-source checkpoints are explicit future work.",
+      "Labels were separately synchronized and read back. No issue title, label assignment, assignee, milestone or Project membership was normalized."
+    ],
+    "provider_proof": {
+      "labels": "../evidence/labels/foundation-2026-11-15/actual-application.json",
+      "organization_profile": "../evidence/organization-profile-render-2026-11-14.json",
+      "project_intake": "../project-intake/README.md",
+      "empathy_selected_local_ci": "../evidence/empathy-local-ci-2026-11-15.json"
+    }
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "schema_version": "egohygiene.github-profile-render-readback/v1",
+  "observed_at": "2026-11-14T23:42:22.858877+00:00",
+  "source_merge": "5d0fbdf7ae5d434ba326bca425fc2cc99f93393c",
+  "source_blob": "0d121dec6b7e0e1603d7186c23927540a1711932",
+  "organization_url": "https://github.com/egohygiene?view_as=public",
+  "status": 200,
+  "rendered_article_characters": 1401,
+  "rendered_text_sha256": "278f2ff16e51cec9a8c3f469d9a77e508e8415cbf26c3d551783d4c52026508f",
+  "checks": {
+    "new_purpose_rendered": true,
+    "foundations_rendered": true,
+    "source_truth_rendered": true,
+    "planned_direction_qualified": true,
+    "no_funding_claim": true
+  },
+  "source_readback_matches": true
+}

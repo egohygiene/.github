@@ -1,0 +1,177 @@
+{
+  "record_type": "dated-native-label-application",
+  "started_at": "2026-11-15T01:24:41.673961+00:00",
+  "policy_revision": "763eed7aff546a4aacfd985efc3030e29e8d6cd3",
+  "runner_revision": "425d3cc22673b0509abb3c54f184e07111d5a4df",
+  "status": "passed",
+  "results": [
+    {
+      "repository": "egohygiene/aether",
+      "reviewed_plan_sha256": "3f69a1f6cb5597b11e340ee9d5f30819a0ac3747182f7c1c5c657e067dc2ae62",
+      "applied": {
+        "applied": {
+          "create": 0,
+          "delete": 0,
+          "unchanged": 18,
+          "update": 0
+        },
+        "deletions_authorized": false,
+        "plan_sha256": "3f69a1f6cb5597b11e340ee9d5f30819a0ac3747182f7c1c5c657e067dc2ae62",
+        "repository": "egohygiene/aether",
+        "schema": "egohygiene.relay.label-sync-apply-evidence/v1"
+      },
+      "before_count": 59,
+      "after_count": 59,
+      "post_plan_sha256": "3f69a1f6cb5597b11e340ee9d5f30819a0ac3747182f7c1c5c657e067dc2ae62",
+      "post_summary": {
+        "create": 0,
+        "delete": 0,
+        "unchanged": 18,
+        "update": 0
+      },
+      "post_operations": {
+        "create": [],
+        "delete": [],
+        "update": []
+      },
+      "all_old_names_retained": true,
+      "unreviewed_old_metadata_retained": true,
+      "verified_at": "2026-11-15T01:24:43.899317+00:00"
+    },
+    {
+      "repository": "egohygiene/hygiene",
+      "reviewed_plan_sha256": "ef83539e62e091e05a9bee2b419ad28c895812a8dea2792f81eddaaede05cb77",
+      "applied": {
+        "applied": {
+          "create": 18,
+          "delete": 0,
+          "unchanged": 0,
+          "update": 0
+        },
+        "deletions_authorized": false,
+        "plan_sha256": "ef83539e62e091e05a9bee2b419ad28c895812a8dea2792f81eddaaede05cb77",
+        "repository": "egohygiene/hygiene",
+        "schema": "egohygiene.relay.label-sync-apply-evidence/v1"
+      },
+      "before_count": 41,
+      "after_count": 59,
+      "post_plan_sha256": "6788086793178f3967a585d4093be27a0543b058be9b69291c7f3e9795a94dbf",
+      "post_summary": {
+        "create": 0,
+        "delete": 0,
+        "unchanged": 18,
+        "update": 0
+      },
+      "post_operations": {
+        "create": [],
+        "delete": [],
+        "update": []
+      },
+      "all_old_names_retained": true,
+      "unreviewed_old_metadata_retained": true,
+      "verified_at": "2026-11-15T01:25:06.333006+00:00"
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "reviewed_plan_sha256": "4215af925bf8f7dfd279ac601776f745f50cba34eb6608be89789bccc900934f",
+      "applied": {
+        "applied": {
+          "create": 18,
+          "delete": 0,
+          "unchanged": 0,
+          "update": 0
+        },
+        "deletions_authorized": false,
+        "plan_sha256": "4215af925bf8f7dfd279ac601776f745f50cba34eb6608be89789bccc900934f",
+        "repository": "egohygiene/empathy",
+        "schema": "egohygiene.relay.label-sync-apply-evidence/v1"
+      },
+      "before_count": 43,
+      "after_count": 61,
+      "post_plan_sha256": "14ed67779498b70cd14835f4a4c60fd6408ded47b0ad39a6995ad078ebfb8b87",
+      "post_summary": {
+        "create": 0,
+        "delete": 0,
+        "unchanged": 18,
+        "update": 0
+      },
+      "post_operations": {
+        "create": [],
+        "delete": [],
+        "update": []
+      },
+      "all_old_names_retained": true,
+      "unreviewed_old_metadata_retained": true,
+      "verified_at": "2026-11-15T01:25:28.733861+00:00"
+    },
+    {
+      "repository": "egohygiene/holon",
+      "reviewed_plan_sha256": "579359ce306e292f166acf42044411bd651ce46aa51b617623e2a4853c024819",
+      "applied": {
+        "applied": {
+          "create": 18,
+          "delete": 0,
+          "unchanged": 0,
+          "update": 0
+        },
+        "deletions_authorized": false,
+        "plan_sha256": "579359ce306e292f166acf42044411bd651ce46aa51b617623e2a4853c024819",
+        "repository": "egohygiene/holon",
+        "schema": "egohygiene.relay.label-sync-apply-evidence/v1"
+      },
+      "before_count": 41,
+      "after_count": 59,
+      "post_plan_sha256": "ba8a438cd3f5ae635db7e4bb4c6d9e9e76ebf7603730bf71b075424420be3a48",
+      "post_summary": {
+        "create": 0,
+        "delete": 0,
+        "unchanged": 18,
+        "update": 0
+      },
+      "post_operations": {
+        "create": [],
+        "delete": [],
+        "update": []
+      },
+      "all_old_names_retained": true,
+      "unreviewed_old_metadata_retained": true,
+      "verified_at": "2026-11-15T01:25:51.595033+00:00"
+    },
+    {
+      "repository": "egohygiene/.github",
+      "reviewed_plan_sha256": "6598fecbd297926d11073d90bed28a72c1372854e1b5264f840221976e38e5f2",
+      "applied": {
+        "applied": {
+          "create": 29,
+          "delete": 0,
+          "unchanged": 0,
+          "update": 1
+        },
+        "deletions_authorized": false,
+        "plan_sha256": "6598fecbd297926d11073d90bed28a72c1372854e1b5264f840221976e38e5f2",
+        "repository": "egohygiene/.github",
+        "schema": "egohygiene.relay.label-sync-apply-evidence/v1"
+      },
+      "before_count": 10,
+      "after_count": 39,
+      "post_plan_sha256": "a39afa8c735b291c4eb099997ae1a0ca2b01160e0ef46768af370a0f49e5d072",
+      "post_summary": {
+        "create": 0,
+        "delete": 0,
+        "unchanged": 30,
+        "update": 0
+      },
+      "post_operations": {
+        "create": [],
+        "delete": [],
+        "update": []
+      },
+      "all_old_names_retained": true,
+      "unreviewed_old_metadata_retained": true,
+      "verified_at": "2026-11-15T01:26:28.734912+00:00"
+    }
+  ],
+  "deletions_authorized": false,
+  "issue_pr_field_writes": false,
+  "completed_at": "2026-11-15T01:26:28.735306+00:00"
+}

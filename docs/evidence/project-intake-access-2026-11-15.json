@@ -1,0 +1,50 @@
+{
+  "record_type": "dated-read-only-project-intake-access",
+  "observed_at": "2026-11-15T02:16:21.075894+00:00",
+  "repository": "egohygiene/.github",
+  "issue": "https://github.com/egohygiene/.github/issues/51",
+  "preview": {
+    "schema": "egohygiene.organization-project-intake-preview/v1",
+    "mode": "read-only",
+    "observed_at": "2026-11-15T01:16:01Z",
+    "scope": {
+      "owner": "egohygiene",
+      "visibility": "public",
+      "state": "open",
+      "project_number": 1,
+      "maximum_pages_per_connection": 1000,
+      "completeness": "accessible-public-repositories-only"
+    },
+    "complete": false,
+    "project": null,
+    "repositories": [],
+    "summary": {
+      "missing": 0,
+      "existing": 0,
+      "duplicate": 0,
+      "repositories_complete": 0,
+      "repositories_incomplete": 0
+    },
+    "errors": [
+      "PROVIDER_ACCESS_RATE_OR_TRANSPORT_FAILURE"
+    ],
+    "writes": 0
+  },
+  "minimal_project_probe": {
+    "operation": "query organization egohygiene Project 1 id/title",
+    "exit_code": 1,
+    "project": null,
+    "errors": [
+      {
+        "type": "FORBIDDEN",
+        "message": "Resource not accessible by integration",
+        "path": [
+          "organization",
+          "projectV2"
+        ]
+      }
+    ]
+  },
+  "writes": 0,
+  "interpretation": "Provider access unavailable; no empty-board, membership, Backlog, complete-roster or actual-mutation result inferred."
+}

@@ -1,0 +1,26 @@
+{
+  "configuration_present": false,
+  "contract": {
+    "assignments_sha256": "bde06b42fdc5e041678e16bbd2bc2883f811439999b770f6cfde99a584898a25",
+    "catalog_sha256": "071a1117f763b0ed6147cefedfc9459e070e683a96907a7c83f0d7751aaeefaf",
+    "catalog_version": "1.2.0",
+    "repository": "egohygiene/.github",
+    "revision": "763eed7aff546a4aacfd985efc3030e29e8d6cd3"
+  },
+  "observed_labels_sha256": "8864a2a6aaa51ea12752d7f0b8a09bd334a5cf753bcca02c3750db0c0268a9af",
+  "operations": {
+    "create": [],
+    "delete": [],
+    "update": []
+  },
+  "plan_sha256": "6788086793178f3967a585d4093be27a0543b058be9b69291c7f3e9795a94dbf",
+  "removal_policy": "retain",
+  "repository": "egohygiene/hygiene",
+  "schema": "egohygiene.relay.label-sync-plan/v1",
+  "summary": {
+    "create": 0,
+    "delete": 0,
+    "unchanged": 18,
+    "update": 0
+  }
+}
