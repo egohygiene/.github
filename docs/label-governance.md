@@ -127,3 +127,24 @@ work. Repositories should still materialize their own issue templates and
 template can express repository-owned policy more accurately. A local template
 must retain owner, dependency, acceptance, and security fields when it accepts
 cross-repository work.
+
+## Foundation receiving cohort — 2026-11-15
+
+Catalog1.2.0 adds explicit universal-only assignments for Hygiene, Empathy and
+Holon. Aether retains its universal-only assignment; the organization repository
+retains its engineering overlay. Universal names, descriptions, colors and the
+approved overlay digest stay unchanged. The title contract1.0.2 updates only its
+label-catalog reference; historical consumer pins remain separately selected.
+
+This source enrollment supports the existing community forms under24 and8.
+Provider synchronization uses an exact reviewed Relay runner, a caller-owned
+lock to merged policy bytes, fresh observed labels and checksum-bound plans.
+Every create/update/retention is reviewed before apply; deletion is not selected.
+No issue/PR titles, labels, relationships or historical content are normalized
+by changing these assignments. Automatic labeling/enforcement remains a separate
+consumer choice.
+
+A provider label read-back and no-op replan qualify only the observed repository
+metadata. Actual signed-in GitHub issue-form fallback and submission remain
+separate UI evidence. A public chooser probe redirected to login; this session
+has no offered desktop/browser control tool, so it cannot establish that canary.
