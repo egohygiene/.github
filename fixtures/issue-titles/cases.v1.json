@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "contract_id": "egohygiene.issue-title/v1",
-  "contract_version": "1.0.1",
+  "contract_version": "1.0.2",
   "cases": [
     {
       "id": "valid-architecture",
