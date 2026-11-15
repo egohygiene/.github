@@ -434,6 +434,27 @@
       "egohygiene/empathy#118"
     ],
     "factual_documentation_followup": "https://github.com/egohygiene/empathy/pull/156",
-    "captured_manifest_reason_text": "Unchanged owner-manifest reason strings in the native captures retain their original109/110 references; this does not reopen109 or replace its dated acceptance."
+    "captured_manifest_reason_text": "Unchanged owner-manifest reason strings in the native captures retain their original109/110 references; this does not reopen109 or replace its dated acceptance.",
+    "factual_documentation_followup_state": "merged",
+    "factual_documentation_followup_merge": "a405a7a169c7d6153f889702ed0276e3d04b4ac2"
+  },
+  "factual_followup_review": {
+    "head": "2b2e9cbc5cc7b8762f05a43a2bc2f2609f6af5c7",
+    "canonical_holistic_run": "https://github.com/egohygiene/empathy/actions/runs/43667214310",
+    "full_outcome": "failed-existing-baseline",
+    "reported_errors": 74553,
+    "reported_warnings": 17,
+    "artifact_zip_sha256": "fe516b361b5b0847b8a7e498cf2cb3f3395815af0867f6d091b2ea8cda016015",
+    "introduced_gating_findings_in_three_changed_paths": 0,
+    "new_advisory_findings": 0,
+    "reviewed_linters": [
+      "Mypy",
+      "Bandit",
+      "Secretlint",
+      "Lychee",
+      "all warning categories"
+    ],
+    "curated_snapshot_job": "actually-skipped",
+    "source_config_runtime_changes": false
   }
 }

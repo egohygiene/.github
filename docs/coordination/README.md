@@ -1,14 +1,14 @@
 # Five-repository foundation execution plan
 
-Reconciled 2026-11-15T02:16:29Z. The original 2026-11-14 snapshot remains inspectable; its exact capture clock was not retained.
+Reconciled 2026-11-15T02:36:14Z. The original 2026-11-14 snapshot remains inspectable; its exact capture clock was not retained.
 
-The current complete public read has **126 open issues** and **0 open PRs** across the five requested repositories, compared with 143 issues at intake. This is dated provider state. The [machine inventory](foundation-execution.v1.json) retains all 137 captured issue rows, their original observation/disposition and current verified state; no missing row is treated as closed.
+The current complete public read has **125 open issues** and **0 open PRs** across the five requested repositories, compared with 143 issues at intake. This is dated provider state. The [machine inventory](foundation-execution.v1.json) retains all 137 captured issue rows, their original observation/disposition and current verified state; no missing row is treated as closed.
 
 The [canonical organization roadmap](https://github.com/egohygiene/hygiene/blob/d51043f1e4d2ddc22ef4534bd0d65c0053afcbda/organization/ROADMAP.md) owns proposed strategic horizons. Existing repository roadmaps retain their stable IDs. This file owns the bounded advisory execution queue; it is neither a second strategy registry nor an installed scheduler. Organization issue #23 still owns the wider historical 311-issue reconciliation.
 
 ## Delivered checkpoints
 
-The original PR queue is merged: Aether #106/#126/#127, organization #66 and Empathy #153, with externally integrated Empathy #154. New source work completes staging inventory/intake controls, shared roadmap and issue-checkpoint guidance, conversation ledgers, optional exploration notes, checkpoint-audit fixture qualification, proposed organization roadmap/coherence/content profiles, Holon cache freshness, organization profile publication and five-repository label enrollment.
+The original PR queue is merged: Aether #106/#126/#127, organization #66 and Empathy #153, with externally integrated Empathy #154. New source work completes staging inventory/intake controls, shared roadmap and issue-checkpoint guidance, conversation ledgers, optional exploration notes, checkpoint-audit and architecture-review fixture qualification, proposed organization roadmap/coherence/content profiles, Holon cache freshness, organization profile publication and five-repository label enrollment.
 
 Aether #132 repairs release source scheduling, tag/commit binding, payload/authentication/metadata/changelog behavior. Its actual read-only job passes, while tagged publication paths were skipped. Later deterministic/source and two-build checks pass; the actual consumer-installation gate under #38 remains not-ready. Empathy keeps its full lint/security baseline and separate owner-runtime gate; selected local CI coverage does not erase either.
 
@@ -20,19 +20,19 @@ Empathy #155 is merged and #140 is closed after selected local CI passes on the 
 
 | Repository | Open issues | Open PRs | Observed UTC |
 | --- | ---: | ---: | --- |
-| egohygiene/aether | 26 | 0 | 2026-11-15T02:15:51.766958+00:00 |
-| egohygiene/hygiene | 29 | 0 | 2026-11-15T02:15:55.413180+00:00 |
-| egohygiene/empathy | 10 | 0 | 2026-11-15T02:15:59.261648+00:00 |
-| egohygiene/holon | 28 | 0 | 2026-11-15T02:16:02.483551+00:00 |
-| egohygiene/.github | 33 | 0 | 2026-11-15T02:16:04.315601+00:00 |
+| egohygiene/aether | 25 | 0 | 2026-11-15T02:35:50.947676+00:00 |
+| egohygiene/hygiene | 29 | 0 | 2026-11-15T02:35:54.797658+00:00 |
+| egohygiene/empathy | 10 | 0 | 2026-11-15T02:35:58.665214+00:00 |
+| egohygiene/holon | 28 | 0 | 2026-11-15T02:36:02.686582+00:00 |
+| egohygiene/.github | 33 | 0 | 2026-11-15T02:36:05.048890+00:00 |
 
 ## Execution order
 
 | Wave | Bounded purpose |
 | --- | --- |
 | W0 | Clear the original PR queue in dependency order. Completed; reconcile any newly created PRs on their actual heads. |
-| W1 | Qualify concrete source and existing implementations, preserving unrelated baseline and consumer failures. Merged checkpoints include Holon #109, Hygiene #59, Aether #88/#92/#102/#103/#68; inspect Empathy #140 live state below. |
-| W2 | Continue owned contracts and thin authoring consumers. Hygiene #23/#59 definitions unblock bounded Aether #56/#87 source composition; proposed policy does not supply human ratification. Sequence release policy and distribution evidence before dependent publication adapters. |
+| W1 | Qualify concrete source and existing implementations, preserving unrelated baseline and consumer failures. Merged checkpoints include Holon #109, Hygiene #59, Aether #88/#92/#102/#103/#68/#87; inspect Empathy #140 live state below. |
+| W2 | Continue owned contracts and thin authoring consumers. Aether #87 now qualifies the six requested scenarios against pinned proposed governance. Aether #56 requires a released Hygiene profile; the current proposed source does not satisfy that gate. Sequence release policy and distribution evidence before dependent publication adapters. |
 | W3 | Qualify actual owner feeds, signed-in/provider behavior, release/deployment/recovery and fleet adoption. Project #51 needs real Project access and its Relay-owned safe apply path. |
 | W4 | Keep optional experiments and long-horizon programs parked under the user instruction. Preserve their hypotheses and unresolved acceptance. |
 
@@ -45,8 +45,8 @@ Parent links group scope; only recorded real prerequisite edges block execution.
 | deferred-experiment | 33 |
 | maintainer-service | 8 |
 | needs-live-proof | 32 |
-| needs-owner-contract | 30 |
-| ready-source | 8 |
+| needs-owner-contract | 32 |
+| ready-source | 5 |
 | tracking | 15 |
 
 There are 33 parked experimental issues alone, which exceeds the single-digit target. The remaining ready-source items are future actionable work, not claimed complete or blocked. No unresolved issue is closed to improve a count.
@@ -71,8 +71,8 @@ ADR not required: this is a dated operational projection and retention of execut
 | [#40 — Add canonical prompt and instruction libraries](https://github.com/egohygiene/aether/issues/40) | open / ready-source | Define separate first-party prompt/instruction kinds and conflict checks; migrate only candidates with explicit source rights and approval. | No additional prerequisite recorded |
 | [#41 — Add an agent catalog and Copilot cost-control specification](https://github.com/egohygiene/aether/issues/41) | open / deferred-experiment | Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation. | No additional prerequisite recorded |
 | [#51 — Publish the Mindgarden curator skill and ChatGPT handoff](https://github.com/egohygiene/aether/issues/51) | open / needs-owner-contract | Select and validate actual versioned Mindgarden curation/routing contracts before publishing the thin skill and synthetic ChatGPT handoff. | No additional prerequisite recorded |
-| [#56 — Add a people-first content authoring and review skill](https://github.com/egohygiene/aether/issues/56) | open / ready-source | Compose the thin people-first authoring/review skill over the now-qualified proposed Hygiene #23 profile and its exact source references; keep mechanical checks, editorial judgment and human activation separate. | [egohygiene/hygiene#23](https://github.com/egohygiene/hygiene/issues/23) |
-| [#63 — 🏗️ [architecture] spec(distribution): extend release declarations with distribution targets, package coordinates, and publisher bindings](https://github.com/egohygiene/aether/issues/63) | open / ready-source | Reconcile distribution targets, package coordinates and publisher bindings with the existing release declaration; preserve manual publication authority. | No additional prerequisite recorded |
+| [#56 — Add a people-first content authoring and review skill](https://github.com/egohygiene/aether/issues/56) | open / needs-owner-contract | The first acceptance requires a pinned released Hygiene profile. Hygiene #23 closes proposed source definition only; obtain the actual owner-reviewed/released selection before claiming consumer completion. Draft authoring cannot ratify or release that policy. | [egohygiene/hygiene#23](https://github.com/egohygiene/hygiene/issues/23) |
+| [#63 — 🏗️ [architecture] spec(distribution): extend release declarations with distribution targets, package coordinates, and publisher bindings](https://github.com/egohygiene/aether/issues/63) | open / needs-owner-contract | Resolve Hygiene #29 distribution applicability and Hygiene #65 release-policy semantics before qualifying this release-declaration extension. Preserve proposed field design separately from accepted channel and publisher authority. | [egohygiene/hygiene#29](https://github.com/egohygiene/hygiene/issues/29), [egohygiene/hygiene#65](https://github.com/egohygiene/hygiene/issues/65) |
 | [#64 — Define an evidence-backed agent capability manifest](https://github.com/egohygiene/aether/issues/64) | open / ready-source | Define a bounded evidence-backed capability manifest and synthetic failure controls without claiming runtime support from metadata. | No additional prerequisite recorded |
 | [#65 — Define governed operational-agent workflows inspired by Teambridge](https://github.com/egohygiene/aether/issues/65) | open / deferred-experiment | Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation. | No additional prerequisite recorded |
 | [#66 — Add a provenance-governed Future-First Design specification and skill](https://github.com/egohygiene/aether/issues/66) | open / deferred-experiment | Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation. | No additional prerequisite recorded |
@@ -86,7 +86,7 @@ ADR not required: this is a dated operational projection and retention of execut
 | [#78 — Add reviewable brain-dump triage and GitHub backlog promotion skill](https://github.com/egohygiene/aether/issues/78) | open / needs-owner-contract | Verify Mindgarden candidate/source contracts, then prove authorized deduplicated promotion with a public-safe dogfood capture. | No additional prerequisite recorded |
 | [#85 — Backfill repository ADR history and enable continuous decision capture](https://github.com/egohygiene/aether/issues/85) | open / needs-live-proof | Preserve the historical ADR inventory and proposed records; complete native admission and unresolved human authority evidence without inventing disposition. | No additional prerequisite recorded |
 | [#86 — Define composable audit profiles and promote the repository-audit skill](https://github.com/egohygiene/aether/issues/86) | open / needs-live-proof | Source package drift, profiles and checkpoint report fixtures are qualified through #135. Keep draft skill lifecycle; qualify actual declared-host installation/discovery and maturity independently of deterministic fixtures. | No additional prerequisite recorded |
-| [#87 — Define an architecture-coherence review and human-ratification skill](https://github.com/egohygiene/aether/issues/87) | open / ready-source | Compose the thin architecture-coherence review skill over Hygiene #59 proposed policy/reference cases; preserve trusted-context, material-change and actual human-ratification gates. | [egohygiene/hygiene#59](https://github.com/egohygiene/hygiene/issues/59) |
+| [#87 — Define an architecture-coherence review and human-ratification skill](https://github.com/egohygiene/aether/issues/87) | closed / completed-after-snapshot | Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance. [Merge proof](https://github.com/egohygiene/aether/pull/136) | [egohygiene/hygiene#59](https://github.com/egohygiene/hygiene/issues/59) |
 | [#88 — Add roadmap-impact reconciliation as a completion hook for repository-changing agents](https://github.com/egohygiene/aether/issues/88) | closed / completed-after-snapshot | Completed original bounded issue scope with linked merge/check evidence. Preserve independent parent, policy lifecycle, consumer and publication acceptance. [Merge proof](https://github.com/egohygiene/aether/pull/130) | [egohygiene/hygiene#60](https://github.com/egohygiene/hygiene/issues/60) |
 | [#89 — Add a reviewable project-incubation bootstrap pack skill](https://github.com/egohygiene/aether/issues/89) | open / deferred-experiment | Retain the optional agent/domain experiment; require a bounded hypothesis, canonical owner inputs and evidence before implementation. | No additional prerequisite recorded |
 | [#90 — spec(repository-intelligence): define repository manifest, health, snapshot, and organization-state contracts](https://github.com/egohygiene/aether/issues/90) | open / needs-owner-contract | Reconcile existing proposed Hygiene Intelligence contracts and implemented Relay consumer inputs before accepting any portable Aether extension. Do not replace owner authority or add a second registry. | No additional prerequisite recorded |
