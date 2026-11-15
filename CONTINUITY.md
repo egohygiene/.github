@@ -7,7 +7,7 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-15T02:21:07Z'
+  updated_at: '2026-11-15T02:37:18Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
@@ -16,24 +16,27 @@ scope:
   purpose: Retain actual five-repository provider proof and reconcile the operational issue queue with
     completed bounded work, preserved history and explicit remaining gates.
   includes:
-  - "Complete paginated all-state reads at 02:15:51Z\u201302:16:04Z verify 126 open issues and zero PRs\
-    \ at capture. All 137 original identities/clocks remain; 11 are directly verified closed. The original\
-    \ capture clock stays unknown. Hygiene owns proposed strategy; repository IDs are unchanged."
-  - Actual Relay label execution creates 83 definitions and corrects one reviewed entry with zero deletions.
-    All five readbacks yield no-op plans and retain every old name/unreviewed metadata entry. No issue/PR
-    fields or Project memberships are changed.
-  - Retain rendered organization-profile readback, Project 1 FORBIDDEN proof and four Empathy selected
-    local-CI runs, including merged acbe9.140/68 are closed after155/135 merged. Project intake now reports
-    44 executed tests; title documentation matches contract 1.0.2.
+  - Complete paginated all-state reads from 2026-11-15T02:35:50.947676+00:00 through 2026-11-15T02:36:05.048890+00:00
+    verify 125 open issues and zero PRs at capture. All 137 original identities/clocks remain; 12 are
+    directly verified closed. Hygiene owns proposed strategy; repository IDs are unchanged.
+  - 'Retain actual label/profile/access/native receipts from merged #75. Actual Relay execution created
+    83 labels and corrected one reviewed metadata entry with zero deletes; all five readbacks no-op. No
+    issue fields or Project memberships were normalized.'
+  - 'Aether #136 completes #87 contract/scenario qualification: 391-test suite with 11 existing skips,
+    27 focused methods, nine deterministic cases and six isolated portable examples pass. Hosted source/reproducibility/staging
+    pass; consumer #38 remains not-ready. No authentic human review or ratification is created.'
+  - 'Empathy #156 factual #109 ownership correction is merged. Exact 2b2 head holistic review retains
+    full baseline failure with zero introduced findings/new advisories. #56 requires a released Hygiene
+    profile; proposed #23 does not satisfy it. #63 depends Hygiene #29/#65 distribution/release semantics.'
   excludes: &id001
-  - '126 issues remain; 33 experiments alone exceed single digits. Eight ready-source checkpoints remain
-    actionable. The broader historical 311-issue program is open. Empathy #156 opened after capture and
-    awaits exact-head factual-correction review;109 is already closed, with remaining debt under #79/#110/#118.'
+  - 125 issues remain; 33 experiments alone exceed single digits. Five source checkpoints remain actionable
+    future work. The historical 311-issue reconciliation and broader owner/live/service/program acceptance
+    remain open.
   - Actual Project 1 access is FORBIDDEN. Signed-in form fallback/submission and agent/title rollout lack
     available browser controls. No board write, UI canary or human title ratification is inferred.
-  - 'Aether #38 consumer/release remains not-ready. Empathy full lint/dependency baseline remains failed.
-    Source/fixture checks supply no stable release, model effectiveness, human policy acceptance or fleet
-    adoption.'
+  - 'Aether #38 consumer/release stays not-ready. Empathy full lint/dependency baseline remains failed
+    under #79/#110/#118 after bounded #109 closed. Source/fixture checks supply no stable release, model
+    effectiveness, human policy acceptance or fleet adoption.'
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -67,63 +70,62 @@ work:
     url: https://github.com/egohygiene/.github/issues/23
   next:
     kind: issue
-    id: egohygiene/aether#56
-    description: 'Compose the thin people-first authoring/review skill over qualified proposed Hygiene
-      #23 inputs, then architecture-coherence #87 over Hygiene #59. Continue remaining owner-backed source
-      queue; keep actual activation, host and publication gates distinct.'
+    id: egohygiene/hygiene#26
+    description: 'Continue the five explicitly ready-source checkpoints, starting with the source-owned
+      software supply-chain assurance profile #26. Preserve actual source/subject/freshness/verification
+      evidence and downstream activation gates; do not rewrite approval or close unresolved programs.'
     readiness: ready
     references:
-    - https://github.com/egohygiene/aether/issues/56
-    - https://github.com/egohygiene/aether/issues/87
-    - https://github.com/egohygiene/.github/issues/24
-    - https://github.com/egohygiene/.github/issues/51
+    - https://github.com/egohygiene/hygiene/issues/26
+    - https://github.com/egohygiene/.github/issues/23
     depends_on: []
 state:
   base:
-    revision: aad31f98d025fd0ed6b40fa08090b2150b49f373
+    revision: ac55ad2c2a62495d1d6642b16aac3d2b2032e81c
     ref: refs/heads/main
-    verified_at: '2026-11-15T02:21:07Z'
+    verified_at: '2026-11-15T02:37:18Z'
   candidate:
-    branch: codex/foundation-sweep-reconciliation
+    branch: codex/foundation-final-checkpoint
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-15T02:21:07Z'
-    default_branch_revision: aad31f98d025fd0ed6b40fa08090b2150b49f373
+    observed_at: '2026-11-15T02:37:18Z'
+    default_branch_revision: ac55ad2c2a62495d1d6642b16aac3d2b2032e81c
     issue_state: open
     pull_request_state: not-applicable
-    notes: 'Main aad31f9 includes merged74 label enrollment.126 issues/zero PRs were verified in the dated
-      complete capture before later Empathy #156 opened;156 is now draft.155 and Aether135 are merged;140/68
-      are closed.23/24/51 remain open. This branch retains actual label/native/profile/access receipts
-      and current operational reconciliation.'
+    notes: 'Main ac55ad2 includes merged #75 actual receipts. The latest complete capture verifies 125
+      issues and zero PRs before this final reconciliation PR. Aether #136 and Empathy #156 are merged
+      ; #87/#68/#140 and bounded #109 are closed. #23/#24/#51 remain open. Strategy stays proposed at
+      its Hygiene owner.'
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-15T02:21:07Z'
+  reviewed_at: '2026-11-15T02:37:18Z'
   reviewed_by: Codex
   evidence:
   - command: Complete paginated all-state reads and retained-inventory checks
     outcome: passed
-    notes: 126 issues/zero PRs at capture;137 identities/clocks retained, 11 directly verified closed;
-      current coverage/counts and internal acyclic edges match.
-    observed_at: '2026-11-15T02:21:07Z'
+    notes: 125 issues/zero PRs at capture; 137 original identities/clocks retained, 12 directly verified
+      closed. Current coverage/counts and internal acyclic prerequisites match.
+    observed_at: '2026-11-15T02:37:18Z'
   - command: Pinned Relay label apply,readback and no-op replans; rendered profile HTTP readback
     outcome: passed
     notes: 83 creates, one metadata update, zero deletes; all five no-op. Old names/unreviewed metadata
       retained. Profile HTTP 200/source agreement retained.
-    observed_at: '2026-11-15T02:21:07Z'
-  - command: Native Empathy selection,exact-head holistic and actual Project access
+    observed_at: '2026-11-15T02:37:18Z'
+  - command: Actual native/source qualification and exact-head holistic review; Project access
     outcome: limited
-    notes: Four clean native runs pass three required checks, four groups unsupported. Full lint/security
-      baseline fails; introduced advisory repaired. Project preview/probe incomplete/FORBIDDEN; zero writes.
-    observed_at: '2026-11-15T02:21:07Z'
+    notes: Aether 391-test suite with 11 existing skips and six portable examples qualifies source; consumer
+      remains not-ready. Empathy selected native passes; full baseline fails. Project preview/probe incomplete/FORBIDDEN;
+      zero writes.
+    observed_at: '2026-11-15T02:37:18Z'
   - command: 44 contract tests,validate_labels.py,deterministic projection and public evidence checks
     outcome: passed
     notes: 44 pass, zero skips; semantics/projection valid,identity/coverage/graph and private-path/credential
       checks pass.
-    observed_at: '2026-11-15T02:21:07Z'
+    observed_at: '2026-11-15T02:37:18Z'
   environment_limitations: *id001
 privacy:
   classification: public-repository
@@ -159,23 +161,25 @@ Retain actual five-repository provider proof and reconcile the operational issue
 
 ## State snapshot
 
-Observed default source `aad31f98d025fd0ed6b40fa08090b2150b49f373`. Candidate `codex/foundation-sweep-reconciliation` is a review checkpoint; its containing revision remains null intentionally.
+Observed default source `ac55ad2c2a62495d1d6642b16aac3d2b2032e81c`. Candidate `codex/foundation-final-checkpoint` is a review checkpoint; its containing revision remains null intentionally.
 
 ## Completed and material changes
 
-Complete paginated all-state reads at 02:15:51Z–02:16:04Z verify 126 open issues and zero PRs at capture. All 137 original identities/clocks remain; 11 are directly verified closed. The original capture clock stays unknown. Hygiene owns proposed strategy; repository IDs are unchanged.
+Complete paginated all-state reads from 2026-11-15T02:35:50.947676+00:00 through 2026-11-15T02:36:05.048890+00:00 verify 125 open issues and zero PRs at capture. All 137 original identities/clocks remain; 12 are directly verified closed. Hygiene owns proposed strategy; repository IDs are unchanged.
 
-Actual Relay label execution creates 83 definitions and corrects one reviewed entry with zero deletions. All five readbacks yield no-op plans and retain every old name/unreviewed metadata entry. No issue/PR fields or Project memberships are changed.
+Retain actual label/profile/access/native receipts from merged #75. Actual Relay execution created 83 labels and corrected one reviewed metadata entry with zero deletes; all five readbacks no-op. No issue fields or Project memberships were normalized.
 
-Retain rendered organization-profile readback, Project 1 FORBIDDEN proof and four Empathy selected local-CI runs, including merged acbe9.140/68 are closed after155/135 merged. Project intake now reports 44 executed tests; title documentation matches contract 1.0.2.
+Aether #136 completes #87 contract/scenario qualification: 391-test suite with 11 existing skips, 27 focused methods, nine deterministic cases and six isolated portable examples pass. Hosted source/reproducibility/staging pass; consumer #38 remains not-ready. No authentic human review or ratification is created.
+
+Empathy #156 factual #109 ownership correction is merged. Exact 2b2 head holistic review retains full baseline failure with zero introduced findings/new advisories. #56 requires a released Hygiene profile; proposed #23 does not satisfy it. #63 depends Hygiene #29/#65 distribution/release semantics.
 
 ## Validation and review evidence
 
-`Complete paginated all-state reads and retained-inventory checks` — passed: 126 issues/zero PRs at capture;137 identities/clocks retained, 11 directly verified closed; current coverage/counts and internal acyclic edges match.
+`Complete paginated all-state reads and retained-inventory checks` — passed: 125 issues/zero PRs at capture; 137 original identities/clocks retained, 12 directly verified closed. Current coverage/counts and internal acyclic prerequisites match.
 
 `Pinned Relay label apply,readback and no-op replans; rendered profile HTTP readback` — passed: 83 creates, one metadata update, zero deletes; all five no-op. Old names/unreviewed metadata retained. Profile HTTP 200/source agreement retained.
 
-`Native Empathy selection,exact-head holistic and actual Project access` — limited: Four clean native runs pass three required checks, four groups unsupported. Full lint/security baseline fails; introduced advisory repaired. Project preview/probe incomplete/FORBIDDEN; zero writes.
+`Actual native/source qualification and exact-head holistic review; Project access` — limited: Aether 391-test suite with 11 existing skips and six portable examples qualifies source; consumer remains not-ready. Empathy selected native passes; full baseline fails. Project preview/probe incomplete/FORBIDDEN; zero writes.
 
 `44 contract tests,validate_labels.py,deterministic projection and public evidence checks` — passed: 44 pass, zero skips; semantics/projection valid,identity/coverage/graph and private-path/credential checks pass.
 
@@ -183,19 +187,19 @@ ADR not required: dated operational/provider evidence reconciliation under estab
 
 ## Blockers, risks, unknowns, and deferred work
 
-126 issues remain; 33 experiments alone exceed single digits. Eight ready-source checkpoints remain actionable. The broader historical 311-issue program is open. Empathy #156 opened after capture and awaits exact-head factual-correction review;109 is already closed, with remaining debt under #79/#110/#118.
+125 issues remain; 33 experiments alone exceed single digits. Five source checkpoints remain actionable future work. The historical 311-issue reconciliation and broader owner/live/service/program acceptance remain open.
 
 Actual Project 1 access is FORBIDDEN. Signed-in form fallback/submission and agent/title rollout lack available browser controls. No board write, UI canary or human title ratification is inferred.
 
-Aether #38 consumer/release remains not-ready. Empathy full lint/dependency baseline remains failed. Source/fixture checks supply no stable release, model effectiveness, human policy acceptance or fleet adoption.
+Aether #38 consumer/release stays not-ready. Empathy full lint/dependency baseline remains failed under #79/#110/#118 after bounded #109 closed. Source/fixture checks supply no stable release, model effectiveness, human policy acceptance or fleet adoption.
 
 ## Next dependency-ready work
 
-Compose the thin people-first authoring/review skill over qualified proposed Hygiene #23 inputs, then architecture-coherence #87 over Hygiene #59. Continue remaining owner-backed source queue; keep actual activation, host and publication gates distinct.
+Continue the five explicitly ready-source checkpoints, starting with the source-owned software supply-chain assurance profile #26. Preserve actual source/subject/freshness/verification evidence and downstream activation gates; do not rewrite approval or close unresolved programs.
 
 ## Parallel changes and reconciliation
 
-Preserve externally authored Intelligence sprint docs, merged community/profile/label policy, immutable consumer pins and prior review evidence. New provider state can supersede this dated checkpoint; do not reinterpret unavailable access or a source merge as completed live acceptance.
+Preserve merged #75 provider proof, externally authored Intelligence sprint docs, all immutable consumer pins and historical reports. This dated snapshot has no installed scheduling or policy authority. Re-read live state before the next checkpoint.
 
 ## Privacy and redaction
 
