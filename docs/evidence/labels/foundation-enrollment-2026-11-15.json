@@ -1,0 +1,104 @@
+{
+  "record_type": "dated-receiving-label-preview",
+  "observed_at": "2026-11-15T01:17:36Z",
+  "issues": [
+    "https://github.com/egohygiene/.github/issues/24",
+    "https://github.com/egohygiene/.github/issues/8"
+  ],
+  "status": "previewed-not-applied",
+  "policy_revision": "763eed7aff546a4aacfd985efc3030e29e8d6cd3",
+  "runner_revision": "425d3cc22673b0509abb3c54f184e07111d5a4df",
+  "runner_sha256": "e6dad8418e1885147568bb30fd2814386c750164b1a47a3d29caaa1e12d08164",
+  "runner_selection": "Existing exact Relay runner selected in Pace label-rollout-pilot.v1.lock.json; file SHA verified against that lock. This task supplies a separate caller-owned policy lock, not a Pace or Relay production-pin upgrade.",
+  "reviewed_operations": {
+    "create": 83,
+    "update": 1,
+    "delete": 0,
+    "aether": "no-op",
+    "organization_update": {
+      "name": "type:feature",
+      "before": {
+        "color": "ededed",
+        "description": null
+      },
+      "after": {
+        "color": "0e8a16",
+        "description": "New or expanded user-visible capability."
+      }
+    }
+  },
+  "per_repository": [
+    {
+      "repository": "egohygiene/aether",
+      "plan_sha256": "3f69a1f6cb5597b11e340ee9d5f30819a0ac3747182f7c1c5c657e067dc2ae62",
+      "summary": {
+        "create": 0,
+        "delete": 0,
+        "unchanged": 18,
+        "update": 0
+      }
+    },
+    {
+      "repository": "egohygiene/hygiene",
+      "plan_sha256": "ef83539e62e091e05a9bee2b419ad28c895812a8dea2792f81eddaaede05cb77",
+      "summary": {
+        "create": 18,
+        "delete": 0,
+        "unchanged": 0,
+        "update": 0
+      }
+    },
+    {
+      "repository": "egohygiene/empathy",
+      "plan_sha256": "4215af925bf8f7dfd279ac601776f745f50cba34eb6608be89789bccc900934f",
+      "summary": {
+        "create": 18,
+        "delete": 0,
+        "unchanged": 0,
+        "update": 0
+      }
+    },
+    {
+      "repository": "egohygiene/holon",
+      "plan_sha256": "579359ce306e292f166acf42044411bd651ce46aa51b617623e2a4853c024819",
+      "summary": {
+        "create": 18,
+        "delete": 0,
+        "unchanged": 0,
+        "update": 0
+      }
+    },
+    {
+      "repository": "egohygiene/.github",
+      "plan_sha256": "6598fecbd297926d11073d90bed28a72c1372854e1b5264f840221976e38e5f2",
+      "summary": {
+        "create": 29,
+        "delete": 0,
+        "unchanged": 0,
+        "update": 1
+      }
+    }
+  ],
+  "execution_scope": "After canonical source merge, recapture provider labels and independently regenerate exactly matching plans before applying. No deletion, issue/PR field normalization or automatic workflow enrollment is selected.",
+  "validation": {
+    "existing_tests": 44,
+    "skipped": 0,
+    "label_contract": "pass",
+    "exact_semantic_diff": "Catalog version only plus three new universal-only assignments; title dependency/patch version only; all label definitions and grammar preserved.",
+    "immutable_runner_and_source_lock": "verified"
+  },
+  "ui_probe": {
+    "url": "https://github.com/egohygiene/holon/issues/new/choose",
+    "resolved_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fegohygiene%2Fholon%2Fissues%2Fnew%2Fchoose",
+    "status": 200,
+    "observed_at": "2026-11-15T01:08:07.030021+00:00",
+    "shows_organization_work": false,
+    "login_redirect": true,
+    "scope": "Unauthenticated HTTP only; no signed-in UI or submission proof."
+  },
+  "limitations": [
+    "Provider apply/readback/no-op proof is pending. Review previews do not establish actual synchronization.",
+    "Remote desktop is configured but no desktop/browser JS or viewer control is offered in this session. Signed-in issue-form fallback/submission remains unavailable; the unauthenticated chooser redirects to login. No private environment identifier is published.",
+    "Historical consumer pins, candidate title authority, human approval and enforcement are unchanged.24 remains open for outstanding live UI/title-rollout proof;23 retains broader historical normalization."
+  ]
+}

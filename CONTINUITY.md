@@ -7,26 +7,33 @@ repository:
   continuity_path: CONTINUITY.md
 document:
   status: active
-  updated_at: '2026-11-14T23:29:37Z'
+  updated_at: '2026-11-15T01:18:24Z'
   max_bytes: 16384
   max_lines: 240
   stale_reason: null
   superseded_by: null
 scope:
-  purpose: Complete the public organization profile with truthful orientation, verified owner links and
-    actual post-merge rendering evidence.
+  purpose: Enroll and qualify the foundation receiving cohort in the existing governed label taxonomy,
+    using owner execution and explicit provider evidence.
   includes:
-  - The profile explains Ego Hygiene using the verified General description and links four existing foundation
-    owners before Intelligence navigation.
-  - Implementation/release readiness remains repository-owned; the proposed organization roadmap preserves
-    current/next/later/optional intent. No funding link or unverified product availability is invented.
-  - A dated source-bound read-only receipt records five public repositories,12 actual HTTP200 destinations,
-    semantic headings/descriptive links and the distinction from the root maintenance README.
+  - Catalog1.2.0 adds universal-only assignments for Hygiene, Empathy and Holon. Aether retains its universal
+    assignment; the organization repository retains engineering. Label names/descriptions/colors and approved
+    overlay digest remain unchanged.
+  - Title contract1.0.2 updates only its label-catalog reference; grammar, authority and immutable consumer
+    selections remain unchanged. Existing44 tests and label/projection checks pass.
+  - Native plans from exact checksum-verified Relay425d3cc are retained with a caller-owned lock to immutable
+    policy763eed7. Reviewed scope is83 creates,one type:feature metadata correction andzero deletions;
+    Aether is already a no-op. Unrelated labels and existing issue/PR fields remain outside mutation scope.
+  - A public Holon chooser probe returned a login redirect, not fallback/submission proof. Desktop support
+    is configured, but browser/desktop control tools are not offered in this session. The signed-in UI
+    canary remains unavailable.
   excludes: &id001
-  - This premerge checkpoint does not claim the new text is already rendered on the organization profile.
-    Read back the actual provider after merge before issue completion.
-  - No General setting, DNS/domain, funding account, workflow publication, source model clock, human policy
-    disposition or broader Intelligence acceptance is changed. Existing2/3/4/5/24/41 scopes remain independent.
+  - Provider apply/readback/no-op proof is pending. Review previews do not establish actual synchronization.
+  - Remote desktop is configured but no desktop/browser JS or viewer control is offered in this session.
+    Signed-in issue-form fallback/submission remains unavailable; the unauthenticated chooser redirects
+    to login. No private environment identifier is published.
+  - Historical consumer pins, candidate title authority, human approval and enforcement are unchanged.24
+    remains open for outstanding live UI/title-rollout proof;23 retains broader historical normalization.
   precedence:
   - user-and-runtime-instructions
   - scoped-repository-instructions
@@ -35,69 +42,83 @@ scope:
   - continuity-checkpoint
   canonical_sources:
   - AGENTS.md
-  - profile/README.md
-  - README.md
-  - docs/reviews/2026-11-14-organization-profile.md
-  - docs/reviews/2026-11-14-organization-profile.json
-  - https://github.com/egohygiene/.github/issues/25
+  - ROADMAP.md
+  - .github/labels/catalog.v1.json
+  - .github/labels/repositories.v1.json
+  - .github/issues/title-contract.v1.json
+  - docs/label-governance.md
+  - docs/community-health.md
+  - docs/evidence/labels/foundation-enrollment-2026-11-15.json
+  - docs/evidence/labels/foundation-2026-11-15
+  - https://github.com/egohygiene/.github/issues/24
 work:
-  objective: Complete the public organization profile with truthful orientation, verified owner links
-    and actual post-merge rendering evidence.
+  objective: Enroll and qualify the foundation receiving cohort in the existing governed label taxonomy,
+    using owner execution and explicit provider evidence.
   success_conditions:
-  - The public profile explains the organization and how to explore actual owned capabilities without
-    presenting planned work as shipped.
-  - All referenced repositories are public and profile destinations respond successfully; funding claims
-    are absent and local ownership stays clear.
-  - Actual organization rendering is verified after integration before closing25.
+  - Canonical assignments cover all five requested repositories and project the existing universal vocabulary
+    without changing label semantics.
+  - Exact owner-generated previews preserve unrelated labels and existing issue/PR fields; a later fresh-state
+    apply must match the reviewed checksums and be verified by readback/no-op.
+  - Provider label proof, actual signed-in UI inheritance, title authority and historical migration remain
+    distinct; missing capabilities are explicit.
   active_issue:
     provider: github
-    id: egohygiene/.github#25
-    url: https://github.com/egohygiene/.github/issues/25
+    id: egohygiene/.github#24
+    url: https://github.com/egohygiene/.github/issues/24
   next:
     kind: action
-    id: verify-organization-profile-readback
-    description: After source review/merge, read the public organization profile and exact source bytes,
-      record observed rendering, then close only25 when its criteria match.
+    id: foundation-label-provider-apply
+    description: After merging this source, recapture/replan the exact reviewed operations, apply through
+      the pinned Relay runner, verify all required labels and no-op plans, and retain the actual receipt.
+      Keep24 open for unavailable signed-in UI/title-rollout proof.
     readiness: ready
     references:
-    - https://github.com/egohygiene/.github/issues/25
+    - https://github.com/egohygiene/.github/issues/24
     depends_on: []
 state:
   base:
-    revision: 40f3d584d916d748637c380c32828ac14fcff971
+    revision: 5d0fbdf7ae5d434ba326bca425fc2cc99f93393c
     ref: refs/heads/main
-    verified_at: '2026-11-14T23:29:37Z'
+    verified_at: '2026-11-15T01:18:24Z'
   candidate:
-    branch: codex/organization-profile-completion
+    branch: codex/foundation-label-enrollment
     revision: null
     pull_request: null
     handoff_state: ready-for-review
   live:
     status: verified
-    observed_at: '2026-11-14T23:29:37Z'
-    default_branch_revision: 40f3d584d916d748637c380c32828ac14fcff971
+    observed_at: '2026-11-15T01:18:24Z'
+    default_branch_revision: 5d0fbdf7ae5d434ba326bca425fc2cc99f93393c
     issue_state: open
     pull_request_state: not-applicable
-    notes: Observed main40f3d58 includes the complete five-repository execution plan72.25 is open; this
-      candidate has no PR yet. General metadata was read through the authenticated read-only API because
-      the connector does not expose that endpoint; no setting was changed.
+    notes: Observed main5d0fbdf includes merged73 profile and25 is closed after actual rendered readback.24
+      remains open. Local policy763eed7 has reviewed native previews but no provider apply or PR yet.
+      Hygiene125 and Aether134 are merged; their source-definition issues23/103 are closed.
   parallel_changes: []
 review:
   status: partial
-  reviewed_at: '2026-11-14T23:29:37Z'
+  reviewed_at: '2026-11-15T01:18:24Z'
   reviewed_by: Codex
   evidence:
-  - command: Authenticated read-only GitHub organization and repository metadata; actual HTTPS profile-link
-      probes
+  - command: python -m unittest discover --start-directory tests --pattern test_*.py -q
     outcome: passed
-    notes: General name/description/blog observed; all five referenced repositories are public and all12
-      profile destinations return HTTP200. New organization rendering remains pending.
-    observed_at: '2026-11-14T23:29:37Z'
-  - command: python -m unittest discover -s tests -p test_*.py -v
+    notes: All44 existing tests pass withzero skips.
+    observed_at: '2026-11-15T01:18:24Z'
+  - command: python scripts/validate_labels.py and project_labels.py
     outcome: passed
-    notes: 44 existing tests pass; source has one H1, descriptive link text, no image/alt concerns or
-      funding links, and unchanged root maintenance scope.
-    observed_at: '2026-11-14T23:29:37Z'
+    notes: Catalog/assignment semantics and complete projections validate; exact JSON comparison proves
+      definitions/grammar unchanged.
+    observed_at: '2026-11-15T01:18:24Z'
+  - command: Pinned Relay sync-plan with exact source hashes and fresh paginated provider labels
+    outcome: passed
+    notes: Five native checksum-bound previews:83 creates,one metadata update,zero deletes; Aether already
+      matches18 universal labels.
+    observed_at: '2026-11-15T01:18:24Z'
+  - command: Public issue chooser and desktop capability inspection
+    outcome: limited
+    notes: Unauthenticated URL redirects to login. Configured desktop has no exposed control tool, so
+      signed-in fallback/submission cannot be verified.
+    observed_at: '2026-11-15T01:18:24Z'
   environment_limitations: *id001
 privacy:
   classification: public-repository
@@ -125,45 +146,53 @@ Read AGENTS, the canonical sources below and verified live issue/PR state before
 
 ## Current objective and success conditions
 
-Complete the public organization profile with truthful orientation, verified owner links and actual post-merge rendering evidence.
+Enroll and qualify the foundation receiving cohort in the existing governed label taxonomy, using owner execution and explicit provider evidence.
 
-- The public profile explains the organization and how to explore actual owned capabilities without presenting planned work as shipped.
-- All referenced repositories are public and profile destinations respond successfully; funding claims are absent and local ownership stays clear.
-- Actual organization rendering is verified after integration before closing25.
+- Canonical assignments cover all five requested repositories and project the existing universal vocabulary without changing label semantics.
+- Exact owner-generated previews preserve unrelated labels and existing issue/PR fields; a later fresh-state apply must match the reviewed checksums and be verified by readback/no-op.
+- Provider label proof, actual signed-in UI inheritance, title authority and historical migration remain distinct; missing capabilities are explicit.
 
 ## State snapshot
 
-Observed default source `40f3d584d916d748637c380c32828ac14fcff971`. Candidate `codex/organization-profile-completion` is a review checkpoint; its containing revision remains null intentionally.
+Observed default source `5d0fbdf7ae5d434ba326bca425fc2cc99f93393c`. Candidate `codex/foundation-label-enrollment` is a review checkpoint; its containing revision remains null intentionally.
 
 ## Completed and material changes
 
-The profile explains Ego Hygiene using the verified General description and links four existing foundation owners before Intelligence navigation.
+Catalog1.2.0 adds universal-only assignments for Hygiene, Empathy and Holon. Aether retains its universal assignment; the organization repository retains engineering. Label names/descriptions/colors and approved overlay digest remain unchanged.
 
-Implementation/release readiness remains repository-owned; the proposed organization roadmap preserves current/next/later/optional intent. No funding link or unverified product availability is invented.
+Title contract1.0.2 updates only its label-catalog reference; grammar, authority and immutable consumer selections remain unchanged. Existing44 tests and label/projection checks pass.
 
-A dated source-bound read-only receipt records five public repositories,12 actual HTTP200 destinations, semantic headings/descriptive links and the distinction from the root maintenance README.
+Native plans from exact checksum-verified Relay425d3cc are retained with a caller-owned lock to immutable policy763eed7. Reviewed scope is83 creates,one type:feature metadata correction andzero deletions; Aether is already a no-op. Unrelated labels and existing issue/PR fields remain outside mutation scope.
+
+A public Holon chooser probe returned a login redirect, not fallback/submission proof. Desktop support is configured, but browser/desktop control tools are not offered in this session. The signed-in UI canary remains unavailable.
 
 ## Validation and review evidence
 
-`Authenticated read-only GitHub organization and repository metadata; actual HTTPS profile-link probes` — passed: General name/description/blog observed; all five referenced repositories are public and all12 profile destinations return HTTP200. New organization rendering remains pending.
+`python -m unittest discover --start-directory tests --pattern test_*.py -q` — passed: All44 existing tests pass withzero skips.
 
-`python -m unittest discover -s tests -p test_*.py -v` — passed: 44 existing tests pass; source has one H1, descriptive link text, no image/alt concerns or funding links, and unchanged root maintenance scope.
+`python scripts/validate_labels.py and project_labels.py` — passed: Catalog/assignment semantics and complete projections validate; exact JSON comparison proves definitions/grammar unchanged.
 
-ADR not required: completes an existing organization-facing entry point with verified public owner facts and source links; no architecture or strategic intent changes.
+`Pinned Relay sync-plan with exact source hashes and fresh paginated provider labels` — passed: Five native checksum-bound previews:83 creates,one metadata update,zero deletes; Aether already matches18 universal labels.
+
+`Public issue chooser and desktop capability inspection` — limited: Unauthenticated URL redirects to login. Configured desktop has no exposed control tool, so signed-in fallback/submission cannot be verified.
+
+ADR not required: this is additive cohort enrollment and existing-contract dependency metadata using the established .github taxonomy/Relay execution boundary; no new public schema, engine, owner or authority. Roadmap impact: no strategic identity, state, horizon or priority change.
 
 ## Blockers, risks, unknowns, and deferred work
 
-This premerge checkpoint does not claim the new text is already rendered on the organization profile. Read back the actual provider after merge before issue completion.
+Provider apply/readback/no-op proof is pending. Review previews do not establish actual synchronization.
 
-No General setting, DNS/domain, funding account, workflow publication, source model clock, human policy disposition or broader Intelligence acceptance is changed. Existing2/3/4/5/24/41 scopes remain independent.
+Remote desktop is configured but no desktop/browser JS or viewer control is offered in this session. Signed-in issue-form fallback/submission remains unavailable; the unauthenticated chooser redirects to login. No private environment identifier is published.
+
+Historical consumer pins, candidate title authority, human approval and enforcement are unchanged.24 remains open for outstanding live UI/title-rollout proof;23 retains broader historical normalization.
 
 ## Next dependency-ready work
 
-After source review/merge, read the public organization profile and exact source bytes, record observed rendering, then close only25 when its criteria match.
+After merging this source, recapture/replan the exact reviewed operations, apply through the pinned Relay runner, verify all required labels and no-op plans, and retain the actual receipt. Keep24 open for unavailable signed-in UI/title-rollout proof.
 
 ## Parallel changes and reconciliation
 
-Preserve organization72 execution records and all Intelligence source/publication clocks. Aether130, Hygiene124 and Holon110 are merged source repairs with their own limitations;24 remains open for receiving label/UI discovery qualification.
+Preserve merged community defaults66, public profile73, coordination72 and externally authored Intelligence sprint documents. Provider synchronization must use actual merged policy bytes, fresh matching plans and no deletion authority.
 
 ## Privacy and redaction
 
