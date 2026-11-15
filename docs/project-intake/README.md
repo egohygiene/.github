@@ -60,9 +60,17 @@ owner mappings and a private/public profile remain outside this initial scope.
 
 The committed fake-transport cases cover pagination, missing/existing/duplicate
 membership, PR exclusion, private admission, per-repository failure and page
-budget exhaustion. They are authored regression source, not executed evidence.
-Tests, CI, live Project transport and actual mutation qualification are deferred
-under the maintainer's current instruction. No pilot or board change is claimed.
+budget exhaustion. On 2026-11-15 the complete local 44-test contract suite passes
+with zero skips. The same suite and deterministic projection also pass in
+[hosted run 43662602146](https://github.com/egohygiene/.github/actions/runs/43662602146).
+
+The actual read-only provider preview was attempted separately; its [dated access receipt](../evidence/project-intake-access-2026-11-15.json) retains the failed preview and an independent minimal Project query. Its Project
+transport is incomplete, with no actionable membership result: a minimal
+Project 1 query returns GraphQL FORBIDDEN, "Resource not accessible by
+integration." This is missing provider access, not evidence of an empty board
+or existing membership. No add/status mutation, Backlog pilot or board change
+occurred. Actual Project access and the Relay-owned safe apply/readback path
+remain open under #51.
 
 ADR not required: this is a read-only initial intake adapter under the existing
 organization coordination boundary. Reusable provider mutation belongs to Relay.

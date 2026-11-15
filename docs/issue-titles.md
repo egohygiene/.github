@@ -1,6 +1,6 @@
 # Canonical issue titles
 
-Contract: `egohygiene.issue-title/v1`, version `1.0.1`.
+Contract: `egohygiene.issue-title/v1`, version `1.0.2`.
 Owner: `egohygiene/.github`.
 Tracking: [contract checkpoint #44](https://github.com/egohygiene/.github/issues/44),
 [parent #24](https://github.com/egohygiene/.github/issues/24), and

@@ -5,7 +5,7 @@
     "https://github.com/egohygiene/.github/issues/24",
     "https://github.com/egohygiene/.github/issues/8"
   ],
-  "status": "previewed-not-applied",
+  "status": "applied-and-readback-qualified",
   "policy_revision": "763eed7aff546a4aacfd985efc3030e29e8d6cd3",
   "runner_revision": "425d3cc22673b0509abb3c54f184e07111d5a4df",
   "runner_sha256": "e6dad8418e1885147568bb30fd2814386c750164b1a47a3d29caaa1e12d08164",
@@ -79,7 +79,7 @@
       }
     }
   ],
-  "execution_scope": "After canonical source merge, recapture provider labels and independently regenerate exactly matching plans before applying. No deletion, issue/PR field normalization or automatic workflow enrollment is selected.",
+  "execution_scope": "Completed through the exact owner runner after source74 merged; all fresh native plans matched reviewed checksums. Only label-definition POST/PATCH endpoints were called; no deletion or issue/PR field writes.",
   "validation": {
     "existing_tests": 44,
     "skipped": 0,
@@ -97,8 +97,21 @@
     "scope": "Unauthenticated HTTP only; no signed-in UI or submission proof."
   },
   "limitations": [
-    "Provider apply/readback/no-op proof is pending. Review previews do not establish actual synchronization.",
+    "Label definitions were actually synchronized and read back in the named five repositories. This proves observed label metadata only, not UI fallback, title ratification, issue-field normalization or automatic workflow enrollment.",
     "Remote desktop is configured but no desktop/browser JS or viewer control is offered in this session. Signed-in issue-form fallback/submission remains unavailable; the unauthenticated chooser redirects to login. No private environment identifier is published.",
     "Historical consumer pins, candidate title authority, human approval and enforcement are unchanged.24 remains open for outstanding live UI/title-rollout proof;23 retains broader historical normalization."
-  ]
+  ],
+  "actual_application": {
+    "reference": "foundation-2026-11-15/actual-application.json",
+    "status": "passed",
+    "started_at": "2026-11-15T01:24:41.673961+00:00",
+    "completed_at": "2026-11-15T01:26:28.735306+00:00",
+    "create": 83,
+    "update": 1,
+    "delete": 0,
+    "fresh_reviewed_checksums_matched": true,
+    "all_five_post_plans": "no-op",
+    "all_preexisting_names_retained": true,
+    "all_unreviewed_old_metadata_retained": true
+  }
 }
